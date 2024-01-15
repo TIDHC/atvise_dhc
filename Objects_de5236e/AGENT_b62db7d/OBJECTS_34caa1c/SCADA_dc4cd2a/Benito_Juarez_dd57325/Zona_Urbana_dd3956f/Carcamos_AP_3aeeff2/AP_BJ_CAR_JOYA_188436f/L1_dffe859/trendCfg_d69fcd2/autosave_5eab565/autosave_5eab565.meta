@@ -1,4 +1,4 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_PRADO_NORTE_2.Caudalimetro.L1.trendCfg.autosave
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_JOYA.L1.trendCfg.autosave
 NodeClass: Variable
 BrowseName: 1:autosave
 DisplayName: en|autosave

@@ -13,7 +13,7 @@
  <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_8">
   <rect atv:refpx="66.5" atv:refpy="31.555" fill="#ffffff" height="63.11" id="id_9" width="133.00" x="0" y="0"/>
  </g>
- <rect atv:refpx="55" atv:refpy="46.501" fill="#ffffff" height="31" id="id_5" stroke="#c5d1de" stroke-width="0" width="108" x="1" y="31"/>
+ <rect atv:refpx="66.5" atv:refpy="46.501" fill="#ffffff" height="31" id="id_5" stroke="#c5d1de" stroke-width="0" width="131" x="1" y="31"/>
  <rect atv:refpx="51.397" atv:refpy="-7.319" fill="#fdffff" height="29.5" id="id_3" stroke="#000000" stroke-width="1" width="132" x="0.5" y="0.5"/>
  <svg atv:refpx="66.502" atv:refpy="16" height="31" id="id_1" transform="matrix(1.0076,0,0,1,0,0)" width="131" x="0.496" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_DHC.Custom_gauge" y="0.5">
   <atv:argument name="base" prefix="base" value=".level_percent"/>
@@ -21,7 +21,7 @@
  <rect atv:refpx="66.5" atv:refpy="46.6" fill="none" height="32.019" id="id_2" stroke="#000000" stroke-width="1" width="132" x="0.5" y="30.59"/>
  <text atv:refpx="39.732" atv:refpy="46.968" fill="#000000" font-family="Arial" font-size="12" font-weight="bold" id="id_13" transform="matrix(1.4528,0,0,1.3885,-0.2264,-12.0439)" x="5" y="47.001">$name$</text>
  <svg atv:refpx="0" atv:refpy="0.001" height="30" id="id_0" transform="matrix(1.6625,0,0,2.1,0,0)" width="80" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.clickarea" y="0"/>
- <g atv:refpx="120.5" atv:refpy="47" id="id_6">
+ <g atv:refpx="151.5" atv:refpy="42" id="id_6" transform="matrix(1,0,0,1,31,-5)">
   <rect atv:refpx="120.5" atv:refpy="47.001" fill="#d7e5f3" height="30" id="id_4" stroke="#c5d1de" stroke-width="0" width="23" x="109" y="32"/>
   <svg atv:refpx="121.134" atv:refpy="47" height="40" id="id_17" transform="matrix(0.4069,0,0,0.35,0,0)" width="40" x="277.71" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2FSVG%20WIFI.svg" y="114.286"/>
  </g>
@@ -88,41 +88,54 @@ else {
 });
 
 
+
+
+webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
+	var id = "id_5";
+	var value = e.status;
+	var valor = e.value;
+	
+	switch (value) {
+	case 0:
+		if (valor == true)
+			webMI.gfx.setFill(id, "#1a8b22");
+		else
+			webMI.gfx.setFill(id, "#ff0000");
+		break;
+	case undefined:
+		webMI.gfx.setFill(id, "#6b6b6b");
+		break;
+	case 2156593152:
+		webMI.gfx.setFill(id, "#b98f2d");
+		break;
+	case 2150694912:
+		webMI.gfx.setFill(id, "#ff0000");
+		break;
+	case 2150760448:
+		webMI.gfx.setFill(id, "#7c1536");
+		break;
+	case 2151350272:
+		webMI.gfx.setFill(id, "#8b3db8");
+		break;
+	default:
+		console.log(value);
+		webMI.gfx.setFill(id, "#ffffff");
+	break;
+		}
+	});
+
+
 webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
 var id = "id_13";
 var value = e.status;
-if (value == 0){
-	webMI.gfx.setFill(id, "#000000");
-	}
-else{
-	webMI.gfx.setFill(id, "#ffffff");
-	}
-});
-
-
-webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
-var id = "id_5";
-var value = e.status;
 var valor = e.value;
-if (value == 0 && valor == true){
-	webMI.gfx.setFill(id, "#ffffff");
-	}
-else{
-	webMI.gfx.setFill(id, "#ff0000");
-	}
-});
-
-
-webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
-var id = "id_13";
-var value = e.status;
-var valor = e.value;
-if (value == 0 && valor == true){
+/*if (value == 0 && valor == true){
 	webMI.gfx.setFill(id, "#000000");
 	}
 else {
 	webMI.gfx.setFill(id, "#ffffff");
-	}
+	}*/
+	webMI.gfx.setFill(id, "#ffffff");
 });
 
 webMI.addEvent("id_6", "click", function(e) {

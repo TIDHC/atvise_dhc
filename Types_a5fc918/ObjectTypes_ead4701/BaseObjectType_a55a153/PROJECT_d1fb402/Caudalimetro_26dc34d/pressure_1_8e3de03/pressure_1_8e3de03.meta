@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Caudalimetro.pressure_1
+NodeClass: Variable
+BrowseName: 1:pressure_1
+DisplayName: en|pressure_1
+Description: en|pressure_1
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

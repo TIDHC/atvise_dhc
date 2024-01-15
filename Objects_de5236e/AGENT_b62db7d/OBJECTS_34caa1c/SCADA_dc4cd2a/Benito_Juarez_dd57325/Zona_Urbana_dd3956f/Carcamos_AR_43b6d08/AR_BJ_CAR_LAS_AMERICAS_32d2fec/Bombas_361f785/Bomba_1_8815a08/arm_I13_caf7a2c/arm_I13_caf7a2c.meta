@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_LAS_AMERICAS.Bombas.Bomba_1.arm_I13
+NodeClass: Variable
+BrowseName: 1:arm_I13
+DisplayName: en|arm_I13
+Description: en|arm_I13
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

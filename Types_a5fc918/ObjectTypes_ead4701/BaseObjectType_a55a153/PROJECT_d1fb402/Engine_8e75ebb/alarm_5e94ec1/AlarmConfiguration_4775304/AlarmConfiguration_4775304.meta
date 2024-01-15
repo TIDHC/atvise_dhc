@@ -1,0 +1,8 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Engine.alarm.AlarmConfiguration
+NodeClass: Object
+BrowseName: 1:AlarmConfiguration
+DisplayName: en|AlarmConfiguration
+Description: en|AlarmConfiguration
+EventNotifier: 0
+Reference: forward HasModellingRule Shared
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConfiguration

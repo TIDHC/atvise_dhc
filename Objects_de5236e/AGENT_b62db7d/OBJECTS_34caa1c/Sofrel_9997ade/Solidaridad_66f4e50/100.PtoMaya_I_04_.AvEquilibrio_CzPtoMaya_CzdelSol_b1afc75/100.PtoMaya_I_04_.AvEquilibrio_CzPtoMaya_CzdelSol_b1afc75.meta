@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Solidaridad.100.PtoMaya_I_04_.AvEquilibrio_CzPtoMaya_CzdelSol
+NodeClass: Object
+BrowseName: 1:100.PtoMaya_I_04_.AvEquilibrio_CzPtoMaya_CzdelSol
+DisplayName: en|100.PtoMaya_I_04_.AvEquilibrio_CzPtoMaya_CzdelSol
+Description: en|100.PtoMaya_I_04_.AvEquilibrio_CzPtoMaya_CzdelSol
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP.Grafico_Sectorizacion

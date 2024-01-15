@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Variador.Mantto
+NodeClass: Variable
+BrowseName: 1:Mantto
+DisplayName: en|Mantto
+Description: en|Mantto
+DataType: Boolean
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

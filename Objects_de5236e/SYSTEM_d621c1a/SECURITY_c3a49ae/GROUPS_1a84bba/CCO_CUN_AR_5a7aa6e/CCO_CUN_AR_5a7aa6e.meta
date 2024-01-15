@@ -1,0 +1,7 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.CCO_CUN_AR
+NodeClass: Object
+BrowseName: 1:CCO_CUN_AR
+DisplayName: en|CCO_CUN_AR
+Description: en|CCO_CUN_AR
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

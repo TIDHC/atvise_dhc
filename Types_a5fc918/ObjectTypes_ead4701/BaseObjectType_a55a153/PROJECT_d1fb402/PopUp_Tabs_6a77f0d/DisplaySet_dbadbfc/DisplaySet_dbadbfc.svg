@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="400" version="1.2" xmlns="http://www.w3.org/2000/svg" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="20" enabled="false" height="20" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="false" height="10"/>
+ </metadata>
+ <text x="17.938" y="31.327" fill="#000088" font-family="Arial" id="id_0" atv:refpx="120.014" atv:refpy="109.605" font-size="12" transform="matrix(8.1981,0,0,8.1981,-96.7268,-110.3251)">Set</text>
+ <svg width="40" x="56.046" y="230.547" height="80" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Standard.rocker_switch_small" id="id_1" atv:refpx="76.046" atv:refpy="270.547">
+  <atv:argument prefix="base" value=".Int1" name="base"/>
+ </svg>
+ <svg width="40" x="140.612" y="233.5" height="80" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Standard.rocker_switch_small" id="id_2" atv:refpx="160.612" atv:refpy="273.5">
+  <atv:argument prefix="base" value=".Int2" name="base"/>
+ </svg>
+ <svg width="40" x="216.788" y="233.499" height="80" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Standard.rocker_switch_small" id="id_3" atv:refpx="236.788" atv:refpy="273.499">
+  <atv:argument prefix="base" value=".Int3" name="base"/>
+ </svg>
+</svg>

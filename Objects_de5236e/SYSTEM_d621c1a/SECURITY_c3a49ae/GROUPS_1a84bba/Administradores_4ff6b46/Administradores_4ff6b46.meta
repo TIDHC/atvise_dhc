@@ -1,0 +1,13 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.Administradores
+NodeClass: Object
+BrowseName: 1:Administradores
+DisplayName: en|Administradores
+Description: en|Administradores
+EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.USER.admin
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.Acknowledge
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.Advanced
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.Configure
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.Operate
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

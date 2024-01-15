@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Variador.PotenciaHP
+NodeClass: Variable
+BrowseName: 1:PotenciaHP
+DisplayName: en|PotenciaHP
+Description: en|PotenciaHP
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

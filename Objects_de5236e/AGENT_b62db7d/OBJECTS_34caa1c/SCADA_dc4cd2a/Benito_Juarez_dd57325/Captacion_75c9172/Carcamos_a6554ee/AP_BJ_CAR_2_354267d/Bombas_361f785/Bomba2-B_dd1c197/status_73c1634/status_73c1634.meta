@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Captacion.Carcamos.AP_BJ_CAR_2.Bombas.Bomba2-B.status
+NodeClass: Variable
+BrowseName: 1:status
+DisplayName: en|status
+Description: en|status
+DataType: Boolean
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

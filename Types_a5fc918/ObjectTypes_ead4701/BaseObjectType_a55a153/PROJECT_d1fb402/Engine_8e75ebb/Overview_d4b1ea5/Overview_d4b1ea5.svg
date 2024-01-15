@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg height="350" version="1.2" width="460" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs/>
+ <metadata>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvAlarmIndication" name="alarmIndication" valuetype="global"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvStatusIndication" desc="status indication" name="statusIndication" valuetype="global"/>
+  <atv:parameter behavior="optional" defaultvalue="#00ff00" name="autocolor" valuetype="color"/>
+  <atv:gridconfig enabled="true" gridstyle="lines" height="20" width="20"/>
+  <atv:snapconfig enabled="true" height="10" width="10"/>
+ </metadata>
+ <script atv:desc="" atv:href="SYSTEM.LIBRARY.PROJECT.DISPLAYSCRIPTS.indication" atv:name="" atv:type="text/ecmascript"/>
+ <rect atv:refpx="230" atv:refpy="175" fill="#68676c" fill-opacity="0" height="350" id="id_1" stroke="#68676c" stroke-width="2" width="460" x="0" y="0"/>
+ <rect atv:refpx="230" atv:refpy="175" fill="#68676c" fill-opacity="0" height="330" id="blinking_frame" stroke="#68676c" stroke-width="2" visibility="hidden" width="440" x="10" y="10"/>
+ <g atv:refpx="94.998" atv:refpy="74.999" id="id_669" transform="matrix(1.9207,0,0,1.8787,-0.8707,-18.1748)">
+  <g atv:refpx="0" atv:refpy="0" id="keine_x5F_plugins"/>
+  <g atv:refpx="0" atv:refpy="0" id="benutzer">
+   <g atv:refpx="0" atv:refpy="0" id="users">
+    <g atv:refpx="0" atv:refpy="0" id="atvise_x5F_logo"/>
+   </g>
+  </g>
+  <g atv:refpx="0" atv:refpy="0" id="historisieung"/>
+  <g atv:refpx="0" atv:refpy="0" id="chrome_1"/>
+  <g atv:refpx="0" atv:refpy="0" id="trending_1"/>
+  <g atv:refpx="0" atv:refpy="0" id="cloud"/>
+  <g atv:refpx="0" atv:refpy="0" id="skript_1"/>
+  <g atv:refpx="49.913" atv:refpy="49.596" id="id_29">
+   <rect atv:refpx="25.323" atv:refpy="48.25" fill="#68676C" height="41.244" id="id_30" width="4.819" x="22.913" y="27.628"/>
+   <rect atv:refpx="44.314" atv:refpy="70.715" fill="#68676C" height="5.669" id="id_31" width="47.339" x="20.645" y="67.88"/>
+   <rect atv:refpx="83.291" atv:refpy="48.338" fill="#68676C" height="5.669" id="id_32" width="11.339" x="77.622" y="45.504"/>
+   <g atv:refpx="45.236" atv:refpy="47.257" id="id_33">
+    <clipPath id="id_26">
+     <use overflow="visible" xlink:href="#SVGID_209_"/>
+    </clipPath>
+    <path atv:refpx="71.953" atv:refpy="48.337" clip-path="url(#SVGID_2_)" d="M74.22,27.804C77.195,27.804 79.606,30.215 79.606,33.19L79.606,63.485C79.606,66.46 77.195,68.871 74.22,68.871L64.299,68.871L64.299,27.804Z" fill="#F2D600" id="id_34"/>
+    <path atv:refpx="17.811" atv:refpy="47.257" clip-path="url(#SVGID_2_)" d="M16.535,25.643C13.404,25.643 10.866,28.181 10.866,31.312L10.866,63.202C10.866,66.333 13.404,68.871 16.535,68.871L24.755,68.871L24.755,25.643Z" fill="#999999" id="id_35"/>
+   </g>
+   <rect atv:refpx="46.157" atv:refpy="47.258" fill="#68676C" height="43.228" id="id_36" width="36.851" x="27.732" y="25.644"/>
+   <g atv:refpx="51.826" atv:refpy="31.028" id="id_37">
+    <clipPath id="id_27">
+     <use overflow="visible" xlink:href="#SVGID_211_"/>
+    </clipPath>
+    <path atv:refpx="51.826" atv:refpy="31.028" clip-path="url(#SVGID_4_)" d="M27.732,29.611L27.732,32.445L75.92,32.445L75.92,31.028C75.92,30.246 75.285,29.61 74.503,29.61Z" fill="#68676C" id="id_38"/>
+   </g>
+   <rect atv:refpx="51.826" atv:refpy="34.997" fill="#999999" height="1.701" id="id_39" width="48.189" x="27.732" y="34.147"/>
+   <rect atv:refpx="51.826" atv:refpy="38.966" fill="#999999" height="2.835" id="id_40" width="48.189" x="27.732" y="37.549"/>
+   <rect atv:refpx="51.826" atv:refpy="43.502" fill="#999999" height="2.835" id="id_41" width="48.189" x="27.732" y="42.084"/>
+   <rect atv:refpx="51.826" atv:refpy="52.572" fill="#999999" height="2.835" id="id_42" width="48.189" x="27.732" y="51.155"/>
+   <rect atv:refpx="51.826" atv:refpy="49.313" fill="#999999" height="5.386" id="id_43" width="48.189" x="27.732" y="46.62"/>
+   <rect atv:refpx="51.826" atv:refpy="56.541" fill="#999999" height="1.701" id="id_44" width="48.189" x="27.732" y="55.691"/>
+   <rect atv:refpx="51.826" atv:refpy="59.942" fill="#999999" height="1.701" id="id_45" width="48.189" x="27.732" y="59.092"/>
+   <rect atv:refpx="51.826" atv:refpy="63.344" fill="#999999" height="1.701" id="id_46" width="48.189" x="27.732" y="62.494"/>
+   <rect atv:refpx="56.646" atv:refpy="59.943" fill="#68676C" height="22.11" id="id_47" width="15.874" x="48.709" y="48.888"/>
+   <rect atv:refpx="56.646" atv:refpy="52.572" fill="#F2D600" height="2.835" id="id_48" width="10.772" x="51.26" y="51.155"/>
+   <rect atv:refpx="36.52" atv:refpy="43.502" fill="#F2D600" height="2.835" id="id_49" width="5.669" x="33.685" y="42.084"/>
+   <rect atv:refpx="45.306" atv:refpy="43.502" fill="#F2D600" height="2.835" id="id_50" width="5.669" x="42.472" y="42.084"/>
+  </g>
+ </g>
+ <rect atv:refpx="405" atv:refpy="35" fill="#68676c" height="30" id="indicator_1" stroke="#0000ff" stroke-width="0" width="30" x="390" y="20"/>
+ <rect atv:refpx="405" atv:refpy="75" fill="#68676c" height="30" id="indicator_2" stroke="#0000ff" stroke-width="0" width="30" x="390" y="60"/>
+ <rect atv:refpx="405" atv:refpy="115" fill="#68676c" height="30" id="indicator_3" stroke="#0000ff" stroke-width="0" width="30" x="390" y="100"/>
+ <svg atv:refpx="240" atv:refpy="55" height="30" id="button_auto" width="80" x="200" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="40">
+  <atv:argument name="label" value="T{Auto}"/>
+ </svg>
+ <svg atv:refpx="240" atv:refpy="95" height="30" id="button_manual" width="80" x="200" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="80">
+  <atv:argument name="label" value="T{Manual}"/>
+ </svg>
+ <svg atv:refpx="330" atv:refpy="55" height="30" id="button_off" width="80" x="290" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="40">
+  <atv:argument name="label" value="T{Off}"/>
+ </svg>
+ <svg atv:refpx="230" atv:refpy="255" height="400" id="id_0" transform="matrix(1.05,0,0,0.375,0,0)" width="400" x="19.048" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.highcharts" y="480">
+  <atv:argument name="series1series_address" prefix="base" value=".rpm"/>
+  <atv:argument name="yAxis1yAxis_labels_format" value="{value} rpm"/>
+  <atv:argument name="yAxis1yAxis_title_text" value="Rpm"/>
+  <atv:argument name="yAxis1yAxis_id" value="1"/>
+  <atv:argument name="series1series_yAxis" value="1"/>
+  <atv:argument name="series1series_marker_enabled" value="false"/>
+  <atv:argument name="gshowExportMenu" value="false"/>
+  <atv:argument name="xAxisxAxis_tickInterval" value="30000"/>
+  <atv:argument name="yAxis1yAxis_opposite" value="right"/>
+  <atv:argument name="yAxis1yAxis_labels_align" value="center"/>
+  <atv:argument name="trendName" prefix="base" value=".trend1"/>
+  <atv:overwrite id="label" transform="matrix(0.9524,0,0,2.6667,0,0)" x="39.5" y="86"/>
+  <atv:overwrite height="148" id="border" transform="matrix(0.9524,0,0,2.6667,0,0)" width="418"/>
+  <atv:overwrite height="150" id="id_3" transform="matrix(0.9524,0,0,2.6667,0,0)" width="420"/>
+ </svg>
+ <svg atv:refpx="330" atv:refpy="95" height="30" id="id_2" width="80" x="290" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button_switch" y="80">
+  <atv:argument name="labelOn" value="T{Alarm on}"/>
+  <atv:argument name="labelOff" value="T{Alarm off}"/>
+  <atv:argument name="base" prefix="base" value=".alarm"/>
+ </svg>
+ <script atv:desc="" atv:name="" type="text/ecmascript"/>
+</svg>

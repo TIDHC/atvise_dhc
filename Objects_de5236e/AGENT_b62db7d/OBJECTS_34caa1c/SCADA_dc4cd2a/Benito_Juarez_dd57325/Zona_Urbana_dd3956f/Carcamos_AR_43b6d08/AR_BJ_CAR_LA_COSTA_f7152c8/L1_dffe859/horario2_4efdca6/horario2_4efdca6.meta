@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_LA_COSTA.L1.horario2
+NodeClass: Variable
+BrowseName: 1:horario2
+DisplayName: en|horario2
+Description: en|horario2
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

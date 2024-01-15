@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <help/>
+  </metadata>
+  <code><![CDATA[//----------------Ejecución -------------------//
+
+
+
+//Determinación del dispositivo
+var infoCliente;
+infoCliente = new webMI.getClientInfo();
+
+//Preprocesamiento de variables
+
+//Calculo del Centro
+var suma=[0,0];
+for (var i=0; i<circuito.length; i++){
+	suma[0]=suma[0]+circuito[i][0]; //Latitud 
+	suma[1]=suma[1]+circuito[i][1]; //Longitud
+}
+
+circuito_centro=[suma[0]/circuito.length,suma[1]/circuito.length];
+
+
+webMI.addOnload(function() {
+	
+	//Posiciones en el mapa
+	var position1 = new google.maps.LatLng(circuito_centro[0], circuito_centro[1]);
+	
+	//Opciones del mapa
+	var myOptions = {
+		zoom: 12,
+		center: position1,
+		mapTypeId: google.maps.MapTypeId.roadmap
+	};
+	
+
+	//Inicializo el mapa
+	map = new google.maps.Map(document.getElementById("mapa"), myOptions);
+	
+	
+		
+	
+		
+	// Instantiate an info window to hold step text.
+	const stepDisplay = new google.maps.InfoWindow();
+	
+	
+	//-------Inicializo Marcadores
+	
+	circuito_s.forEach(([position,title,object,order,type],i) =>{
+		const marker = new google.maps.Marker({
+			position, 
+			map,
+			icon: symbolSofrel,
+			title: ` ${order}`,
+			optimized: false,
+		});
+		
+		marker.setMap(map);
+		
+		//Agrego marcador a lista de marcadores
+		Markers.push(marker);
+	
+		//-------Listener de Marcadores
+		
+		//DOBLECLICK (Fija Carcamo)
+		google.maps.event.addListener(marker,'dblclick',function(event) {
+					
+			//Condición para abrir los displays dependiendo del tipo
+			//######################################################################################
+			if (type == 'startpoint'){
+			//_______________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la primera posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   object}, "circuito_1");
+
+			//Abrir display no relativo al object type en el frame de en medio en la primera posición
+			webMI.display.openDisplay( object + ".Control",
+			webMI.query, "control_1");
+			map.panTo(this.getPosition());
+			map.setZoom(14);
+			
+			
+			//Condición para no mostrar un endpoint o startpoint en la segunda fila, por las posiciones que ocupa en el array
+			m=1;	
+				while((circuito_s[i+m][4] != 'midpoint') && ((i+m) < (circuito_s.leght-1))){
+				m++;
+				}
+			//________________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la segunda posición, relativo a la base	
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   circuito_s[i+m][2]}, "circuito_2");
+
+			
+			//Abrir display no relativo al object type en el frame de en medio en la segunda posición
+			webMI.display.openDisplay( circuito_s[i+m][2] + ".Control",
+			webMI.query, "control_2");
+			
+			//Condición para no mostrar un endpoint o startpoint en la tercera fila, por las posiciones que ocupa en el array
+			n=2;						
+				while((circuito_s[i+n][4] != 'midpoint') || (n == m)){
+				n++;
+				}
+		
+			
+			//_____________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la tercera posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   circuito_s[i+n][2]}, "circuito_3");
+		
+
+			
+			//Abrir display no relativo al object type en el frame de en medio en la tercera posición
+			webMI.display.openDisplay( circuito_s[i+n][2] + ".Control",
+			webMI.query, "control_3");
+			
+			//#######################################################################################
+				
+			} else if (type == 'midpoint'){
+			//_______________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la primera posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   object}, "circuito_2");
+			
+			//Abrir display no relativo al object type en el frame de en medio en la primera posición
+			webMI.display.openDisplay( object + ".Control",
+			webMI.query, "control_2");
+			map.panTo(this.getPosition());
+			map.setZoom(14);
+			
+			
+			//Condición para no mostrar un endpoint o startpoint en la primera fila, por las posiciones que ocupa en el array
+			 m=1;	
+				while((circuito_s[i-m][4] != 'midpoint') && ((i-m) > 0)){
+				m++;
+				}
+				
+				
+					
+			//________________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la segunda posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   circuito_s[i-m][2]}, "circuito_1");
+
+			
+			//Abrir display no relativo al object type en el frame de en medio en la segunda posición
+			webMI.display.openDisplay( circuito_s[i-m][2] + ".Control",
+			webMI.query, "control_1");
+			
+			
+			//Condición para no mostrar un endpoint o startpoint en la primera fila, por las posiciones que ocupa en el array
+			 n=1;	
+			while((circuito_s[i+n][4] != 'midpoint') && ((i+n) < (circuito_s.length-1))){
+					n++;
+				}
+				
+			//_____________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la tercera posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   circuito_s[i+n][2]}, "circuito_3");
+			
+
+			
+			//Abrir display no relativo al object type en el frame de en medio en la tercera posición
+			webMI.display.openDisplay( circuito_s[i+n][2] + ".Control",
+			webMI.query, "control_3");
+			
+			//##########################################################################################
+			
+			} else if (type == 'endpoint'){
+			//_______________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la tercera posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   object}, "circuito_3");
+			
+			//Abrir display no relativo al object type en el frame de en medio en la tercera posición
+			webMI.display.openDisplay( object + ".Control",
+			webMI.query, "control_3");
+			map.panTo(this.getPosition());
+			map.setZoom(14);
+			
+			
+			//Condición para no mostrar un endpoint o startpoint en la segunda fila, por las posiciones que ocupa en el array
+			 m=1;	
+				while((circuito_s[i-m][4] != 'midpoint') && ((i-m) > 0)){
+				m++;
+				}
+			
+			//________________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la segunda posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   circuito_s[i-m][2]}, "circuito_2");
+
+			
+			//Abrir display no relativo al object type en el frame de en medio en la segunda posición
+			webMI.display.openDisplay( circuito_s[i-m][2] + ".Control",
+			webMI.query, "control_2");
+			
+			
+			
+			//Condición para no mostrar un endpoint o startpoint en la tercera fila, y no repetir midpoint
+			n=2;			
+				while( (n == m)  || ((circuito_s[i-n][4] != 'midpoint') &&  ((i-n) > 0)) ){
+				n++;
+				}
+			
+			//_____________________________________________________________________________________
+			//Abrir display en frame de la izquierda, en la primera posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   circuito_s[i-n][2]}, "circuito_1");
+			
+			//Abrir display no relativo al object type en el frame de en medio en la primera posición
+			webMI.display.openDisplay( circuito_s[i-n][2] + ".Control",
+			webMI.query, "control_1");
+			}
+			
+			
+			/*
+			//Abrir display en frame de la izquierda, en la primera posición, relativo a la base		
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Eslabon",
+			{base:   object}, "circuito_1");
+			
+			//Abrir display no relativo al object type en el frame de en medio
+			webMI.display.openDisplay( object + ".Control",
+			webMI.query, "control_1");
+			map.panTo(this.getPosition());
+			map.setZoom(14);*/
+
+			Markeract=true;
+			Markeractdc=marker;
+			Pos_origen=position;
+		
+			
+			//Limpio
+			Elimina_Ruta(Rutas);
+				
+		});
+	/*	map.addListener("zoom_changed", () => {
+    infowindow.setContent("Zoom: " + map.getZoom());
+  });*/
+		
+		
+		//CLICK (Abre Infowindow)
+		/*google.maps.event.addListener(marker,'click',function(event) {	
+			
+			//Abro en temporal
+			if (marker!=Markeractdc && Markeract==true ){		
+				webMI.display.openDisplay("ObjectTypes.PROJECT.DataLogger"+ type +".Grafico_SectorizacionB", {base:  "AGENT.OBJECTS.Sofrel." + object}, "SectorizacionB");
+				Pos_destination=position;	
+				
+				//Limpio
+				Elimina_Ruta(Rutas);
+				
+				//Dibujo
+				//Dibuja_Ruta(Pos_origen,Pos_destination);
+			}
+			
+			//webMI.display.openDisplay("SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.LAYOUTS.Blanc_Layout",{}, "detallesCarcamoNext");
+			
+		});	*/
+			
+		
+		//MOUSEOVER
+		google.maps.event.addListener(marker, "mouseover", function(event){
+			infowindow = new google.maps.InfoWindow();
+			//Abro marcador
+			infowindow.open(marker.getMap,marker);
+			Info_Windowact=true;
+			//Defino que objeto va a ser el seleccionado para mostrar su información
+			webMI.data.subscribe( object +".pressure",
+			function(e){
+				infowindow.setContent(title+" - Presión: " +
+				e.value.toFixed(2) + "kg/cm2");
+				}
+			);
+			
+				//infowindow.setContent(title);
+		
+		});	
+		
+		//MOUSEOUT
+		google.maps.event.addListener(marker, "mouseout", function(event){
+			
+			
+			if (Info_Windowact){
+				infowindow.close();
+				Info_Windowact=false;
+			}			
+		});
+		
+		
+		
+	});	
+			
+});
+
+
+
+function Dibuja_Ruta(Origen,Destination){
+	
+	if(Markeract && (Origen!=Destination)){
+			
+		//////////// Servicios Rutas en el mapa
+		var directionsService = new google.maps.DirectionsService();
+		var directionsRenderer = new google.maps.DirectionsRenderer({ map: map });		
+		
+		//Crea el request
+		var request = {
+			origin: Origen,
+			destination:Destination,
+			travelMode: google.maps.TravelMode.DRIVING // Puedes ajustar el modo de transporte según tus necesidades
+		  };    
+		
+		
+		directionsService.route(request, function(response, status) {
+			if (status == google.maps.DirectionsStatus.OK) {
+			  directionsRenderer.setDirections(response);
+			  Rutas.push(directionsRenderer);
+			}
+		  });
+	 }
+    
+ }
+
+
+function Elimina_Ruta(Rutas){
+	
+	Rutas.forEach(function(ruta) {
+		ruta.setMap(null);
+	});
+	
+	Rutas=new Array();
+    
+ }
+]]></code>
+</script>

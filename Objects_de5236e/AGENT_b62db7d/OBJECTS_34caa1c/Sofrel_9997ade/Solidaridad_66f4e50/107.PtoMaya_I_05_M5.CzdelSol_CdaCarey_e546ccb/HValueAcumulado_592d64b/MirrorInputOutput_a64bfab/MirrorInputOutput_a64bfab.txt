@@ -1,0 +1,1 @@
+Sofrel OPC UA Server/ns=2;s=PTOMAYAI_05_M5.NI_0001.HValue

@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Variador.Rpm
+NodeClass: Variable
+BrowseName: 1:Rpm
+DisplayName: en|Rpm
+Description: en|Rpm
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

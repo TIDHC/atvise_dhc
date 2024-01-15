@@ -1,0 +1,10 @@
+NodeId: ns=1;s=SYSTEM.DISPLAYS.Grafico_SectorizacionB
+NodeClass: Variable
+BrowseName: 1:Grafico_SectorizacionB
+DisplayName: en|Grafico_SectorizacionB
+Description: en|Grafico_SectorizacionB
+DataType: XmlElement
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule Shared
+Reference: forward HasTypeDefinition ns=1;s=VariableTypes.ATVISE.Display

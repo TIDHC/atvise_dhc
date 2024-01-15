@@ -1,0 +1,9 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.ElementoLinea.level_percent.low_limits.low_limit
+NodeClass: Object
+BrowseName: 1:low_limit
+DisplayName: en|low_limit
+Description: en|low_limit
+EventNotifier: 0
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConditionControl.Limit
+Reference: forward HasComponent ns=1;s=AGENT.ALARMING.Categories.Error

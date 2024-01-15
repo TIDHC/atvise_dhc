@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AP.AP_SOL_CAR_8.Caudalimetros.L1.L1.flow_3
+NodeClass: Variable
+BrowseName: 1:flow_3
+DisplayName: en|flow_3
+Description: en|flow_3
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

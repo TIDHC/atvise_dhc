@@ -1,0 +1,7 @@
+NodeId: ns=1;s=AGENT.OBJECTS.Telecontrol.Carcamos.AR
+NodeClass: Object
+BrowseName: 1:AR
+DisplayName: en|AR
+Description: en|AR
+EventNotifier: 0
+Reference: forward HasTypeDefinition FolderType

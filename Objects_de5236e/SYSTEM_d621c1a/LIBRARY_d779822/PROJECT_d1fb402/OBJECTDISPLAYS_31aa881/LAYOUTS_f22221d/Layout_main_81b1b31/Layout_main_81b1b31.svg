@@ -140,7 +140,7 @@ webMI.addOnload(function() {
 			map,
 			icon: symbolSofrel,
 			title: ` ${address}`,
-			optimized: false,
+			optimized: true,
 		});
 		
 		marker.setMap(map);

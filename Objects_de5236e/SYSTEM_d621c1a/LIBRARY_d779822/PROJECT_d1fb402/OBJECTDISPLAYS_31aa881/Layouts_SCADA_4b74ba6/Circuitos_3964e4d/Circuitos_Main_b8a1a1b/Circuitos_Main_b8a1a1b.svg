@@ -159,7 +159,7 @@
  <polygon atv:refpx="1105.596" atv:refpy="360" fill="#bc87ce" id="id_133" points="976,350 976,370 989.19,360 989.19,360" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
  <polygon atv:refpx="400.013" atv:refpy="323.589" fill="#bc87ce" id="id_134" points="520.01,330.184 540.01,330.184 530.01,316.994 530.01,316.994" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
  <polygon atv:refpx="508.003" atv:refpy="322.589" fill="#bc87ce" id="id_135" points="630.001,329.183 650.001,329.183 640.001,315.994 640.001,315.994" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <svg atv:refpx="1241.997" atv:refpy="436.996" height="63.11" id="id_136" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="1585.317" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="567.979">
+ <svg atv:refpx="1241.497" atv:refpy="436.996" height="63.11" id="id_136" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="1585.982" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="567.979">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001.Carcamo_Uxmal"/>
  </svg>
  <svg atv:refpx="65.499" atv:refpy="70.995" height="63.11" id="id_147" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="12.632" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="164.631">
@@ -592,4 +592,13 @@
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_AEROPUERTO.L5.Caudalimetro.L5"/>
  </svg>
  <line atv:refpx="363" atv:refpy="159.5" fill="#000000" id="id_137" stroke="#38a9ad" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="363" x2="363" y1="148" y2="173"/>
+ <svg atv:refpx="1241.501" atv:refpy="471.5" height="23" id="id_138" width="100" x="1192.501" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="460">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_UXMAL.Caudalimetro.L_08"/>
+ </svg>
+ <svg atv:refpx="1241.501" atv:refpy="494.5" height="23" id="id_139" width="100" x="1192.501" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="483">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_UXMAL.Caudalimetro.L_29"/>
+ </svg>
+ <svg atv:refpx="1241.501" atv:refpy="517.5" height="23" id="id_140" width="100" x="1192.501" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="506">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_UXMAL.Caudalimetro.L_63"/>
+ </svg>
 </svg>

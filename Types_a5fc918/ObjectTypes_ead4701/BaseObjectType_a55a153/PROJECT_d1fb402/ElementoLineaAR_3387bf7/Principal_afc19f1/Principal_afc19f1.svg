@@ -113,6 +113,9 @@ switch (value) {
 	case 2151350272:
 		webMI.gfx.setFill(id, "#8b3db8");
 		break;
+	case 1083179008:
+		webMI.gfx.setFill(id, "#3a3a3a");
+		break;
 	default:
 		console.log(value);
 		webMI.gfx.setFill(id, "#ffffff");

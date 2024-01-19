@@ -280,4 +280,13 @@
   <atv:argument name="navItemPadding" value="10"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
+ <svg atv:refpx="179" atv:refpy="42.5" height="65" id="box_user" width="358" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.box_user" y="10">
+  <atv:argument name="font_size" value="20"/>
+  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fillColorActive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="buttonFillColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+ </svg>
+ <svg atv:refpx="745.084" atv:refpy="1030.519" height="90" id="id_10" width="530" x="252.084" xlink:href="AGENT.DISPLAYS.USER.Layouts_DHC.color_code" y="985.519">
+  <atv:argument name="base" prefix="base"/>
+ </svg>
 </svg>

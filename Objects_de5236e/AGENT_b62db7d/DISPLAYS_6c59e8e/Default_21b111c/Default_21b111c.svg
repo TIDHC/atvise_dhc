@@ -8,5 +8,8 @@
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[webMI.addEvent(webMI.data, "clientvariableschange", function (e) {
 	console.log("cvc", e);
 });]]></script>
- <svg atv:refpx="963.534" atv:refpy="529.81" height="890" id="id_0" width="1920" x="3.534" xlink:href="AGENT.DISPLAYS.Main" y="84.81"/>
+ <image atv:refpx="893.407" atv:refpy="333.21" height="154" id="id_3" width="328" x="729.407" xlink:href="../../DHC_Logo.png" y="256.21"/>
+ <svg atv:refpx="909.407" atv:refpy="641.21" height="280" id="id_7" transform="matrix(1.3953,0,0,1.3929,0,0)" width="430" x="436.758" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.login_dialog" y="320.351">
+  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+ </svg>
 </svg>

@@ -9,5 +9,6 @@
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AP.AP_SOL_CAR_4.Caudalimetro.L1"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
-AGENT.OBJECTS.SCADA.Solidaridad.Circuitos.Circuito_PDC.Carcamo_005.Entrada]]></script>
+AGENT.OBJECTS.SCADA.Solidaridad.Circuitos.Circuito_PDC.Carcamo_005.Entrada
+]]></script>
 </svg>

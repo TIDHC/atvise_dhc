@@ -1,1 +1,1 @@
-/opt/atvise/import/
+/var/lib/atvise/webmi/config/

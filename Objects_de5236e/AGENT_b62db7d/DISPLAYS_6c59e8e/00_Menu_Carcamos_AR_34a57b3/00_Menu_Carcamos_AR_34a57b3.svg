@@ -67,7 +67,7 @@
   <atv:argument name="navCustomDisplay04" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Main_Cuenca_PTARCBE"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(0.2281,0,0,7.5019,0,0)"/>
  </svg>
- <svg atv:refpx="896.511" atv:refpy="1032.09" height="300" id="id_5" transform="matrix(2.3651,0,0,0.2667,0,0)" width="200" x="279.058" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="3720.332">
+ <svg atv:refpx="917.001" atv:refpy="1032.09" height="300" id="id_5" transform="matrix(1.53,0,0,0.2667,0,0)" width="200" x="513.072" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="3720.332">
   <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>
   <atv:argument name="navPanelAlign" value="left"/>
   <atv:overwrite id="navigation_1_description" transform="matrix(1.25,0,0,0.3371,0,0)"/>
@@ -81,7 +81,7 @@
   <atv:argument name="navItemIndentationActive" value="80"/>
   <atv:argument name="navFontSize" value="18"/>
   <atv:overwrite id="navigation_2_description" transform="matrix(0.2022,0,0,2.727,0,0)"/>
-  <atv:argument name="navCustomTitle01" value="Mapa de red de saneamiento"/>
+  <atv:argument name="navCustomTitle01" value="Mapa de saneamiento"/>
   <atv:argument name="navCustomDisplay01" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Mapa_Main_AR"/>
   <atv:argument name="navHomeText" value=""/>
   <atv:argument name="navIconHomeActive" value="false"/>
@@ -96,11 +96,11 @@
   <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navCustomDisplay02" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Cuencas.Cuencas_Main"/>
-  <atv:argument name="navCustomTitle02" value="Red de alcantarillado y saneamiento"/>
+  <atv:argument name="navCustomTitle02" value="Red de alcantarillado"/>
   <atv:argument name="navHomeActive" value="false"/>
   <atv:argument name="navItemPadding" value="15"/>
   <atv:argument name="navItemBorderWidth" value="0"/>
-  <atv:overwrite id="navigation_3_description" transform="matrix(0.4228,0,0,3.7495,0,0)"/>
+  <atv:overwrite id="navigation_3_description" transform="matrix(0.6536,0,0,3.7495,0,0)"/>
  </svg>
  <svg atv:refpx="1585.002" atv:refpy="1051.979" height="300" id="id_6" transform="matrix(3.2901,0,0,0.1333,0,0)" width="200" x="317.62" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="7741.847">
   <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>

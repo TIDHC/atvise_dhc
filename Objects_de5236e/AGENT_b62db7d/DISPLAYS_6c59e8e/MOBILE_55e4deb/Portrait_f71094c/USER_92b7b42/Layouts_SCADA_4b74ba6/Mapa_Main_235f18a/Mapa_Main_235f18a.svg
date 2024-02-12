@@ -25,41 +25,7 @@ var WayPoints = new Array();
 var google = webMI.rootWindow.google; //Clase Principal
 var map; //Variable donde va a vivir el mapa
 var m,n;
-
-
-					
-
-var circuito_s = [];
-
-//Obtener el nombre en formato string del objeto base, haciendo una query al webMI 
-	var name = webMI.query.base;
-	//Parte de la función addOnload
-	var id = "";
-	var value = true;
-	circuito.forEach(([position,title,object,order,type],i) =>{
-		circuito_s.push(circuito[i]);
-	});	
-	
-	circuito_1A.forEach(([position,title,object,order,type],i) =>{
-		circuito_s.push(circuito_1A[i]);
-	});
-	
-	circuito_4.forEach(([position,title,object,order,type],i) =>{
-		circuito_s.push(circuito_4[i]);
-	});
-	
-	circuito_6A.forEach(([position,title,object,order,type],i) =>{
-		circuito_s.push(circuito_6A[i]);
-	});
-	
-	circuito_8.forEach(([position,title,object,order,type],i) =>{
-		circuito_s.push(circuito_8[i]);
-	});
-	
-	circuito_11.forEach(([position,title,object,order,type],i) =>{
-		circuito_s.push(circuito_11[i]);
-	});
-					
+			
 var infowindow;					
 var circuito_centro;
 const symbolSofrel = "/icons/carcamo_31_40px.png";

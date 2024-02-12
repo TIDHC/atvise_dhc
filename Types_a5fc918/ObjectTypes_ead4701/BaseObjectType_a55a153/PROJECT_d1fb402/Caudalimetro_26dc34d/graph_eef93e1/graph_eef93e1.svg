@@ -22,9 +22,9 @@
   <atv:argument name="series2series_address" prefix="base" value=".current_flow"/>
   <atv:argument name="series1series_address" prefix="base" value=".current_pressure"/>
   <atv:argument name="trendName" prefix="base" value=".caudalimetro"/>
-  <atv:argument name="xAxisxAxis_timeSpan" value="8"/>
+  <atv:argument name="xAxisxAxis_timeSpan" value="12"/>
   <atv:argument name="xAxisxAxis_timeSpanUnit" value="hour(s)"/>
-  <atv:argument name="xAxisxAxis_tickInterval" value="1000000"/>
+  <atv:argument name="xAxisxAxis_tickInterval" value="5000000"/>
   <atv:argument name="yAxis1yAxis_id" value="pres"/>
   <atv:argument name="yAxis1yAxis_title_text" value="Presión"/>
   <atv:argument name="yAxis2yAxis_id" value="cau"/>
@@ -41,12 +41,29 @@
   <atv:argument name="yAxis2yAxis_min" value="0"/>
   <atv:argument name="series1series_lineWidth" value="4"/>
   <atv:argument name="series2series_lineWidth" value="4"/>
-  <atv:argument name="xAxisxAxis_dateTimeLabelFormats_format" value="%e. %B %Y %H:%M"/>
+  <atv:argument name="xAxisxAxis_dateTimeLabelFormats_format" value=""/>
   <atv:argument name="xAxisxAxis_title_text" value="Tiempo"/>
   <atv:argument name="series1series_xAxis" value="Tiempo"/>
   <atv:argument name="series2series_xAxis" value="Tiempo"/>
   <atv:argument name="xAxisxAxis_opposite" value="top"/>
   <atv:argument name="xAxisxAxis_labels_align" value="center"/>
+  <atv:argument name="xAxisxAxis_crosshair" value="true"/>
+  <atv:argument name="xAxisxAxis_crosshair_snap" value="true"/>
+  <atv:argument name="xAxisxAxis_crosshair_width" value="3"/>
+  <atv:argument name="xAxisxAxis_crosshair_color" value="#000000"/>
+  <atv:argument name="xAxisxAxis_minorTickInterval" value="0"/>
+  <atv:argument name="yAxis2yAxis_opposite" value="right"/>
+  <atv:argument name="yAxis2yAxis_labels_align" value="center"/>
+  <atv:argument name="yAxis1yAxis_labels_align" value="center"/>
+  <atv:argument name="xAxisxAxis_crosshair_dashStyle" value="Dash"/>
+  <atv:argument name="yAxis1yAxis_crosshair" value="true"/>
+  <atv:argument name="yAxis1yAxis_crosshair_width" value="3"/>
+  <atv:argument name="yAxis1yAxis_crosshair_color" value="#000000"/>
+  <atv:argument name="yAxis1yAxis_crosshair_dashStyle" value="Dash"/>
+  <atv:argument name="yAxis2yAxis_crosshair" value="true"/>
+  <atv:argument name="yAxis2yAxis_crosshair_width" value="3"/>
+  <atv:argument name="yAxis2yAxis_crosshair_color" value="#000000"/>
+  <atv:argument name="yAxis2yAxis_crosshair_dashStyle" value="Dash"/>
   <atv:argument name="gatviseOptions_configNode" prefix="base" value=".trendCfg"/>
   <atv:argument name="gatviseOptions_configName" value="autosave"/>
   <atv:overwrite id="highchart_label" transform="matrix(0.1974,0,0,1.626,0,0)" x="842.5" y="134"/>

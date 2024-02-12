@@ -8,11 +8,11 @@
  <svg atv:refpx="960" atv:refpy="23.75" height="50" id="id_0" width="1920" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line" y="-1.25">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_PONIENTE.L1"/>
  </svg>
- <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_CBE.Carcamo_18_Poniente.Caudalimetros]]></script>
- <svg atv:refpx="397" atv:refpy="24.25" height="49" id="id_1" width="120" x="337" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-0.25">
+ <svg atv:refpx="356.75" atv:refpy="23.125" height="49" id="id_1" width="120" x="295.75" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-1.375">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_PONIENTE.Bombas.Bomba_1"/>
  </svg>
- <svg atv:refpx="517" atv:refpy="24.25" height="49" id="id_2" width="120" x="457" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-0.25">
+ <svg atv:refpx="476.5" atv:refpy="23.125" height="49" id="id_2" width="120" x="416.5" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-1.375">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_PONIENTE.Bombas.Bomba_2"/>
  </svg>
+ <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_CBE.Carcamo_18_Poniente.Caudalimetros]]></script>
 </svg>

@@ -139,7 +139,7 @@
   <atv:parameter behavior="optional" desc="crosshair color" group="X-Axis" name="xAxisxAxis_crosshair_color" valuetype="color"/>
   <atv:parameter behavior="optional" config="Solid;ShortDash;ShortDot;ShortDashDot;ShortDashDotDot;Dot;Dash;LongDash;DashDot;LongDashDot;LongDashDotDot" defaultvalue="Solid" desc="crosshair type" group="X-Axis" name="xAxisxAxis_crosshair_dashStyle" valuetype="enum"/>
   <atv:parameter behavior="optional" config="linear;datetime;logarithmic" defaultvalue="datetime" desc="xAxis type" group="X-Axis" name="xAxisxAxis_type" valuetype="enum"/>
-  <atv:parameter behavior="optional" defaultvalue="%H:%M:%S" desc="date time format" group="X-Axis" name="xAxisxAxis_dateTimeLabelFormats_format" valuetype="string"/>
+  <atv:parameter behavior="optional" defaultvalue="%A, %e % b %H:%M" desc="date time format" group="X-Axis" name="xAxisxAxis_dateTimeLabelFormats_format" valuetype="string"/>
   <atv:parameter behavior="optional" defaultvalue="10000" desc="tick interval" group="X-Axis" name="xAxisxAxis_tickInterval" valuetype="number"/>
   <atv:parameter behavior="optional" desc="minor tick interval" group="X-Axis" name="xAxisxAxis_minorTickInterval" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="1" desc="grid line width" group="X-Axis" name="xAxisxAxis_gridLineWidth" valuetype="number"/>

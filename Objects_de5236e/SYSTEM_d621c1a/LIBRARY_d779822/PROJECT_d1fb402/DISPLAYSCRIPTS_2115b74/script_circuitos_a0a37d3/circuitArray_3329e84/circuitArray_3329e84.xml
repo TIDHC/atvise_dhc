@@ -81,7 +81,7 @@ var circuito_calculo =
 	 [21.149629019012547, -86.85272757538557],
 	 [21.131868159898662, -86.87909187977218]]
 
-var circuito =
+var circuito_s =
 	[[{lat:21.07217341145776, lng:-87.030079275378},
 	"Cárcamo 1, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001.Carcamo_001",
@@ -109,10 +109,8 @@ var circuito =
 	[{lat:21.175778500181412, lng:-86.8242723491973},
 	"Cárcamo Puerto Juárez, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_008.Carcamo_PJ",
-	7, "endpoint"]];
-
-var circuito_1A =
-	[[{lat:21.07211532413174, lng:-87.03009657620576},
+	7, "endpoint"],
+	[{lat:21.07211532413174, lng:-87.03009657620576},
 	"Cárcamo 1A, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_001A",
 	8, "startpoint"],
@@ -183,10 +181,8 @@ var circuito_1A =
 	[{lat:21.174704153033876, lng:-86.85934068650941},
 	"Cárcamo Reserva Norte 1, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_008.Carcamo_RN1",
-	25 , "endpoint"]];
-	
-	var circuito_4 =
-	[[{lat:21.009634414017846, lng:-87.03021140696222},
+	25 , "endpoint"],
+	[{lat:21.009634414017846, lng:-87.03021140696222},
 	"Cárcamo 4, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_004.Carcamo_004",
 	26, "startpoint"],
@@ -201,10 +197,8 @@ var circuito_1A =
 	[{lat:21.157018900527355, lng:-86.8208078210069},
 	"Cárcamo 0+000, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_0+000",
-	29, "endpoint"]];
-	
-	var circuito_6A =
-	[[{lat:21.167467789045627, lng:-86.98336572053975},
+	29, "endpoint"],
+	[{lat:21.167467789045627, lng:-86.98336572053975},
 	"Cárcamo 6, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_006A.Carcamo_006A",
 	30, "startpoint"],
@@ -216,7 +210,7 @@ var circuito_1A =
 	"Cárcamo Otoch Paraiso, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_006A.Carcamo_Otoch_Paraiso",
 	32, "endpoint"],
-	[{lat:21.160584491729878, lng:86.91785758688685},
+	[{lat:21.160584491729878, lng:-86.91785758688685},
 	"Cárcamo Prado Norte I, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_006A.Carcamo_Prado_Norte_1",
 	33, "endpoint"],
@@ -239,10 +233,8 @@ var circuito_1A =
 	[{lat:21.175264332717266, lng:-86.89767831803049},
 	"Cárcamo La Joya, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_006A.Carcamo_La_Joya",
-	38, "endpoint"]];
-	
-	var circuito_8 =
-	[[{lat:21.056110923466534, lng:-87.06421544668088},
+	38, "endpoint"],
+	[{lat:21.056110923466534, lng:-87.06421544668088},
 	"Cárcamo 8, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_008.Carcamo_008",
 	39, "startpoint"],
@@ -297,10 +289,8 @@ var circuito_1A =
 	[{lat:21.180308237536195, lng:-86.81489782760174},
 	"Cárcamo Lombardo, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_008.Carcamo_Lombardo",
-	51 , "endpoint"]];
-	
-	var circuito_11 =
-	[[{lat:21.010067554860903, lng:-87.02956597206791},
+	51 , "endpoint"],
+	[{lat:21.010067554860903, lng:-87.02956597206791},
 	"Cárcamo 11, Agua Potable",
 	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_011",
 	52, "startpoint"],

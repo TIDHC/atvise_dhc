@@ -197,7 +197,7 @@ webMI.addOnload(function() {
 			webMI.data.subscribe( object +".pressure",
 			function(e){
 				infowindow.setContent(title+" - Presión: " +
-				e.value.toFixed(2) + "kg/cm2");
+				e.value.toFixed(2) + " kg/cm2");
 				}
 			);
 			

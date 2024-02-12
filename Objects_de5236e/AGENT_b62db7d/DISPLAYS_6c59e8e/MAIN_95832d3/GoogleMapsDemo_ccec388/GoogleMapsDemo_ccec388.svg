@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<svg version="1.2" height="680" width="1280" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="680" version="1.2" width="1280" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs/>
  <metadata>
-  <atv:gridconfig gridstyle="lines" height="20" width="20" enabled="false"/>
-  <atv:snapconfig height="10" width="10" enabled="false"/>
+  <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
+  <atv:snapconfig enabled="false" height="10" width="10"/>
  </metadata>
- <foreignObject y="50.453" height="508.681" width="749.787" id="map_canvas" x="32.94"/>
- <text y="31.179" atv:refpy="26.679" font-size="18" atv:refpx="194.44" id="id_info" x="37.44" fill="#000000" font-family="Arial">Put your mouse over the bulb symbols..</text>
- <svg y="50.453" height="600" atv:refpy="350.453" width="800" atv:refpx="988.555" id="id_0" x="1577.109" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" transform="matrix(0.5,0,0,1,0,0)">
-  <atv:argument value="building-details" name="frameName"/>
+ <foreignObject height="508.681" id="map_canvas" width="749.787" x="32.94" y="50.453"/>
+ <text atv:refpx="194.44" atv:refpy="26.679" fill="#000000" font-family="Arial" font-size="18" id="id_info" x="37.44" y="31.179">Put your mouse over the bulb symbols..</text>
+ <svg atv:refpx="988.555" atv:refpy="350.453" height="600" id="id_0" transform="matrix(0.5,0,0,1,0,0)" width="800" x="1577.109" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="50.453">
+  <atv:argument name="frameName" value="building-details"/>
  </svg>
- <text y="623.587" atv:refpy="619.087" font-size="12" atv:refpx="280.007" id="id_1" x="33.007" fill="#000088" font-family="Arial">Put the following line as a script source to the index.htm (->LIBRARY.PROJECT.Resources)</text>
- <text y="652.377" atv:refpy="647.877" font-size="12" atv:refpx="294.046" id="id_2" x="33.046" fill="#000088" font-family="Arial">&lt;script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false">&lt;/script></text>
- <text y="595.447" atv:refpy="590.947" font-size="12" atv:refpx="307.714" id="id_3" x="32.836" fill="#000088" font-family="Arial">Copy index.htm (-> LIBRARY.ATVISE.Resources) to the Project folder (-> LIBRARY.ATVISE.Resources) </text>
- <script atv:desc="" atv:name="" atv:defaultdynamics="true" type="text/ecmascript"><![CDATA[var google = webMI.rootWindow.google;
+ <text atv:refpx="280.007" atv:refpy="619.087" fill="#000088" font-family="Arial" font-size="12" id="id_1" x="33.007" y="623.587">Put the following line as a script source to the index.htm (->LIBRARY.PROJECT.Resources)</text>
+ <text atv:refpx="294.046" atv:refpy="647.877" fill="#000088" font-family="Arial" font-size="12" id="id_2" x="33.046" y="652.377">&lt;script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false">&lt;/script></text>
+ <text atv:refpx="307.714" atv:refpy="590.947" fill="#000088" font-family="Arial" font-size="12" id="id_3" x="32.836" y="595.447">Copy index.htm (-> LIBRARY.ATVISE.Resources) to the Project folder (-> LIBRARY.ATVISE.Resources) </text>
+ <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[var google = webMI.rootWindow.google;
 
 var map;
 

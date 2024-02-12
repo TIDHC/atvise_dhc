@@ -89,7 +89,7 @@
 		webMI.gfx.setFill(id, "#7c1536");
 		break;
 	default:
-		console.log(valule);
+		console.log(value);
 		webMI.gfx.setFill(id, "#ffffff");
 	break;
 		}

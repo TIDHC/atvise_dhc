@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_CADUII.Bombas_Criba.Bomba_1.arm_I7
+NodeClass: Variable
+BrowseName: 1:arm_I7
+DisplayName: en|arm_I7
+Description: en|arm_I7
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

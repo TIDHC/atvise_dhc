@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AR.AR_IM_CAR_1.L1.horario2
+NodeClass: Variable
+BrowseName: 1:horario2
+DisplayName: en|horario2
+Description: en|horario2
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

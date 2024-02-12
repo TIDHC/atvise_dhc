@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.GoogleMapsDemo.Building_1.TempMeasured
+NodeClass: Variable
+BrowseName: 1:TempMeasured
+DisplayName: en|TempMeasured
+Description: en|TempMeasured
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

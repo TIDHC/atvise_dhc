@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.highcharts.TimeSeries
+NodeClass: Variable
+BrowseName: 1:TimeSeries
+DisplayName: en|TimeSeries
+Description: en|TimeSeries
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.highcharts.SingleSeries
+NodeClass: Variable
+BrowseName: 1:SingleSeries
+DisplayName: en|SingleSeries
+Description: en|SingleSeries
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

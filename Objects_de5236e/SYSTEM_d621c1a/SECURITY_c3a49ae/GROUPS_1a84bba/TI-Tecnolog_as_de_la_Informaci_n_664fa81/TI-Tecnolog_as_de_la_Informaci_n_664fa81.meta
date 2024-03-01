@@ -1,0 +1,10 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.TI-Tecnologías de la Información
+NodeClass: Object
+BrowseName: 1:TI-Tecnologías de la Información
+DisplayName: en|TI-Tecnologías de la Información
+Description: en|TI-Tecnologías de la Información
+EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.fvelazquez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.plopez
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

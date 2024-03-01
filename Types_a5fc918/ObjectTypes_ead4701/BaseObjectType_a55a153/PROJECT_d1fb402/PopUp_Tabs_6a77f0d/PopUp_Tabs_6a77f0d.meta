@@ -1,0 +1,6 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.PopUp_Tabs
+NodeClass: ObjectType
+BrowseName: 1:PopUp_Tabs
+DisplayName: en|PopUp_Tabs
+Description: en|PopUp_Tabs
+IsAbstract: false

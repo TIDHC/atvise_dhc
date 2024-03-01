@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.ALARMING.Groups.Conectividad.sum_config
+NodeClass: Object
+BrowseName: 1:sum_config
+DisplayName: en|sum_config
+Description: en|sum_config
+EventNotifier: 0
+Reference: forward HasModellingRule Shared
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConfiguration

@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Benito_Juarez.099.Equipo_Movil_001
+NodeClass: Object
+BrowseName: 1:099.Equipo_Movil_001
+DisplayName: en|099.Equipo_Movil_001
+Description: en|099.Equipo_Movil_001
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP.Grafico_Sectorizacion

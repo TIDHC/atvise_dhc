@@ -1,0 +1,7 @@
+NodeId: ns=1;s=AGENT.OBJECTS.GoogleMapsDemo
+NodeClass: Object
+BrowseName: 1:GoogleMapsDemo
+DisplayName: en|GoogleMapsDemo
+Description: en|GoogleMapsDemo
+EventNotifier: 0
+Reference: forward HasTypeDefinition FolderType

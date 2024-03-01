@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.trendConfig.trendConfigANC.ANC_002
+NodeClass: Variable
+BrowseName: 1:ANC_002
+DisplayName: en|ANC_002
+Description: en|ANC_002
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

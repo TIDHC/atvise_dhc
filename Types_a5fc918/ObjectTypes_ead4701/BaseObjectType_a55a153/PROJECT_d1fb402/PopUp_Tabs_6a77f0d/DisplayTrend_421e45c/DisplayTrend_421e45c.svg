@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg height="400" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" version="1.2">
+ <defs/>
+ <metadata>
+  <atv:gridconfig gridstyle="lines" enabled="false" height="20" width="20"/>
+  <atv:snapconfig enabled="false" height="10" width="10"/>
+ </metadata>
+ <svg atv:refpy="200" x="0.632" y="0" height="400" atv:refpx="200.632" id="id_0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Standard.highcharts.highcharts" width="400">
+  <atv:argument value=".Int1" name="node1" prefix="base"/>
+  <atv:argument value=".Int2" name="node2" prefix="base"/>
+  <atv:argument value="#ff0000" name="node2color"/>
+  <atv:argument value="#005500" name="node3color"/>
+  <atv:argument value=".Int3" name="node3" prefix="base"/>
+  <atv:argument value="5" name="historicalTime"/>
+  <atv:argument value=".Int1" name="series1series_address" prefix="base"/>
+  <atv:argument value=".Int2" name="series2series_address" prefix="base"/>
+  <atv:argument value=".Int3" name="series3series_address" prefix="base"/>
+ </svg>
+</svg>

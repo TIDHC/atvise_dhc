@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Caudalimetro.flow_3
+NodeClass: Variable
+BrowseName: 1:flow_3
+DisplayName: en|flow_3
+Description: en|flow_3
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

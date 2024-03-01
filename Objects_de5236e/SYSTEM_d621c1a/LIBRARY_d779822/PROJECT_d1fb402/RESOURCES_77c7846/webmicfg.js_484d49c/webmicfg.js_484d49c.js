@@ -1,0 +1,71 @@
+var webMIConfig = {
+"frame.documentdomain": false,
+//The configuration parameters are described in the atvise help section "Client/Browserside scripting reference -> Configuration".
+"frame.scaletype": "transform",
+"responsiveLite": {
+        "active": true,
+        "config": {
+            "mobile": true,
+            "tablet": false,
+            "desktop": true,
+            "forceDevice": "",
+            "forceTouch": true,
+            "ignoreTouch": false,
+            "portrait": {
+                "active": true,
+                "thresholdMobile": 850,
+                "thresholdDesktop": 1080
+            },
+            "landscape": {
+                "active": true,
+                "thresholdMobile": 1,
+                "thresholdDesktop": 200
+            }
+        },
+        "deviceScaling": {
+            "desktop": {
+                "window": {
+                    "content": 1.0,
+                    "titlebar": 1.0
+                },
+                "table": {
+                    "fontsize": 1.0,
+                    "rowheight": 1.0
+                },
+                "contextmenu": {
+                    "fontsize": 1.0,
+                    "rowheight": 1.0
+                }
+            },
+            "tablet": {
+                "window": {
+                    "content": 1.5,
+                    "titlebar": 1.5
+                },
+                "table": {
+                    "fontsize": 1.1,
+                    "rowheight": 1.5
+                },
+                "contextmenu": {
+                    "fontsize": 1.1,
+                    "rowheight": 1.5
+                }
+            },
+            "mobile": {
+                "window": {
+
+                    "content": 1.5,
+                    "titlebar": 1.5
+                },
+                "table": {
+                    "fontsize": 1.5,
+                    "rowheight": 2.0
+                },
+                "contextmenu": {
+                    "fontsize": 2,
+                    "rowheight": 2.0
+                }
+            }
+        }
+        }
+};

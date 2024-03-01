@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <owner>root</owner>
+    <runcontext>caller</runcontext>
+  </metadata>
+  <parameter name="configuration" type="string" trigger="false" relative="false" value=""/>
+  <parameter name="action" type="string" trigger="false" relative="false" value=""/>
+  <code><![CDATA[var baseDir = "AGENT.OBJECTS.ATVISE.Mail";
+var statusAddr = baseDir + ".sendMailLog";
+
+function _getScript(cfg) {
+
+return '<?xml version="1.0" encoding="UTF-8"?><script>\n' +
+	  '<parameter name="alarmState" type="number" trigger="false" relative="false" value=""/>\n' +
+	  '<code><![CDATA[\n' + 
+	'var date = new Date();\n' +
+	'const timezoneOffset = Math.abs(date.getTimezoneOffset()/60);\n' +
+	'var today = date.getDay();\n' +
+	'var actTime = ((date.getHours()) * 60 * 60 *1000) + (date.getMinutes() * 60 * 1000) + (date.getSeconds()*1000) + date.getMilliseconds();\n' +
+	'var aktUsers = [];\n' +
+	'var nodeobj = Ua.findNode("AGENT.OBJECTS.ATVISE.Mail");\n' +
+	'var ret = nodeobj.result.browse({\n' +
+	'	direction: Ua.Node.BROWSEDIRECTION_FORWARD,\n' +
+	'	reference: Ua.Reference.HIERARCHICALREFERENCES,\n' +
+	'	subType: true,\n' +
+	'	nodeClass: Ua.NodeClass.UNSPECIFIED,\n' +
+	'	maxResult: 0\n' +
+	'});\n\n\n' +
+	'for (var i = 0; i < ret.result.length; ++i){\n' +
+	'	if(ret.result[i].node.dataType.value == "i=12" && ret.result[i].node.browseName.name != "sendMailLog"){\n' +
+	'		var config = JSON.parse(ret.result[i].node.value);\n' +
+	'		var alarmstates = config.alarm.state;\n' +
+	'		var workDays = config.cycleTime.daysOfWeek;\n' +
+	'		var priorityOperator,priorityValue,nodeAddress,groupAddress;\n' +
+	'		if(config.prio.active == "true"){priorityOperator=config.prio.operator;priorityValue=config.prio.value}else{priorityOperator="";priorityValue=""};\n' +
+	'		(config.group.active == "true")?groupAddress=config.group.address:groupAddress="";\n' +
+	'		(config.nodes.active == "true")?nodeAddress=config.nodes.address:nodeAddress="";\n\n' +
+	'		if(config.active == "true" && workDays.includes(today) && alarmstates.includes(alarmState) && actTime >= config.start && actTime < config.end){\n' +
+	'			aktUsers.push({name:config.name, mail:config.mail, prioOperator:priorityOperator, prioValue:priorityValue, nodeAddress:nodeAddress, groupAddress:groupAddress});\n' +
+	'		}\n' +
+	'	}\n' +
+	'}\n' +
+	'if(aktUsers.length > 0){\n' +
+	'	return aktUsers;\n' +
+	'}else{\n' +
+	'	aktUsers = {error:"Alarm MailManagement: At this time there is no active user responsible for this alarm state"};\n' +
+	'	return aktUsers;\n' +
+	'}\n\n\n' +
+	']]\></code></script>'
+}
+/**
+ * create a folder node
+ * @param address
+ * @param nodeClass
+ * @param typeDefinition
+ * @param dataType
+ * @param value
+ */
+function _createFolder(address, nodeClass, typeDefinition, dataType, value) {
+	Ua.createNode(address, {
+		"nodeClass": Ua.NodeClass[nodeClass],
+		"parent": address.substring(0, address.lastIndexOf('.')),
+		"typeDefinition": typeDefinition,
+	});
+}
+
+/**
+ * create a node
+ * @param address
+ * @param nodeClass
+ * @param typeDefinition
+ * @param dataType
+ * @param value
+ */
+function _createNode(address, nodeClass, typeDefinition, dataType, value) {
+	Ua.createNode(address, {
+		"nodeClass": Ua.NodeClass[nodeClass],
+		"parent": address.substring(0, address.lastIndexOf('.')),
+		"typeDefinition": typeDefinition,
+		"dataType": Ua.DataType[dataType],
+		"value": value
+	});
+}
+
+
+/**
+ * read status node
+ */
+function _readStatus() {
+	var statusNode = Ua.findNode(statusAddr);
+	var statusNodeExist = Ua.Status(statusNode) != Ua.Status.BADNODEIDUNKNOWN;
+	
+	var upperDir = statusAddr.substring(0, statusAddr.lastIndexOf("."));
+	var upperDirNode = Ua.findNode(upperDir);
+	var upperDirExist = Ua.Status(upperDirNode) != Ua.Status.BADNODEIDUNKNOWN;
+	
+	var ret = '{"active": false, "count": 0, "log": {}}';
+	if(statusNodeExist && statusNode.result.value != "") {
+		ret = statusNode.result.value;
+		
+		try {
+			ret = JSON.parse(ret);
+		} catch (ex) {
+			ret = undefined;
+		}
+	} else if (upperDirExist && upperDirNode.result.permissions.session.engineer) {
+			_createNode(statusAddr, "VARIABLE", "i=62", "STRING", ret, "");
+	}
+
+	return ret;
+}
+
+/**
+ * read configuration from node
+ * @param name
+ */
+function _readConfig(name) {
+	var node = name;
+	if (name.indexOf("AGENT.OBJECTS") == -1) {
+		node = baseDir + "." + name;
+	}
+
+	var readNode = Ua.findNode(node);
+	var readNodeExist = Ua.Status(readNode) != Ua.Status.BADNODEIDUNKNOWN;
+	
+	if (!readNodeExist || !readNode.result.permissions.session.execute) {
+		return false;
+	} else {
+		var ret = {error: -1, errorstring: "Report: Configuration could not be parsed."};
+		try {
+			ret = JSON.parse(readNode.result.value);
+		} catch(ex) {}
+
+		return ret;
+	}
+}
+
+/**
+ * read all configurations from nodes
+ */
+function _readAllConfigs() {
+	var ret = [];
+	var folder = Ua.findNode(baseDir);
+	
+	var folderExist = Ua.Status(folder) != Ua.Status.BADNODEIDUNKNOWN;
+	
+	if (!folderExist)
+		return false;
+
+	var result = folder.result.browse({
+		direction: Ua.Node.BROWSEDIRECTION_FORWARD,
+		reference: Ua.Reference.HIERARCHICALREFERENCES,
+		subType: true,
+		nodeClass: Ua.NodeClass.NODECLASS_UNSPECIFIED,
+		typeDefinition : Ua.VariableType.BASEVARIABLETYPE,
+		recursive: false,
+		maxResult: 0
+	}).result;
+
+	for (var i in result) {
+		if (result[i].node.nodeId.address.indexOf("sendMailLog") == -1 && result[i].node.dataType.value == "i=12")
+			ret.push(_readConfig(result[i].node.nodeId.address));
+	}
+	
+	return ret;
+}
+
+function _writeConfig(cfg) {
+	//var scriptvalue = _createConfiguration(cfg);
+	var node = baseDir + "." + cfg.name;
+	var path = node.substring(0, node.lastIndexOf("."));
+	checkDir(path);	
+	checkScript(baseDir+".sendMail",cfg);	
+	var writeNode = Ua.findNode(node);
+	var writeNodeExist = Ua.Status(writeNode) != Ua.Status.BADNODEIDUNKNOWN;
+
+	var pathNode = Ua.findNode(path);
+	if(!pathNode.result.permissions.session.engineer)
+		return false;
+
+	if (!writeNodeExist) {
+		_createNode(node, "VARIABLE", Ua.VariableType.BASEVARIABLETYPE, "STRING", JSON.stringify(cfg));
+	} else {
+		writeNode.result.value = JSON.stringify(cfg);
+	}
+	
+	return true;
+}
+function checkScript(path){
+	var scriptvalue = _getScript();
+	var scriptNode = Ua.findNode(path);
+	var scriptNodeExist = Ua.Status(scriptNode) != Ua.Status.BADNODEIDUNKNOWN;
+	if (!scriptNodeExist) {
+		_createNode(path, "VARIABLE", "VariableTypes.ATVISE.ScriptCode", "XMLELEMENT", scriptvalue);
+	} else {
+		scriptNode.result.value = scriptvalue;
+	}
+}
+
+function _deleteConfig(name) {
+	if (typeof name == "undefined")
+		return {error: -1, errorstring: "Report: Configuration name is not specified."};
+
+	var node = name;
+	if (name.indexOf("AGENT.OBJECTS") == -1) {
+		node = baseDir + "." + name;
+	} else {
+		name = node.replace(baseDir + ".","");
+	}
+
+	var statusNode = Ua.findNode(statusAddr);
+	var statusNodeExist = Ua.Status(statusNode) != Ua.Status.BADNODEIDUNKNOWN;
+	
+	if (statusNodeExist) {
+		var status = statusNode.result.value;
+		try {
+			status = JSON.parse(status);
+			if(status.log && status.log[name]) {
+				delete status.log[name];
+				statusNode.result.value = JSON.stringify(status);
+			}
+		} catch (ex) {
+			console.log("Report: Status node could not be parsed.")
+
+		}
+	} 
+
+	var readNode = Ua.findNode(node).result;
+	var readNodeExist = Ua.Status(readNode) != Ua.Status.BADNODEIDUNKNOWN;
+	
+	if (!readNodeExist) {
+		return false;
+	} else {
+		return readNode.remove().result;
+	}
+}
+	
+function checkDir(path) {
+	var directories = path.split(".");
+	var dir = "";
+	for (var i in directories) {
+		if (dir == "")
+			dir = directories[i];
+		else
+			dir = dir + "." + directories[i];
+
+		var dirNode = Ua.findNode(dir);
+		var dirNodeExist = Ua.Status(dirNode) != Ua.Status.BADNODEIDUNKNOWN;
+
+		var upperDir = dir.substring(0, dir.lastIndexOf("."));
+		
+		if(upperDir) {
+			var upperDirNode = Ua.findNode(upperDir);
+			if(!upperDirNode.result.permissions.session.engineer)
+				return false;
+			
+			if (!dirNodeExist) {
+				_createFolder(dir, "OBJECT", "i=61", "FOLDERTYPE");
+			}
+		}
+	}
+}
+
+/**
+ * Configuration handle functions
+ */
+
+if (configuration && typeof configuration == "string") {
+	try {
+		configuration = JSON.parse(configuration);
+	} catch (ex) {}
+}
+
+checkDir(baseDir);
+var status = _readStatus();
+
+// Call function based on given parameters
+if (action == "read" && typeof configuration == "string" && configuration != "") {
+	return _readConfig(configuration);
+} else if (action == "read" && typeof configuration == "string" && configuration == "") {
+	return _readAllConfigs();
+} else if (action == "write") { //  && typeof configuration == "object"
+	//if (configuration.force)
+		return _writeConfig(configuration);
+
+	/*
+	var validityCheck = _checkConfig(configuration);
+	if (validityCheck == true)
+		return _writeConfig(configuration);
+	else
+		return validityCheck;
+	*/
+} else if (action == "check" && typeof configuration == "object") {
+	return _checkConfig(configuration);
+} else if (action == "delete" && typeof configuration == "string") {
+	return _deleteConfig(configuration);
+} else {
+	return {error: -1, errorstring: "Report: No valid action for configuration handler specified."};
+}]]></code>
+</script>

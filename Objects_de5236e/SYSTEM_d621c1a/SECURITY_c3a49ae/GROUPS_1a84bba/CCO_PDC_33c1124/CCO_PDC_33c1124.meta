@@ -1,0 +1,7 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.CCO_PDC
+NodeClass: Object
+BrowseName: 1:CCO_PDC
+DisplayName: en|CCO_PDC
+Description: en|CCO_PDC
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

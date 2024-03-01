@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <owner>root</owner>
+    <runcontext>caller</runcontext>
+  </metadata>
+  <parameter name="timer" type="timer" trigger="true" relative="false" value="" starttime="00:00:00" repeat="00:00:10"/>
+  <code><![CDATA[var boolValue = Ua.findNode("AGENT.OBJECTS.bool");
+boolValue.result.value = !boolValue.result.value;]]></code>
+</script>

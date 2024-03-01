@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.int.Alarm.condition.upper_limit_compare
+NodeClass: Variable
+BrowseName: 1:upper_limit_compare
+DisplayName: en|upper_limit_compare
+Description: en|upper_limit_compare
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

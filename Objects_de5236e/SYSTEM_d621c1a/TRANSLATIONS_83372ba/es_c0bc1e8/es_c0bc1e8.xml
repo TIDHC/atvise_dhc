@@ -1,0 +1,3413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TS>
+  <context>
+    <message>
+      <source>until</source>
+      <translation>hasta</translation>
+    </message>
+    <message>
+      <source> </source>
+      <translation>until</translation>
+    </message>
+    <message>
+      <source>#</source>
+      <translation>#</translation>
+    </message>
+    <message>
+      <source>(IN)ACTIVE!</source>
+      <translation>(IN)ACTIVO!</translation>
+    </message>
+    <message>
+      <source>(IN)ACTIVE! latched</source>
+      <translation>(IN)ACTIVE! latched</translation>
+    </message>
+    <message>
+      <source>(IN)ACTIVE! unconf.</source>
+      <translation>(IN)ACTIVE! unconf.</translation>
+    </message>
+    <message>
+      <source>.</source>
+      <translation>.</translation>
+    </message>
+    <message>
+      <source>A</source>
+      <translation>A</translation>
+    </message>
+    <message>
+      <source>ACKNOWLEDGE</source>
+      <translation>ACKNOWLEDGE</translation>
+    </message>
+    <message>
+      <source>ACTIVE!</source>
+      <translation>ACTIVE!</translation>
+    </message>
+    <message>
+      <source>ACTIVE! latched</source>
+      <translation>ACTIVE! latched</translation>
+    </message>
+    <message>
+      <source>ACTIVE! unconf.</source>
+      <translation>ACTIVE! unconf.</translation>
+    </message>
+    <message>
+      <source>Abbr.</source>
+      <translation>Abbr.</translation>
+    </message>
+    <message>
+      <source>Abort</source>
+      <translation>Abort</translation>
+    </message>
+    <message>
+      <source>About</source>
+      <translation>Acerca de</translation>
+    </message>
+    <message>
+      <source>Access Control</source>
+      <translation>Access Control</translation>
+    </message>
+    <message>
+      <source>Access Control Log</source>
+      <translation>Access Control Log</translation>
+    </message>
+    <message>
+      <source>Access Denied</source>
+      <translation>Access Denied</translation>
+    </message>
+    <message>
+      <source>Access Log</source>
+      <translation>Access Log</translation>
+    </message>
+    <message>
+      <source>Access denied</source>
+      <translation>Access denied</translation>
+    </message>
+    <message>
+      <source>AccessLog</source>
+      <translation>AccessLog</translation>
+    </message>
+    <message>
+      <source>Ackn. / Conf.</source>
+      <translation>Ackn. / Conf.</translation>
+    </message>
+    <message>
+      <source>Acknowledge</source>
+      <translation>Acknowledge</translation>
+    </message>
+    <message>
+      <source>Acknowledge alarms</source>
+      <translation>Acknowledge alarms</translation>
+    </message>
+    <message>
+      <source>Acknowledge with comment</source>
+      <translation>Acknowledge with comment</translation>
+    </message>
+    <message>
+      <source>Acknowledged</source>
+      <translation>Acknowledged</translation>
+    </message>
+    <message>
+      <source>Action</source>
+      <translation>Action</translation>
+    </message>
+    <message>
+      <source>Action buttons disabled; space is critical</source>
+      <translation>Action buttons disabled; space is critical</translation>
+    </message>
+    <message>
+      <source>Activate Autobackup.</source>
+      <translation>Activate Autobackup.</translation>
+    </message>
+    <message>
+      <source>Activate settings for currently selected archive.</source>
+      <translation>Activate settings for currently selected archive.</translation>
+    </message>
+    <message>
+      <source>Active</source>
+      <translation>Active</translation>
+    </message>
+    <message>
+      <source>Actual configuration</source>
+      <translation>Actual configuration</translation>
+    </message>
+    <message>
+      <source>Actual configuration name already exist.</source>
+      <translation>Actual configuration name already exist.</translation>
+    </message>
+    <message>
+      <source>Add</source>
+      <translation>Añadir</translation>
+    </message>
+    <message>
+      <source>Add new / edit events</source>
+      <translation>Add new / edit events</translation>
+    </message>
+    <message>
+      <source>Add recipe</source>
+      <translation>Add recipe</translation>
+    </message>
+    <message>
+      <source>Add recipe template</source>
+      <translation>Add recipe template</translation>
+    </message>
+    <message>
+      <source>Add schedule</source>
+      <translation>Add schedule</translation>
+    </message>
+    <message>
+      <source>Address</source>
+      <translation>Dirección</translation>
+    </message>
+    <message>
+      <source>Advanced</source>
+      <translation>Avanzado</translation>
+    </message>
+    <message>
+      <source>Advanced Options</source>
+      <translation>Opciones avanzadas</translation>
+    </message>
+    <message>
+      <source>Advanced filters</source>
+      <translation>Filtros avanzados</translation>
+    </message>
+    <message>
+      <source>After the import you need to load the configuration on the left side</source>
+      <translation>After the import you need to load the configuration on the left side</translation>
+    </message>
+    <message>
+      <source>Aggregate</source>
+      <translation>Aggregate</translation>
+    </message>
+    <message>
+      <source>Aggregated archive</source>
+      <translation>Aggregated archive</translation>
+    </message>
+    <message>
+      <source>Alarm</source>
+      <translation>Alarm</translation>
+    </message>
+    <message>
+      <source>Alarm ID</source>
+      <translation>Alarm ID</translation>
+    </message>
+    <message>
+      <source>Alarm condition</source>
+      <translation>Condición de alarma</translation>
+    </message>
+    <message>
+      <source>Alarm list</source>
+      <translation>Alarm list</translation>
+    </message>
+    <message>
+      <source>Alarm or condition</source>
+      <translation>Alarm or condition</translation>
+    </message>
+    <message>
+      <source>Alarm source</source>
+      <translation>Alarm source</translation>
+    </message>
+    <message>
+      <source>Alarm state</source>
+      <translation>Alarm state</translation>
+    </message>
+    <message>
+      <source>Alarming</source>
+      <translation>Alarming</translation>
+    </message>
+    <message>
+      <source>Alarmlog</source>
+      <translation>Log Alarmas</translation>
+    </message>
+    <message>
+      <source>Alarms</source>
+      <translation>Alarms</translation>
+    </message>
+    <message>
+      <source>Alarms and conditions</source>
+      <translation>Alarms and conditions</translation>
+    </message>
+    <message>
+      <source>All</source>
+      <translation>All</translation>
+    </message>
+    <message>
+      <source>All rows with all columns</source>
+      <translation>Todas las filas con todas las columnas</translation>
+    </message>
+    <message>
+      <source>All rows with displayed columns</source>
+      <translation>Todas las filas con las columnas mostradas</translation>
+    </message>
+    <message>
+      <source>Alternative 1</source>
+      <translation>Alternative 1</translation>
+    </message>
+    <message>
+      <source>Alternative 2</source>
+      <translation>Alternative 2</translation>
+    </message>
+    <message>
+      <source>Alternative 3</source>
+      <translation>Alternative 3</translation>
+    </message>
+    <message>
+      <source>Append data off</source>
+      <translation>Append data off</translation>
+    </message>
+    <message>
+      <source>Append data on</source>
+      <translation>Append data on</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Aplicar</translation>
+    </message>
+    <message>
+      <source>Apply filter</source>
+      <translation>Aplicar filtros</translation>
+    </message>
+    <message>
+      <source>Archive</source>
+      <translation>Fichero</translation>
+    </message>
+    <message>
+      <source>Archive is locked</source>
+      <translation>Archive is locked</translation>
+    </message>
+    <message>
+      <source>Are you sure you want to delete the selected file(s)</source>
+      <translation>Are you sure you want to delete the selected file(s)</translation>
+    </message>
+    <message>
+      <source>Are you sure you want to start the transfer of the selected file(s)</source>
+      <translation>Are you sure you want to start the transfer of the selected file(s)</translation>
+    </message>
+    <message>
+      <source>Area</source>
+      <translation>Area</translation>
+    </message>
+    <message>
+      <source>Attention</source>
+      <translation>Attention</translation>
+    </message>
+    <message>
+      <source>Attention: Unsaved changes will be lost!</source>
+      <translation>Attention: Unsaved changes will be lost!</translation>
+    </message>
+    <message>
+      <source>Auto scale</source>
+      <translation>Auto scale</translation>
+    </message>
+    <message>
+      <source>Auto-scheduler</source>
+      <translation>Auto-scheduler</translation>
+    </message>
+    <message>
+      <source>Auto-scheduler active</source>
+      <translation>Auto-scheduler active</translation>
+    </message>
+    <message>
+      <source>Automatic tick</source>
+      <translation>Automatic tick</translation>
+    </message>
+    <message>
+      <source>Axis</source>
+      <translation>Axis</translation>
+    </message>
+    <message>
+      <source>Axis configuration</source>
+      <translation>Axis configuration</translation>
+    </message>
+    <message>
+      <source>Axis label format</source>
+      <translation>Formato de etiqueta de eje</translation>
+    </message>
+    <message>
+      <source>Axis width</source>
+      <translation>Axis width</translation>
+    </message>
+    <message>
+      <source>Back</source>
+      <translation>Back</translation>
+    </message>
+    <message>
+      <source>Backup directory</source>
+      <translation>Backup directory</translation>
+    </message>
+    <message>
+      <source>Basic</source>
+      <translation>Basic</translation>
+    </message>
+    <message>
+      <source>Behaviour of alternative URLs</source>
+      <translation>Behaviour of alternative URLs</translation>
+    </message>
+    <message>
+      <source>Boost (WebGL)</source>
+      <translation>Boost (WebGL)</translation>
+    </message>
+    <message>
+      <source>Border color</source>
+      <translation>Border color</translation>
+    </message>
+    <message>
+      <source>Border line width</source>
+      <translation>Ancho del borde</translation>
+    </message>
+    <message>
+      <source>CCD exceeded!</source>
+      <translation>CCD exceeded!</translation>
+    </message>
+    <message>
+      <source>CONNECTION</source>
+      <translation>CONNECTION</translation>
+    </message>
+    <message>
+      <source>Can't write user information</source>
+      <translation>Can't write user information</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Cancelar</translation>
+    </message>
+    <message>
+      <source>Cannot read archive</source>
+      <translation>Cannot read archive</translation>
+    </message>
+    <message>
+      <source>Cannot read configuration node</source>
+      <translation>Cannot read configuration node</translation>
+    </message>
+    <message>
+      <source>Cannot read mandatory status node.</source>
+      <translation>Cannot read mandatory status node.</translation>
+    </message>
+    <message>
+      <source>Capacity can't be determined</source>
+      <translation>Capacity can't be determined</translation>
+    </message>
+    <message>
+      <source>Change</source>
+      <translation>Cambiar</translation>
+    </message>
+    <message>
+      <source>Change interval frequency.</source>
+      <translation>Change interval frequency.</translation>
+    </message>
+    <message>
+      <source>Change interval period</source>
+      <translation>Change interval period</translation>
+    </message>
+    <message>
+      <source>Change password</source>
+      <translation>Cambiar contraseña</translation>
+    </message>
+    <message>
+      <source>Changes saved successfully.</source>
+      <translation>Changes saved successfully.</translation>
+    </message>
+    <message>
+      <source>Chart Configuration</source>
+      <translation>Chart Configuration</translation>
+    </message>
+    <message>
+      <source>Chart theme</source>
+      <translation>Chart theme</translation>
+    </message>
+    <message>
+      <source>Chart title</source>
+      <translation>Chart title</translation>
+    </message>
+    <message>
+      <source>Checkbox</source>
+      <translation>Checkbox</translation>
+    </message>
+    <message>
+      <source>Choose chart to configure</source>
+      <translation>Choose chart to configure</translation>
+    </message>
+    <message>
+      <source>Clear</source>
+      <translation>Clear</translation>
+    </message>
+    <message>
+      <source>Clear Log</source>
+      <translation>Clear Log</translation>
+    </message>
+    <message>
+      <source>Close</source>
+      <translation>Close</translation>
+    </message>
+    <message>
+      <source>Color</source>
+      <translation>Color</translation>
+    </message>
+    <message>
+      <source>Column</source>
+      <translation>Column</translation>
+    </message>
+    <message>
+      <source>Columns</source>
+      <translation>Columnas</translation>
+    </message>
+    <message>
+      <source>Combobox</source>
+      <translation>Combobox</translation>
+    </message>
+    <message>
+      <source>Command</source>
+      <translation>Comando</translation>
+    </message>
+    <message>
+      <source>Comment</source>
+      <translation>Comentario</translation>
+    </message>
+    <message>
+      <source>Compression</source>
+      <translation>Compression</translation>
+    </message>
+    <message>
+      <source>Condition address</source>
+      <translation>Condition address</translation>
+    </message>
+    <message>
+      <source>Config file required!</source>
+      <translation>Config file required!</translation>
+    </message>
+    <message>
+      <source>Config node required!</source>
+      <translation>Config node required!</translation>
+    </message>
+    <message>
+      <source>Configuration</source>
+      <translation>Configuración</translation>
+    </message>
+    <message>
+      <source>Configuration already exist.</source>
+      <translation>Configuration already exist.</translation>
+    </message>
+    <message>
+      <source>Configuration file (in filesystem)</source>
+      <translation>Configuration file (in filesystem)</translation>
+    </message>
+    <message>
+      <source>Configuration node</source>
+      <translation>Configuration node</translation>
+    </message>
+    <message>
+      <source>Configuration node (sub-nodes will be created automatically)</source>
+      <translation>Configuration node (sub-nodes will be created automatically)</translation>
+    </message>
+    <message>
+      <source>Configuration saved.</source>
+      <translation>Configuration saved.</translation>
+    </message>
+    <message>
+      <source>Configuration(s)</source>
+      <translation>Configuration(s)</translation>
+    </message>
+    <message>
+      <source>Configure access control</source>
+      <translation>Configure access control</translation>
+    </message>
+    <message>
+      <source>Configure scripts</source>
+      <translation>Configure scripts</translation>
+    </message>
+    <message>
+      <source>Configured parameters</source>
+      <translation>Configured parameters</translation>
+    </message>
+    <message>
+      <source>Configured path identical with Backup directory</source>
+      <translation>Configured path identical with Backup directory</translation>
+    </message>
+    <message>
+      <source>Confirm</source>
+      <translation>Confirm</translation>
+    </message>
+    <message>
+      <source>Confirm action</source>
+      <translation>Confirm action</translation>
+    </message>
+    <message>
+      <source>Confirm alarms</source>
+      <translation>Confirm alarms</translation>
+    </message>
+    <message>
+      <source>Confirm with comment</source>
+      <translation>Confirm with comment</translation>
+    </message>
+    <message>
+      <source>Confirmed</source>
+      <translation>Confirmed</translation>
+    </message>
+    <message>
+      <source>Confirmed state</source>
+      <translation>Confirmed state</translation>
+    </message>
+    <message>
+      <source>Confirmed state icon</source>
+      <translation>Confirmed state icon</translation>
+    </message>
+    <message>
+      <source>Conflict emerges if transfering to swapin</source>
+      <translation>Conflict emerges if transfering to swapin</translation>
+    </message>
+    <message>
+      <source>Conflict file</source>
+      <translation>Conflict file</translation>
+    </message>
+    <message>
+      <source>Conflict needs to be resolved by hand</source>
+      <translation>Conflict needs to be resolved by hand</translation>
+    </message>
+    <message>
+      <source>Conflict only</source>
+      <translation>Conflict only</translation>
+    </message>
+    <message>
+      <source>Connected</source>
+      <translation>Connected</translation>
+    </message>
+    <message>
+      <source>Contact your administrator for permission changes.</source>
+      <translation>Contact your administrator for permission changes.</translation>
+    </message>
+    <message>
+      <source>Contains</source>
+      <translation>Contains</translation>
+    </message>
+    <message>
+      <source>Content Display</source>
+      <translation>Contenido por defecto</translation>
+    </message>
+    <message>
+      <source>Continuation Point Invalid</source>
+      <translation>Continuation Point Invalid</translation>
+    </message>
+    <message>
+      <source>Control</source>
+      <translation>Control</translation>
+    </message>
+    <message>
+      <source>Couldn't change user password.</source>
+      <translation>Couldn't change user password.</translation>
+    </message>
+    <message>
+      <source>Create</source>
+      <translation>Create</translation>
+    </message>
+    <message>
+      <source>Create new configuration</source>
+      <translation>Create new configuration</translation>
+    </message>
+    <message>
+      <source>Created</source>
+      <translation>Created</translation>
+    </message>
+    <message>
+      <source>Crosshair color</source>
+      <translation>Crosshair color</translation>
+    </message>
+    <message>
+      <source>Current</source>
+      <translation>Actual</translation>
+    </message>
+    <message>
+      <source>Current password</source>
+      <translation>Current password</translation>
+    </message>
+    <message>
+      <source>DATASOURCE BEHAVIOUR</source>
+      <translation>DATASOURCE BEHAVIOUR</translation>
+    </message>
+    <message>
+      <source>DD</source>
+      <translation>DD</translation>
+    </message>
+    <message>
+      <source>Daily</source>
+      <translation>Daily</translation>
+    </message>
+    <message>
+      <source>Data</source>
+      <translation>Data</translation>
+    </message>
+    <message>
+      <source>Data archive</source>
+      <translation>Data archive</translation>
+    </message>
+    <message>
+      <source>Data mode</source>
+      <translation>Data mode</translation>
+    </message>
+    <message>
+      <source>Data offset</source>
+      <translation>Data offset</translation>
+    </message>
+    <message>
+      <source>Data set configuration</source>
+      <translation>Configuración del data set</translation>
+    </message>
+    <message>
+      <source>Data set to configure</source>
+      <translation>Data set to configure</translation>
+    </message>
+    <message>
+      <source>Data source</source>
+      <translation>Data source</translation>
+    </message>
+    <message>
+      <source>Data type</source>
+      <translation>Tipo de dato</translation>
+    </message>
+    <message>
+      <source>Date</source>
+      <translation>Date</translation>
+    </message>
+    <message>
+      <source>Date/Time format</source>
+      <translation>Date/Time format</translation>
+    </message>
+    <message>
+      <source>Day(s)</source>
+      <translation>Day(s)</translation>
+    </message>
+    <message>
+      <source>Decimals</source>
+      <translation>Decimals</translation>
+    </message>
+    <message>
+      <source>Default (SVG)</source>
+      <translation>Default (SVG)</translation>
+    </message>
+    <message>
+      <source>Default Display</source>
+      <translation>Pantalla por defecto</translation>
+    </message>
+    <message>
+      <source>Default value</source>
+      <translation>Default value</translation>
+    </message>
+    <message>
+      <source>Delete</source>
+      <translation>Delete</translation>
+    </message>
+    <message>
+      <source>Delete all selected configurations</source>
+      <translation>Delete all selected configurations</translation>
+    </message>
+    <message>
+      <source>Delete selected</source>
+      <translation>Borrar seleccionado</translation>
+    </message>
+    <message>
+      <source>Description</source>
+      <translation>Description</translation>
+    </message>
+    <message>
+      <source>Dest.</source>
+      <translation>Dest.</translation>
+    </message>
+    <message>
+      <source>Destination directory</source>
+      <translation>Destination directory</translation>
+    </message>
+    <message>
+      <source>Details</source>
+      <translation>Details</translation>
+    </message>
+    <message>
+      <source>Details show/hide</source>
+      <translation>Details show/hide</translation>
+    </message>
+    <message>
+      <source>Disable</source>
+      <translation>Disable</translation>
+    </message>
+    <message>
+      <source>Disabled</source>
+      <translation>Disabled</translation>
+    </message>
+    <message>
+      <source>Display</source>
+      <translation>Display</translation>
+    </message>
+    <message>
+      <source>Do you really want to set the value?</source>
+      <translation>Do you really want to set the value?</translation>
+    </message>
+    <message>
+      <source>Do you still want to create the new configuration?</source>
+      <translation>Do you still want to create the new configuration?</translation>
+    </message>
+    <message>
+      <source>Do you still want to start the import?</source>
+      <translation>Do you still want to start the import?</translation>
+    </message>
+    <message>
+      <source>Do you want to delete the selected recipe template parameter?</source>
+      <translation>Do you want to delete the selected recipe template parameter?</translation>
+    </message>
+    <message>
+      <source>Do you want to delete the selected recipe template(s)?</source>
+      <translation>Do you want to delete the selected recipe template(s)?</translation>
+    </message>
+    <message>
+      <source>Do you want to delete the selected recipe(s)?</source>
+      <translation>Do you want to delete the selected recipe(s)?</translation>
+    </message>
+    <message>
+      <source>Do you want to overwrite the configuration?</source>
+      <translation>Do you want to overwrite the configuration?</translation>
+    </message>
+    <message>
+      <source>Done</source>
+      <translation>Listo</translation>
+    </message>
+    <message>
+      <source>Download configuration</source>
+      <translation>Descargar configuración</translation>
+    </message>
+    <message>
+      <source>Downsampled (SVG)</source>
+      <translation>Downsampled (SVG)</translation>
+    </message>
+    <message>
+      <source>Duration (min)</source>
+      <translation>Duration (min)</translation>
+    </message>
+    <message>
+      <source>E</source>
+      <translation>E</translation>
+    </message>
+    <message>
+      <source>E-mail</source>
+      <translation>E-mail</translation>
+    </message>
+    <message>
+      <source>E-mail address to send reports.</source>
+      <translation>E-mail address to send reports.</translation>
+    </message>
+    <message>
+      <source>E-mail from</source>
+      <translation>E-mail from</translation>
+    </message>
+    <message>
+      <source>E-mail to</source>
+      <translation>E-mail to</translation>
+    </message>
+    <message>
+      <source>Edit</source>
+      <translation>Edit</translation>
+    </message>
+    <message>
+      <source>Edit report</source>
+      <translation>Edit report</translation>
+    </message>
+    <message>
+      <source>Edit schedule</source>
+      <translation>Edit schedule</translation>
+    </message>
+    <message>
+      <source>Edit user</source>
+      <translation>Editar usuario</translation>
+    </message>
+    <message>
+      <source>Enable</source>
+      <translation>Enable</translation>
+    </message>
+    <message>
+      <source>Enabled</source>
+      <translation>Enabled</translation>
+    </message>
+    <message>
+      <source>Enabled state</source>
+      <translation>Enabled state</translation>
+    </message>
+    <message>
+      <source>Enabled state icon</source>
+      <translation>Enabled state icon</translation>
+    </message>
+    <message>
+      <source>End from</source>
+      <translation>End from</translation>
+    </message>
+    <message>
+      <source>End to</source>
+      <translation>End to</translation>
+    </message>
+    <message>
+      <source>Engineer</source>
+      <translation>Engineer</translation>
+    </message>
+    <message>
+      <source>Entered value is not a number</source>
+      <translation>Entered value is not a number</translation>
+    </message>
+    <message>
+      <source>Error</source>
+      <translation>Error</translation>
+    </message>
+    <message>
+      <source>Error opening variable</source>
+      <translation>Error opening variable</translation>
+    </message>
+    <message>
+      <source>Errors</source>
+      <translation>Errors</translation>
+    </message>
+    <message>
+      <source>Event</source>
+      <translation>Event</translation>
+    </message>
+    <message>
+      <source>Event archive</source>
+      <translation>Event archive</translation>
+    </message>
+    <message>
+      <source>Event text</source>
+      <translation>Event text</translation>
+    </message>
+    <message>
+      <source>Eventtext</source>
+      <translation>Evento</translation>
+    </message>
+    <message>
+      <source>Examples: 'C:/project/template.xlsx', 'C:\project\template.xlsx' or './template.xlsx'</source>
+      <translation>Examples: 'C:/project/template.xlsx', 'C:\project\template.xlsx' or './template.xlsx'</translation>
+    </message>
+    <message>
+      <source>Execute</source>
+      <translation>Execute</translation>
+    </message>
+    <message>
+      <source>Export</source>
+      <translation>Exportar</translation>
+    </message>
+    <message>
+      <source>Export / Import configuration</source>
+      <translation>Export / Import configuration</translation>
+    </message>
+    <message>
+      <source>Export CSV</source>
+      <translation>Export CSV</translation>
+    </message>
+    <message>
+      <source>Export configuration as json-file</source>
+      <translation>Export configuration as json-file</translation>
+    </message>
+    <message>
+      <source>Export menu</source>
+      <translation>Export menu</translation>
+    </message>
+    <message>
+      <source>Export time as timestamp</source>
+      <translation>Export time as timestamp</translation>
+    </message>
+    <message>
+      <source>Favorites</source>
+      <translation>Favorites</translation>
+    </message>
+    <message>
+      <source>File</source>
+      <translation>File</translation>
+    </message>
+    <message>
+      <source>File(s) from backup directory will be copied</source>
+      <translation>File(s) from backup directory will be copied</translation>
+    </message>
+    <message>
+      <source>File(s) from history directory will be copied</source>
+      <translation>File(s) from history directory will be copied</translation>
+    </message>
+    <message>
+      <source>File(s) from history directory will be moved</source>
+      <translation>File(s) from history directory will be moved</translation>
+    </message>
+    <message>
+      <source>File(s) from swapin directory will be copied</source>
+      <translation>File(s) from swapin directory will be copied</translation>
+    </message>
+    <message>
+      <source>File(s) from swapin directory will be moved</source>
+      <translation>File(s) from swapin directory will be moved</translation>
+    </message>
+    <message>
+      <source>File(s) older than</source>
+      <translation>File(s) older than</translation>
+    </message>
+    <message>
+      <source>File(s) selected</source>
+      <translation>File(s) selected</translation>
+    </message>
+    <message>
+      <source>Filesystem</source>
+      <translation>Filesystem</translation>
+    </message>
+    <message>
+      <source>Fill color</source>
+      <translation>Color de relleno</translation>
+    </message>
+    <message>
+      <source>Filter</source>
+      <translation>Filtro</translation>
+    </message>
+    <message>
+      <source>Filtered</source>
+      <translation>Filtered</translation>
+    </message>
+    <message>
+      <source>First axis can not be deleted!</source>
+      <translation>First axis can not be deleted!</translation>
+    </message>
+    <message>
+      <source>First occ.</source>
+      <translation>First occ.</translation>
+    </message>
+    <message>
+      <source>First run</source>
+      <translation>First run</translation>
+    </message>
+    <message>
+      <source>Flashtime ack.</source>
+      <translation>Flashtime ack.</translation>
+    </message>
+    <message>
+      <source>Forward</source>
+      <translation>Forward</translation>
+    </message>
+    <message>
+      <source>Fri.</source>
+      <translation>Fri.</translation>
+    </message>
+    <message>
+      <source>Friday</source>
+      <translation>Friday</translation>
+    </message>
+    <message>
+      <source>From</source>
+      <translation>Desde</translation>
+    </message>
+    <message>
+      <source>From - Number of rows</source>
+      <translation>From - Number of rows</translation>
+    </message>
+    <message>
+      <source>From - To</source>
+      <translation>From - To</translation>
+    </message>
+    <message>
+      <source>Full name</source>
+      <translation>Nombre completo</translation>
+    </message>
+    <message>
+      <source>General</source>
+      <translation>General</translation>
+    </message>
+    <message>
+      <source>General configuration</source>
+      <translation>General configuration</translation>
+    </message>
+    <message>
+      <source>Generate</source>
+      <translation>Generate</translation>
+    </message>
+    <message>
+      <source>Generate report immediately based on this time</source>
+      <translation>Generate report immediately based on this time</translation>
+    </message>
+    <message>
+      <source>Group</source>
+      <translation>Grupo</translation>
+    </message>
+    <message>
+      <source>Group folder doesn't exist or permission is missing.</source>
+      <translation>La carpeta del grupo no existe o no tienes permisos.</translation>
+    </message>
+    <message>
+      <source>Groups</source>
+      <translation>Grupos</translation>
+    </message>
+    <message>
+      <source>HH</source>
+      <translation>HH</translation>
+    </message>
+    <message>
+      <source>HTML report</source>
+      <translation>HTML report</translation>
+    </message>
+    <message>
+      <source>Hand</source>
+      <translation>Hand</translation>
+    </message>
+    <message>
+      <source>Hide advanced</source>
+      <translation>Ocultar avanzado</translation>
+    </message>
+    <message>
+      <source>Hide this message</source>
+      <translation>Hide this message</translation>
+    </message>
+    <message>
+      <source>High</source>
+      <translation>High</translation>
+    </message>
+    <message>
+      <source>High active</source>
+      <translation>High active</translation>
+    </message>
+    <message>
+      <source>High inactive</source>
+      <translation>High inactive</translation>
+    </message>
+    <message>
+      <source>HighHigh</source>
+      <translation>HighHigh</translation>
+    </message>
+    <message>
+      <source>HighHigh active</source>
+      <translation>HighHigh active</translation>
+    </message>
+    <message>
+      <source>HighHigh inactive</source>
+      <translation>HighHigh inactive</translation>
+    </message>
+    <message>
+      <source>History</source>
+      <translation>History</translation>
+    </message>
+    <message>
+      <source>History directory</source>
+      <translation>History directory</translation>
+    </message>
+    <message>
+      <source>Hour(s)</source>
+      <translation>Hour(s)</translation>
+    </message>
+    <message>
+      <source>ID</source>
+      <translation>ID</translation>
+    </message>
+    <message>
+      <source>INACTIVE!</source>
+      <translation>INACTIVE!</translation>
+    </message>
+    <message>
+      <source>INACTIVE! latched</source>
+      <translation>INACTIVE! latched</translation>
+    </message>
+    <message>
+      <source>INACTIVE! unconf.</source>
+      <translation>INACTIVE! unconf.</translation>
+    </message>
+    <message>
+      <source>INVALID JSON</source>
+      <translation>INVALID JSON</translation>
+    </message>
+    <message>
+      <source>Ignore</source>
+      <translation>Ignore</translation>
+    </message>
+    <message>
+      <source>Import</source>
+      <translation>Import</translation>
+    </message>
+    <message>
+      <source>Import configuration file (.json)</source>
+      <translation>Import configuration file (.json)</translation>
+    </message>
+    <message>
+      <source>Importing configuration(s) in progress</source>
+      <translation>Importing configuration(s) in progress</translation>
+    </message>
+    <message>
+      <source>In Service</source>
+      <translation>In Service</translation>
+    </message>
+    <message>
+      <source>In/Out Password</source>
+      <translation>In/Out Password</translation>
+    </message>
+    <message>
+      <source>In/Out Value</source>
+      <translation>In/Out Value</translation>
+    </message>
+    <message>
+      <source>Inactive</source>
+      <translation>Inactive</translation>
+    </message>
+    <message>
+      <source>Info</source>
+      <translation>Info</translation>
+    </message>
+    <message>
+      <source>Information</source>
+      <translation>Information</translation>
+    </message>
+    <message>
+      <source>Input</source>
+      <translation>Input</translation>
+    </message>
+    <message>
+      <source>Input node</source>
+      <translation>Input node</translation>
+    </message>
+    <message>
+      <source>InputOutput</source>
+      <translation>InputOutput</translation>
+    </message>
+    <message>
+      <source>Interpolation</source>
+      <translation>Interpolation</translation>
+    </message>
+    <message>
+      <source>Interval</source>
+      <translation>Interval</translation>
+    </message>
+    <message>
+      <source>Invalid JSON value assigned for variable</source>
+      <translation>Invalid JSON value assigned for variable</translation>
+    </message>
+    <message>
+      <source>Invalid configuration, please check settings</source>
+      <translation>Invalid configuration, please check settings</translation>
+    </message>
+    <message>
+      <source>Invalid format!</source>
+      <translation>Invalid format!</translation>
+    </message>
+    <message>
+      <source>Invalid path</source>
+      <translation>Invalid path</translation>
+    </message>
+    <message>
+      <source>Invalid period</source>
+      <translation>Invalid period</translation>
+    </message>
+    <message>
+      <source>Is sum alarm</source>
+      <translation>Is sum alarm</translation>
+    </message>
+    <message>
+      <source>Keep archive(s) together</source>
+      <translation>Keep archive(s) together</translation>
+    </message>
+    <message>
+      <source>Keyboard</source>
+      <translation>Keyboard</translation>
+    </message>
+    <message>
+      <source>Label</source>
+      <translation>Etiqueta</translation>
+    </message>
+    <message>
+      <source>Label alignment</source>
+      <translation>Alineamiento de etiqueta</translation>
+    </message>
+    <message>
+      <source>Label distance</source>
+      <translation>Distancia de la etiqueta</translation>
+    </message>
+    <message>
+      <source>Labels</source>
+      <translation>Etiquetas</translation>
+    </message>
+    <message>
+      <source>Language</source>
+      <translation>Idioma</translation>
+    </message>
+    <message>
+      <source>Last active recipe</source>
+      <translation>Last active recipe</translation>
+    </message>
+    <message>
+      <source>Last occ.</source>
+      <translation>Last occ.</translation>
+    </message>
+    <message>
+      <source>Latched</source>
+      <translation>Latched</translation>
+    </message>
+    <message>
+      <source>Limit</source>
+      <translation>Limit</translation>
+    </message>
+    <message>
+      <source>Line</source>
+      <translation>Línea</translation>
+    </message>
+    <message>
+      <source>Line color</source>
+      <translation>Color de línea</translation>
+    </message>
+    <message>
+      <source>Line type</source>
+      <translation>Tipo de línea</translation>
+    </message>
+    <message>
+      <source>Line width</source>
+      <translation>Ancho de línea</translation>
+    </message>
+    <message>
+      <source>Live</source>
+      <translation>En vivo</translation>
+    </message>
+    <message>
+      <source>Load</source>
+      <translation>Cargar</translation>
+    </message>
+    <message>
+      <source>Load / Save</source>
+      <translation>Cargar / Guardar</translation>
+    </message>
+    <message>
+      <source>Load or delete existing configuration from node</source>
+      <translation>Load or delete existing configuration from node</translation>
+    </message>
+    <message>
+      <source>Loading history in progress</source>
+      <translation>Cargando histórico</translation>
+    </message>
+    <message>
+      <source>Locale</source>
+      <translation>Locale</translation>
+    </message>
+    <message>
+      <source>Location</source>
+      <translation>Location</translation>
+    </message>
+    <message>
+      <source>Locked</source>
+      <translation>Locked</translation>
+    </message>
+    <message>
+      <source>Log</source>
+      <translation>Log</translation>
+    </message>
+    <message>
+      <source>Log display</source>
+      <translation>Log display</translation>
+    </message>
+    <message>
+      <source>Login</source>
+      <translation>Login</translation>
+    </message>
+    <message>
+      <source>Login Information</source>
+      <translation>Login Information</translation>
+    </message>
+    <message>
+      <source>Login failed</source>
+      <translation>Login failed</translation>
+    </message>
+    <message>
+      <source>Login failed! Username/password wrong</source>
+      <translation>¡Inicio de sesión fallido! Usuario/contraseña erróneos.</translation>
+    </message>
+    <message>
+      <source>LostConnection</source>
+      <translation>LostConnection</translation>
+    </message>
+    <message>
+      <source>Low</source>
+      <translation>Low</translation>
+    </message>
+    <message>
+      <source>Low active</source>
+      <translation>Low active</translation>
+    </message>
+    <message>
+      <source>Low inactive</source>
+      <translation>Low inactive</translation>
+    </message>
+    <message>
+      <source>LowLow</source>
+      <translation>LowLow</translation>
+    </message>
+    <message>
+      <source>LowLow active</source>
+      <translation>LowLow active</translation>
+    </message>
+    <message>
+      <source>LowLow inactive</source>
+      <translation>LowLow inactive</translation>
+    </message>
+    <message>
+      <source>Lower value address</source>
+      <translation>Lower value address</translation>
+    </message>
+    <message>
+      <source>MEMORY</source>
+      <translation>MEMORY</translation>
+    </message>
+    <message>
+      <source>MM</source>
+      <translation>MM</translation>
+    </message>
+    <message>
+      <source>Major grid color</source>
+      <translation>Major grid color</translation>
+    </message>
+    <message>
+      <source>Major grid width</source>
+      <translation>Major grid width</translation>
+    </message>
+    <message>
+      <source>Major tick interval</source>
+      <translation>Major tick interval</translation>
+    </message>
+    <message>
+      <source>Manage alarms</source>
+      <translation>Manage alarms</translation>
+    </message>
+    <message>
+      <source>Manually swapped archive file. Auto-scheduler will ignore these files.</source>
+      <translation>Manually swapped archive file. Auto-scheduler will ignore these files.</translation>
+    </message>
+    <message>
+      <source>Marked rows with all columns</source>
+      <translation>Las filas marcadas con todas las columnas</translation>
+    </message>
+    <message>
+      <source>Marked rows with displayed columns</source>
+      <translation>Las filas marcadas con columnas mostradas</translation>
+    </message>
+    <message>
+      <source>Marker</source>
+      <translation>Marcador</translation>
+    </message>
+    <message>
+      <source>Marker 1</source>
+      <translation>Marcador 1</translation>
+    </message>
+    <message>
+      <source>Marker 1 X-Value</source>
+      <translation>Tiempo 1</translation>
+    </message>
+    <message>
+      <source>Marker 1 Y-Value</source>
+      <translation> Valor T1</translation>
+    </message>
+    <message>
+      <source>Marker 2</source>
+      <translation>Marcador 2</translation>
+    </message>
+    <message>
+      <source>Marker 2 X-Value</source>
+      <translation>Tiempo 2</translation>
+    </message>
+    <message>
+      <source>Marker 2 Y-Value</source>
+      <translation>Valor T2</translation>
+    </message>
+    <message>
+      <source>Marker X-Delta</source>
+      <translation>Diferencia temporal</translation>
+    </message>
+    <message>
+      <source>Marker Y-Delta</source>
+      <translation>Diferencia Valor T2-T1</translation>
+    </message>
+    <message>
+      <source>Max</source>
+      <translation>Max</translation>
+    </message>
+    <message>
+      <source>Max. time is</source>
+      <translation>Max. time is</translation>
+    </message>
+    <message>
+      <source>Maximal number of report configurations reached.</source>
+      <translation>Maximal number of report configurations reached.</translation>
+    </message>
+    <message>
+      <source>Maximum</source>
+      <translation>Maximum</translation>
+    </message>
+    <message>
+      <source>Measurement marker</source>
+      <translation>Marcador de medición</translation>
+    </message>
+    <message>
+      <source>Menü</source>
+      <translation>Menü</translation>
+    </message>
+    <message>
+      <source>Message</source>
+      <translation>Message</translation>
+    </message>
+    <message>
+      <source>Metascript</source>
+      <translation>Metascript</translation>
+    </message>
+    <message>
+      <source>Min</source>
+      <translation>Min</translation>
+    </message>
+    <message>
+      <source>Min.</source>
+      <translation>Min.</translation>
+    </message>
+    <message>
+      <source>Min. priority</source>
+      <translation>Prioridad min.</translation>
+    </message>
+    <message>
+      <source>Minimum</source>
+      <translation>Minimum</translation>
+    </message>
+    <message>
+      <source>Minor grid color</source>
+      <translation>Minor grid color</translation>
+    </message>
+    <message>
+      <source>Minor grid width</source>
+      <translation>Minor grid width</translation>
+    </message>
+    <message>
+      <source>Minor tick interval</source>
+      <translation>Minor tick interval</translation>
+    </message>
+    <message>
+      <source>Minute(s)</source>
+      <translation>Minute(s)</translation>
+    </message>
+    <message>
+      <source>Missing data</source>
+      <translation>Missing data</translation>
+    </message>
+    <message>
+      <source>Modified</source>
+      <translation>Modified</translation>
+    </message>
+    <message>
+      <source>Mon.</source>
+      <translation>Mon.</translation>
+    </message>
+    <message>
+      <source>Monday</source>
+      <translation>Monday</translation>
+    </message>
+    <message>
+      <source>Monitored</source>
+      <translation>Monitored</translation>
+    </message>
+    <message>
+      <source>Month(s)</source>
+      <translation>Month(s)</translation>
+    </message>
+    <message>
+      <source>Monthly</source>
+      <translation>Monthly</translation>
+    </message>
+    <message>
+      <source>Mouse cursor</source>
+      <translation>Mouse cursor</translation>
+    </message>
+    <message>
+      <source>Mouse cursor line type</source>
+      <translation>Tipo de línea del cursos del mouse</translation>
+    </message>
+    <message>
+      <source>Multiple nodes</source>
+      <translation>Varios nodos</translation>
+    </message>
+    <message>
+      <source>Must not contain part of full name</source>
+      <translation>Must not contain part of full name</translation>
+    </message>
+    <message>
+      <source>Must not contain user name</source>
+      <translation>Must not contain user name</translation>
+    </message>
+    <message>
+      <source>Must not contain user name or part of full name</source>
+      <translation>No debe contener el nombre de usuario o parte del nombre completo</translation>
+    </message>
+    <message>
+      <source>N/A</source>
+      <translation>N/A</translation>
+    </message>
+    <message>
+      <source>NO, only the current line!</source>
+      <translation>NO, only the current line!</translation>
+    </message>
+    <message>
+      <source>Name</source>
+      <translation>Nombre</translation>
+    </message>
+    <message>
+      <source>Name is empty or invalid.</source>
+      <translation>Name is empty or invalid.</translation>
+    </message>
+    <message>
+      <source>New</source>
+      <translation>New</translation>
+    </message>
+    <message>
+      <source>New and old password must be different</source>
+      <translation>New and old password must be different</translation>
+    </message>
+    <message>
+      <source>New password</source>
+      <translation>Contraseña nueva</translation>
+    </message>
+    <message>
+      <source>No Continuation Points</source>
+      <translation>No Continuation Points</translation>
+    </message>
+    <message>
+      <source>No aggregate selected</source>
+      <translation>No aggregate selected</translation>
+    </message>
+    <message>
+      <source>No configuration(s) selected.</source>
+      <translation>No configuration(s) selected.</translation>
+    </message>
+    <message>
+      <source>No permission</source>
+      <translation>No permission</translation>
+    </message>
+    <message>
+      <source>No permission to write configuration node.</source>
+      <translation>No permission to write configuration node.</translation>
+    </message>
+    <message>
+      <source>No read rights for variable</source>
+      <translation>No read rights for variable</translation>
+    </message>
+    <message>
+      <source>No right to perform action for systemdb</source>
+      <translation>No right to perform action for systemdb</translation>
+    </message>
+    <message>
+      <source>No write rights for variable</source>
+      <translation>No write rights for variable</translation>
+    </message>
+    <message>
+      <source>Node</source>
+      <translation>Node</translation>
+    </message>
+    <message>
+      <source>Node &quot;#node_name&quot; for the data set &quot;#series_name [#series_index]&quot; is archived in &quot;#archive_name&quot; but its archive group is configured to &quot;#configured_archive&quot;, which is being used for the current plot. Please select the respective data set and click on the already highlighted source address. If the label had been changed previously, make sure to make the change again. Save the configuration to solve this issue permanently.</source>
+      <translation>Node &quot;#node_name&quot; for the data set &quot;#series_name [#series_index]&quot; is archived in &quot;#archive_name&quot; but its archive group is configured to &quot;#configured_archive&quot;, which is being used for the current plot. Please select the respective data set and click on the already highlighted source address. If the label had been changed previously, make sure to make the change again. Save the configuration to solve this issue permanently.</translation>
+    </message>
+    <message>
+      <source>Node description</source>
+      <translation>Descripción de variable</translation>
+    </message>
+    <message>
+      <source>Non-stop</source>
+      <translation>Non-stop</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation>None</translation>
+    </message>
+    <message>
+      <source>Not Silenced</source>
+      <translation>Not Silenced</translation>
+    </message>
+    <message>
+      <source>Not all requirements are fulfilled!</source>
+      <translation>Not all requirements are fulfilled!</translation>
+    </message>
+    <message>
+      <source>Not configured</source>
+      <translation>Not configured</translation>
+    </message>
+    <message>
+      <source>Not logged in. Favorites data will be overwritten at login!</source>
+      <translation>Not logged in. Favorites data will be overwritten at login!</translation>
+    </message>
+    <message>
+      <source>NotConnected</source>
+      <translation>NotConnected</translation>
+    </message>
+    <message>
+      <source>Note: May require reload of the chart to be applied correctly.</source>
+      <translation>Note: May require reload of the chart to be applied correctly.</translation>
+    </message>
+    <message>
+      <source>Notification</source>
+      <translation>Notification</translation>
+    </message>
+    <message>
+      <source>Number of rows</source>
+      <translation>Number of rows</translation>
+    </message>
+    <message>
+      <source>Number of rows - To</source>
+      <translation>Number of rows - To</translation>
+    </message>
+    <message>
+      <source>OK</source>
+      <translation>OK</translation>
+    </message>
+    <message>
+      <source>Off Unacknowledged</source>
+      <translation>Off Unacknowledged</translation>
+    </message>
+    <message>
+      <source>Offset</source>
+      <translation>Offset</translation>
+    </message>
+    <message>
+      <source>Offset of y-axis</source>
+      <translation>Offset of y-axis</translation>
+    </message>
+    <message>
+      <source>Ok</source>
+      <translation>Ok</translation>
+    </message>
+    <message>
+      <source>Old password</source>
+      <translation>Contraseña actual</translation>
+    </message>
+    <message>
+      <source>Older than</source>
+      <translation>Older than</translation>
+    </message>
+    <message>
+      <source>On Acknowledged</source>
+      <translation>On Acknowledged</translation>
+    </message>
+    <message>
+      <source>On Off Unacknowledged</source>
+      <translation>On Off Unacknowledged</translation>
+    </message>
+    <message>
+      <source>On Unacknowledged</source>
+      <translation>On Unacknowledged</translation>
+    </message>
+    <message>
+      <source>Once</source>
+      <translation>Once</translation>
+    </message>
+    <message>
+      <source>One Shot Shelve</source>
+      <translation>One Shot Shelve</translation>
+    </message>
+    <message>
+      <source>One Shot Shelved</source>
+      <translation>One Shot Shelved</translation>
+    </message>
+    <message>
+      <source>OneShotShelved</source>
+      <translation>OneShotShelved</translation>
+    </message>
+    <message>
+      <source>Open options</source>
+      <translation>Open options</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Options</translation>
+    </message>
+    <message>
+      <source>Other unicode character(s)</source>
+      <translation>Other unicode character(s)</translation>
+    </message>
+    <message>
+      <source>Out of Service</source>
+      <translation>Out of Service</translation>
+    </message>
+    <message>
+      <source>Output</source>
+      <translation>Output</translation>
+    </message>
+    <message>
+      <source>Overwrite</source>
+      <translation>Overwrite</translation>
+    </message>
+    <message>
+      <source>Overwrite existing configuration?</source>
+      <translation>Overwrite existing configuration?</translation>
+    </message>
+    <message>
+      <source>PDF rep.</source>
+      <translation>PDF rep.</translation>
+    </message>
+    <message>
+      <source>PDF report</source>
+      <translation>PDF report</translation>
+    </message>
+    <message>
+      <source>Page</source>
+      <translation>Página</translation>
+    </message>
+    <message>
+      <source>Parameter</source>
+      <translation>Parameter</translation>
+    </message>
+    <message>
+      <source>Parameters of</source>
+      <translation>Parameters of</translation>
+    </message>
+    <message>
+      <source>Passive</source>
+      <translation>Passive</translation>
+    </message>
+    <message>
+      <source>Password</source>
+      <translation>Contraseña</translation>
+    </message>
+    <message>
+      <source>Password Editor</source>
+      <translation>Editor de contraseñas</translation>
+    </message>
+    <message>
+      <source>Password change unsupported.</source>
+      <translation>Password change unsupported.</translation>
+    </message>
+    <message>
+      <source>Password changed successfully.</source>
+      <translation>Password changed successfully.</translation>
+    </message>
+    <message>
+      <source>Password expired. Please change your password to unlock the account.</source>
+      <translation>Password expired. Please change your password to unlock the account.</translation>
+    </message>
+    <message>
+      <source>Password expires in</source>
+      <translation>Password expires in</translation>
+    </message>
+    <message>
+      <source>Password of root cannot be changed!</source>
+      <translation>Password of root cannot be changed!</translation>
+    </message>
+    <message>
+      <source>Path</source>
+      <translation>Path</translation>
+    </message>
+    <message>
+      <source>Performance</source>
+      <translation>Performance</translation>
+    </message>
+    <message>
+      <source>Period</source>
+      <translation>Periodo</translation>
+    </message>
+    <message>
+      <source>Permission</source>
+      <translation>Permission</translation>
+    </message>
+    <message>
+      <source>Permission denied</source>
+      <translation>Permission denied</translation>
+    </message>
+    <message>
+      <source>Permission missing</source>
+      <translation>Permission missing</translation>
+    </message>
+    <message>
+      <source>Permission(s) missing for archive management!</source>
+      <translation>Permission(s) missing for archive management!</translation>
+    </message>
+    <message>
+      <source>Permission(s) missing for recipe management!</source>
+      <translation>Permission(s) missing for recipe management!</translation>
+    </message>
+    <message>
+      <source>Picker Address</source>
+      <translation>Picker Address</translation>
+    </message>
+    <message>
+      <source>Picker Date</source>
+      <translation>Picker Date</translation>
+    </message>
+    <message>
+      <source>Picker Value</source>
+      <translation>Picker Value</translation>
+    </message>
+    <message>
+      <source>Please</source>
+      <translation>Please</translation>
+    </message>
+    <message>
+      <source>Please change your password.</source>
+      <translation>Por favor, cambie su contraseña.</translation>
+    </message>
+    <message>
+      <source>Please check the current status of the entries.</source>
+      <translation>Please check the current status of the entries.</translation>
+    </message>
+    <message>
+      <source>Please check the current status of the entry.</source>
+      <translation>Please check the current status of the entry.</translation>
+    </message>
+    <message>
+      <source>Please choose which action should be used for handling file(s) from restore</source>
+      <translation>Please choose which action should be used for handling file(s) from restore</translation>
+    </message>
+    <message>
+      <source>Please enter a comment</source>
+      <translation>Please enter a comment</translation>
+    </message>
+    <message>
+      <source>Please enter a configuration name!</source>
+      <translation>Please enter a configuration name!</translation>
+    </message>
+    <message>
+      <source>Please enter a favorite name!</source>
+      <translation>Please enter a favorite name!</translation>
+    </message>
+    <message>
+      <source>Please enter a valid configuration name!</source>
+      <translation>Please enter a valid configuration name!</translation>
+    </message>
+    <message>
+      <source>Please enter a value greater than or equal to %d.</source>
+      <translation>Please enter a value greater than or equal to %d.</translation>
+    </message>
+    <message>
+      <source>Please enter a value less than or equal to %d.</source>
+      <translation>Please enter a value less than or equal to %d.</translation>
+    </message>
+    <message>
+      <source>Please enter only numeric values.</source>
+      <translation>Please enter only numeric values.</translation>
+    </message>
+    <message>
+      <source>Please enter username and password.</source>
+      <translation>Por favor, introduzca su usuario y contraseña.</translation>
+    </message>
+    <message>
+      <source>Please login!</source>
+      <translation>Please login!</translation>
+    </message>
+    <message>
+      <source>Please select a chart or series to start configuration.</source>
+      <translation>Please select a chart or series to start configuration.</translation>
+    </message>
+    <message>
+      <source>Please select a configuration name!</source>
+      <translation>Please select a configuration name!</translation>
+    </message>
+    <message>
+      <source>Please select a configuration!</source>
+      <translation>Please select a configuration!</translation>
+    </message>
+    <message>
+      <source>Please select recipe template in combobox to add recipe</source>
+      <translation>Please select recipe template in combobox to add recipe</translation>
+    </message>
+    <message>
+      <source>Points Threshold</source>
+      <translation>Points Threshold</translation>
+    </message>
+    <message>
+      <source>Points/Series</source>
+      <translation>Points/Series</translation>
+    </message>
+    <message>
+      <source>Position of x-axis</source>
+      <translation>Position of x-axis</translation>
+    </message>
+    <message>
+      <source>Position of y-axis</source>
+      <translation>Position of y-axis</translation>
+    </message>
+    <message>
+      <source>Precision in milliseconds</source>
+      <translation>Precision in milliseconds</translation>
+    </message>
+    <message>
+      <source>Preview (F2)</source>
+      <translation>Preview (F2)</translation>
+    </message>
+    <message>
+      <source>Prio.</source>
+      <translation>Prio.</translation>
+    </message>
+    <message>
+      <source>Quicksave</source>
+      <translation>Guardado rápido</translation>
+    </message>
+    <message>
+      <source>Radiobutton</source>
+      <translation>Radiobutton</translation>
+    </message>
+    <message>
+      <source>Range filters</source>
+      <translation>Range filters</translation>
+    </message>
+    <message>
+      <source>Read</source>
+      <translation>Read</translation>
+    </message>
+    <message>
+      <source>Read alarms</source>
+      <translation>Read alarms</translation>
+    </message>
+    <message>
+      <source>Read#past</source>
+      <translation>Read#past</translation>
+    </message>
+    <message>
+      <source>Received</source>
+      <translation>Recibido</translation>
+    </message>
+    <message>
+      <source>Recipe</source>
+      <translation>Recipe</translation>
+    </message>
+    <message>
+      <source>Recipe management</source>
+      <translation>Recipe management</translation>
+    </message>
+    <message>
+      <source>Recipe select</source>
+      <translation>Recipe select</translation>
+    </message>
+    <message>
+      <source>Recipe template</source>
+      <translation>Recipe template</translation>
+    </message>
+    <message>
+      <source>Recipe templates</source>
+      <translation>Recipe templates</translation>
+    </message>
+    <message>
+      <source>Recipe with same name already exists</source>
+      <translation>Recipe with same name already exists</translation>
+    </message>
+    <message>
+      <source>Recipes</source>
+      <translation>Recipes</translation>
+    </message>
+    <message>
+      <source>Recipes of selected template(s) will be deleted too!</source>
+      <translation>Recipes of selected template(s) will be deleted too!</translation>
+    </message>
+    <message>
+      <source>Recurring</source>
+      <translation>Recurring</translation>
+    </message>
+    <message>
+      <source>Refresh</source>
+      <translation>Refresh</translation>
+    </message>
+    <message>
+      <source>Refresh list</source>
+      <translation>Refresh list</translation>
+    </message>
+    <message>
+      <source>Related x/y-axis</source>
+      <translation>Related x/y-axis</translation>
+    </message>
+    <message>
+      <source>Related y-axis</source>
+      <translation>Related y-axis</translation>
+    </message>
+    <message>
+      <source>Reload</source>
+      <translation>Recargar</translation>
+    </message>
+    <message>
+      <source>Remember username</source>
+      <translation>Recordar usuario</translation>
+    </message>
+    <message>
+      <source>Remote alarms</source>
+      <translation>Remote alarms</translation>
+    </message>
+    <message>
+      <source>Remote browse</source>
+      <translation>Remote browse</translation>
+    </message>
+    <message>
+      <source>Remote events</source>
+      <translation>Remote events</translation>
+    </message>
+    <message>
+      <source>Remove</source>
+      <translation>Remove</translation>
+    </message>
+    <message>
+      <source>Remove favorite</source>
+      <translation>Remove favorite</translation>
+    </message>
+    <message>
+      <source>Remove recipe</source>
+      <translation>Remove recipe</translation>
+    </message>
+    <message>
+      <source>Remove recipe template</source>
+      <translation>Remove recipe template</translation>
+    </message>
+    <message>
+      <source>Remove recipe template parameter</source>
+      <translation>Remove recipe template parameter</translation>
+    </message>
+    <message>
+      <source>Report Manager</source>
+      <translation>Report Manager</translation>
+    </message>
+    <message>
+      <source>Report errors</source>
+      <translation>Report errors</translation>
+    </message>
+    <message>
+      <source>Report generation started.</source>
+      <translation>Report generation started.</translation>
+    </message>
+    <message>
+      <source>Request delayed! Please try again later.</source>
+      <translation>Request delayed! Please try again later.</translation>
+    </message>
+    <message>
+      <source>Request denied by Access Control. Please see error log for details.</source>
+      <translation>Request denied by Access Control. Please see error log for details.</translation>
+    </message>
+    <message>
+      <source>Requirements</source>
+      <translation>Requisitos</translation>
+    </message>
+    <message>
+      <source>Reset</source>
+      <translation>Reset</translation>
+    </message>
+    <message>
+      <source>Reset filter</source>
+      <translation>Reiniciar filtro</translation>
+    </message>
+    <message>
+      <source>Reset sorting</source>
+      <translation>Reset sorting</translation>
+    </message>
+    <message>
+      <source>Restore directory</source>
+      <translation>Restore directory</translation>
+    </message>
+    <message>
+      <source>Room 1</source>
+      <translation>Room 1</translation>
+    </message>
+    <message>
+      <source>SMTP</source>
+      <translation>SMTP</translation>
+    </message>
+    <message>
+      <source>SNOP</source>
+      <translation>SNOP</translation>
+    </message>
+    <message>
+      <source>SOP</source>
+      <translation>SOP</translation>
+    </message>
+    <message>
+      <source>SS</source>
+      <translation>SS</translation>
+    </message>
+    <message>
+      <source>STATUS</source>
+      <translation>STATUS</translation>
+    </message>
+    <message>
+      <source>Sampling factor</source>
+      <translation>Sampling factor</translation>
+    </message>
+    <message>
+      <source>Sat.</source>
+      <translation>Sat.</translation>
+    </message>
+    <message>
+      <source>Saturday</source>
+      <translation>Saturday</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Guardar</translation>
+    </message>
+    <message>
+      <source>Save / Load configuration</source>
+      <translation>Guardar / Cargar configuración</translation>
+    </message>
+    <message>
+      <source>Save as</source>
+      <translation>Save as</translation>
+    </message>
+    <message>
+      <source>Save current configuration?</source>
+      <translation>Save current configuration?</translation>
+    </message>
+    <message>
+      <source>Save in</source>
+      <translation>Guardar en</translation>
+    </message>
+    <message>
+      <source>Save recipe as</source>
+      <translation>Save recipe as</translation>
+    </message>
+    <message>
+      <source>Save recipe template as</source>
+      <translation>Save recipe template as</translation>
+    </message>
+    <message>
+      <source>Saving configuration in progress</source>
+      <translation>Saving configuration in progress</translation>
+    </message>
+    <message>
+      <source>Scale type</source>
+      <translation>Tipo de escala</translation>
+    </message>
+    <message>
+      <source>Schedule</source>
+      <translation>Schedule</translation>
+    </message>
+    <message>
+      <source>Schedule is not valid with current settings</source>
+      <translation>Schedule is not valid with current settings</translation>
+    </message>
+    <message>
+      <source>Schedule: last generated</source>
+      <translation>Schedule: last generated</translation>
+    </message>
+    <message>
+      <source>Scheduler list</source>
+      <translation>Scheduler list</translation>
+    </message>
+    <message>
+      <source>Schedules</source>
+      <translation>Schedules</translation>
+    </message>
+    <message>
+      <source>Scroll list down</source>
+      <translation>Scroll list down</translation>
+    </message>
+    <message>
+      <source>Scroll list up</source>
+      <translation>Scroll list up</translation>
+    </message>
+    <message>
+      <source>Search</source>
+      <translation>Search</translation>
+    </message>
+    <message>
+      <source>Search node by name</source>
+      <translation>Search node by name</translation>
+    </message>
+    <message>
+      <source>Selected aggregate</source>
+      <translation>Selected aggregate</translation>
+    </message>
+    <message>
+      <source>Series</source>
+      <translation>Series</translation>
+    </message>
+    <message>
+      <source>Series 1</source>
+      <translation>Series 1</translation>
+    </message>
+    <message>
+      <source>Series 10</source>
+      <translation>Series 10</translation>
+    </message>
+    <message>
+      <source>Series 11</source>
+      <translation>Series 11</translation>
+    </message>
+    <message>
+      <source>Series 12</source>
+      <translation>Series 12</translation>
+    </message>
+    <message>
+      <source>Series 13</source>
+      <translation>Series 13</translation>
+    </message>
+    <message>
+      <source>Series 14</source>
+      <translation>Series 14</translation>
+    </message>
+    <message>
+      <source>Series 15</source>
+      <translation>Series 15</translation>
+    </message>
+    <message>
+      <source>Series 16</source>
+      <translation>Series 16</translation>
+    </message>
+    <message>
+      <source>Series 17</source>
+      <translation>Series 17</translation>
+    </message>
+    <message>
+      <source>Series 18</source>
+      <translation>Series 18</translation>
+    </message>
+    <message>
+      <source>Series 19</source>
+      <translation>Series 19</translation>
+    </message>
+    <message>
+      <source>Series 2</source>
+      <translation>Series 2</translation>
+    </message>
+    <message>
+      <source>Series 20</source>
+      <translation>Series 20</translation>
+    </message>
+    <message>
+      <source>Series 21</source>
+      <translation>Series 21</translation>
+    </message>
+    <message>
+      <source>Series 22</source>
+      <translation>Series 22</translation>
+    </message>
+    <message>
+      <source>Series 23</source>
+      <translation>Series 23</translation>
+    </message>
+    <message>
+      <source>Series 24</source>
+      <translation>Series 24</translation>
+    </message>
+    <message>
+      <source>Series 25</source>
+      <translation>Series 25</translation>
+    </message>
+    <message>
+      <source>Series 3</source>
+      <translation>Series 3</translation>
+    </message>
+    <message>
+      <source>Series 4</source>
+      <translation>Series 4</translation>
+    </message>
+    <message>
+      <source>Series 5</source>
+      <translation>Series 5</translation>
+    </message>
+    <message>
+      <source>Series 6</source>
+      <translation>Series 6</translation>
+    </message>
+    <message>
+      <source>Series 7</source>
+      <translation>Series 7</translation>
+    </message>
+    <message>
+      <source>Series 8</source>
+      <translation>Series 8</translation>
+    </message>
+    <message>
+      <source>Series 9</source>
+      <translation>Series 9</translation>
+    </message>
+    <message>
+      <source>Series Threshold</source>
+      <translation>Series Threshold</translation>
+    </message>
+    <message>
+      <source>Server logfile</source>
+      <translation>Server logfile</translation>
+    </message>
+    <message>
+      <source>Set address</source>
+      <translation>Set address</translation>
+    </message>
+    <message>
+      <source>Set as active recipe</source>
+      <translation>Set as active recipe</translation>
+    </message>
+    <message>
+      <source>Set/Cancel marks</source>
+      <translation>Set/Cancel marks</translation>
+    </message>
+    <message>
+      <source>Settings</source>
+      <translation>Configuración</translation>
+    </message>
+    <message>
+      <source>Shelve</source>
+      <translation>Shelve</translation>
+    </message>
+    <message>
+      <source>Shelve time</source>
+      <translation>Shelve time</translation>
+    </message>
+    <message>
+      <source>Shelved</source>
+      <translation>Shelved</translation>
+    </message>
+    <message>
+      <source>Shelving duration</source>
+      <translation>Shelving duration</translation>
+    </message>
+    <message>
+      <source>Shelving state</source>
+      <translation>Shelving state</translation>
+    </message>
+    <message>
+      <source>Shelving state icon</source>
+      <translation>Shelving state icon</translation>
+    </message>
+    <message>
+      <source>Should all marked lines be set as read?</source>
+      <translation>Should all marked lines be set as read?</translation>
+    </message>
+    <message>
+      <source>Show or hide filter</source>
+      <translation>Mostrar u ocultar filtro</translation>
+    </message>
+    <message>
+      <source>Silenced</source>
+      <translation>Silenced</translation>
+    </message>
+    <message>
+      <source>Simplified cron syntax: numbers sperated with ','</source>
+      <translation>Simplified cron syntax: numbers sperated with ','</translation>
+    </message>
+    <message>
+      <source>Single node</source>
+      <translation>Single node</translation>
+    </message>
+    <message>
+      <source>Size</source>
+      <translation>Size</translation>
+    </message>
+    <message>
+      <source>Size limit exceeded</source>
+      <translation>Size limit exceeded</translation>
+    </message>
+    <message>
+      <source>Size of selected file(s)</source>
+      <translation>Size of selected file(s)</translation>
+    </message>
+    <message>
+      <source>Some status updates could not be carried out due to a rights restriction!</source>
+      <translation>Some status updates could not be carried out due to a rights restriction!</translation>
+    </message>
+    <message>
+      <source>Source</source>
+      <translation>Source</translation>
+    </message>
+    <message>
+      <source>Source URL</source>
+      <translation>Source URL</translation>
+    </message>
+    <message>
+      <source>Source address</source>
+      <translation>Source address</translation>
+    </message>
+    <message>
+      <source>Source directory</source>
+      <translation>Source directory</translation>
+    </message>
+    <message>
+      <source>Special character(s)</source>
+      <translation>Special character(s)</translation>
+    </message>
+    <message>
+      <source>Spline</source>
+      <translation>Spline</translation>
+    </message>
+    <message>
+      <source>Start</source>
+      <translation>Start</translation>
+    </message>
+    <message>
+      <source>Start from</source>
+      <translation>Start from</translation>
+    </message>
+    <message>
+      <source>Start time</source>
+      <translation>Start time</translation>
+    </message>
+    <message>
+      <source>Start to</source>
+      <translation>Start to</translation>
+    </message>
+    <message>
+      <source>State</source>
+      <translation>State</translation>
+    </message>
+    <message>
+      <source>Status</source>
+      <translation>Estado</translation>
+    </message>
+    <message>
+      <source>Step size</source>
+      <translation>Step size</translation>
+    </message>
+    <message>
+      <source>Stop</source>
+      <translation>Stop</translation>
+    </message>
+    <message>
+      <source>Storage overview</source>
+      <translation>Storage overview</translation>
+    </message>
+    <message>
+      <source>Styling</source>
+      <translation>Estilo</translation>
+    </message>
+    <message>
+      <source>Subgroup</source>
+      <translation>Subgrupos</translation>
+    </message>
+    <message>
+      <source>SubscriptionPending</source>
+      <translation>SubscriptionPending</translation>
+    </message>
+    <message>
+      <source>Sum alarm members list</source>
+      <translation>Sum alarm members list</translation>
+    </message>
+    <message>
+      <source>Sum alarm members of</source>
+      <translation>Sum alarm members of</translation>
+    </message>
+    <message>
+      <source>Sun.</source>
+      <translation>Sun.</translation>
+    </message>
+    <message>
+      <source>Sunday</source>
+      <translation>Sunday</translation>
+    </message>
+    <message>
+      <source>Suppress</source>
+      <translation>Suppress</translation>
+    </message>
+    <message>
+      <source>Suppressed</source>
+      <translation>Suppressed</translation>
+    </message>
+    <message>
+      <source>Suppressed state</source>
+      <translation>Suppressed state</translation>
+    </message>
+    <message>
+      <source>Suppressed state icon</source>
+      <translation>Suppressed state icon</translation>
+    </message>
+    <message>
+      <source>Swapin directory</source>
+      <translation>Swapin directory</translation>
+    </message>
+    <message>
+      <source>Switched off</source>
+      <translation>Apagado</translation>
+    </message>
+    <message>
+      <source>Switched on</source>
+      <translation>Encendido</translation>
+    </message>
+    <message>
+      <source>Switching Mode</source>
+      <translation>Switching Mode</translation>
+    </message>
+    <message>
+      <source>System database</source>
+      <translation>System database</translation>
+    </message>
+    <message>
+      <source>Template</source>
+      <translation>Template</translation>
+    </message>
+    <message>
+      <source>Template name</source>
+      <translation>Template name</translation>
+    </message>
+    <message>
+      <source>Template with same name already exists</source>
+      <translation>Template with same name already exists</translation>
+    </message>
+    <message>
+      <source>Templates</source>
+      <translation>Templates</translation>
+    </message>
+    <message>
+      <source>Temporary removement of datapoints which are not visible to the user</source>
+      <translation>Temporary removement of datapoints which are not visible to the user</translation>
+    </message>
+    <message>
+      <source>The current configuration is not saved yet!</source>
+      <translation>The current configuration is not saved yet!</translation>
+    </message>
+    <message>
+      <source>The current display can not be added to the favorites, because the config node would exceed its size limit.</source>
+      <translation>The current display can not be added to the favorites, because the config node would exceed its size limit.</translation>
+    </message>
+    <message>
+      <source>The filter result might be incomplete.</source>
+      <translation>The filter result might be incomplete.</translation>
+    </message>
+    <message>
+      <source>The import overwrites existing configurations!</source>
+      <translation>The import overwrites existing configurations!</translation>
+    </message>
+    <message>
+      <source>The node</source>
+      <translation>The node</translation>
+    </message>
+    <message>
+      <source>The selection can be applied to all marked lines!</source>
+      <translation>The selection can be applied to all marked lines!</translation>
+    </message>
+    <message>
+      <source>The specified start date is after the end date</source>
+      <translation>The specified start date is after the end date</translation>
+    </message>
+    <message>
+      <source>The status update could not be carried out due to a rights restriction!</source>
+      <translation>The status update could not be carried out due to a rights restriction!</translation>
+    </message>
+    <message>
+      <source>There is an operation in progress. Please wait until it is completed.</source>
+      <translation>There is an operation in progress. Please wait until it is completed.</translation>
+    </message>
+    <message>
+      <source>Thu.</source>
+      <translation>Thu.</translation>
+    </message>
+    <message>
+      <source>Thursday</source>
+      <translation>Thursday</translation>
+    </message>
+    <message>
+      <source>Tick auto alignment</source>
+      <translation>Tick auto alignment</translation>
+    </message>
+    <message>
+      <source>Time</source>
+      <translation>Tiempo</translation>
+    </message>
+    <message>
+      <source>Time ack.</source>
+      <translation>Time ack.</translation>
+    </message>
+    <message>
+      <source>Time active</source>
+      <translation>Time active</translation>
+    </message>
+    <message>
+      <source>Time active/inactive</source>
+      <translation>Tiempo activo/inactivo</translation>
+    </message>
+    <message>
+      <source>Time format</source>
+      <translation>Time format</translation>
+    </message>
+    <message>
+      <source>Time inactive</source>
+      <translation>Time inactive</translation>
+    </message>
+    <message>
+      <source>Time received</source>
+      <translation>Time received</translation>
+    </message>
+    <message>
+      <source>Time span</source>
+      <translation>Time span</translation>
+    </message>
+    <message>
+      <source>Time unshelve</source>
+      <translation>Time unshelve</translation>
+    </message>
+    <message>
+      <source>Time value change</source>
+      <translation>Time value change</translation>
+    </message>
+    <message>
+      <source>TimeShelved</source>
+      <translation>TimeShelved</translation>
+    </message>
+    <message>
+      <source>Timed Shelve</source>
+      <translation>Timed Shelve</translation>
+    </message>
+    <message>
+      <source>Timed Shelved</source>
+      <translation>Timed Shelved</translation>
+    </message>
+    <message>
+      <source>Timed shelve</source>
+      <translation>Timed shelve</translation>
+    </message>
+    <message>
+      <source>TimedShelved</source>
+      <translation>TimedShelved</translation>
+    </message>
+    <message>
+      <source>Timer Scheduler</source>
+      <translation>Timer Scheduler</translation>
+    </message>
+    <message>
+      <source>Timestamp</source>
+      <translation>Estampa de tiempo</translation>
+    </message>
+    <message>
+      <source>Title</source>
+      <translation>Title</translation>
+    </message>
+    <message>
+      <source>To</source>
+      <translation>Hasta</translation>
+    </message>
+    <message>
+      <source>To backup</source>
+      <translation>To backup</translation>
+    </message>
+    <message>
+      <source>To swapin</source>
+      <translation>To swapin</translation>
+    </message>
+    <message>
+      <source>Too many attempts! Please wait</source>
+      <translation>Too many attempts! Please wait</translation>
+    </message>
+    <message>
+      <source>Tooltip</source>
+      <translation>Tooltip</translation>
+    </message>
+    <message>
+      <source>Tree View</source>
+      <translation>Tree View</translation>
+    </message>
+    <message>
+      <source>Tue.</source>
+      <translation>Tue.</translation>
+    </message>
+    <message>
+      <source>Tuesday</source>
+      <translation>Tuesday</translation>
+    </message>
+    <message>
+      <source>Two-line area</source>
+      <translation>Two-line area</translation>
+    </message>
+    <message>
+      <source>Type</source>
+      <translation>Tipo</translation>
+    </message>
+    <message>
+      <source>Type configuration</source>
+      <translation>Tipo de configuración</translation>
+    </message>
+    <message>
+      <source>U</source>
+      <translation>U</translation>
+    </message>
+    <message>
+      <source>UTC</source>
+      <translation>UTC</translation>
+    </message>
+    <message>
+      <source>Unacknowledged</source>
+      <translation>Unacknowledged</translation>
+    </message>
+    <message>
+      <source>Unconfirmed</source>
+      <translation>Unconfirmed</translation>
+    </message>
+    <message>
+      <source>Unit</source>
+      <translation>Unit</translation>
+    </message>
+    <message>
+      <source>Unknown</source>
+      <translation>Unknown</translation>
+    </message>
+    <message>
+      <source>Unknown error</source>
+      <translation>Unknown error</translation>
+    </message>
+    <message>
+      <source>Unknown error occured</source>
+      <translation>Unknown error occured</translation>
+    </message>
+    <message>
+      <source>Unlatched</source>
+      <translation>Unlatched</translation>
+    </message>
+    <message>
+      <source>Unlimited</source>
+      <translation>Ilimitado</translation>
+    </message>
+    <message>
+      <source>Unshelve</source>
+      <translation>Unshelve</translation>
+    </message>
+    <message>
+      <source>Unshelve time</source>
+      <translation>Unshelve time</translation>
+    </message>
+    <message>
+      <source>Unshelved</source>
+      <translation>Unshelved</translation>
+    </message>
+    <message>
+      <source>Unsuppress</source>
+      <translation>Unsuppress</translation>
+    </message>
+    <message>
+      <source>Unsuppressed</source>
+      <translation>Unsuppressed</translation>
+    </message>
+    <message>
+      <source>Until</source>
+      <translation>Hasta</translation>
+    </message>
+    <message>
+      <source>Update interval</source>
+      <translation>Update interval</translation>
+    </message>
+    <message>
+      <source>Upper value address</source>
+      <translation>Upper value address</translation>
+    </message>
+    <message>
+      <source>User</source>
+      <translation>Usuario</translation>
+    </message>
+    <message>
+      <source>User Editor</source>
+      <translation>Editor de usuarios</translation>
+    </message>
+    <message>
+      <source>User account locked. Please contact your adminstator.</source>
+      <translation>User account locked. Please contact your adminstator.</translation>
+    </message>
+    <message>
+      <source>User changed</source>
+      <translation>User changed</translation>
+    </message>
+    <message>
+      <source>User log in successful!</source>
+      <translation>User log in successful!</translation>
+    </message>
+    <message>
+      <source>User not logged in!</source>
+      <translation>User not logged in!</translation>
+    </message>
+    <message>
+      <source>User or password not specified!</source>
+      <translation>User or password not specified!</translation>
+    </message>
+    <message>
+      <source>User temporarily locked for</source>
+      <translation>User temporarily locked for</translation>
+    </message>
+    <message>
+      <source>Username</source>
+      <translation>Usuario</translation>
+    </message>
+    <message>
+      <source>Username or Password wrong!</source>
+      <translation>¡Usuario o contraseña erróneos!</translation>
+    </message>
+    <message>
+      <source>Username/Password wrong or permission missing!</source>
+      <translation>¡Usuario/contraseña erróneos o sin permisos!</translation>
+    </message>
+    <message>
+      <source>V</source>
+      <translation>V</translation>
+    </message>
+    <message>
+      <source>VITALITY</source>
+      <translation>VITALITY</translation>
+    </message>
+    <message>
+      <source>Valid period</source>
+      <translation>Periodo válido</translation>
+    </message>
+    <message>
+      <source>Value</source>
+      <translation>Valor</translation>
+    </message>
+    <message>
+      <source>Value decimal places</source>
+      <translation>Value decimal places</translation>
+    </message>
+    <message>
+      <source>Value off</source>
+      <translation>Value off</translation>
+    </message>
+    <message>
+      <source>Value on</source>
+      <translation>Value on</translation>
+    </message>
+    <message>
+      <source>Value prefix</source>
+      <translation>Value prefix</translation>
+    </message>
+    <message>
+      <source>Value process</source>
+      <translation>Value process</translation>
+    </message>
+    <message>
+      <source>Value recipe</source>
+      <translation>Value recipe</translation>
+    </message>
+    <message>
+      <source>Value suffix</source>
+      <translation>Value suffix</translation>
+    </message>
+    <message>
+      <source>Value too high!</source>
+      <translation>Value too high!</translation>
+    </message>
+    <message>
+      <source>Value too low!</source>
+      <translation>Value too low!</translation>
+    </message>
+    <message>
+      <source>Value, Event, Alarm</source>
+      <translation>Valor, Evento, Alarma</translation>
+    </message>
+    <message>
+      <source>Values from process</source>
+      <translation>Values from process</translation>
+    </message>
+    <message>
+      <source>View Log</source>
+      <translation>Ver log</translation>
+    </message>
+    <message>
+      <source>View log</source>
+      <translation>Ver log</translation>
+    </message>
+    <message>
+      <source>View sum alarm members</source>
+      <translation>View sum alarm members</translation>
+    </message>
+    <message>
+      <source>Visibility</source>
+      <translation>Visibilidad</translation>
+    </message>
+    <message>
+      <source>Vitality table</source>
+      <translation>Vitality table</translation>
+    </message>
+    <message>
+      <source>Warning</source>
+      <translation>Advertencia</translation>
+    </message>
+    <message>
+      <source>Warning for imports!</source>
+      <translation>Warning for imports!</translation>
+    </message>
+    <message>
+      <source>Wed.</source>
+      <translation>Mié.</translation>
+    </message>
+    <message>
+      <source>Wednesday</source>
+      <translation>Miércoles</translation>
+    </message>
+    <message>
+      <source>Week(s)</source>
+      <translation>Semana(s)</translation>
+    </message>
+    <message>
+      <source>Weekday(s)</source>
+      <translation>Día(s) de la semana</translation>
+    </message>
+    <message>
+      <source>Weekly</source>
+      <translation>Semanal</translation>
+    </message>
+    <message>
+      <source>Worksheet end</source>
+      <translation>Worksheet end</translation>
+    </message>
+    <message>
+      <source>Worksheet selection for PDF reports</source>
+      <translation>Worksheet selection for PDF reports</translation>
+    </message>
+    <message>
+      <source>Worksheet start</source>
+      <translation>Worksheet start</translation>
+    </message>
+    <message>
+      <source>Worksheets</source>
+      <translation>Hojas de trabajo</translation>
+    </message>
+    <message>
+      <source>Write</source>
+      <translation>Escribir</translation>
+    </message>
+    <message>
+      <source>X-Axis</source>
+      <translation>Eje X</translation>
+    </message>
+    <message>
+      <source>X-Axis to configure</source>
+      <translation>Configurar eje X</translation>
+    </message>
+    <message>
+      <source>XLSX rep.</source>
+      <translation>Rep. XLSX</translation>
+    </message>
+    <message>
+      <source>XLSX report</source>
+      <translation>Reporte XLSX</translation>
+    </message>
+    <message>
+      <source>Y-Axis</source>
+      <translation>Eje Y</translation>
+    </message>
+    <message>
+      <source>Y-Axis to configure</source>
+      <translation>Configurar eje Y</translation>
+    </message>
+    <message>
+      <source>YES, mark all as read.</source>
+      <translation>YES, mark all as read.</translation>
+    </message>
+    <message>
+      <source>YYYY</source>
+      <translation>AAAA</translation>
+    </message>
+    <message>
+      <source>Year(s)</source>
+      <translation>Año(s)</translation>
+    </message>
+    <message>
+      <source>Yearly</source>
+      <translation>Anual</translation>
+    </message>
+    <message>
+      <source>Yes</source>
+      <translation>Si</translation>
+    </message>
+    <message>
+      <source>You do not have the required permissions.</source>
+      <translation>You do not have the required permissions.</translation>
+    </message>
+    <message>
+      <source>[All]</source>
+      <translation>[Todo]</translation>
+    </message>
+    <message>
+      <source>[none]</source>
+      <translation>[Ninguno]</translation>
+    </message>
+    <message>
+      <source>acknowledge</source>
+      <translation>acknowledge</translation>
+    </message>
+    <message>
+      <source>activ ack.</source>
+      <translation>activ ack.</translation>
+    </message>
+    <message>
+      <source>active ack.</source>
+      <translation>active ack.</translation>
+    </message>
+    <message>
+      <source>active conf.</source>
+      <translation>active conf.</translation>
+    </message>
+    <message>
+      <source>alignment</source>
+      <translation>alignment</translation>
+    </message>
+    <message>
+      <source>alignment is active</source>
+      <translation>alignment is active</translation>
+    </message>
+    <message>
+      <source>apply changes</source>
+      <translation>aplicar cambios</translation>
+    </message>
+    <message>
+      <source>archive file(s)</source>
+      <translation>archive file(s)</translation>
+    </message>
+    <message>
+      <source>archive only</source>
+      <translation>archive only</translation>
+    </message>
+    <message>
+      <source>area</source>
+      <translation>area</translation>
+    </message>
+    <message>
+      <source>area description</source>
+      <translation>area description</translation>
+    </message>
+    <message>
+      <source>arearange</source>
+      <translation>arearange</translation>
+    </message>
+    <message>
+      <source>areaspline</source>
+      <translation>areaspline</translation>
+    </message>
+    <message>
+      <source>areasplinerange</source>
+      <translation>areasplinerange</translation>
+    </message>
+    <message>
+      <source>at least one item is invalid for the selected data type</source>
+      <translation>at least one item is invalid for the selected data type</translation>
+    </message>
+    <message>
+      <source>at the given resolution of the screen/chart</source>
+      <translation>at the given resolution of the screen/chart</translation>
+    </message>
+    <message>
+      <source>bar</source>
+      <translation>bar</translation>
+    </message>
+    <message>
+      <source>bottom</source>
+      <translation>bottom</translation>
+    </message>
+    <message>
+      <source>center</source>
+      <translation>center</translation>
+    </message>
+    <message>
+      <source>character</source>
+      <translation>character</translation>
+    </message>
+    <message>
+      <source>characters</source>
+      <translation>characters</translation>
+    </message>
+    <message>
+      <source>column</source>
+      <translation>column</translation>
+    </message>
+    <message>
+      <source>columnrange</source>
+      <translation>columnrange</translation>
+    </message>
+    <message>
+      <source>configurations selected</source>
+      <translation>configurations selected</translation>
+    </message>
+    <message>
+      <source>confirm</source>
+      <translation>confirm</translation>
+    </message>
+    <message>
+      <source>copy</source>
+      <translation>copy</translation>
+    </message>
+    <message>
+      <source>dashed</source>
+      <translation>discontinua</translation>
+    </message>
+    <message>
+      <source>day(s)</source>
+      <translation>day(s)</translation>
+    </message>
+    <message>
+      <source>delete</source>
+      <translation>delete</translation>
+    </message>
+    <message>
+      <source>digit(s)</source>
+      <translation>digit(s)</translation>
+    </message>
+    <message>
+      <source>does not have sub-objects!</source>
+      <translation>does not have sub-objects!</translation>
+    </message>
+    <message>
+      <source>dotted</source>
+      <translation>punteada</translation>
+    </message>
+    <message>
+      <source>enable for all y-axis</source>
+      <translation>enable for all y-axis</translation>
+    </message>
+    <message>
+      <source>enabled</source>
+      <translation>enabled</translation>
+    </message>
+    <message>
+      <source>false</source>
+      <translation>false</translation>
+    </message>
+    <message>
+      <source>for node</source>
+      <translation>for node</translation>
+    </message>
+    <message>
+      <source>free of</source>
+      <translation>free of</translation>
+    </message>
+    <message>
+      <source>from</source>
+      <translation>desde</translation>
+    </message>
+    <message>
+      <source>gauge</source>
+      <translation>gauge</translation>
+    </message>
+    <message>
+      <source>hour(s)</source>
+      <translation>hour(s)</translation>
+    </message>
+    <message>
+      <source>inactiv ack.</source>
+      <translation>inactiv ack.</translation>
+    </message>
+    <message>
+      <source>inactive</source>
+      <translation>inactive</translation>
+    </message>
+    <message>
+      <source>invalid data type</source>
+      <translation>tipo de dato inválido</translation>
+    </message>
+    <message>
+      <source>invalid name</source>
+      <translation>invalid name</translation>
+    </message>
+    <message>
+      <source>invalid value</source>
+      <translation>invalid value</translation>
+    </message>
+    <message>
+      <source>items</source>
+      <translation>elementos</translation>
+    </message>
+    <message>
+      <source>left</source>
+      <translation>left</translation>
+    </message>
+    <message>
+      <source>line</source>
+      <translation>línea</translation>
+    </message>
+    <message>
+      <source>linear</source>
+      <translation>linear</translation>
+    </message>
+    <message>
+      <source>list</source>
+      <translation>list</translation>
+    </message>
+    <message>
+      <source>live only</source>
+      <translation>live only</translation>
+    </message>
+    <message>
+      <source>loading...</source>
+      <translation>loading...</translation>
+    </message>
+    <message>
+      <source>local</source>
+      <translation>local</translation>
+    </message>
+    <message>
+      <source>logarithmic</source>
+      <translation>logarithmic</translation>
+    </message>
+    <message>
+      <source>lower case</source>
+      <translation>lower case</translation>
+    </message>
+    <message>
+      <source>management</source>
+      <translation>management</translation>
+    </message>
+    <message>
+      <source>mandatory field</source>
+      <translation>mandatory field</translation>
+    </message>
+    <message>
+      <source>milliseconds</source>
+      <translation>milliseconds</translation>
+    </message>
+    <message>
+      <source>min.</source>
+      <translation>min.</translation>
+    </message>
+    <message>
+      <source>minute(s)</source>
+      <translation>minute(s)</translation>
+    </message>
+    <message>
+      <source>missing</source>
+      <translation>missing</translation>
+    </message>
+    <message>
+      <source>mixed</source>
+      <translation>mixed</translation>
+    </message>
+    <message>
+      <source>mmm</source>
+      <translation>mmm</translation>
+    </message>
+    <message>
+      <source>month(s)</source>
+      <translation>month(s)</translation>
+    </message>
+    <message>
+      <source>more</source>
+      <translation>more</translation>
+    </message>
+    <message>
+      <source>move</source>
+      <translation>move</translation>
+    </message>
+    <message>
+      <source>ms</source>
+      <translation>ms</translation>
+    </message>
+    <message>
+      <source>multiple selection</source>
+      <translation>multiple selection</translation>
+    </message>
+    <message>
+      <source>no leading or trailing spaces</source>
+      <translation>no leading or trailing spaces</translation>
+    </message>
+    <message>
+      <source>node not configured</source>
+      <translation>node not configured</translation>
+    </message>
+    <message>
+      <source>now</source>
+      <translation>Ahora</translation>
+    </message>
+    <message>
+      <source>of</source>
+      <translation>de</translation>
+    </message>
+    <message>
+      <source>or permission missing.</source>
+      <translation>or permission missing.</translation>
+    </message>
+    <message>
+      <source>pie</source>
+      <translation>pie</translation>
+    </message>
+    <message>
+      <source>px</source>
+      <translation>px</translation>
+    </message>
+    <message>
+      <source>readonly</source>
+      <translation>readonly</translation>
+    </message>
+    <message>
+      <source>refresh</source>
+      <translation>refresh</translation>
+    </message>
+    <message>
+      <source>retries left!</source>
+      <translation>retries left!</translation>
+    </message>
+    <message>
+      <source>right</source>
+      <translation>right</translation>
+    </message>
+    <message>
+      <source>scatter</source>
+      <translation>scatter</translation>
+    </message>
+    <message>
+      <source>sec.</source>
+      <translation>sec.</translation>
+    </message>
+    <message>
+      <source>second(s)</source>
+      <translation>second(s)</translation>
+    </message>
+    <message>
+      <source>settings</source>
+      <translation>configuraciones</translation>
+    </message>
+    <message>
+      <source>snapping</source>
+      <translation>snapping</translation>
+    </message>
+    <message>
+      <source>solid</source>
+      <translation>sólida</translation>
+    </message>
+    <message>
+      <source>spline</source>
+      <translation>spline</translation>
+    </message>
+    <message>
+      <source>splines</source>
+      <translation>splines</translation>
+    </message>
+    <message>
+      <source>step</source>
+      <translation>step</translation>
+    </message>
+    <message>
+      <source>to</source>
+      <translation>to</translation>
+    </message>
+    <message>
+      <source>top</source>
+      <translation>top</translation>
+    </message>
+    <message>
+      <source>true</source>
+      <translation>true</translation>
+    </message>
+    <message>
+      <source>update</source>
+      <translation>update</translation>
+    </message>
+    <message>
+      <source>upper case</source>
+      <translation>upper case</translation>
+    </message>
+    <message>
+      <source>value exceeds max number of decimals</source>
+      <translation>value exceeds max number of decimals</translation>
+    </message>
+    <message>
+      <source>value is greater than defined maximum</source>
+      <translation>value is greater than defined maximum</translation>
+    </message>
+    <message>
+      <source>value is less than defined minimum</source>
+      <translation>value is less than defined minimum</translation>
+    </message>
+    <message>
+      <source>value is not allowed to have decimals</source>
+      <translation>value is not allowed to have decimals</translation>
+    </message>
+    <message>
+      <source>value is not in stepsize</source>
+      <translation>value is not in stepsize</translation>
+    </message>
+    <message>
+      <source>value is not in the list of options</source>
+      <translation>value is not in the list of options</translation>
+    </message>
+    <message>
+      <source>visible</source>
+      <translation>visible</translation>
+    </message>
+    <message>
+      <source>wait</source>
+      <translation>Espera</translation>
+    </message>
+    <message>
+      <source>week(s)</source>
+      <translation>semana(s)</translation>
+    </message>
+    <message>
+      <source>with</source>
+      <translation>with</translation>
+    </message>
+    <message>
+      <source>with comment</source>
+      <translation>with comment</translation>
+    </message>
+    <message>
+      <source>z-index</source>
+      <translation>Índice Z</translation>
+    </message>
+  </context>
+</TS>

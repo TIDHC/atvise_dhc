@@ -1,0 +1,7 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.USERS.nchi
+NodeClass: Object
+BrowseName: 1:nchi
+DisplayName: en|nchi
+Description: en|nchi
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.User

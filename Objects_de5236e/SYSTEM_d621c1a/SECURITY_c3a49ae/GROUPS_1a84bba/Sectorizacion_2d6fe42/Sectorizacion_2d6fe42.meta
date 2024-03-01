@@ -1,0 +1,8 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.Sectorizacion
+NodeClass: Object
+BrowseName: 1:Sectorizacion
+DisplayName: en|Sectorizacion
+Description: en|Sectorizacion
+EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

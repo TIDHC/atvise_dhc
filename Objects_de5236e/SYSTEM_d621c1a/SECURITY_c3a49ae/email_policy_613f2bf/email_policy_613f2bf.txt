@@ -1,0 +1,1 @@
+{"email_policy":{"active":true,"emailWhiteList":["aguakan.com","aguakan.com.mx"],"userCanDefineEmail":true,"hideWhiteList":true}}

@@ -1,0 +1,6 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Pump
+NodeClass: ObjectType
+BrowseName: 1:Pump
+DisplayName: en|Pump
+Description: en|Pump
+IsAbstract: false

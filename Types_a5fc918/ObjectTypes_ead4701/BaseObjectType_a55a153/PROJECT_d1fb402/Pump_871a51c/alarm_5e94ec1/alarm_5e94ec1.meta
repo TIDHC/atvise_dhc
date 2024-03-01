@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Pump.alarm
+NodeClass: Variable
+BrowseName: 1:alarm
+DisplayName: en|alarm
+Description: en|alarm
+DataType: Boolean
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

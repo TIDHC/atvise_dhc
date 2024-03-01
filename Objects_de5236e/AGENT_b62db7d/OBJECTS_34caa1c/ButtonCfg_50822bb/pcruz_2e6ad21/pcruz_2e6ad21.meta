@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.pcruz
+NodeClass: Variable
+BrowseName: 1:pcruz
+DisplayName: en|pcruz
+Description: en|pcruz
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

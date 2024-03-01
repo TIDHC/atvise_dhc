@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+  </metadata>
+  <parameter name="t" type="timer" trigger="true" relative="false" value="" starttime="00:00:00" repeat="00:00:01"/>
+  <code><![CDATA[var tempSetpoint = Ua.findNode(base + ".TempSetpoint");
+var tempMeasured = Ua.findNode(base + ".TempMeasured");
+
+tempMeasured.result.value = tempSetpoint.result.value + (Math.random()-0.5)*0.2;]]></code>
+</script>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <help/>
+  </metadata>
+  <code><![CDATA[
+					
+var circuito_s =
+	[[{lat:21.07211532413174, lng:-87.03009657620576},
+	"Cárcamo 1A, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_001A",
+	1, "startpoint"],
+	[{lat:21.010067554860903, lng:-87.02956597206791},
+	"Cárcamo 11, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_011",
+	1, "midpoint"],
+	[{lat:21.02910174056013, lng:-86.85218471975942},
+	"Cárcamo Aeropuerto ZU, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_Aeropuerto_ZU",
+	3, "midpoint"],
+	[{lat:21.184989317304435, lng:-86.81778224905007},
+	"Cárcamo Bonampak, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_Bonampak",
+	13 , "endpoint"],	
+	[{lat:21.23524268264064, lng:-86.8025834965226},
+	"Cárcamo Punta Sam, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_Punta_Sam",
+	14 , "midpoint"],
+	[{lat:21.25131159167958, lng:-86.7424656585191},
+	"Cárcamo Aeropuerto Isla Mujeres, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Isla_Mujeres.Circuitos.Circuito_CAP_IM.Carcamo_Aeropuerto_IM",
+	4, "midpoint"],
+	[{lat:21.224874299980165, lng:-86.72598490833823},
+	"Cárcamo Tanque Elevado, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Isla_Mujeres.Circuitos.Circuito_CAP_IM.Carcamo_Tanque_Elevado",
+	5, "midpoint"],
+	[{lat:21.221855747934324, lng:-86.72481514605204},
+	"Cárcamo Mundaca, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Isla_Mujeres.Circuitos.Circuito_CAP_IM.Carcamo_Mundaca",
+	6, "endpoint"]];
+					
+]]></code>
+</script>

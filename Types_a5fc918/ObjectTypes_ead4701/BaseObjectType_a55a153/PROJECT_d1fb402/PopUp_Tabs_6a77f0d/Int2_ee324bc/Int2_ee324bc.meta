@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.PopUp_Tabs.Int2
+NodeClass: Variable
+BrowseName: 1:Int2
+DisplayName: en|Int2
+Description: en|Int2
+DataType: Int32
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

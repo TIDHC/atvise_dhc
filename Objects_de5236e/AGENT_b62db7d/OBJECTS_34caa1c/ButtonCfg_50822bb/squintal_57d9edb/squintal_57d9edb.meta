@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.squintal
+NodeClass: Variable
+BrowseName: 1:squintal
+DisplayName: en|squintal
+Description: en|squintal
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

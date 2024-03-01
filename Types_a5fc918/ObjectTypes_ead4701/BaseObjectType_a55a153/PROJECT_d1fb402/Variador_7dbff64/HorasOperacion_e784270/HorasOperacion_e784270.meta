@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Variador.HorasOperacion
+NodeClass: Variable
+BrowseName: 1:HorasOperacion
+DisplayName: en|HorasOperacion
+Description: en|HorasOperacion
+DataType: Float
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

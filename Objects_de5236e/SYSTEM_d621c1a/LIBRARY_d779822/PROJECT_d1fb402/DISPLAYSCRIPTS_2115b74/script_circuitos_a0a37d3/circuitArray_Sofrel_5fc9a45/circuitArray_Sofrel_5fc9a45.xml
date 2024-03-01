@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <help/>
+  </metadata>
+  <code><![CDATA[
+var circuito_s =
+	[[{lat:21.14138838761095, lng:-86.84320981301553},
+	"Cárcamo 2000 Oriente, Agua Potable",
+	"AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_2000_Oriente",
+	66 , "carcamoAP"]];
+	
+]]></code>
+</script>

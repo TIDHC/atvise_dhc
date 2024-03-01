@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Benito_Juarez.014.SM_307.AvColegios_AvHuayacan
+NodeClass: Object
+BrowseName: 1:014.SM_307.AvColegios_AvHuayacan
+DisplayName: en|014.SM_307.AvColegios_AvHuayacan
+Description: en|014.SM_307.AvColegios_AvHuayacan
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP.Grafico_Sectorizacion

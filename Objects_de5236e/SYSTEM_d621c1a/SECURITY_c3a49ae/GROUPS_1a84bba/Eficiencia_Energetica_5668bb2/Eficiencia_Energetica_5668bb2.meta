@@ -1,0 +1,8 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.Eficiencia_Energetica
+NodeClass: Object
+BrowseName: 1:Eficiencia_Energetica
+DisplayName: en|Eficiencia_Energetica
+Description: en|Eficiencia_Energetica
+EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jvillalobos
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

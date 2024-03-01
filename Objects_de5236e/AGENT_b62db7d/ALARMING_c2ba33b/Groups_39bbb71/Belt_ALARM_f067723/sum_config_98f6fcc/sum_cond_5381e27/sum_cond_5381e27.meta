@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.ALARMING.Groups.Belt ALARM.sum_config.sum_cond
+NodeClass: Object
+BrowseName: 1:sum_cond
+DisplayName: en|sum_cond
+Description: en|sum_cond
+EventNotifier: 0
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConditionControl.Sum
+Reference: forward HasComponent ns=1;s=AGENT.ALARMING.Categories.Error

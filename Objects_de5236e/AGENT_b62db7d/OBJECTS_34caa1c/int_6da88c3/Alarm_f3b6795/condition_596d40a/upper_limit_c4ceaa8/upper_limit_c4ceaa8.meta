@@ -1,0 +1,10 @@
+NodeId: ns=1;s=AGENT.OBJECTS.int.Alarm.condition.upper_limit
+NodeClass: Variable
+BrowseName: 1:upper_limit
+DisplayName: en|upper_limit
+Description: en|upper_limit
+DataType: BaseDataType
+ValueRank: -1
+AccessLevel: 103
+ValueType: Int32
+Reference: forward HasTypeDefinition BaseVariableType

@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.int.Alarm.condition
+NodeClass: Object
+BrowseName: 1:condition
+DisplayName: en|condition
+Description: en|condition
+EventNotifier: 0
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConditionControl.Limit
+Reference: forward HasComponent ns=1;s=AGENT.ALARMING.Categories.Error

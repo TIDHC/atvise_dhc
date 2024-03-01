@@ -1,0 +1,8 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.Agua_NO_Contabilizada
+NodeClass: Object
+BrowseName: 1:Agua_NO_Contabilizada
+DisplayName: en|Agua_NO_Contabilizada
+Description: en|Agua_NO_Contabilizada
+EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

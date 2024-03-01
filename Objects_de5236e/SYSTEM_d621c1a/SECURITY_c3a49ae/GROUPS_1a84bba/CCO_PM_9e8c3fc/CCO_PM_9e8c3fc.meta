@@ -1,0 +1,7 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.CCO_PM
+NodeClass: Object
+BrowseName: 1:CCO_PM
+DisplayName: en|CCO_PM
+Description: en|CCO_PM
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

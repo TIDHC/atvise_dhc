@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.int.GenerateValues
+NodeClass: Variable
+BrowseName: 1:GenerateValues
+DisplayName: en|GenerateValues
+Description: en|GenerateValues
+DataType: XmlElement
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition ns=1;s=VariableTypes.ATVISE.ScriptCode

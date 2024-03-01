@@ -1,0 +1,10 @@
+NodeId: ns=1;s=ObjectTypes.PROJECT.Engine.operating_mode
+NodeClass: Variable
+BrowseName: 1:operating_mode
+DisplayName: en|operating_mode
+Description: en|operating_mode
+DataType: Int16
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition BaseVariableType

@@ -68,8 +68,6 @@
   <atv:argument name="navFontColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
   <atv:argument name="navFontColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color5"/>
   <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.00_Menu_Carcamos_AR_PDC"/>
-  <atv:argument name="navCustomTitle02" value="AR Playa"/>
   <atv:argument name="navHomeActive" value="false"/>
   <atv:argument name="navContent" value="content_admin"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(0.3872,0,0,3.488,0,0)"/>
@@ -103,8 +101,6 @@
   <atv:argument name="navFontColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
   <atv:argument name="navFontColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color5"/>
   <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.00_Menu_Carcamos_PM"/>
-  <atv:argument name="navCustomTitle02" value="Puerto Morelos"/>
   <atv:argument name="navHomeActive" value="false"/>
   <atv:argument name="navContent" value="content_admin"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(0.3872,0,0,3.488,0,0)"/>
@@ -286,7 +282,7 @@
   <atv:argument name="fillColorActive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
   <atv:argument name="buttonFillColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
  </svg>
- <svg atv:refpx="745.084" atv:refpy="1030.519" height="90" id="id_10" width="530" x="252.084" xlink:href="AGENT.DISPLAYS.USER.Layouts_DHC.color_code" y="985.519">
+ <svg atv:refpx="745.084" atv:refpy="1030.519" height="90" id="id_10" width="530" x="252.084" xlink:href="AGENT.DISPLAYS.USER.Layouts_DHC.color_code" y="983.519">
   <atv:argument name="base" prefix="base"/>
  </svg>
 </svg>

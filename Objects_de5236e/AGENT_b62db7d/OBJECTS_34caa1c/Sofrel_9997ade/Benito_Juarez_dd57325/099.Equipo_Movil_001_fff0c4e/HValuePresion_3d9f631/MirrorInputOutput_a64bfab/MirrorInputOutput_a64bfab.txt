@@ -1,1 +1,1 @@
-Sofrel OPC UA Server/ns=2;s=EQUIPO_MOVIL_001.NI_0005.HValue
+Sofrel OPC UA Server/ns=2;s=SOFREL_099_EQUIPOMOVIL1.NI_0005.HValue

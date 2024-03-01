@@ -84,7 +84,7 @@
   <atv:argument name="row_height" value="25"/>
   <atv:argument name="header_height" value="35"/>
   <atv:argument name="row_text_size" value="14"/>
-  <atv:argument name="globalFontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="globalFontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="filterDelay" value="100"/>
   <atv:overwrite height="160" id="id_1" transform="matrix(0.5,0,0,3.625,0,0)" width="1280"/>
  </svg>

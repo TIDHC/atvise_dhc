@@ -21,7 +21,7 @@
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="font color" group="Appearance" name="fontColor" substitute="$FONTCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="#c9d9b8" desc="preview button background" group="Appearance" name="btn_preview_bg" substitute="" valuetype="color"/>
   <atv:parameter behavior="optional" defaultvalue="#d7d7d7" desc="button background" group="Appearance" name="btn_button_bg" substitute="" valuetype="color"/>
-  <atv:parameter defaultvalue="true" group="Appearance" desc="show &quot;Preview&quot; button (popup mode only)" valuetype="bool" name="showPreviewBtn" behavior="optional"/>
+  <atv:parameter valuetype="bool" group="Appearance" name="showPreviewBtn" desc="show &quot;Preview&quot; button (popup mode only)" behavior="optional" defaultvalue="true"/>
   <atv:parameter behavior="optional" config="SYSTEM.SECURITY.RIGHTS" defaultvalue="" desc="necessary right" group="Security: load configuration" name="load_right" valuetype="address"/>
   <atv:parameter behavior="optional" desc="activation address" group="Security: load configuration" name="load_activeNode" valuetype="address"/>
   <atv:parameter behavior="optional" desc="activation value" group="Security: load configuration" name="load_activeValue" valuetype="string"/>
@@ -40,7 +40,7 @@
  </metadata>
  <svg atv:refpx="600" atv:refpy="315.002" height="600" id="config_frame" transform="matrix(1.5,0,0,0.8833,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="56.606">
   <atv:argument name="frameName" value="config_frame"/>
-  <atv:argument name="display" prefix="" value="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.opt_start"/>
+  <atv:argument name="display" prefix="" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.Advanced.highcharts.opt_start"/>
   <atv:argument name="base" prefix="base"/>
  </svg>
  <svg atv:refpx="565" atv:refpy="25" height="30" id="btn_general" transform="matrix(1.125,0,0,1,0,0)" width="80" x="462.223" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="10">

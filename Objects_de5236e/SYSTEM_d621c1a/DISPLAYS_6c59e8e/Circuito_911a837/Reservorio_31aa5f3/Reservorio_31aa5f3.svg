@@ -21,13 +21,8 @@
  <svg atv:refpx="162.327" atv:refpy="177.469" height="600" id="id_18" transform="matrix(0.4063,0,0,0.5417,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="27.693">
   <atv:argument name="frameName" value="entrada"/>
  </svg>
- <svg atv:refpx="958.858" atv:refpy="787.48" height="600" id="trendgroup" transform="matrix(2.4,0,0,0.3417,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="2004.878">
-  <atv:argument name="frameName" value="tendencias"/>
-  <atv:argument name="isNavigationFrame" value="true"/>
- </svg>
- <text atv:refpx="604.85" atv:refpy="38.431" fill="#000000" font-family="Arial" font-size="22" font-weight="bold" id="id_0" transform="matrix(1.377,0,0,1.2857,-213.382,-3.9998)" x="570.5" y="37.5">Nombre</text>
- <text atv:refpx="598.554" atv:refpy="71.146" fill="#000000" font-family="Arial" font-size="22" id="id_4" transform="matrix(1.377,0,0,1.2857,-213.759,-12.9792)" x="572" y="69.929">Clave:</text>
- <text atv:refpx="686.81" atv:refpy="71.146" fill="#000000" font-family="Arial" font-size="22" id="id_1" transform="matrix(1.377,0,0,1.2857,-248.066,-12.9792)" x="662.5" y="69.929">Clave</text>
+ <text atv:refpx="603.85" atv:refpy="32.002" fill="#000000" font-family="Arial" font-size="22" font-weight="bold" id="id_0" transform="matrix(1.377,0,0,1.2857,-213.005,-1.4285)" x="569.5" y="30.5">Nombre</text>
+ <text atv:refpx="593.81" atv:refpy="68.431" fill="#000000" font-family="Arial" font-size="20" id="id_1" transform="matrix(1.377,0,0,1.2857,-213.005,-12.5708)" x="569.5" y="67.5">Clave</text>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 
 
@@ -55,15 +50,12 @@ webMI.display.openDisplay(value, webMI.query, "caudalimetros");
 });
 
 
-webMI.data.subscribe(webMI.query["base"] + ".graficas_Display", function(e) {
-var id = "trendgroup";
-var value = e.value;
-webMI.display.openDisplay(value, webMI.query, "tendencias");
-});
 
 
 
-webMI.data.subscribe(webMI.query["base"] + ".name", function(e) {
+
+
+webMI.data.subscribe(webMI.query["base"] + ".short_name", function(e) {
 var id = "id_0";
 var value = e.value;
 webMI.gfx.setText(id, value);
@@ -119,5 +111,11 @@ webMI.display.openDisplay("ObjectTypes.PROJECT.ElementoLinea.cliackarea", webMI.
  <svg atv:refpx="958.859" atv:refpy="509.975" height="600" id="flowmetergroup" transform="matrix(2.4,0,0,0.5833,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="574.319">
   <atv:argument name="frameName" value="caudalimetros"/>
   <atv:argument name="isNavigationFrame" value="true"/>
+ </svg>
+ <svg atv:refpx="1440" atv:refpy="787.504" height="320" id="id_7" transform="matrix(0.6621,0,0,0.6469,0,0)" width="1450" x="1450" xlink:href="SYSTEM.DISPLAYS.Caudalimetro.graph_caudales" y="1055.804">
+  <atv:argument name="base" prefix="base"/>
+ </svg>
+ <svg atv:refpx="480" atv:refpy="787.504" height="320" id="id_9" transform="matrix(0.6621,0,0,0.6469,0,0)" width="1450" x="0" xlink:href="SYSTEM.DISPLAYS.Caudalimetro.graph_presiones" y="1057.35">
+  <atv:argument name="base" prefix="base"/>
  </svg>
 </svg>

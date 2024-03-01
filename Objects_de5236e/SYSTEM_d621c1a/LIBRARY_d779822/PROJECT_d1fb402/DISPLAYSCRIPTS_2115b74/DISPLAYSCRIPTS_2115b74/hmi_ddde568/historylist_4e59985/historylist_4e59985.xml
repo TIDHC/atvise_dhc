@@ -2,6 +2,7 @@
 <script>
   <metadata>
     <priority>0</priority>
+    <help/>
   </metadata>
   <code><![CDATA[/**
  * Code for the historylist and historylist_small object displays
@@ -204,7 +205,7 @@ var contextMenuStyle = {
 	maxRows: 10,
 	fontFamily: "Verdana",
 	fontSize: 11,
-	fontFill: webMI.query["globalFontColor"],
+	fontFill: "000000",
 	width: 150,
 	fill: "#ffffff",
 	stroke: webMI.query["globalBorderColor"],
@@ -828,7 +829,7 @@ function setSupportedFilters() {
 		if (typeof filtersupport["subscribefilter"] != "boolean")
 			filters = filters.concat(filtersupport["subscribefilter"]);
 	}
-
+	
 	function filtersup(filter) {
 		if (typeof filters == "boolean") return filters;
 		return filters.indexOf(filter) == -1 ? false : true;

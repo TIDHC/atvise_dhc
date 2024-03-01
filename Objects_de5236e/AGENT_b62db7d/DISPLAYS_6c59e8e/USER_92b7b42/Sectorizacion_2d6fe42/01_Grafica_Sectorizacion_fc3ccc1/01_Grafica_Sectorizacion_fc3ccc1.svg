@@ -21,10 +21,12 @@
  </svg>
  <svg atv:refpx="647.915" atv:refpy="29.518" height="30" id="id_14" transform="matrix(1.8383,0,0,1.6667,0,0)" width="141" x="281.951" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.toolbar" y="2.711">
   <atv:argument name="startAddress" value="AGENT.OBJECTS.Sofrel"/>
+  <atv:argument name="dialog_options" value="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.opt_dialog_small"/>
  </svg>
  <svg atv:refpx="960.203" atv:refpy="752.025" height="160" id="id_15" transform="matrix(1.5003,0,0,1.7247,0,0)" width="1280" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.legend" y="356.034">
   <atv:argument name="columnOptions_nodeAddress_visibility" value="false"/>
   <atv:argument name="columnOptions_aggregate_visibility" value="false"/>
+  <atv:argument name="legendHeaderFontColor" value="#000000"/>
   <atv:overwrite id="preview" transform="matrix(0.6665,0,0,0.5798,0,0)" x="899.692" y="145.476"/>
  </svg>
  <svg atv:refpx="1358.357" atv:refpy="28.778" height="51.48" id="id_16" width="767.13" x="965.292" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.buttons_start_end_time" y="3.038">

@@ -5,20 +5,20 @@
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="1" width="1"/>
  </metadata>
- <svg atv:refpx="964" atv:refpy="35.886" height="50" id="id_0" width="1920" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line" y="-0.114">
+ <svg atv:refpx="955" atv:refpy="23.75" height="50" id="id_0" width="1920" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_AR" y="-1.25">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_VSOL.L1"/>
  </svg>
- <svg atv:refpx="445" atv:refpy="29" height="49" id="id_4" width="120" x="337" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.5">
+ <svg atv:refpx="445" atv:refpy="27.75" height="49" id="id_4" width="120" x="336" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-0.75">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_VSOL.Bombas.Bomba_1"/>
  </svg>
- <svg atv:refpx="565.5" atv:refpy="29" height="49" id="id_5" width="120" x="457.5" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.5">
+ <svg atv:refpx="565.5" atv:refpy="27.75" height="49" id="id_5" width="120" x="456.5" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-0.75">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_VSOL.Bombas.Bomba_2"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_Villas_del_Sol.Caudalimetros]]></script>
- <svg atv:refpx="695" atv:refpy="29" height="49" id="id_1" width="120" x="579" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.5">
+ <svg atv:refpx="695" atv:refpy="27.75" height="49" id="id_1" width="120" x="578" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-0.75">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_VSOL.Bombas.Bomba_3"/>
  </svg>
- <svg atv:refpx="815.5" atv:refpy="29" height="49" id="id_2" width="120" x="699.5" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.5">
+ <svg atv:refpx="815.5" atv:refpy="27.75" height="49" id="id_2" width="120" x="698.5" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="-0.75">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_VSOL.Bombas.Bomba_4"/>
  </svg>
 </svg>

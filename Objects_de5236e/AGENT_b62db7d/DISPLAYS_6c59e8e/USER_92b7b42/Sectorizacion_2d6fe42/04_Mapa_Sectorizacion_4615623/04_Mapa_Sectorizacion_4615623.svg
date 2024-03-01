@@ -5,6 +5,10 @@
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="false" height="10" width="10"/>
  </metadata>
+ <foreignObject height="890" id="mapa" width="1920" x="0" y="0">
+  <div style="width:100%;height:100%" xmlns="http://www.w3.org/1999/xhtml"/>
+ </foreignObject>
+ <script atv:desc="" atv:href="SYSTEM.LIBRARY.PROJECT.DISPLAYSCRIPTS.script_circuitos.circuitArray_Sofrel" atv:name="circuitArray_Sofrel" atv:type="text/ecmascript"/>
+ <script atv:desc="" atv:href="SYSTEM.LIBRARY.PROJECT.DISPLAYSCRIPTS.mapHandler_Sofrel" atv:name="mapHandler_Sofrel" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <svg atv:refpx="960" atv:refpy="445" height="680" id="id_0" transform="matrix(1.4545,0,0,1.3088,0,0)" width="1320" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.LAYOUTS.Layout_Sofrel" y="0"/>
 </svg>

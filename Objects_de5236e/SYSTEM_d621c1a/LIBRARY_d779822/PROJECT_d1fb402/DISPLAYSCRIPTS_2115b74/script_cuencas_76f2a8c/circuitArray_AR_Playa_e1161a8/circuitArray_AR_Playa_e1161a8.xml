@@ -4,33 +4,7 @@
     <priority>0</priority>
     <help/>
   </metadata>
-  <code><![CDATA[//Arrays de los circuitos
-var circuito_calculo =
-	[[20.64638385198982, -87.05768060264761],				
-	 [20.672071186230205, -87.04149978258545],
-	 [20.67723641235688, -87.12821403984012],	
-	 [20.679531627982964, -87.05807022827183],	 
-	 [20.655295818057045, -87.08005943898439],	 	 
-	 [20.69106994100512, -87.04798584597198],	 	 
-	 [20.63933091747235, -87.06420743105872],	 	 
-	 [20.636824530943073, -87.06285964610296],	 	 
-	 [20.626179624701397, -87.10366588271319],	 	  
-	 [20.638666575719917, -87.08156012701713],	 	 
-	 [20.624192200579298, -87.09090497883942],
-	 [20.669419802986884, -87.06223749904595],	 			
-	 [20.656140793751963, -87.10610327976896],
-	 [20.656140793751963, -87.10610327976896],	
-	 [20.673125897053005, -87.08872197707683],	 
-	 [20.626839449673, -87.07051593346837],	 	 
-	 [20.66178286756219, -87.06347893617317],	 	 
-	 [20.674569776888198, -87.1138220532514],	  	 
-	 [20.66611708792341, -87.10882811263643],	 	 
-	 [20.684143020361375, -87.11775559781857],
-	 [20.637881926156364, -87.0814894380713],				
-	 [20.51812619682672, -87.23427461597628],
-	 [20.525189182407978, -87.24020497181863],
-	 [20.510846008445828, -87.22775727337664]];
-
+  <code><![CDATA[
 var circuito_s =
 	[[{lat:20.64638385198982, lng:-87.05768060264761},
 	"Cárcamo 88, Agua Residual",
@@ -80,10 +54,6 @@ var circuito_s =
 	"Cárcamo Gaviotas, Agua Residual",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_Gaviotas",
 	12, "carcamoAR"],
-	[{lat:20.634528386870223, lng:-87.07736928408804},
-	"Cárcamo Gonzalo Guerrero, Agua Residual",
-	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_GONZ.Carcamo_Gonzalo",
-	13, "carcamoAR"],
 	[{lat:20.656140793751963, lng:-87.10610327976896},
 	"Cárcamo Misión las Flores, Agua Residual",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_Mision_Las_Flores",
@@ -108,26 +78,31 @@ var circuito_s =
 	"Cárcamo Villas del Sol, Agua Residual",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_Villas_del_Sol",
 	19, "carcamoAR"],
-	[{lat:20.510846008445828, lng:-87.22775727337664},
+	/*[{lat:20.510846008445828, lng:-87.22775727337664},
 	"Cárcamo Puerto Aventuras, Agua Residual",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_PTOA.Carcamo_Puerto_Aventuras",
 	20, "carcamoAR"],
 	[{lat:20.525189182407978, lng:-87.24020497181863},
 	"Cárcamo Puerto Maya 3, Agua Residual",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_PTOA.Cárcamo_Puerto_Maya_3",
-	21, "carcamoAR"],
+	21, "carcamoAR"],*/
 	[{lat:20.684143020361375, lng:-87.11775559781857},
 	"PTAR Saastun Ha",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_Final_AR",
-	22, "ptar"],
-	[{lat:20.637881926156364, lng:-87.0814894380713},
+	22, "ptar"]
+		/*[{lat:20.634528386870223, lng:-87.07736928408804},
+	"Cárcamo Gonzalo Guerrero, Agua Residual",
+	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_GONZ.Carcamo_Gonzalo",
+	13, "carcamoAR"],*/
+	/*[{lat:20.637881926156364, lng:-87.0814894380713},
 	"PTAR Gonzalo Guerrero",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_GONZ.Carcamo_Gonzalo",
 	23, "ptar"],
 	[{lat:20.51661480746625, lng:-87.23456542660108},
 	"PTAR Puerto Aventuras",
 	"AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_PTOA.Carcamo_Puerto_Aventuras",
-	24, "ptar"]];
+	24, "ptar"]*/
+	];
 
 ]]></code>
 </script>

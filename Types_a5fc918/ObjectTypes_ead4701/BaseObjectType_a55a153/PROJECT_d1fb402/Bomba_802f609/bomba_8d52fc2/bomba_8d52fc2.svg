@@ -46,10 +46,10 @@ if (value == true)
 webMI.data.subscribe(webMI.query["base"] + ".status", function(e) {
 var id = "id_1";
 var value = e.value;
-var value
+
 if (value == false){
 	
-	webMI.data.subscribe(webMI.query["base"] + ".freq", function(e) {
+	webMI.data.subscribe(webMI.query["base"] + ".current", function(e) {
 	var id = "id_1";
 	var value = e.value;
 	if (0 <= value && value < 1)
@@ -97,10 +97,11 @@ if (1.1 <= value && value < 100)
 	webMI.gfx.setFill(id, "#61d836");
 
 });
+
 webMI.addEvent("id_4", "click", function(e) {
 var id = "id_4";
 var value = true;
-webMI.display.openWindow({display:"SYSTEM.DISPLAYS.Equipos.equipo",extern:false,height:600,menubar:false,modal:false,movable:true,resizable:true,scrollbars:false,status:false,title:"",toolbar:false,width:750,query:webMI.query});
+webMI.display.openWindow({display:"SYSTEM.DISPLAYS.Equipos.equipo",extern:false,height:800,menubar:false,modal:false,movable:true,resizable:true,scrollbars:false,status:false,title:"",toolbar:false,width:1000,query:webMI.query});
 });
 
 webMI.data.subscribe(webMI.query["base"] + ".freq", function(e) {

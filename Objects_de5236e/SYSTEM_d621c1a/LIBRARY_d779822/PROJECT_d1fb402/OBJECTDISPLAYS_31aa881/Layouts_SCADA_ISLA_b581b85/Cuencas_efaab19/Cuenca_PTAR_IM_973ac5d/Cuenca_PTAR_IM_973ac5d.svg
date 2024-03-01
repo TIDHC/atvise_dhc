@@ -1,87 +1,96 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<svg height="575" version="1.2" width="726.5" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="433.5" version="1.2" width="567.5" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs/>
  <metadata>
   <atv:gridconfig enabled="true" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="1" width="1"/>
  </metadata>
- <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_11" transform="matrix(0.5676,0,0,0.7488,0,0)">
+ <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_11" transform="matrix(0.4433,0,0,0.5645,0,0)">
   <rect atv:refpx="640" atv:refpy="384" fill="#ffffff" height="768.00" id="id_12" width="1280.00" x="0" y="0"/>
  </g>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <line atv:refpx="419" atv:refpy="58.5" id="id_109" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="481" x2="387" y1="40.5" y2="40.5"/>
- <line atv:refpx="13" atv:refpy="200.5" id="id_102" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="388" x2="468" y1="249" y2="249"/>
- <line atv:refpx="464.501" atv:refpy="275" id="id_92" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="480.001" x2="480.001" y1="377.5" y2="137.5"/>
- <line atv:refpx="131.5" atv:refpy="124" id="id_84" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="338.001" x2="338.001" y1="314.5" y2="284.5"/>
- <polygon atv:refpx="131.501" atv:refpy="540.5" fill="#000018" id="id_85" points="328.001,284.499 348.001,284.499 338.001,271.499 338.001,271.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="605.001" atv:refpy="-10.5" id="id_88" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="338.001" x2="338.001" y1="183" y2="213"/>
- <polygon atv:refpx="323.001" atv:refpy="237" fill="#000018" id="id_89" points="348.001,212.999 328.001,212.999 338.001,225.999 338.001,225.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="131.5" atv:refpy="124" id="id_80" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="388" x2="418" y1="101" y2="101"/>
- <polygon atv:refpx="235.5" atv:refpy="111" fill="#000018" id="id_81" points="418,91 418,111 431,101 431,101" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <g atv:refpx="394.25" atv:refpy="413" id="id_67" transform="matrix(1,0,0,1,279.5,271.9996)">
+ <line atv:refpx="500.504" atv:refpy="52" id="id_1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="499.999" x2="499.999" y1="63" y2="41"/>
+ <svg atv:refpx="486.99" atv:refpy="41.5" height="63.11" id="id_8" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="601.144" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="1.372">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Coral"/>
+ </svg>
+ <line atv:refpx="439.5" atv:refpy="411" id="id_96" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="395" x2="484" y1="410.5" y2="410.5"/>
+ <line atv:refpx="407" atv:refpy="328.5" id="id_76" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="360" x2="454" y1="328" y2="328"/>
+ <line atv:refpx="35.501" atv:refpy="318.176" id="id_16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="50.001" x2="50.001" y1="274.5" y2="327.5"/>
+ <line atv:refpx="35.501" atv:refpy="239.56" id="id_55" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="50.001" x2="50.001" y1="193" y2="249.5"/>
+ <line atv:refpx="129" atv:refpy="-73.71" id="id_107" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="335.501" x2="335.501" y1="67.5" y2="45.5"/>
+ <line atv:refpx="-56" atv:refpy="211" id="id_102" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="244" x2="308" y1="259.5" y2="259.5"/>
+ <line atv:refpx="320.001" atv:refpy="279.307" id="id_92" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="320.501" x2="320.501" y1="388" y2="133.5"/>
+ <line atv:refpx="-12.499" atv:refpy="134.5" id="id_84" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="194.002" x2="194.002" y1="325" y2="295"/>
+ <polygon atv:refpx="-12.498" atv:refpy="551" fill="#000018" id="id_85" points="184.001,294.999 204.001,294.999 194.001,281.999 194.001,281.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="461.002" atv:refpy="0" id="id_88" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="194.002" x2="194.002" y1="193.5" y2="223.5"/>
+ <polygon atv:refpx="179.002" atv:refpy="247.5" fill="#000018" id="id_89" points="204.001,223.499 184.001,223.499 194.001,236.499 194.001,236.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="-12.5" atv:refpy="119.5" id="id_80" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="244" x2="274" y1="96.5" y2="96.5"/>
+ <polygon atv:refpx="91.5" atv:refpy="106.5" fill="#000018" id="id_81" points="273.999,86.499 273.999,106.499 286.999,96.499 286.999,96.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <g atv:refpx="250.25" atv:refpy="427.5" id="id_67" transform="matrix(1,0,0,1,135.4999,286.4999)">
   <g atv:refpx="129.75" atv:refpy="123.5" id="id_68">
    <line atv:refpx="131.5" atv:refpy="124" id="id_69" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="1" x1="108.5" x2="138.5" y1="123.5" y2="123.5"/>
    <polygon atv:refpx="134" atv:refpy="124.5" fill="#000018" id="id_70" points="138.5,113.5 138.5,133.5 151.5,123.5 151.5,123.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
   </g>
  </g>
- <line atv:refpx="131.5" atv:refpy="124" id="id_27" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="244" x2="274" y1="102.5" y2="102.5"/>
- <polygon atv:refpx="134" atv:refpy="124.5" fill="#000018" id="id_28" points="274,92.5 274,112.5 287,102.5 287,102.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <rect atv:refpx="644.789" atv:refpy="123" fill="#000088" fill-opacity="0" height="78" id="id_58" rx="0" ry="0" stroke="#000072" stroke-width="1" width="136" x="575" y="66.5"/>
- <text atv:refpx="642.409" atv:refpy="103.005" fill="#000018" font-family="Arial" font-size="18" font-weight="bold" id="id_106" transform="matrix(0.612,0,0,0.6329,226.5695,34.3288)" x="588.442" y="115.014">PTAR ISLA MUJERES</text>
- <svg atv:refpx="323" atv:refpy="552" height="63.11" id="id_0" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="383.03" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="701.742">
+ <line atv:refpx="-12.5" atv:refpy="118" id="id_27" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="100" x2="130" y1="96.5" y2="96.5"/>
+ <polygon atv:refpx="-10" atv:refpy="118.5" fill="#000018" id="id_28" points="129.999,86.499 129.999,106.499 142.999,96.499 142.999,96.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <rect atv:refpx="499" atv:refpy="96.5" fill="#000088" fill-opacity="0" height="49" id="id_58" rx="0" ry="0" stroke="#000072" stroke-width="1" width="136" x="431" y="72"/>
+ <text atv:refpx="498.409" atv:refpy="96.498" fill="#000018" font-family="Arial" font-size="18" font-weight="bold" id="id_106" transform="matrix(0.612,0,0,0.6329,170.6975,31.9399)" x="444.442" y="108.506">PTAR ISLA MUJERES</text>
+ <svg atv:refpx="485" atv:refpy="428" height="63.11" id="id_0" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="598.484" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="531.622">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_001_IM"/>
  </svg>
- <svg atv:refpx="465.001" atv:refpy="417" height="63.11" id="id_2" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="571.885" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="516.531">
+ <svg atv:refpx="322.501" atv:refpy="428" height="63.11" id="id_2" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="382.365" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="531.622">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_002_IM"/>
  </svg>
- <svg atv:refpx="321.99" atv:refpy="57.999" height="63.11" id="id_3" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="381.7" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="24.008">
+ <svg atv:refpx="320.49" atv:refpy="40.5" height="63.11" id="id_3" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="379.705" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="0">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Ampliacion"/>
  </svg>
- <svg atv:refpx="323" atv:refpy="177.999" height="63.11" id="id_4" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="383.03" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="188.64">
+ <svg atv:refpx="179" atv:refpy="193.249" height="63.11" id="id_4" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="191.515" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="209.562">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Caridad_Cobre"/>
  </svg>
- <svg atv:refpx="322.996" atv:refpy="266.497" height="63.11" id="id_5" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="383.03" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="310.055">
+ <svg atv:refpx="178.996" atv:refpy="276.997" height="63.11" id="id_5" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="191.515" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="324.46">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Cañotal"/>
  </svg>
- <svg atv:refpx="322.99" atv:refpy="489" height="63.11" id="id_6" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="383.03" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="615.31">
+ <svg atv:refpx="486.99" atv:refpy="343.501" height="63.11" id="id_6" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="601.144" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="415.695">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Electricistas"/>
  </svg>
- <svg atv:refpx="464.993" atv:refpy="120.5" height="63.11" id="id_7" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="571.885" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="109.763">
+ <svg atv:refpx="320.493" atv:refpy="113.993" height="63.11" id="id_7" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="379.705" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="100.836">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Final_PTAR_IM"/>
  </svg>
- <svg atv:refpx="178.984" atv:refpy="120.498" height="63.11" id="id_14" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="191.515" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="109.754">
+ <svg atv:refpx="34.984" atv:refpy="113.998" height="63.11" id="id_14" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="100.836">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Fovissste_IM"/>
  </svg>
- <svg atv:refpx="180" atv:refpy="176.995" height="63.11" id="id_18" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="192.845" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="187.268">
+ <svg atv:refpx="35" atv:refpy="193.245" height="63.11" id="id_18" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="209.562">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Miraflores"/>
  </svg>
- <svg atv:refpx="322.987" atv:refpy="119.997" height="63.11" id="id_19" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="383.03" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="109.068">
+ <svg atv:refpx="178.987" atv:refpy="113.997" height="63.11" id="id_19" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="191.515" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="100.836">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Oriente"/>
  </svg>
- <svg atv:refpx="322.996" atv:refpy="355.995" height="63.11" id="id_20" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="383.03" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="432.843">
+ <svg atv:refpx="178.996" atv:refpy="366.495" height="63.11" id="id_20" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="191.515" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="447.248">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Poniente"/>
  </svg>
- <svg atv:refpx="50" atv:refpy="266.497" height="63.11" id="id_21" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="19.949" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="310.055">
+ <svg atv:refpx="35" atv:refpy="363.998" height="63.11" id="id_21" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="443.819">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Sacbajo"/>
  </svg>
- <svg atv:refpx="322.996" atv:refpy="417" height="63.11" id="id_22" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="383.03" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="516.531">
+ <svg atv:refpx="178.996" atv:refpy="427.5" height="63.11" id="id_22" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="191.515" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="530.936">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Salinas"/>
  </svg>
- <polygon atv:refpx="266.5" atv:refpy="256" fill="#000018" id="id_44" points="275,228.499 275,248.499 288,238.499 288,238.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="180.501" atv:refpy="227" id="id_55" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="195.001" x2="195.001" y1="182.5" y2="236.5"/>
- <line atv:refpx="222.5" atv:refpy="256.5" id="id_56" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="279.5" x2="195.5" y1="238.5" y2="238.5"/>
- <polygon atv:refpx="266.5" atv:refpy="281" fill="#000018" id="id_57" points="275,253.499 275,273.499 288,263.499 288,263.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="182.5" atv:refpy="281.5" id="id_59" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="278" x2="117" y1="263.5" y2="263.5"/>
- <line atv:refpx="492.5" atv:refpy="501" id="id_65" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="507" x2="507" y1="533.5" y2="433.5"/>
- <polygon atv:refpx="573.5" atv:refpy="481" fill="#000018" id="id_66" points="497,435.999 517,435.999 507,422.999 507,422.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="408.75" atv:refpy="489.5" id="id_76" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="390.5" x2="457" y1="471.5" y2="471.5"/>
- <polygon atv:refpx="441" atv:refpy="447" fill="#000018" fill-opacity="0.964706" id="id_75" points="446,435.999 466,435.999 456,422.999 456,422.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="440.5" atv:refpy="471.5" id="id_77" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="456" x2="456" y1="471.5" y2="436.5"/>
- <polygon atv:refpx="465.001" atv:refpy="152.5" fill="#000018" fill-opacity="0.964706" id="id_47" points="470,141.499 490,141.499 480,128.499 480,128.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="433" atv:refpy="550.5" id="id_96" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="389" x2="507" y1="532.5" y2="532.5"/>
- <polygon atv:refpx="289" atv:refpy="201" fill="#000018" id="id_103" points="466.5,238.999 466.5,258.999 479.5,248.999 479.5,248.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="276.5" atv:refpy="124.5" id="id_104" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="531" x2="561" y1="101.5" y2="101.5"/>
- <polygon atv:refpx="380.5" atv:refpy="111.5" fill="#000018" id="id_105" points="561,91.499 561,111.499 574,101.499 574,101.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="273.5" atv:refpy="-143.733" id="id_107" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="480.001" x2="480.001" y1="74.5" y2="40.5"/>
- <polygon atv:refpx="465.001" atv:refpy="92.5" fill="#000018" id="id_110" points="490,68.499 470,68.499 480,81.499 480,81.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="122.5" atv:refpy="266.5" fill="#000018" id="id_44" points="130.999,238.999 130.999,258.999 143.999,248.999 143.999,248.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="77.482" atv:refpy="267" id="id_56" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="135.5" x2="50" y1="249" y2="249"/>
+ <polygon atv:refpx="122.5" atv:refpy="291.5" fill="#000018" id="id_57" points="130.999,263.999 130.999,283.999 143.999,273.999 143.999,273.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="84.174" atv:refpy="292" id="id_59" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="134" x2="50" y1="274" y2="274"/>
+ <polygon atv:refpx="393.5" atv:refpy="412.5" fill="#000018" id="id_66" points="402,420.5 402,400.5 389,410.5 389,410.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="344" atv:refpy="359.001" fill="#000018" fill-opacity="0.964706" id="id_75" points="369,370.501 349,370.501 359,383.501 359,383.501" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="359.5" atv:refpy="349" id="id_77" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="359" x2="359" y1="328" y2="370"/>
+ <polygon atv:refpx="320.502" atv:refpy="145" fill="#000018" fill-opacity="0.964706" id="id_47" points="310.501,133.999 330.501,133.999 320.501,120.999 320.501,120.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="328.999" atv:refpy="259.499" fill="#000018" id="id_103" points="307.499,249.499 307.499,269.499 320.499,259.499 320.499,259.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="132.5" atv:refpy="119.5" id="id_104" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="387" x2="417" y1="96.5" y2="96.5"/>
+ <polygon atv:refpx="236.5" atv:refpy="106.501" fill="#000018" id="id_105" points="416.999,86.499 416.999,106.499 429.999,96.499 429.999,96.499" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="335.502" atv:refpy="67.499" fill="#000018" id="id_110" points="345.501,60.998 325.501,60.998 335.501,73.999 335.501,73.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="499.503" atv:refpy="131.5" id="id_10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2" x1="499" x2="499" y1="130.5" y2="152.5"/>
+ <svg atv:refpx="483.988" atv:refpy="193.25" height="63.11" id="id_13" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="597.152" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="209.562">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Garrafon"/>
+ </svg>
+ <polygon atv:refpx="498.999" atv:refpy="127" fill="#000018" id="id_15" points="488.999,133.5 508.999,133.5 498.999,120.5 498.999,120.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="500" atv:refpy="66.5" fill="#000018" id="id_9" points="510,59 490,59 500,72 500,72" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
 </svg>

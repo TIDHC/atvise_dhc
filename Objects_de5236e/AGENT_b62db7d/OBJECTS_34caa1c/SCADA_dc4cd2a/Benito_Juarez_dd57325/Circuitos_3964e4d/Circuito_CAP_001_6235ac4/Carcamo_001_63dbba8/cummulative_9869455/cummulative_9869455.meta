@@ -2,7 +2,7 @@ NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001.Carc
 NodeClass: Variable
 BrowseName: 1:cummulative
 DisplayName: en|cummulative
-Description: en|cummulative
+Description: en|Acumulado total
 DataType: UInt32
 ValueRank: -1
 AccessLevel: 103

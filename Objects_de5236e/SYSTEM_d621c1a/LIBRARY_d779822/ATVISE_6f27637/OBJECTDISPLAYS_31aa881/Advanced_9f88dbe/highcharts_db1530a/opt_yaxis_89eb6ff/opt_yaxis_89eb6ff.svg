@@ -19,7 +19,7 @@
   <atv:snapconfig enabled="true" height="1" width="1"/>
  </metadata>
  <line atv:refpx="661" atv:refpy="265" id="id_0" stroke="#d7d7d7" stroke-width="0.5" x1="661" x2="661" y1="20" y2="510"/>
- <text atv:refpx="82.774" atv:refpy="31.5" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold" id="id_2" x="24.5" y="36">T{Y-Axis to configure}:</text>
+ <text atv:refpx="82.774" atv:refpy="31.5" fill="#000000" font-family="Arial" font-size="12" font-weight="bold" id="id_2" x="24.5" y="36">T{Y-Axis to configure}:</text>
  <text atv:refpx="257.212" atv:refpy="31.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_1" x="200.5" y="36">T{Axis configuration}:</text>
  <text atv:refpx="706.84" atv:refpy="31.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_3" x="680.5" y="36">T{Styling}:</text>
  <text atv:refpx="311.5" atv:refpy="68.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_7" text-anchor="end" x="335.5" y="73">T{Label}:</text>
@@ -196,7 +196,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -208,7 +208,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -220,7 +220,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -232,7 +232,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -244,7 +244,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -256,7 +256,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -268,7 +268,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -280,7 +280,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -292,7 +292,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>
@@ -339,8 +339,8 @@
   <atv:overwrite id="id_2" transform="matrix(0.5714,0,0,1,0,0)" width="134.5"/>
   <atv:overwrite id="id_0" transform="matrix(0.5714,0,0,1,0,0)" width="139.5"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
+  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.atvFillColor"/>
   <atv:overwrite id="id_6" transform="matrix(0.5714,0,0,1,0,0)" width="138"/>
   <atv:overwrite id="button_label" transform="matrix(0.5714,0,0,1,0,0)" x="70"/>
   <atv:overwrite id="button_symbol" transform="matrix(0.5714,0,0,1,0,0)" x="60"/>
@@ -403,8 +403,8 @@
   <atv:overwrite id="id_2" transform="matrix(0.5714,0,0,1,0,0)" width="134.5"/>
   <atv:overwrite id="id_0" transform="matrix(0.5714,0,0,1,0,0)" width="139.5"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.atvFillColor"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:overwrite id="id_6" transform="matrix(0.5714,0,0,1,0,0)" width="138"/>
   <atv:overwrite id="button_label" transform="matrix(0.5714,0,0,1,0,0)" x="70"/>
   <atv:overwrite id="button_symbol" transform="matrix(0.5714,0,0,1,0,0)" x="60"/>
@@ -421,7 +421,7 @@
   <atv:overwrite id="radiobutton_bg2" transform="matrix(1.1429,0,0,1,0,0)"/>
   <atv:overwrite id="id_2" transform="matrix(1.1429,0,0,1,0,0)" width="108"/>
   <atv:overwrite id="id_0" transform="matrix(1.1429,0,0,1,0,0)" width="139.5"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="symbolColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite id="radiobutton_bg" width="106"/>
  </svg>

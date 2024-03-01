@@ -1,5 +1,6 @@
 var webMIConfig = {
 "frame.documentdomain": false,
+"alarm.management.global": true,
 //The configuration parameters are described in the atvise help section "Client/Browserside scripting reference -> Configuration".
 "frame.scaletype": "transform",
 "responsiveLite": {
@@ -17,7 +18,7 @@ var webMIConfig = {
                 "thresholdDesktop": 1080
             },
             "landscape": {
-                "active": true,
+                "active": false,
                 "thresholdMobile": 1,
                 "thresholdDesktop": 200
             }
@@ -54,16 +55,16 @@ var webMIConfig = {
             "mobile": {
                 "window": {
 
-                    "content": 1.5,
-                    "titlebar": 1.5
+                    "content": 1.3,
+                    "titlebar": 1.3
                 },
                 "table": {
-                    "fontsize": 1.5,
-                    "rowheight": 2.0
+                    "fontsize": 1.3,
+                    "rowheight": 1.7
                 },
                 "contextmenu": {
-                    "fontsize": 2,
-                    "rowheight": 2.0
+                    "fontsize": 1.7,
+                    "rowheight": 1.7
                 }
             }
         }

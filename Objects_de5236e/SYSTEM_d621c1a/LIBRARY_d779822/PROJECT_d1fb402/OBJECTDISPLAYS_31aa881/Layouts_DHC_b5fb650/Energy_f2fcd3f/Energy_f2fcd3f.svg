@@ -5,16 +5,14 @@
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="false" height="10" width="10"/>
  </metadata>
- <rect atv:refpx="301.956" atv:refpy="164.602" fill="#ffffff" height="327.204" id="id_16" stroke="#000000" stroke-width="2" width="601.022" x="1.445" y="1"/>
- <rect atv:refpx="184.18" atv:refpy="34.223" fill="#e8e8e8" height="64" id="id_31" stroke="#000000" stroke-opacity="0" stroke-width="2" width="230" x="70.171" y="2.223"/>
- <rect atv:refpx="36.584" atv:refpy="34.223" fill="#e8e8e8" height="64" id="id_0" stroke="#000000" stroke-opacity="0" stroke-width="2" width="66" x="3.584" y="2.223"/>
+ <rect atv:refpx="302.877" atv:refpy="164.602" fill="#ffffff" height="327.204" id="id_16" stroke="#000000" stroke-width="2" width="602.863" x="1.445" y="1"/>
+ <rect atv:refpx="453.736" atv:refpy="40.041" fill="#e8e8e8" height="64" id="id_5" stroke="#000000" stroke-opacity="0" stroke-width="2" width="301.151" x="301.862" y="2.223"/>
+ <rect atv:refpx="152.08" atv:refpy="34.223" fill="#e8e8e8" height="64" id="id_0" stroke="#000000" stroke-opacity="0" stroke-width="2" width="299.404" x="2.378" y="2.223"/>
  <rect atv:refpx="301.463" atv:refpy="100.189" fill="#ffffff" height="66" id="id_1" stroke="#000000" stroke-width="2" width="599.758" x="1.584" y="67.189"/>
  <rect atv:refpx="301.957" atv:refpy="166.265" fill="#ffffff" height="66" id="id_2" stroke="#000000" stroke-width="2" width="599.758" x="2.078" y="133.265"/>
  <rect atv:refpx="350.084" atv:refpy="103.811" fill="#e8e8e8" height="63" id="id_12" stroke="#000000" stroke-opacity="0" stroke-width="2" width="99" x="300.584" y="69.447"/>
  <rect atv:refpx="301.469" atv:refpy="232.957" fill="#ffffff" height="66" id="id_3" stroke="#000000" stroke-width="2" width="599.758" x="1.59" y="198.957"/>
  <rect atv:refpx="350.084" atv:refpy="168.992" fill="#e8e8e8" height="63" id="id_13" stroke="#000000" stroke-opacity="0" stroke-width="2" width="99" x="300.584" y="134.628"/>
- <rect atv:refpx="335.588" atv:refpy="34.223" fill="#e8e8e8" height="64" id="id_4" stroke="#000000" stroke-opacity="0" stroke-width="2" width="66" x="300.587" y="2.223"/>
- <rect atv:refpx="484.593" atv:refpy="40.041" fill="#e8e8e8" height="64" id="id_5" stroke="#000000" stroke-opacity="0" stroke-width="2" width="234" x="366.584" y="2.223"/>
  <rect atv:refpx="301.953" atv:refpy="298.223" fill="#ffffff" height="66" id="id_6" stroke="#000000" stroke-width="2" width="599.758" x="2.074" y="265.223"/>
  <rect atv:refpx="350.084" atv:refpy="234.686" fill="#e8e8e8" height="63" id="id_14" stroke="#000000" stroke-opacity="0" stroke-width="2" width="99" x="300.584" y="200.322"/>
  <rect atv:refpx="52.084" atv:refpy="231.822" fill="#e8e8e8" height="63" id="id_10" stroke="#000000" stroke-opacity="0" stroke-width="2" width="99" x="2.584" y="200.322"/>
@@ -22,8 +20,10 @@
  <rect atv:refpx="350.084" atv:refpy="301.376" fill="#e8e8e8" height="63" id="id_15" stroke="#000000" stroke-opacity="0" stroke-width="2" width="99" x="300.584" y="267.012"/>
  <rect atv:refpx="53.084" atv:refpy="100.787" fill="#e8e8e8" height="63" id="id_8" stroke="#000000" stroke-opacity="0" stroke-width="2" width="99" x="2.584" y="69.287"/>
  <rect atv:refpx="52.925" atv:refpy="166.128" fill="#e8e8e8" height="63" id="id_9" stroke="#000000" stroke-opacity="0" stroke-width="2" width="99" x="3.425" y="134.628"/>
- <polygon atv:refpx="27.553" atv:refpy="34.127" fill="#000000" id="id_19" points="15.994,37.724 26.783,37.724 15.994,59.813 39.111,31.045 26.783,31.045 37.571,8.442" stroke="#000000" stroke-opacity="0" stroke-width="2"/>
- <svg atv:refpx="332.662" atv:refpy="34.127" height="40" id="id_17" transform="matrix(1.2569,0,0,1,0,0)" width="40" x="244.679" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2FSVG%20WIFI.svg" y="14.127"/>
+ <g atv:refpx="186.904" atv:refpy="34.127" id="id_31">
+  <polygon atv:refpx="27.553" atv:refpy="34.127" fill="#ffffff" id="id_19" points="15.994,37.724 26.783,37.724 15.994,59.813 39.111,31.045 26.783,31.045 37.571,8.442" stroke="#000000" stroke-opacity="0" stroke-width="2"/>
+  <svg atv:refpx="332.662" atv:refpy="34.127" fill="#ffffff" height="40" id="id_17" stroke="#ffffff" transform="matrix(1.2569,0,0,1,0,0)" width="40" x="244.679" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2FSVG%20WIFI.svg" y="14.127"/>
+ </g>
  <text atv:refpx="516.604" atv:refpy="37.627" fill="#ffffff" font-family="Arial" font-size="22" font-weight="bold" id="id_18" text-anchor="end" x="586.104" y="42.127">timestamp</text>
  <text atv:refpx="207.415" atv:refpy="37.627" fill="#ffffff" font-family="Arial" font-size="22" font-weight="bold" id="id_7" text-anchor="end" x="276.915" y="42.127">timestamp</text>
  <text atv:refpx="20.524" atv:refpy="309.223" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_23" text-anchor="end" x="29.002" y="313.723">P</text>
@@ -57,6 +57,17 @@
  <text atv:refpx="529.372" atv:refpy="173.128" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_61" text-anchor="end" x="541.112" y="177.628">I2</text>
  <text atv:refpx="529.372" atv:refpy="240.235" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_62" text-anchor="end" x="541.112" y="244.735">I3</text>
  <text atv:refpx="521.681" atv:refpy="307.223" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_63" text-anchor="end" x="541.112" y="311.723">FP</text>
+ <rect atv:refpx="302.873" atv:refpy="364.747" fill="#ffffff" height="66" id="id_21" stroke="#000000" stroke-width="2" width="601.599" x="2.074" y="331.747"/>
+ <rect atv:refpx="36.017" atv:refpy="364.627" fill="#e8e8e8" height="63" id="id_22" stroke="#000000" stroke-opacity="0" stroke-width="2" width="66" x="3.017" y="333.127"/>
+ <polygon atv:refpx="31.414" atv:refpy="365.381" fill="#8e8e8e" id="id_24" points="12.946,384.702 32.835,346.061 49.882,384.133 49.882,384.133 49.882,384.133" stroke="#000000" stroke-opacity="0" stroke-width="2"/>
+ <text atv:refpx="566.435" atv:refpy="379.628" fill="#000000" font-family="Arial" font-size="22" font-weight="bold" id="id_25" text-anchor="start" x="549.105" y="384.128">%</text>
+ <text atv:refpx="264.871" atv:refpy="381.032" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_26" text-anchor="end" x="393.697" y="385.532">Estatus P. Emerg</text>
+ <text atv:refpx="509.917" atv:refpy="380.141" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_29" text-anchor="end" x="541.112" y="384.641">Fuel</text>
+ <rect atv:refpx="151.94" atv:refpy="167.588" fill="#000000" fill-opacity="0" height="197.554" id="id_30" stroke="#000000" stroke-width="2" width="298.55" x="2.665" y="68.811"/>
+ <rect atv:refpx="452.966" atv:refpy="165.368" fill="#000000" fill-opacity="0" height="197.554" id="id_34" stroke="#000000" stroke-width="2" width="300.391" x="302.77" y="67.591"/>
+ <rect atv:refpx="151.385" atv:refpy="299.106" fill="#000000" fill-opacity="0" height="63.262" id="id_37" stroke="#000000" stroke-width="2" width="300.77" x="1" y="267.475"/>
+ <rect atv:refpx="453.265" atv:refpy="298.551" fill="#000000" fill-opacity="0" height="63.262" id="id_40" stroke="#000000" stroke-width="2" width="300.77" x="302.88" y="266.92"/>
+ <rect atv:refpx="302.135" atv:refpy="33.091" fill="#000000" fill-opacity="0" height="64.182" id="id_43" stroke="#000000" stroke-width="2" width="602.271" x="1" y="1"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 
 
@@ -70,7 +81,7 @@ webMI.gfx.setText(id, formattedDate.toString());
 
 });
 
-webMI.data.subscribe(webMI.query["base"] + ".level_percent", function(e) {
+webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
 var id = "id_7";
 var value = e.timestamp;
 const date = new Date(value);
@@ -82,25 +93,67 @@ webMI.gfx.setText(id, formattedDate.toString());
 
 
 webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
-var id = "id_5";
-var value = e.status;
-if ( value == 0){
-	webMI.gfx.setFill(id, "#017100");}
-else {
-	webMI.gfx.setFill(id, "#ee220c");}
-
-});
-
+	var id = "id_5";
+	var value = e.status;
+	var valor = e.value;
+	
+	switch (value) {
+	case 0:
+		if (valor == true)
+			webMI.gfx.setFill(id, "#1a8b22");
+		else
+			webMI.gfx.setFill(id, "#ff0000");
+		break;
+	case undefined:
+		webMI.gfx.setFill(id, "#6b6b6b");
+		break;
+	case 2156593152:
+		webMI.gfx.setFill(id, "#b98f2d");
+		break;
+	case 2150694912:
+		webMI.gfx.setFill(id, "#ff0000");
+		break;
+	case 2150760448:
+		webMI.gfx.setFill(id, "#7c1536");
+		break;
+	default:
+		console.log(value);
+		webMI.gfx.setFill(id, "#ffffff");
+	break;
+		}
+	});
 
 webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
-var id = "id_31";
-var value = e.status;
-if ( value == 0){
-	webMI.gfx.setFill(id, "#017100");}
-else {
-	webMI.gfx.setFill(id, "#ee220c");}
+	var id = "id_0";
+	var value = e.status;
+	var valor = e.value;
+	
+	switch (value) {
+	case 0:
+		if (valor == true)
+			webMI.gfx.setFill(id, "#1a8b22");
+		else
+			webMI.gfx.setFill(id, "#ff0000");
+		break;
+	case undefined:
+		webMI.gfx.setFill(id, "#6b6b6b");
+		break;
+	case 2156593152:
+		webMI.gfx.setFill(id, "#b98f2d");
+		break;
+	case 2150694912:
+		webMI.gfx.setFill(id, "#ff0000");
+		break;
+	case 2150760448:
+		webMI.gfx.setFill(id, "#7c1536");
+		break;
+	default:
+		console.log(value);
+		webMI.gfx.setFill(id, "#ffffff");
+	break;
+		}
+	});
 
-});
 
 webMI.data.subscribe(webMI.query["base"] + ".Voltaje_L1-L2", function(e) {
 var id = "id_47";
@@ -170,47 +223,41 @@ if (value > 1)
 	
 webMI.gfx.setText(id, webMI.sprintf("%.2f", value));
 
-});]]><![CDATA[
+});
+
 webMI.addEvent("id_30", "click", function(e) {
 var id = "id_30";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.VoltajeMain", webMI.query, "tendencias");
+webMI.display.openDisplay("SYSTEM.DISPLAYS.VoltajeMain", webMI.query, "caudalimetros");
 });
 
-]]><![CDATA[
+
+
 webMI.addEvent("id_34", "click", function(e) {
 var id = "id_34";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.CorrienteMain", webMI.query, "tendencias");
+webMI.display.openDisplay("SYSTEM.DISPLAYS.CorrienteMain", webMI.query, "caudalimetros");
 });
 
-]]><![CDATA[
+
+
 webMI.addEvent("id_37", "click", function(e) {
 var id = "id_37";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.PotenciaMain", webMI.query, "tendencias");
-});]]><![CDATA[
+webMI.display.openDisplay("SYSTEM.DISPLAYS.PotenciaMain", webMI.query, "caudalimetros");
+});
+
 webMI.addEvent("id_40", "click", function(e) {
 var id = "id_40";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.FPMain", webMI.query, "tendencias");
+webMI.display.openDisplay("SYSTEM.DISPLAYS.FPMain", webMI.query, "caudalimetros");
 });
 
-]]><![CDATA[
+
+
 webMI.addEvent("id_43", "click", function(e) {
 var id = "id_43";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.ConectividadMain", webMI.query, "tendencias");
+webMI.display.openDisplay("SYSTEM.DISPLAYS.ConectividadMain", webMI.query, "caudalimetros");
 });]]></script>
- <rect atv:refpx="301.953" atv:refpy="364.747" fill="#ffffff" height="66" id="id_21" stroke="#000000" stroke-width="2" width="599.758" x="2.074" y="331.747"/>
- <rect atv:refpx="36.017" atv:refpy="364.627" fill="#e8e8e8" height="63" id="id_22" stroke="#000000" stroke-opacity="0" stroke-width="2" width="66" x="3.017" y="333.127"/>
- <polygon atv:refpx="31.414" atv:refpy="365.381" fill="#8e8e8e" id="id_24" points="12.946,384.702 32.835,346.061 49.882,384.133 49.882,384.133 49.882,384.133" stroke="#000000" stroke-opacity="0" stroke-width="2"/>
- <text atv:refpx="566.435" atv:refpy="379.628" fill="#000000" font-family="Arial" font-size="22" font-weight="bold" id="id_25" text-anchor="start" x="549.105" y="384.128">%</text>
- <text atv:refpx="264.871" atv:refpy="381.032" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_26" text-anchor="end" x="393.697" y="385.532">Estatus P. Emerg</text>
- <text atv:refpx="509.917" atv:refpy="380.141" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_29" text-anchor="end" x="541.112" y="384.641">Fuel</text>
- <rect atv:refpx="151.94" atv:refpy="167.588" fill="#000000" fill-opacity="0" height="197.554" id="id_30" stroke="#000000" stroke-width="2" width="298.55" x="2.665" y="68.811"/>
- <rect atv:refpx="452.045" atv:refpy="165.368" fill="#000000" fill-opacity="0" height="197.554" id="id_34" stroke="#000000" stroke-width="2" width="298.55" x="302.77" y="67.591"/>
- <rect atv:refpx="151.385" atv:refpy="299.106" fill="#000000" fill-opacity="0" height="63.262" id="id_37" stroke="#000000" stroke-width="2" width="300.77" x="1" y="267.475"/>
- <rect atv:refpx="453.265" atv:refpy="298.551" fill="#000000" fill-opacity="0" height="63.262" id="id_40" stroke="#000000" stroke-width="2" width="300.77" x="302.88" y="266.92"/>
- <rect atv:refpx="303.435" atv:refpy="34.406" fill="#000000" fill-opacity="0" height="63.262" id="id_43" stroke="#000000" stroke-width="2" width="600.43" x="3.22" y="2.775"/>
 </svg>

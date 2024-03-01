@@ -267,7 +267,7 @@
     </message>
     <message>
       <source>Archive</source>
-      <translation>Archive</translation>
+      <translation>Fichero</translation>
     </message>
     <message>
       <source>Archive is locked</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Cancel</translation>
+      <translation>Cancelar</translation>
     </message>
     <message>
       <source>Cannot read archive</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
       <source>Change</source>
-      <translation>Change</translation>
+      <translation>Cambiar</translation>
     </message>
     <message>
       <source>Change interval frequency.</source>
@@ -399,7 +399,7 @@
     </message>
     <message>
       <source>Change password</source>
-      <translation>Change password</translation>
+      <translation>Cambiar contraseña</translation>
     </message>
     <message>
       <source>Changes saved successfully.</source>
@@ -459,7 +459,7 @@
     </message>
     <message>
       <source>Comment</source>
-      <translation>Comment</translation>
+      <translation>Comentario</translation>
     </message>
     <message>
       <source>Compression</source>
@@ -579,7 +579,7 @@
     </message>
     <message>
       <source>Content Display</source>
-      <translation>Content Display</translation>
+      <translation>Contenido por defecto</translation>
     </message>
     <message>
       <source>Continuation Point Invalid</source>
@@ -683,7 +683,7 @@
     </message>
     <message>
       <source>Default Display</source>
-      <translation>Default Display</translation>
+      <translation>Pantalla por defecto</translation>
     </message>
     <message>
       <source>Default value</source>
@@ -811,7 +811,7 @@
     </message>
     <message>
       <source>Edit user</source>
-      <translation>Edit user</translation>
+      <translation>Editar usuario</translation>
     </message>
     <message>
       <source>Enable</source>
@@ -871,7 +871,7 @@
     </message>
     <message>
       <source>Eventtext</source>
-      <translation>Texto del evento</translation>
+      <translation>Evento</translation>
     </message>
     <message>
       <source>Examples: 'C:/project/template.xlsx', 'C:\project\template.xlsx' or './template.xlsx'</source>
@@ -999,7 +999,7 @@
     </message>
     <message>
       <source>Full name</source>
-      <translation>Full name</translation>
+      <translation>Nombre completo</translation>
     </message>
     <message>
       <source>General</source>
@@ -1019,15 +1019,15 @@
     </message>
     <message>
       <source>Group</source>
-      <translation>Group</translation>
+      <translation>Grupo</translation>
     </message>
     <message>
       <source>Group folder doesn't exist or permission is missing.</source>
-      <translation>Group folder doesn't exist or permission is missing.</translation>
+      <translation>La carpeta del grupo no existe o no tienes permisos.</translation>
     </message>
     <message>
       <source>Groups</source>
-      <translation>Groups</translation>
+      <translation>Grupos</translation>
     </message>
     <message>
       <source>HH</source>
@@ -1451,7 +1451,7 @@
     </message>
     <message>
       <source>Min. priority</source>
-      <translation>Min. priority</translation>
+      <translation>Prioridad min.</translation>
     </message>
     <message>
       <source>Minimum</source>
@@ -1523,7 +1523,7 @@
     </message>
     <message>
       <source>Must not contain user name or part of full name</source>
-      <translation>Must not contain user name or part of full name</translation>
+      <translation>No debe contener el nombre de usuario o parte del nombre completo</translation>
     </message>
     <message>
       <source>N/A</source>
@@ -1551,7 +1551,7 @@
     </message>
     <message>
       <source>New password</source>
-      <translation>New password</translation>
+      <translation>Contraseña nueva</translation>
     </message>
     <message>
       <source>No Continuation Points</source>
@@ -1663,7 +1663,7 @@
     </message>
     <message>
       <source>Old password</source>
-      <translation>Old password</translation>
+      <translation>Contraseña actual</translation>
     </message>
     <message>
       <source>Older than</source>
@@ -1755,7 +1755,7 @@
     </message>
     <message>
       <source>Password Editor</source>
-      <translation>Password Editor</translation>
+      <translation>Editor de contraseñas</translation>
     </message>
     <message>
       <source>Password change unsupported.</source>
@@ -2063,7 +2063,7 @@
     </message>
     <message>
       <source>Requirements</source>
-      <translation>Requirements</translation>
+      <translation>Requisitos</translation>
     </message>
     <message>
       <source>Reset</source>
@@ -2071,7 +2071,7 @@
     </message>
     <message>
       <source>Reset filter</source>
-      <translation>Reinicializar filtro</translation>
+      <translation>Reiniciar filtro</translation>
     </message>
     <message>
       <source>Reset sorting</source>
@@ -2119,7 +2119,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>Save</translation>
+      <translation>Guardar</translation>
     </message>
     <message>
       <source>Save / Load configuration</source>
@@ -2447,7 +2447,7 @@
     </message>
     <message>
       <source>Subgroup</source>
-      <translation>Subgroup</translation>
+      <translation>Subgrupos</translation>
     </message>
     <message>
       <source>SubscriptionPending</source>
@@ -2727,7 +2727,7 @@
     </message>
     <message>
       <source>Unlimited</source>
-      <translation>Unlimited</translation>
+      <translation>Ilimitado</translation>
     </message>
     <message>
       <source>Unshelve</source>
@@ -2819,7 +2819,7 @@
     </message>
     <message>
       <source>Value</source>
-      <translation>Valor actual</translation>
+      <translation>Valor</translation>
     </message>
     <message>
       <source>Value decimal places</source>
@@ -3271,7 +3271,7 @@
     </message>
     <message>
       <source>now</source>
-      <translation>now</translation>
+      <translation>Ahora</translation>
     </message>
     <message>
       <source>of</source>

@@ -5,7 +5,7 @@
   <atv:gridconfig enabled="true" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="2" width="2"/>
  </metadata>
- <svg atv:refpx="890.959" atv:refpy="578.042" height="600" id="content" transform="matrix(2.2275,0,0,1.66,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="48.193">
+ <svg atv:refpx="889.96" atv:refpy="580.042" height="600" id="content" transform="matrix(2.225,0,0,1.6533,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="50.806">
   <atv:argument name="frameName" value="content"/>
   <atv:argument name="isNavigationFrame" value="true"/>
   <atv:argument name="display" value="AGENT.DISPLAYS.USER.Layouts_DHC.IT_Main"/>
@@ -50,4 +50,17 @@
   <atv:argument name="navHomeDisplay" value="AGENT.DISPLAYS.USER.Layouts_DHC.IT_Main"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(1.4706,0,0,3.7495,0,0)"/>
  </svg>
+ <circle atv:refpx="1790" atv:refpy="260.209" cx="1790" cy="260.209" fill="#b98f2d" id="id_3" r="10" stroke="#b98f2d" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="299.945" cx="1790" cy="299.945" fill="#7c1536" id="id_4" r="10" stroke="#7c1536" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="339.681" cx="1790" cy="339.681" fill="#8b3db8" id="id_5" r="10" stroke="#8b3db8" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="379.417" cx="1790" cy="379.417" fill="#6b6b6b" id="id_6" r="10" stroke="#6b6b6b" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="180.736" cx="1790" cy="180.736" fill="#1a8b22" id="id_7" r="10" stroke="#1a8b22" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="220.472" cx="1790" cy="220.472" fill="#ff0000" id="id_8" r="10" stroke="#ff0000" stroke-width="2"/>
+ <text atv:refpx="1818.14" atv:refpy="180.236" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_9" x="1810.14" y="184.736">OK</text>
+ <text atv:refpx="1850.239" atv:refpy="219.972" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_10" x="1810.64" y="224.472">Desconectado</text>
+ <text atv:refpx="1845.64" atv:refpy="259.709" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_11" x="1810.64" y="264.209">Falla en PLC</text>
+ <text atv:refpx="1864.14" atv:refpy="299.445" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_12" x="1810.64" y="303.945">En espera de datos</text>
+ <text atv:refpx="1857.64" atv:refpy="339.181" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_13" x="1810.64" y="343.681">Error en escritura</text>
+ <text atv:refpx="1848.64" atv:refpy="379.323" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_14" x="1810.64" y="383.823">No disponible</text>
+ <text atv:refpx="1834.989" atv:refpy="139" fill="#000000" font-family="Arial" font-size="16" font-weight="bold" id="id_15" x="1814.5" y="143.5">Estatus</text>
 </svg>

@@ -2,6 +2,7 @@
 <script>
   <metadata>
     <priority>0</priority>
+    <help/>
   </metadata>
   <code><![CDATA[/**
  * Code for the picker_date object display
@@ -194,11 +195,11 @@ function applyTH() {
 	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open Picker", {
 		picker: date_picker_dialog,
 		openCentered: openCentered,
-		width: 287,
+		width: 350,
 		height: 160,
 		callingElementWidth: webMI.gfx.getWidth("id_0"),
 		callingElementHeight: webMI.gfx.getHeight("id_0"),
-		title: "Pick date:",
+		title: "Seleccione la fecha:",
 		parameters: getDisplayParameters()
 	});
 }
@@ -312,11 +313,11 @@ webMI.addEvent("datepicker_clickarea", "click", function (e) {
 			webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open Picker", {
 				picker: date_picker_dialog,
 				openCentered: openCentered,
-				width: 287,
+				width: 400,
 				height: 160,
 				callingElementWidth: webMI.gfx.getWidth("id_0"),
 				callingElementHeight: webMI.gfx.getHeight("id_0"),
-				title: "Pick date:",
+				title: "Seleccione la fecha:",
 				parameters: getDisplayParameters()
 			});
 		})(value);

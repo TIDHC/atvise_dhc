@@ -1,1 +1,1 @@
-Sofrel OPC UA Server/ns=2;s=Sofrel_10.NI_0005.HValue
+Sofrel OPC UA Server/ns=2;s=SOFREL_010_VILLASMAR_VILLASDELMAR.NI_0005.HValue

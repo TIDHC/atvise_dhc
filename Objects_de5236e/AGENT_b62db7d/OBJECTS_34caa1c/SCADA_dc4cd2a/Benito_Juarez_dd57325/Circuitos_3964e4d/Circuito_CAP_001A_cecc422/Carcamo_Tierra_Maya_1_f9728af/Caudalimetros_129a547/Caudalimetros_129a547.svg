@@ -15,4 +15,7 @@
  <svg atv:refpx="517" atv:refpy="24.5" height="49" id="id_2" width="120" x="455" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="1">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_TIERRA_MAYA.Bombas.Bomba_2"/>
  </svg>
+ <svg atv:refpx="636" atv:refpy="25.5" height="49" id="id_3" width="120" x="574" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="1">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_TIERRA_MAYA.Bombas.Bomba_3"/>
+ </svg>
 </svg>

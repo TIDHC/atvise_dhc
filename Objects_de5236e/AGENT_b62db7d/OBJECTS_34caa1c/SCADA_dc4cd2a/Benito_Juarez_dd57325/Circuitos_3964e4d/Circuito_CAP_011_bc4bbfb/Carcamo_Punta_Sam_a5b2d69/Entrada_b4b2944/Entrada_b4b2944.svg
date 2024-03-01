@@ -6,7 +6,10 @@
   <atv:snapconfig enabled="true" height="10" width="10"/>
  </metadata>
  <svg atv:refpx="162.5" atv:refpy="25" height="50" id="id_1" width="325" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_reduced" y="0">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_AEROPUERTO_ZONA_URBANA.Caudalimetro.L1"/>
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_BONAMPAK.Caudalimetro.L1"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_Punta_Sam.Entrada]]></script>
+ <svg atv:refpx="162.5" atv:refpy="75" height="50" id="id_0" width="325" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_reduced" y="50">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Captacion.Carcamos.AP_BJ_CAR_1A.Caudalimetro.L1"/>
+ </svg>
 </svg>

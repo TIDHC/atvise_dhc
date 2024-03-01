@@ -118,7 +118,13 @@ webMI.addOnload(function() {
 	var myOptions = {
 		zoom: 11,
 		center: position1,
-		mapTypeId: google.maps.MapTypeId.roadmap
+		mapTypeId: google.maps.MapTypeId.roadmap,
+		styles: [
+						{  "featureType": "poi", 
+							 "stylers": 
+								[ 
+									{ "visibility": "off" } 
+								 ] } ] 
 	};
 	
 

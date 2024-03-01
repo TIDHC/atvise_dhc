@@ -59,7 +59,7 @@
  <line atv:refpx="119.71" atv:refpy="675.565" fill="#000000" id="id_20" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="260" x2="337" y1="176.79" y2="176.79"/>
  <line atv:refpx="51.28" atv:refpy="693.126" fill="#000000" id="id_23" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="260" x2="383" y1="246.35" y2="246.35"/>
  <polygon atv:refpx="382" atv:refpy="132.595" fill="#000018" id="id_24" points="372,139.19 392,139.19 382,126 382,126" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
- <line atv:refpx="131.096" atv:refpy="252.5" id="id_31" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="130.596" x2="130.596" y1="108" y2="397"/>
+ <line atv:refpx="131.096" atv:refpy="252.5" id="id_31" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="130.596" x2="130.596" y1="107" y2="396"/>
  <polygon atv:refpx="-117.309" atv:refpy="395.35" fill="#000018" id="id_32" points="148,236.35 148,256.35 161.191,246.35 161.191,246.35" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
  <polygon atv:refpx="-147.309" atv:refpy="325.79" fill="#000018" id="id_33" points="118,166.789 118,186.789 131.191,176.789 131.191,176.789" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
  <polygon atv:refpx="-147.309" atv:refpy="256.2" fill="#000018" id="id_34" points="118,97.2 118,117.2 131.191,107.2 131.191,107.2" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>

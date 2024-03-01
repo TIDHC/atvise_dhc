@@ -695,4 +695,5 @@
  <svg atv:refpx="1779.296" atv:refpy="277.997" height="63.11" id="id_210" transform="matrix(0.7407,0,0,0.7289,0,0)" width="133" x="2307.62" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Monitoreo%20IT" y="342.983">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Cuencas.Cuenca_PTAR_IM.Carcamo_Coral"/>
  </svg>
+ <svg atv:refpx="2326" atv:refpy="188" height="300" id="id_211" transform="matrix(1.565,0,0,1.9,0,0)" width="400" x="1286.262" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Indicador_red" y="-51.053"/>
 </svg>

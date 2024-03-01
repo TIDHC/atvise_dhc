@@ -80,6 +80,7 @@
   <atv:argument name="chartname" prefix="base" value=".caudalimetro"/>
   <atv:argument name="startAddress" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos"/>
   <atv:argument name="targetFrame" value="caudalimetros"/>
+  <atv:argument name="dialog_options" value="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.opt_dialog_small"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 

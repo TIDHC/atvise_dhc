@@ -10,8 +10,4 @@
  </metadata>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.layouts.Advanced" atv:name="Advanced" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <image atv:refpx="314.001" atv:refpy="297" height="154" id="logo_clickarea" width="328" x="150.001" xlink:href="../../DHC_Logo.png" y="220"/>
- <svg atv:refpx="330.001" atv:refpy="605" height="280" id="id_7" transform="matrix(1.3953,0,0,1.3929,0,0)" width="430" x="21.501" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.login_dialog" y="294.356">
-  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
- </svg>
 </svg>

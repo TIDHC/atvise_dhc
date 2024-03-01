@@ -8,7 +8,7 @@
  <svg atv:refpx="959.956" atv:refpy="530.025" height="600" id="content" transform="matrix(2.4,0,0,1.4833,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="57.303">
   <atv:argument name="frameName" value="content"/>
   <atv:argument name="isNavigationFrame" value="true"/>
-  <atv:argument name="display" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Sectorizacion.04_Mapa_Sectorizacion"/>
+  <atv:argument name="display" value="AGENT.DISPLAYS.USER.Sectorizacion.04_Mapa_Sectorizacion"/>
  </svg>
  <svg atv:refpx="179" atv:refpy="42.5" height="65" id="box_user" width="358" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.box_user" y="10">
   <atv:argument name="font_size" value="20"/>

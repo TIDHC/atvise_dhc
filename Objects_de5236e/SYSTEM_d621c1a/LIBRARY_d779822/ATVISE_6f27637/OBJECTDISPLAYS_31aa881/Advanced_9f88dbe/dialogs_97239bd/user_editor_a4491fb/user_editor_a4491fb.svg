@@ -24,14 +24,14 @@
   <atv:argument name="tabIndex" value="11"/>
   <atv:argument name="borderVisible" value="true"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
  </svg>
  <svg atv:dynamic="true" atv:refpx="270" atv:refpy="465" height="30" id="cancel_button" width="80" x="228" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="450">
   <atv:argument name="label" value="T{Cancel}"/>
   <atv:argument name="tabIndex" value="12"/>
   <atv:argument name="borderVisible" value="true"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
  </svg>
  <svg atv:refpx="260" atv:refpy="185" height="30" id="fullname_input" transform="matrix(1.125,0,0,1,0,0)" width="160" x="151.111" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="170">
   <atv:argument name="validation" value="String"/>
@@ -102,7 +102,7 @@
  <svg atv:refpx="280" atv:refpy="125" height="30" id="password_change" transform="matrix(2.75,0,0,1,0,0)" width="80" x="61.818" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="110">
   <atv:argument name="label" value="T{Change}"/>
   <atv:argument name="tabIndex" value="2"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:overwrite id="id_6" transform="matrix(0.3636,0,0,1,0,0)" width="218"/>
   <atv:overwrite id="button_label_2" transform="matrix(0.3636,0,0,1,0,0)" x="110"/>
   <atv:overwrite id="button_label_1" transform="matrix(0.3636,0,0,1,0,0)" x="110"/>
@@ -119,6 +119,6 @@
   <atv:argument name="tabIndex" value="8"/>
   <atv:argument name="borderVisible" value="true"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
  </svg>
 </svg>

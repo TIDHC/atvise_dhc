@@ -2,7 +2,7 @@ NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Solidaridad.107.PtoMaya_I_05_M5.CzdelSol_Cda
 NodeClass: Variable
 BrowseName: 1:HValuePresion
 DisplayName: en|HValuePresion
-Description: en|Presión punto 107
+Description: en|Av Xel-Ha, a 50m de Carretera Chetumal-Cancún
 DataType: Float
 ValueRank: -1
 AccessLevel: 103

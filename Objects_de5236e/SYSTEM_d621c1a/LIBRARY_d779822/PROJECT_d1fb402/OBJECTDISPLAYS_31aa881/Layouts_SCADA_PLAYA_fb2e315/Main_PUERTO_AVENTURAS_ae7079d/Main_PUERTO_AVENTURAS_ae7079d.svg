@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<svg height="890" version="1.2" width="1920" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="853" version="1.2" width="1920" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs/>
  <metadata>
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
@@ -7,6 +7,42 @@
  </metadata>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 ]]></script>
- <svg atv:refpx="480" atv:refpy="442.5" height="885" id="id_2" width="960" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PLAYA.Circuitos.Circuito_CAP_Puerto_Aventuras" y="0"/>
- <svg atv:refpx="1440" atv:refpy="445" height="890" id="id_4" width="960" x="960" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PLAYA.Main_Cuenca_PTAR_Puerto_Aventuras" y="0"/>
+ <svg atv:refpx="1434" atv:refpy="430" height="853" id="id_2" transform="matrix(1,0,0,0.9871,0,0)" width="960" x="954" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PLAYA.Circuitos.Circuito_CAP_Puerto_Aventuras" y="9.118"/>
+ <svg atv:refpx="730.49" atv:refpy="210.996" height="63.11" id="id_1" transform="matrix(1.5038,0,0,1.4578,0,0)" width="133" x="419.227" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="113.184">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Circuitos.Circuito_PA.Carcamo_014"/>
+ </svg>
+ <svg atv:refpx="730.49" atv:refpy="395.994" height="63.11" id="id_0" transform="matrix(1.5038,0,0,1.4578,0,0)" width="133" x="419.227" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="240.088">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Circuitos.Circuito_PA.Desaladora_Puerto_Maya"/>
+ </svg>
+ <svg atv:refpx="240.009" atv:refpy="212.984" height="63.11" id="id_6" transform="matrix(1.5038,0,0,1.4578,0,0)" width="133" x="93.097" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="114.548">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Circuitos.Circuito_PA.Carcamo_013"/>
+ </svg>
+ <text atv:refpx="496.888" atv:refpy="64.62" fill="#000018" font-family="Arial" font-size="50" font-weight="bold" id="id_106" transform="matrix(0.612,0,0,0.6329,135.9971,16.5195)" x="355.508" y="97">AGUA POTABLE</text>
+ <svg atv:refpx="252.407" atv:refpy="755.989" height="63.11" id="id_7" transform="matrix(1.5038,0,0,1.4578,0,0)" width="133" x="100.041" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="487.045">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_PTOA.Carcamo_Puerto_Aventuras"/>
+ </svg>
+ <svg atv:refpx="249.995" atv:refpy="576" height="63.11" id="id_3" transform="matrix(1.5038,0,0,1.4578,0,0)" width="133" x="99.75" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="363.568">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_PTOA.Cárcamo_Puerto_Maya_3"/>
+ </svg>
+ <text atv:refpx="497.968" atv:refpy="481.62" fill="#000018" font-family="Arial" font-size="50" font-weight="bold" id="id_8" transform="matrix(0.612,0,0,0.6329,133.86,169.6002)" x="350" y="514">AGUA RESIDUAL</text>
+ <rect atv:refpx="730" atv:refpy="667.5" fill="#000018" fill-opacity="0" height="115" id="id_9" stroke="#000000" stroke-width="2" width="400" x="530" y="610"/>
+ <text atv:refpx="763.813" atv:refpy="665.285" fill="#000018" font-family="Arial" font-size="50" font-weight="bold" id="id_10" transform="matrix(0.612,0,0,0.6329,216.2774,237.0236)" x="562.416" y="697.665">PTAR Puerto Aventuras</text>
+ <line atv:refpx="540" atv:refpy="570.5" id="id_11" stroke="#000000" stroke-width="2" x1="350" x2="730" y1="570" y2="570"/>
+ <line atv:refpx="540" atv:refpy="756.5" id="id_12" stroke="#000000" stroke-width="2" x1="351" x2="731" y1="756" y2="756"/>
+ <polygon atv:refpx="730" atv:refpy="736" fill="#000018" id="id_14" points="730,726 715,746 745,746 745,746" stroke="#000000" stroke-width="2"/>
+ <polygon atv:refpx="730" atv:refpy="575" fill="#000018" id="id_15" points="730,605 715,585 745,585 745,585" stroke="#000000" stroke-width="2"/>
+ <line atv:refpx="730.5" atv:refpy="580" id="id_16" stroke="#000000" stroke-width="2" x1="730" x2="730" y1="589" y2="569"/>
+ <line atv:refpx="730.5" atv:refpy="748" id="id_17" stroke="#000000" stroke-width="2" x1="730" x2="730" y1="737" y2="757"/>
+ <svg atv:refpx="240.003" atv:refpy="282.724" height="23" id="id_18" transform="matrix(1.976,0,0,1.976,0,0)" width="100" x="71.461" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="131.581">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AP.AP_SOL_CAR_13.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="730.437" atv:refpy="278.101" height="23" id="id_19" transform="matrix(2.0088,0,0,2.0088,0,0)" width="100" x="313.625" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="126.944">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AP.AP_SOL_CAR_14.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="730.437" atv:refpy="326.311" height="23" id="id_20" transform="matrix(2.0088,0,0,2.0088,0,0)" width="100" x="313.625" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="150.944">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AP.AP_SOL_CAR_14.Caudalimetro.LE_1"/>
+ </svg>
+ <svg atv:refpx="250.437" atv:refpy="823.1" height="23" id="id_21" transform="matrix(2.0087,0,0,2.0087,0,0)" width="100" x="74.674" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="398.26">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_PAVENTURAS.L1"/>
+ </svg>
 </svg>

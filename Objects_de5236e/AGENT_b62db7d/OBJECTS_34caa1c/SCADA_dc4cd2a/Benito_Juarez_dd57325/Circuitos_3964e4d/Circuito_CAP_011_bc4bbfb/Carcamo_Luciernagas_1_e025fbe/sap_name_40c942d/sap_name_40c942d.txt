@@ -1,1 +1,1 @@
-CAP_LCG
+BJ-TAP-LCG

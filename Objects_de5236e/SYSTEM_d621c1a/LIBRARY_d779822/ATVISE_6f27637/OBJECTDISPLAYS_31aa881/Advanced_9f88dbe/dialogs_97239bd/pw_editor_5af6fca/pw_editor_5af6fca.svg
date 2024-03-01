@@ -30,24 +30,24 @@
   <atv:argument name="tabIndex" value="7"/>
   <atv:argument name="borderVisible" value="true"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
  </svg>
  <svg atv:dynamic="true" atv:refpx="262" atv:refpy="472.5" height="30" id="cancel_button" width="80" x="228" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="450.5">
   <atv:argument name="label" value="T{Cancel}"/>
   <atv:argument name="tabIndex" value="9"/>
   <atv:argument name="borderVisible" value="true"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
  </svg>
  <svg atv:refpx="260" atv:refpy="195" height="30" id="newpassword_input" transform="matrix(1.125,0,0,1,0,0)" width="160" x="151.111" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_password" y="180">
   <atv:argument name="validation" value="Password"/>
   <atv:argument name="allowDirectInput" value="Yes"/>
   <atv:argument name="tabIndex" value="3"/>
   <atv:overwrite id="id_2" transform="matrix(0.8889,0,0,1,0,0)" width="174.5"/>
-  <atv:overwrite id="clickarea_visibility" transform="matrix(0.8889,0,0,1,0,0)" x="153"/>
-  <atv:overwrite id="button_stroke" transform="matrix(0.8889,0,0,1,0,0)" x="155"/>
   <atv:overwrite id="button_eye_slash" transform="matrix(0.7111,0,0,0.85,0,0)" x="196.25"/>
   <atv:overwrite id="button_eye" transform="matrix(0.7111,0,0,0.85,0,0)" x="196.25"/>
+  <atv:overwrite id="clickarea_visibility" transform="matrix(0.8889,0,0,1,0,0)" x="153"/>
+  <atv:overwrite id="button_stroke" transform="matrix(0.8889,0,0,1,0,0)" x="155"/>
   <atv:overwrite id="button_bg" transform="matrix(0.8889,0,0,1,0,0)" x="155"/>
   <atv:overwrite id="input_label" transform="matrix(0.8889,0,0,1,0,0)" x="148.055"/>
   <atv:overwrite id="blinking_frame" transform="matrix(0.8889,0,0,1,0,0)" width="172"/>
@@ -62,10 +62,10 @@
   <atv:argument name="allowDirectInput" value="Yes"/>
   <atv:argument name="tabIndex" value="2"/>
   <atv:overwrite id="id_2" transform="matrix(0.8889,0,0,1,0,0)" width="174.5"/>
-  <atv:overwrite id="clickarea_visibility" transform="matrix(0.8889,0,0,1,0,0)" x="153"/>
-  <atv:overwrite id="button_stroke" transform="matrix(0.8889,0,0,1,0,0)" x="155"/>
   <atv:overwrite id="button_eye_slash" transform="matrix(0.7111,0,0,0.85,0,0)" x="196.25"/>
   <atv:overwrite id="button_eye" transform="matrix(0.7111,0,0,0.85,0,0)" x="196.25"/>
+  <atv:overwrite id="clickarea_visibility" transform="matrix(0.8889,0,0,1,0,0)" x="153"/>
+  <atv:overwrite id="button_stroke" transform="matrix(0.8889,0,0,1,0,0)" x="155"/>
   <atv:overwrite id="button_bg" transform="matrix(0.8889,0,0,1,0,0)" x="155"/>
   <atv:overwrite id="input_label" transform="matrix(0.8889,0,0,1,0,0)" x="148.055"/>
   <atv:overwrite id="blinking_frame" transform="matrix(0.8889,0,0,1,0,0)" width="172"/>
@@ -118,7 +118,7 @@
  <svg atv:refpx="113.396" atv:refpy="19.997" height="20" id="symbol" transform="matrix(1.7501,0,0,1.7999,0,0)" width="20" x="58.854" xlink:href="$SYMBOL$" y="3.889">
   <atv:argument name="symbolColor" prefix="symbolColor"/>
  </svg>
- <text atv:refpx="224" atv:refpy="29" fill="#ffffff" font-family="Arial" font-size="20" id="headline" text-anchor="start" x="144" y="33.5">$HEADLINE$</text>
+ <text atv:refpx="224" atv:refpy="29" fill="#000000" font-family="Arial" font-size="20" id="headline" text-anchor="start" x="144" y="33.5">$HEADLINE$</text>
  <text atv:refpx="240.328" atv:refpy="430.5" fill="#ff0004" font-family="Arial" font-size="14" id="error_message" text-anchor="middle" x="218.328" y="435">&lt;errormessage></text>
  <rect atv:refpx="-186.142" atv:refpy="125" fill="#ffffff" height="150" id="info_background" rx="10" ry="10.715" stroke="none" stroke-width="0" width="390" x="20" y="260"/>
  <text atv:refpx="313.492" atv:refpy="231" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="valid_period" text-anchor="end" x="386.5" y="237">-</text>
@@ -176,7 +176,7 @@
   <atv:argument name="tabIndex" value="8"/>
   <atv:argument name="borderVisible" value="true"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
-  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
  </svg>
  <text atv:refpx="335" atv:refpy="74.5" fill="$FONTCOLOR$" font-family="Arial" font-size="16" font-weight="bold" id="username" text-anchor="end" x="384.5" y="80.5">$USERNAME$</text>
  <svg atv:dynamic="true" atv:refpx="375" atv:refpy="75" height="30" id="username_keyboard" transform="matrix(0.375,0,0,1,0,0)" width="80" x="960" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="60">

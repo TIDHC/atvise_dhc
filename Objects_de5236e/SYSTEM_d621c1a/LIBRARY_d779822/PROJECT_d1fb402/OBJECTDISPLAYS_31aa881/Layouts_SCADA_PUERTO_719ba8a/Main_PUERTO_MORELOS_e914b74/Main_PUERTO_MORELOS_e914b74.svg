@@ -7,10 +7,62 @@
  </metadata>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 ]]></script>
- <svg atv:refpx="480" atv:refpy="445" height="890" id="id_0" width="960" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PUERTO.Main_Circuitos_PM" y="0">
+ <svg atv:refpx="1199.75" atv:refpy="450" height="890" id="id_0" width="959" x="960" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PUERTO.Main_Circuitos_PM" y="5">
   <atv:argument name="base" prefix="base"/>
  </svg>
- <svg atv:refpx="1440" atv:refpy="445" height="890" id="id_1" width="960" x="960" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PUERTO.Main_Cuencas_PM" y="0">
-  <atv:argument name="base" prefix="base"/>
+ <rect atv:refpx="756.089" atv:refpy="312.604" fill="#000088" fill-opacity="0" height="245.208" id="id_8" stroke="#26286f" stroke-width="2" width="369.344" x="571.417" y="190"/>
+ <svg atv:refpx="669.479" atv:refpy="297.844" height="63.11" id="id_5" transform="matrix(1.1523,0,0,1.1171,0,0)" width="133" x="514.502" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="233.71">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Circuitos.Circuito_PM.Carcamo_Villas_Morelos_Tanque_01"/>
  </svg>
+ <svg atv:refpx="851.855" atv:refpy="297.845" height="63.11" id="id_6" transform="matrix(1.1523,0,0,1.1171,0,0)" width="133" x="672.768" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="233.71">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Circuitos.Circuito_PM.Carcamo_Villas_Morelos_Tanque_02"/>
+ </svg>
+ <text atv:refpx="733.946" atv:refpy="222.184" fill="#000000" font-family="Arial" font-size="16" id="id_14" transform="matrix(2.0219,0,0,2.1322,-654.8702,-215.3503)" x="645.342" y="209.699">Puerto Morelos</text>
+ <svg atv:refpx="669.502" atv:refpy="360.879" height="23" id="id_4" transform="matrix(1.5325,0,0,1.5325,0,0)" width="100" x="386.855" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="215.977">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Zona_Urbana.Carcamos_AP.AP_PM_CAR_PUERTO_MORELOS.L14.Caudalimetro.L_14"/>
+ </svg>
+ <svg atv:refpx="669.502" atv:refpy="397.086" height="23" id="id_15" transform="matrix(1.5325,0,0,1.5325,0,0)" width="100" x="386.855" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="238.602">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Zona_Urbana.Carcamos_AP.AP_PM_CAR_PUERTO_MORELOS.L10.Caudalimetro.L_10"/>
+ </svg>
+ <svg atv:refpx="851.875" atv:refpy="350.151" height="23" id="id_16" transform="matrix(1.5325,0,0,1.5325,0,0)" width="100" x="505.855" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="215.977">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Zona_Urbana.Carcamos_AP.AP_PM_CAR_PUERTO_MORELOS_TANQUE_2.Caudalimetro.L1"/>
+ </svg>
+ <rect atv:refpx="423.217" atv:refpy="316.435" fill="#000088" fill-opacity="0" height="245.208" id="id_9" stroke="#26286f" stroke-width="2" width="251.339" x="291.417" y="193.831"/>
+ <svg atv:refpx="452.323" atv:refpy="334.628" height="63.11" id="id_2" transform="matrix(1.1523,0,0,1.1171,0,0)" width="133" x="295.453" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="233.71">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Circuitos.Circuito_CV.Carcamo_Central_Vallarta"/>
+ </svg>
+ <text atv:refpx="394.943" atv:refpy="222.95" fill="#000000" font-family="Arial" font-size="16" id="id_13" transform="matrix(2.0219,0,0,2.1322,-308.4461,-216.2178)" x="306.339" y="210.466">Central Vallarta</text>
+ <svg atv:refpx="417.086" atv:refpy="325.63" height="23" id="id_22" transform="matrix(1.5325,0,0,1.5325,0,0)" width="100" x="222.152" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="215.977">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Zona_Urbana.Carcamos_AP.AP_CV_CAR_CENTRAL_VALLARTA.Carcamo.L1"/>
+ </svg>
+ <svg atv:refpx="417.086" atv:refpy="360.304" height="23" id="id_23" transform="matrix(1.5325,0,0,1.5325,0,0)" width="100" x="222.152" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="238.602">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Zona_Urbana.Carcamos_AP.AP_CV_CAR_CENTRAL_VALLARTA.Pozo.L1"/>
+ </svg>
+ <rect atv:refpx="138.066" atv:refpy="316.98" fill="#000088" fill-opacity="0" height="244.72" id="id_7" stroke="#26286f" stroke-width="2" width="266.133" x="5" y="194.62"/>
+ <svg atv:refpx="157.947" atv:refpy="293.078" height="63.11" id="id_3" transform="matrix(1.15,0,0,1.1149,0,0)" width="133" x="53.555" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="238.193">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Circuitos.Circuito_LV.Carcamo_Leona_Vicario"/>
+ </svg>
+ <text atv:refpx="380.832" atv:refpy="103" fill="#000000" font-family="Arial" font-size="36" id="id_21" x="338.5" y="107.5">AGUA POTABLE</text>
+ <text atv:refpx="115.867" atv:refpy="228.27" fill="#000000" font-family="Arial" font-size="16" id="id_10" transform="matrix(2.0179,0,0,2.128,-31.6752,-221.4789)" x="35.619" y="215.848">Leona Vicario</text>
+ <text atv:refpx="375.342" atv:refpy="586" fill="#000000" font-family="Arial" font-size="36" id="id_24" x="329.5" y="590.5">AGUA RESIDUAL</text>
+ <svg atv:refpx="138.066" atv:refpy="329.98" height="23" id="id_1" transform="matrix(1.5295,0,0,1.5295,0,0)" width="100" x="40.269" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="219.244">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Leona_Vicario.Carcamo_Leona_Vicario.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="183.251" atv:refpy="344.073" height="63.11" id="id_11" transform="matrix(1.2419,0,0,1.2039,0,0)" width="133" x="613.068" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="568.428">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Cuencas.Cuenca_PTAR_Casco_Antiguo.Carcamo_Final_PTAR_Casco_Antiguo"/>
+ </svg>
+ <svg atv:refpx="-507.12" atv:refpy="342.421" height="63.11" id="id_18" transform="matrix(1.2419,0,0,1.2039,0,0)" width="133" x="57.145" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="568.428">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Cuencas.Cuenca_PTAR_VM1.Carcamo_Final_PTAR_VM1"/>
+ </svg>
+ <svg atv:refpx="-290.908" atv:refpy="342.428" height="63.11" id="id_19" transform="matrix(1.2419,0,0,1.2039,0,0)" width="133" x="231.26" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="568.428">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Cuencas.Cuenca_PTAR_VM2.Carcamo_Final_PTAR_VM2"/>
+ </svg>
+ <svg atv:refpx="-52.917" atv:refpy="342.428" height="63.11" id="id_20" transform="matrix(1.2419,0,0,1.2039,0,0)" width="133" x="422.885" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="568.428">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Cuencas.Cuenca_PTAR_VM4.Carcamo_Final_PTAR_VM4"/>
+ </svg>
+ <svg atv:refpx="211.354" atv:refpy="368.033" height="23" id="id_17" transform="matrix(1.6516,0,0,1.6516,0,0)" width="100" x="460.967" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="459.328">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Puerto_Morelos.Ptars.Casco Antiguo.L1"/>
+ </svg>
+ <rect atv:refpx="482.879" atv:refpy="729.745" fill="#000088" fill-opacity="0" height="239.489" id="id_32" stroke="#26286f" stroke-width="2" width="924.924" x="20.417" y="610"/>
+ <text atv:refpx="472.009" atv:refpy="649.54" fill="#000000" font-family="Arial" font-size="16" id="id_33" transform="matrix(2.179,0,0,2.2979,-410.0527,-802.7432)" x="352.297" y="637.994">Puerto Morelos</text>
 </svg>

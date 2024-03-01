@@ -91,8 +91,8 @@
   <atv:argument name="header_height" value="25"/>
   <atv:argument name="header_font_size" value="16"/>
   <atv:argument name="alarm_condition" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos"/>
-  <atv:argument name="globalFillColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
-  <atv:argument name="globalFontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="globalFillColor" value="SYSTEM.GLOBALS.atvFillColor"/>
+  <atv:argument name="globalFontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
 </svg>

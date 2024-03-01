@@ -95,11 +95,7 @@ var id = "id_21";
 var value = true;
 webMI.display.openDisplay("ObjectTypes.PROJECT.Caudalimetro.graph_flow", webMI.query, "tendencias");
 });
-webMI.addOnload(function(e) {
-var id = "";
-var value = true;
-webMI.display.openDisplay("ObjectTypes.PROJECT.Caudalimetro.graph", webMI.query, "tendencias");
-});
+
 
 ]]><![CDATA[webMI.data.subscribe(webMI.query["base"] + ".current_total_volume", function(e) {
 var id = "id_18";

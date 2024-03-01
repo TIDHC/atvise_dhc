@@ -1,111 +1,170 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<svg height="408" version="1.2" width="633" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="498" version="1.2" width="856" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs/>
  <metadata>
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="1" width="1"/>
  </metadata>
- <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_11" transform="matrix(0.4945,0,0,0.5313,0,0)">
+ <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_11" transform="matrix(0.6687,0,0,0.6484,0,0)">
   <rect atv:refpx="640" atv:refpy="384" fill="#ffffff" height="768.00" id="id_12" width="1280.00" x="0" y="0"/>
  </g>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <svg atv:refpx="52" atv:refpy="385" height="63.11" id="id_0" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="2.66" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="495.276">
+ <line atv:refpx="50.501" atv:refpy="238.25" id="id_13" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50.001" x2="50.001" y1="47.5" y2="429"/>
+ <line atv:refpx="170.501" atv:refpy="42.75" id="id_19" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="170.001" x2="170.001" y1="23.5" y2="62"/>
+ <line atv:refpx="806.501" atv:refpy="93.5" id="id_45" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="806.001" x2="806.001" y1="71" y2="116"/>
+ <line atv:refpx="711.001" atv:refpy="265.5" id="id_36" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="730.501" x2="691.501" y1="265" y2="265"/>
+ <line atv:refpx="701.126" atv:refpy="173" id="id_34" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="709.501" x2="692.75" y1="172.5" y2="172.5"/>
+ <line atv:refpx="536.5" atv:refpy="265.5" id="id_27" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="515.75" x2="557.25" y1="265" y2="265"/>
+ <line atv:refpx="536.875" atv:refpy="451" id="id_28" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="516.75" x2="557" y1="450.5" y2="450.5"/>
+ <line atv:refpx="364.25" atv:refpy="265.5" id="id_22" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="377.75" x2="350.75" y1="265" y2="265"/>
+ <line atv:refpx="79.627" atv:refpy="398.5" id="id_9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50.501" x2="108.754" y1="398" y2="399"/>
+ <svg atv:refpx="50" atv:refpy="23.993" height="63.11" id="id_0" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="0">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_001A"/>
  </svg>
- <svg atv:refpx="81" atv:refpy="188" height="63.11" id="id_1" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="41.23" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="226.373">
+ <svg atv:refpx="169.749" atv:refpy="385.497" height="63.11" id="id_1" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="159.262" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="497.325">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Ara"/>
  </svg>
- <svg atv:refpx="301.989" atv:refpy="158.998" height="63.11" id="id_5" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.151" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="186.583">
+ <svg atv:refpx="637.989" atv:refpy="172.498" height="63.11" id="id_5" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="782.019" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="205.103">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Infovir_R227"/>
  </svg>
- <svg atv:refpx="51" atv:refpy="332" height="63.11" id="id_35" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="2.66" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="423.935">
+ <svg atv:refpx="169" atv:refpy="87.244" height="63.11" id="id_35" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="159.596" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="90.89">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Kusamil"/>
  </svg>
- <svg atv:refpx="83.996" atv:refpy="97.998" height="63.11" id="id_46" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="45.219" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="102.895">
+ <svg atv:refpx="169.745" atv:refpy="264.997" height="63.11" id="id_46" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="159.262" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="332.006">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Los_Heroes"/>
  </svg>
- <svg atv:refpx="353" atv:refpy="335.999" height="63.11" id="id_47" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="397.67" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="429.422">
+ <svg atv:refpx="300.491" atv:refpy="264.993" height="63.11" id="id_47" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="327.836" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="332.006">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Paraiso_Maya_1"/>
  </svg>
- <svg atv:refpx="354" atv:refpy="267" height="63.11" id="id_51" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="400.33" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="334.757">
+ <svg atv:refpx="299.491" atv:refpy="354.496" height="63.11" id="id_51" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="327.836" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="491.837">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Paraiso_Maya_2"/>
  </svg>
- <svg atv:refpx="444.987" atv:refpy="98" height="63.11" id="id_68" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="525.336" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="102.895">
+ <svg atv:refpx="637.986" atv:refpy="264.999" height="63.11" id="id_68" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="782.019" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="332.006">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_RN2"/>
  </svg>
- <svg atv:refpx="443.989" atv:refpy="158.999" height="63.11" id="id_72" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="524.006" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="186.583">
+ <svg atv:refpx="637.988" atv:refpy="87.249" height="63.11" id="id_72" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="782.019" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="90.89">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_RN3"/>
  </svg>
- <svg atv:refpx="498" atv:refpy="334" height="63.11" id="id_73" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="595.84" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="429.422">
+ <svg atv:refpx="463.923" atv:refpy="85.244" height="63.11" id="id_73" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="550.52" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="90.89">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Tierra_Maya_1"/>
  </svg>
- <svg atv:refpx="500" atv:refpy="267" height="63.11" id="id_74" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="598.5" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="334.757">
+ <svg atv:refpx="463.923" atv:refpy="129.496" height="63.11" id="id_74" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="550.52" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="154.342">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Tierra_Maya_2"/>
  </svg>
- <svg atv:refpx="202" atv:refpy="332" height="63.11" id="id_75" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="202.16" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="423.935">
+ <svg atv:refpx="296.495" atv:refpy="87.244" height="63.11" id="id_75" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="327.836" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="90.89">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Urbi_Villas_del_Rey"/>
  </svg>
- <svg atv:refpx="302.994" atv:refpy="33.999" height="63.11" id="id_76" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="336.481" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="15.091">
+ <svg atv:refpx="463.937" atv:refpy="265" height="63.11" id="id_76" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="550.52" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="332.006">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Villas_del_Mar_1"/>
  </svg>
- <svg atv:refpx="147.994" atv:refpy="34" height="63.11" id="id_77" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="130.336" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="15.091">
+ <svg atv:refpx="463.93" atv:refpy="312" height="63.11" id="id_77" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="550.52" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="396.488">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Villas_del_Mar_2"/>
  </svg>
- <svg atv:refpx="301.992" atv:refpy="97.998" height="63.11" id="id_78" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.151" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="102.895">
+ <svg atv:refpx="463.928" atv:refpy="450.498" height="63.11" id="id_78" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="550.52" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="586.5">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Villas_Otoch"/>
  </svg>
- <g atv:refpx="79" atv:refpy="229.25" id="id_38">
-  <line atv:refpx="80" atv:refpy="230.5" fill="#000000" id="id_29" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" x1="79" x2="79" y1="247" y2="214"/>
-  <polygon atv:refpx="79" atv:refpy="217.594" fill="#000018" id="id_30" points="69,224.189 89,224.189 79,211 79,211" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
- </g>
- <svg atv:refpx="81.004" atv:refpy="265" height="63.11" id="id_37" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="41.235" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="332.013">
+ <svg atv:refpx="49.999" atv:refpy="450.496" height="63.11" id="id_37" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="586.5">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_006A.Carcamo_006A"/>
  </svg>
- <svg atv:refpx="578" atv:refpy="34.001" height="63.11" id="id_42" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="702.24" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="133.079">
+ <svg atv:refpx="805.986" atv:refpy="-63" height="63.11" id="id_42" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="1005.453" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="0">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_Punta_Sam"/>
  </svg>
- <polyline atv:refpx="159.5" atv:refpy="207.5" fill="#000018" fill-opacity="0" id="id_6" points="135,187 184,187 184,228 184,228" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2"/>
- <polygon atv:refpx="-126" atv:refpy="184.404" fill="#000018" id="id_34" points="143.191,197 143.191,177 130,187 130,187" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="446.79" atv:refpy="8.492" fill="#000000" id="id_27" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="202" x2="250" y1="32" y2="32"/>
- <polygon atv:refpx="246.596" atv:refpy="32" fill="#000018" id="id_28" points="240,22 240,42 253.191,32 253.191,32" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="340" atv:refpy="382.5" fill="#000000" id="id_43" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="101" x2="579" y1="382" y2="382"/>
- <polygon atv:refpx="145.595" atv:refpy="331" fill="#000018" id="id_44" points="139,321 139,341 152.19,331 152.19,331" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="126" atv:refpy="331.5" fill="#000000" id="id_54" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="107" x2="145" y1="331" y2="331"/>
- <polygon atv:refpx="107.595" atv:refpy="332" fill="#000018" id="id_55" points="114.191,342 114.191,322 101,332 101,332" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="577.5" atv:refpy="274.489" fill="#000000" id="id_10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="578" x2="578" y1="380.978" y2="168"/>
- <line atv:refpx="381.5" atv:refpy="228.033" fill="#000000" id="id_13" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="184" x2="579" y1="227.533" y2="227.533"/>
- <line atv:refpx="278.5" atv:refpy="323.5" fill="#000000" id="id_15" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="278" x2="278" y1="381" y2="266"/>
- <line atv:refpx="424" atv:refpy="324" fill="#000000" id="id_16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="423.5" x2="423.5" y1="383" y2="265"/>
- <polygon atv:refpx="295.595" atv:refpy="266" fill="#000018" id="id_17" points="289,256 289,276 302.19,266 302.19,266" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="286.5" atv:refpy="266.5" fill="#000000" id="id_18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="278" x2="295" y1="266" y2="266"/>
- <polygon atv:refpx="293.595" atv:refpy="336.006" fill="#000018" id="id_19" points="287,326.006 287,346.006 300.19,336.006 300.19,336.006" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="286" atv:refpy="336.506" fill="#000000" id="id_20" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="279" x2="293" y1="336.006" y2="336.006"/>
- <polygon atv:refpx="443.595" atv:refpy="265" fill="#000018" id="id_21" points="437,255 437,275 450.19,265 450.19,265" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="433.5" atv:refpy="265.5" fill="#000000" id="id_22" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="424" x2="443" y1="265" y2="265"/>
- <polygon atv:refpx="441.595" atv:refpy="334" fill="#000018" id="id_23" points="435,324 435,344 448.19,334 448.19,334" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="432.5" atv:refpy="334.5" fill="#000000" id="id_24" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="424" x2="441" y1="334" y2="334"/>
- <line atv:refpx="127" atv:refpy="356.5" fill="#000000" id="id_25" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="126" x2="126" y1="382" y2="331"/>
- <line atv:refpx="223.5" atv:refpy="129.5" fill="#000000" id="id_32" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="225" x2="225" y1="227" y2="32"/>
- <polyline atv:refpx="161" atv:refpy="141.501" fill="#000018" fill-opacity="0" id="id_39" points="138,97 184,97 184,186 184,186" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2"/>
- <polygon atv:refpx="-122" atv:refpy="94.404" fill="#000018" id="id_40" points="147.191,107 147.191,87 134,97 134,97" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <polygon atv:refpx="204.595" atv:refpy="32" fill="#000018" id="id_41" points="211.191,43 211.191,23 198,33 198,33" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="347.395" atv:refpy="73.492" fill="#000000" id="id_45" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="225" x2="249" y1="97" y2="97"/>
- <polygon atv:refpx="245.596" atv:refpy="97" fill="#000018" id="id_48" points="239,87 239,107 252.19,97 252.19,97" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="82" atv:refpy="228.591" fill="#000000" id="id_57" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="303" x2="303" y1="228" y2="189"/>
- <polygon atv:refpx="81" atv:refpy="205.594" fill="#000018" id="id_62" points="293,195.189 313,195.189 303,182 303,182" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="223" atv:refpy="228.591" fill="#000000" id="id_63" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="444" x2="444" y1="228" y2="189"/>
- <polygon atv:refpx="222" atv:refpy="205.594" fill="#000018" id="id_64" points="434,195.188 454,195.188 444,182 444,182" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <line atv:refpx="511.375" atv:refpy="110.122" fill="#000000" id="id_65" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="521" x2="501.75" y1="109.244" y2="109.244"/>
- <polygon atv:refpx="518.344" atv:refpy="331.25" fill="#000018" id="id_66" points="507.937,119.25 507.937,99.25 494.75,109.25 494.75,109.25" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <polygon atv:refpx="356" atv:refpy="166.594" fill="#000018" id="id_67" points="568,156.187 588,156.187 578,143 578,143" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
- <g atv:refpx="578" atv:refpy="78.25" id="id_2" transform="matrix(1,0,0,1,499,-151)">
-  <line atv:refpx="80" atv:refpy="230.5" fill="#000000" id="id_3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" x1="79" x2="79" y1="247" y2="214"/>
-  <polygon atv:refpx="79" atv:refpy="217.594" fill="#000018" id="id_4" points="69,224.189 89,224.189 79,211 79,211" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
- </g>
- <line atv:refpx="520.5" atv:refpy="139.5" fill="#000000" id="id_7" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="521" x2="521" y1="167" y2="110"/>
- <line atv:refpx="549.5" atv:refpy="167.5" fill="#000000" id="id_9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="521" x2="578" y1="168" y2="168"/>
- <line atv:refpx="578.75" atv:refpy="172.25" fill="#000000" id="id_14" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="578" x2="578" y1="192.5" y2="152"/>
- <svg atv:refpx="578" atv:refpy="37" height="63.11" id="id_26" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="702.24" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="19.207">
+ <svg atv:refpx="804.985" atv:refpy="145" height="63.11" id="id_26" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="1004.121" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="170.119">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Circuitos.Circuito_CAP_IM.Carcamo_Aeropuerto_IM"/>
+ </svg>
+ <polygon atv:refpx="112.845" atv:refpy="398.5" fill="#000018" id="id_10" points="106.249,388.5 106.249,408.5 119.439,398.5 119.439,398.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="81.625" atv:refpy="371" id="id_14" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50.501" x2="112.75" y1="370.5" y2="370.5"/>
+ <polygon atv:refpx="112.846" atv:refpy="370.5" fill="#000018" id="id_15" points="106.249,360.5 106.249,380.5 119.438,370.5 119.438,370.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="82.75" atv:refpy="265.5" id="id_16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="51.75" x2="113.75" y1="265" y2="265"/>
+ <polygon atv:refpx="112.846" atv:refpy="265" fill="#000018" id="id_17" points="106.249,254.999 106.249,274.999 119.438,264.999 119.438,264.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="423.75" atv:refpy="23" id="id_18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="100.75" x2="746.75" y1="23.5" y2="22.5"/>
+ <line atv:refpx="297.001" atv:refpy="43.75" id="id_20" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="296.501" x2="296.501" y1="24.5" y2="63"/>
+ <line atv:refpx="378.25" atv:refpy="203.75" id="id_21" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="378.75" x2="377.75" y1="23.5" y2="384"/>
+ <polygon atv:refpx="352.344" atv:refpy="265" fill="#000018" id="id_23" points="358.937,254.999 358.937,274.999 345.749,264.999 345.749,264.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="464.376" atv:refpy="44" id="id_24" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="463.876" x2="463.876" y1="24.5" y2="63.5"/>
+ <line atv:refpx="557.25" atv:refpy="237.75" id="id_25" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="556.75" x2="557.75" y1="24.5" y2="451"/>
+ <line atv:refpx="638.501" atv:refpy="43.5" id="id_31" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="638.001" x2="638.001" y1="64.5" y2="22.5"/>
+ <line atv:refpx="709.25" atv:refpy="98.75" id="id_32" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="708.75" x2="708.75" y1="24.5" y2="173"/>
+ <line atv:refpx="731.25" atv:refpy="144.25" id="id_33" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="730.75" x2="730.75" y1="22.5" y2="266"/>
+ <polygon atv:refpx="518.344" atv:refpy="265" fill="#000018" id="id_38" points="524.936,254.999 524.936,274.999 511.749,264.999 511.749,264.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="519.344" atv:refpy="450.5" fill="#000018" id="id_39" points="525.936,440.5 525.936,460.5 512.749,450.5 512.749,450.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="692.344" atv:refpy="172.5" fill="#000018" id="id_40" points="698.936,162.5 698.936,182.5 685.749,172.5 685.749,172.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="691.095" atv:refpy="265" fill="#000018" id="id_41" points="697.687,254.999 697.687,274.999 684.5,264.999 684.5,264.999" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="748.346" atv:refpy="22.5" fill="#000018" id="id_43" points="741.749,12.5 741.749,32.5 754.937,22.5 754.937,22.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="806.002" atv:refpy="115.596" fill="#000018" id="id_44" points="816.001,112 796.001,112 806.001,125.187 806.001,125.187" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="170.001" atv:refpy="59.593" fill="#000018" id="id_48" points="160.001,53 180.001,53 170.001,66.187 170.001,66.187" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="296.501" atv:refpy="59.593" fill="#000018" id="id_49" points="286.501,53 306.501,53 296.501,66.187 296.501,66.187" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="463.877" atv:refpy="59.593" fill="#000018" id="id_50" points="453.875,53 473.875,53 463.875,66.187 463.875,66.187" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <polygon atv:refpx="638.002" atv:refpy="59.593" fill="#000018" id="id_52" points="628.001,53 648.001,53 638.001,66.187 638.001,66.187" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <line atv:refpx="364.001" atv:refpy="383.5" id="id_54" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="377.501" x2="350.501" y1="383" y2="383"/>
+ <polygon atv:refpx="352.095" atv:refpy="383" fill="#000018" id="id_55" points="358.688,373 358.688,393 345.501,383 345.501,383" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2"/>
+ <svg atv:refpx="46.001" atv:refpy="53.5" height="23" id="id_2" width="100" x="0.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="45">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Captacion.Carcamos.AP_BJ_CAR_1A.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="46.001" atv:refpy="482.5" height="23" id="id_3" width="100" x="0.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="474">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Captacion.Carcamos.AP_BJ_CAR_2.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="166.001" atv:refpy="121.5" height="23" id="id_4" width="100" x="120.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="113">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_KUSAMIL.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="292.501" atv:refpy="121.5" height="23" id="id_6" width="100" x="246.501" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="113">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_URBI.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="165.751" atv:refpy="296.25" height="23" id="id_7" width="100" x="119.751" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="287.75">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_HEROES.LHEROES.Caudalimetro.L_HEROES"/>
+ </svg>
+ <svg atv:refpx="292.501" atv:refpy="297.25" height="23" id="id_8" width="100" x="246.501" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="288.75">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_PARAISO_MAYA.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="165.751" atv:refpy="415.5" height="23" id="id_30" width="100" x="119.751" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="407">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_ARA.Caudalimetro.L1.L1"/>
+ </svg>
+ <svg atv:refpx="292.501" atv:refpy="413.5" height="23" id="id_53" width="100" x="246.501" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="405">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_PARAISO_MAYA_2.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="459.937" atv:refpy="483.5" height="23" id="id_56" width="100" x="413.937" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="473">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_OTOCH.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="459.937" atv:refpy="343.5" height="23" id="id_57" width="100" x="413.937" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="335">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_VILLAS_DEL_MAR.Caudalimetros.L_18"/>
+ </svg>
+ <svg atv:refpx="459.937" atv:refpy="167.5" height="23" id="id_58" width="100" x="413.937" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="159">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_TIERRA_MAYA.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="634.001" atv:refpy="297.25" height="23" id="id_59" width="100" x="588.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="288.75">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_RESERVA_NORTE_2.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="634.001" atv:refpy="205.5" height="23" id="id_60" width="100" x="588.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="197">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_INFOVIR.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="634.001" atv:refpy="121.5" height="23" id="id_61" width="100" x="588.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="113">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_RESERVA_NORTE_3.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="802.001" atv:refpy="56.5" height="23" id="id_62" width="100" x="756.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="47">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_PUNTA_SAM.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="801" atv:refpy="202.5" height="23" id="id_63" width="100" x="755" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="194">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_AEROPUERTO.L1.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="165.751" atv:refpy="319.5" height="23" id="id_64" width="100" x="119.751" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="311">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_HEROES.LVMAR.Caudalimetro.L_VILLAS_DEL_MAR"/>
+ </svg>
+ <svg atv:refpx="165.751" atv:refpy="437.5" height="23" id="id_65" width="100" x="119.751" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="429">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_ARA.Caudalimetro.L2.L2"/>
+ </svg>
+ <svg atv:refpx="459.937" atv:refpy="366.5" height="23" id="id_29" width="100" x="413.937" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="358">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_VILLAS_DEL_MAR.Caudalimetros.L_24"/>
+ </svg>
+ <svg atv:refpx="801" atv:refpy="225.5" height="23" id="id_66" width="100" x="755" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="217">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_AEROPUERTO.L2.Caudalimetro.L2"/>
+ </svg>
+ <svg atv:refpx="801" atv:refpy="179.5" height="23" id="id_67" width="100" x="755" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="171">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_AEROPUERTO.L3.Caudalimetro.L3"/>
+ </svg>
+ <svg atv:refpx="801" atv:refpy="271.5" height="23" id="id_69" width="100" x="755" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="263">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_AEROPUERTO.L4.Caudalimetro.L4"/>
+ </svg>
+ <svg atv:refpx="801" atv:refpy="248.25" height="23" id="id_70" width="100" x="755" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="239.75">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_AEROPUERTO.L5.Caudalimetro.L5"/>
  </svg>
 </svg>

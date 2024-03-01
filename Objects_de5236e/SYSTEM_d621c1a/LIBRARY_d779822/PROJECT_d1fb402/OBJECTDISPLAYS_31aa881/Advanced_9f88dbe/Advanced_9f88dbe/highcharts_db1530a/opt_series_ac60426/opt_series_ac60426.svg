@@ -197,7 +197,11 @@
   <atv:argument name="extraBorderColor" value="#ffffff"/>
   <atv:argument name="tooltip" value="T{Scroll list down}"/>
   <atv:overwrite id="id_6" transform="matrix(2.6667,0,0,1,0,0)" width="28"/>
+  <atv:overwrite id="button_label_2" transform="matrix(2.6667,0,0,1,0,0)" x="15"/>
+  <atv:overwrite id="button_label_1" transform="matrix(2.6667,0,0,1,0,0)" x="15"/>
   <atv:overwrite id="button_label" transform="matrix(2.6667,0,0,1,0,0)" x="15"/>
+  <atv:overwrite id="button_symbol_bottom" transform="matrix(1.6,0,0,0.6,0,0)" x="14.833"/>
+  <atv:overwrite id="button_symbol_top" transform="matrix(1.6,0,0,0.6,0,0)" x="14.833"/>
   <atv:overwrite id="button_symbol" transform="matrix(2.6667,0,0,1,0,0)" x="5"/>
   <atv:overwrite id="button_stroke" transform="matrix(2.6667,0,0,1,0,0)" width="26"/>
   <atv:overwrite id="button_bg" transform="matrix(2.6667,0,0,1,0,0)" width="28"/>

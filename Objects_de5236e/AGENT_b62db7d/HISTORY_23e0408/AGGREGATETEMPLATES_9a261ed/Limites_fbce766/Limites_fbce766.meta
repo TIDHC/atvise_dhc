@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.HISTORY.AGGREGATETEMPLATES.Limites
+NodeClass: Object
+BrowseName: 1:Limites
+DisplayName: en|Limites
+Description: en|Limites
+EventNotifier: 0
+Reference: forward HasModellingRule SharedExclusive
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AggregateTemplate

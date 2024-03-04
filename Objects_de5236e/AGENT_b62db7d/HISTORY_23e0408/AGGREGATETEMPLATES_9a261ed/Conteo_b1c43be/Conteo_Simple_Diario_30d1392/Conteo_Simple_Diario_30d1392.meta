@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.HISTORY.AGGREGATETEMPLATES.Conteo.Conteo_Simple_Diario
+NodeClass: Object
+BrowseName: 1:Conteo_Simple_Diario
+DisplayName: en|Conteo_Simple_Diario
+Description: en|Conteo_Simple_Diario
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AggregateFunction
+Reference: forward HasComponent i=2352
+Reference: forward HasHistoricalConfiguration ns=1;s=AGENT.HISTORY.Estadisticas

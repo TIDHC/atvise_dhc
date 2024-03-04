@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.nchi
+NodeClass: Variable
+BrowseName: 1:nchi
+DisplayName: en|nchi
+Description: en|nchi
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

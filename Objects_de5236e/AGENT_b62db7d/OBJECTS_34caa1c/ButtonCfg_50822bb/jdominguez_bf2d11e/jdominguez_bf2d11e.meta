@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.jdominguez
+NodeClass: Variable
+BrowseName: 1:jdominguez
+DisplayName: en|jdominguez
+Description: en|jdominguez
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

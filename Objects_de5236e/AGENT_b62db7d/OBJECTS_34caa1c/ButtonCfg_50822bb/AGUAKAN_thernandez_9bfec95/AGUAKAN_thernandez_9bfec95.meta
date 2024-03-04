@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.AGUAKAN\thernandez
+NodeClass: Variable
+BrowseName: 1:AGUAKAN\thernandez
+DisplayName: en|AGUAKAN\thernandez
+Description: en|AGUAKAN\thernandez
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

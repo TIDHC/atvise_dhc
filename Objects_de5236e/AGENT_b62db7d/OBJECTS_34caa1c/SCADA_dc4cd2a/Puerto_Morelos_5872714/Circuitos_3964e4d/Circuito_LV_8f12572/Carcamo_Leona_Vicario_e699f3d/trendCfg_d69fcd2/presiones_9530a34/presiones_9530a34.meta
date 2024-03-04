@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Puerto_Morelos.Circuitos.Circuito_LV.Carcamo_Leona_Vicario.trendCfg.presiones
+NodeClass: Variable
+BrowseName: 1:presiones
+DisplayName: en|presiones
+Description: en|presiones
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

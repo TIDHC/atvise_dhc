@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.HISTORY.AGGREGATETEMPLATES.Average.Promedio_Horario
+NodeClass: Object
+BrowseName: 1:Promedio_Horario
+DisplayName: en|Promedio_Horario
+Description: en|Promedio_Horario
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AggregateFunction
+Reference: forward HasComponent i=2342

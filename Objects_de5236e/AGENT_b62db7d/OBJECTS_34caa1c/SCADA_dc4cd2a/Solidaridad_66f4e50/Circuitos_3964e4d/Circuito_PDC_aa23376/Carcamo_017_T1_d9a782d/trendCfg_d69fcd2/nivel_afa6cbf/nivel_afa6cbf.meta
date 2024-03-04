@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Solidaridad.Circuitos.Circuito_PDC.Carcamo_017_T1.trendCfg.nivel
+NodeClass: Variable
+BrowseName: 1:nivel
+DisplayName: en|nivel
+Description: en|nivel
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.mitorres
+NodeClass: Variable
+BrowseName: 1:mitorres
+DisplayName: en|mitorres
+Description: en|mitorres
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

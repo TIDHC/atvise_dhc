@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.fgonzalez
+NodeClass: Variable
+BrowseName: 1:fgonzalez
+DisplayName: en|fgonzalez
+Description: en|fgonzalez
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

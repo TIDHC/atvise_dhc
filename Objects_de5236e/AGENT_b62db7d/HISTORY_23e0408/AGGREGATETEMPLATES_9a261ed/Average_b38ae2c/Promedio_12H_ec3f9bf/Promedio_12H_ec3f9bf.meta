@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.HISTORY.AGGREGATETEMPLATES.Average.Promedio_12H
+NodeClass: Object
+BrowseName: 1:Promedio_12H
+DisplayName: en|Promedio_12H
+Description: en|Promedio_12H
+EventNotifier: 0
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AggregateFunction
+Reference: forward HasComponent i=2342
+Reference: forward HasHistoricalConfiguration ns=1;s=AGENT.HISTORY.Promedios

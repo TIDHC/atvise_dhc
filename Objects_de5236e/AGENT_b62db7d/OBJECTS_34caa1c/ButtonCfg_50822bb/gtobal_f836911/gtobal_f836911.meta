@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.gtobal
+NodeClass: Variable
+BrowseName: 1:gtobal
+DisplayName: en|gtobal
+Description: en|gtobal
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

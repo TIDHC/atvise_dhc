@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.arjimenez
+NodeClass: Variable
+BrowseName: 1:arjimenez
+DisplayName: en|arjimenez
+Description: en|arjimenez
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

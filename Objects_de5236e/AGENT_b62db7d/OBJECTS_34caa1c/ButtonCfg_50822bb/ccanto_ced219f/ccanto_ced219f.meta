@@ -1,0 +1,9 @@
+NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.ccanto
+NodeClass: Variable
+BrowseName: 1:ccanto
+DisplayName: en|ccanto
+Description: en|ccanto
+DataType: String
+ValueRank: -1
+AccessLevel: 103
+Reference: forward HasTypeDefinition BaseVariableType

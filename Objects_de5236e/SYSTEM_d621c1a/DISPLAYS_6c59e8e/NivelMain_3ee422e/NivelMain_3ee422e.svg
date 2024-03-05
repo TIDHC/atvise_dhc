@@ -6,8 +6,8 @@
   <atv:snapconfig enabled="false" height="10" width="10"/>
  </metadata>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <svg atv:refpx="821.14" atv:refpy="180.428" height="400" id="id_1" transform="matrix(4.1057,0,0,0.8456,0,0)" width="400" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.highcharts" y="13.374">
-  <atv:argument name="trendName" prefix="base" value=".nivel"/>
+ <svg atv:refpx="725.459" atv:refpy="178.547" height="400" id="id_1" transform="matrix(3.6273,0,0,0.855,0,0)" width="400" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.highcharts" y="8.827">
+  <atv:argument name="trendName" value="nivel"/>
   <atv:argument name="series1series_address" prefix="base" value=".level_percent"/>
   <atv:argument name="xAxisxAxis_timeSpanUnit" value="hour(s)"/>
   <atv:argument name="xAxisxAxis_timeSpan" value="24"/>
@@ -55,23 +55,35 @@
   <atv:argument name="yAxis1yAxis_max" value="100"/>
   <atv:argument name="yAxis3yAxis_opposite" value="right"/>
   <atv:argument name="yAxis4yAxis_opposite" value="right"/>
-  <atv:overwrite id="highchart_label" transform="matrix(0.2436,0,0,1.1826,0,0)" x="650.644" y="180.119"/>
-  <atv:overwrite height="336.238" id="border" transform="matrix(0.2436,0,0,1.1826,0,0)" width="1640.287"/>
-  <atv:overwrite height="338.238" id="id_3" transform="matrix(0.2436,0,0,1.1826,0,0)" width="1642.287"/>
+  <atv:argument name="series3series_name" value="T{Caudal}"/>
+  <atv:argument name="series3series_lineWidth" value="4"/>
+  <atv:argument name="series3series_color" value="#FABC02"/>
+  <atv:argument name="series3series_marker_enabled" value="false"/>
+  <atv:overwrite id="highchart_label" transform="matrix(0.2757,0,0,1.1696,0,0)" x="554.959" y="182.001"/>
+  <atv:overwrite height="340.002" id="border" transform="matrix(0.2757,0,0,1.1696,0,0)" width="1448.918"/>
+  <atv:overwrite height="342.002" id="id_3" transform="matrix(0.2757,0,0,1.1696,0,0)" width="1450.918"/>
  </svg>
- <svg atv:refpx="1709.683" atv:refpy="153.364" height="50" id="id_5" width="133" x="1643.183" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.button_back" y="128.364">
-  <atv:argument name="chartname" prefix="base" value=".nivel"/>
+ <svg atv:refpx="1495.001" atv:refpy="47.889" height="30" id="id_5" width="80" x="1455.001" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.button_back" y="38.889">
+  <atv:argument name="chartname" value="nivel"/>
  </svg>
- <svg atv:refpx="1853.677" atv:refpy="153.364" height="50" id="id_6" width="133" x="1787.177" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.button_forward" y="128.364">
-  <atv:argument name="chartname" prefix="base" value=".nivel"/>
+ <svg atv:refpx="1875.001" atv:refpy="47.889" height="30" id="id_6" width="80" x="1835.001" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.button_forward" y="38.889">
+  <atv:argument name="chartname" value="nivel"/>
  </svg>
- <svg atv:refpx="1781.724" atv:refpy="41.865" height="30" id="id_0" transform="matrix(1.9645,0,0,2.0333,0,0)" width="141" x="836.438" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.toolbar" y="5.589">
-  <atv:argument name="chartname" prefix="base" value=".nivel"/>
+ <svg atv:refpx="1685.001" atv:refpy="17.21" height="30" id="id_2" width="460" x="1455.001" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.buttons_start_end_time" y="8.21">
+  <atv:argument name="chartname" value="nivel"/>
+ </svg>
+ <svg atv:refpx="1688.154" atv:refpy="47.889" height="30" id="id_4" width="260" x="1558.154" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.button_config" y="38.889">
+  <atv:argument name="chartname" value="nivel"/>
+ </svg>
+ <svg atv:refpx="1685.526" atv:refpy="209.946" height="160" id="id_11" transform="matrix(0.3639,0,0,1.7403,0,0)" width="1280" x="3991.954" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.legend" y="40.638">
+  <atv:argument name="_trendName" value="nivel"/>
+  <atv:argument name="columnOptions_nodeAddress_visibility" value="false"/>
+  <atv:argument name="columnOptions_aggregate_visibility" value="false"/>
+  <atv:argument name="columnOptions_cursorXValue1_visibility" value="false"/>
+  <atv:argument name="columnOptions_cursorXValue2_visibility" value="false"/>
+  <atv:argument name="columnOptions_cursorYValue1_visibility" value="false"/>
+  <atv:argument name="columnOptions_cursorYValue2_visibility" value="false"/>
   <atv:argument name="startAddress" value="AGENT.OBJECTS.SCADA"/>
-  <atv:argument name="targetFrame" value="caudalimetros"/>
-  <atv:argument name="dialog_options" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.Advanced.highcharts.opt_dialog"/>
- </svg>
- <svg atv:refpx="1781.688" atv:refpy="100.864" height="30" id="id_9" transform="matrix(1.6295,0,0,1.7,0,0)" width="169.99" x="1008.394" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.highcharts.button_config" y="44.332">
-  <atv:argument name="chartname" prefix="base" value=".nivel"/>
+  <atv:overwrite id="preview" transform="matrix(2.7481,0,0,0.5746,0,0)" x="172.39" y="146.724"/>
  </svg>
 </svg>

@@ -5,6 +5,7 @@ DisplayName: en|Carcamo_El_table
 Description: en|Carcamo_El_table
 EventNotifier: 0
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.ElementoLinea
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Alarmas
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Monitoreo IT
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Principal
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Principal_trend

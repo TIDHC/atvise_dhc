@@ -1,9 +1,0 @@
-NodeId: ns=1;s=VariableTypes.PROJECT.2372
-NodeClass: VariableType
-BrowseName: 1:DiscreteItemType
-DisplayName: en|DiscreteItemType
-Description: en|2372
-IsAbstract: false
-DataType: BaseDataType
-ValueRank: -1
-ValueType: i=0

@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.int.Alarm.variable
-NodeClass: Variable
-BrowseName: 1:variable
-DisplayName: en|variable
-Description: en|variable
-DataType: XmlElement
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

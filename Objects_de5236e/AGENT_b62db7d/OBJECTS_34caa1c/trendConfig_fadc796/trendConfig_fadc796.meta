@@ -1,7 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.trendConfig
-NodeClass: Object
-BrowseName: 1:trendConfig
-DisplayName: en|trendConfig
-Description: en|trendConfig
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

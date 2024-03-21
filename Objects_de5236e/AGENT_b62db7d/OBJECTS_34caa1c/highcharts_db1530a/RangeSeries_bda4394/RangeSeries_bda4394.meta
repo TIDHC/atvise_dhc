@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.highcharts.RangeSeries
-NodeClass: Variable
-BrowseName: 1:RangeSeries
-DisplayName: en|RangeSeries
-Description: en|RangeSeries
-DataType: String
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

@@ -1,7 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.int.Alarm.REPLACEMENTS
-NodeClass: Object
-BrowseName: 1:REPLACEMENTS
-DisplayName: en|REPLACEMENTS
-Description: en|REPLACEMENTS
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

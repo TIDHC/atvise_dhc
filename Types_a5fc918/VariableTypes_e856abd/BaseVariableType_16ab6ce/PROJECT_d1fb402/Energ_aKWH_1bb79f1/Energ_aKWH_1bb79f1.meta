@@ -1,8 +1,0 @@
-NodeId: ns=1;s=VariableTypes.PROJECT.EnergíaKWH
-NodeClass: VariableType
-BrowseName: 1:EnergíaKWH
-DisplayName: en|EnergíaKWH
-Description: en|EnergíaKWH
-IsAbstract: false
-DataType: Float
-ValueRank: -1

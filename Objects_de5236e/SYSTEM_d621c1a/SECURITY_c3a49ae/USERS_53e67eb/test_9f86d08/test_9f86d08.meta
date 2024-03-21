@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.SECURITY.USERS.test
-NodeClass: Object
-BrowseName: 1:test
-DisplayName: en|test
-Description: en|test
-EventNotifier: 0
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.User

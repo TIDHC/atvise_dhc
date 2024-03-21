@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Puerto_Morelos.Captacion.Pozos.AP_LV_CAR_LEONA_VICARIO_POZO_VIEJO.Caudalimetro.L1.horario1
-NodeClass: Variable
-BrowseName: 1:horario1
-DisplayName: en|horario1
-Description: en|horario1
-DataType: String
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

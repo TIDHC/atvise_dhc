@@ -1,1 +1,0 @@
-AGENT.OBJECTS.SCADA.Isla_Mujeres.Circuitos.Circuito_CAP_IM.Carcamo_Aeropuerto_IM.Caudalimetros

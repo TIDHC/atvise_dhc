@@ -1,1 +1,0 @@
-AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_011.Carcamo_Punta_Sam.Caudalimetros

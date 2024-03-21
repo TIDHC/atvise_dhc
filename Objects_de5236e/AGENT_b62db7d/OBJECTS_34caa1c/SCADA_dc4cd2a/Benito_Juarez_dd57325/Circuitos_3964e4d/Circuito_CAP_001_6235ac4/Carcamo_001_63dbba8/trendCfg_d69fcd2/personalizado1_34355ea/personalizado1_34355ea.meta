@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001.Carcamo_001.trendCfg.personalizado1
-NodeClass: Variable
-BrowseName: 1:personalizado1
-DisplayName: en|personalizado1
-Description: en|personalizado1
-DataType: String
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

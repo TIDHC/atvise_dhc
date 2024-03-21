@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.SECURITY.USERS.CCO_Playa_AR
-NodeClass: Object
-BrowseName: 1:CCO_Playa_AR
-DisplayName: en|CCO_Playa_AR
-Description: en|CCO_Playa_AR
-EventNotifier: 0
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.User

@@ -1,1 +1,0 @@
-AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_008.Carcamo_Donceles.Caudalimetros

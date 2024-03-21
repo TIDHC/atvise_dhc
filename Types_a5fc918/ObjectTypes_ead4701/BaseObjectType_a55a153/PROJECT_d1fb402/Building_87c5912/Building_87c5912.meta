@@ -1,6 +1,0 @@
-NodeId: ns=1;s=ObjectTypes.PROJECT.Building
-NodeClass: ObjectType
-BrowseName: 1:Building
-DisplayName: en|Building
-Description: en|Building
-IsAbstract: false

@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.bool.Alarm.condi
-NodeClass: Object
-BrowseName: 1:condi
-DisplayName: en|condi
-Description: en|condi
-EventNotifier: 0
-Reference: forward HasModellingRule New
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConditionControl.Discrete
-Reference: forward HasComponent ns=1;s=AGENT.ALARMING.Categories.Error

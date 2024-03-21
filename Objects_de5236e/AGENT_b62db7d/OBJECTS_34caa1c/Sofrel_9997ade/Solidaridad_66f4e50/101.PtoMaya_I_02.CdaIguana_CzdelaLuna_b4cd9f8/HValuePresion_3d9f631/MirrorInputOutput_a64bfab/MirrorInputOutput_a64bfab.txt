@@ -1,1 +1,0 @@
-Sofrel OPC UA Server/ns=2;s=SOFREL_101_PTOMAYAI-02.NI_0005.HValue

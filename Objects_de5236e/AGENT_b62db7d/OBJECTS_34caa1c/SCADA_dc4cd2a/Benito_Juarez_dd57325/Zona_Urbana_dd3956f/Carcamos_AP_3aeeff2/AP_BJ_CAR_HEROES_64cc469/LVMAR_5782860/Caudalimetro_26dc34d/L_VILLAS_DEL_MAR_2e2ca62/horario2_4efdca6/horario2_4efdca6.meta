@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_CAR_HEROES.LVMAR.Caudalimetro.L_VILLAS_DEL_MAR.horario2
-NodeClass: Variable
-BrowseName: 1:horario2
-DisplayName: en|horario2
-Description: en|horario2
-DataType: String
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

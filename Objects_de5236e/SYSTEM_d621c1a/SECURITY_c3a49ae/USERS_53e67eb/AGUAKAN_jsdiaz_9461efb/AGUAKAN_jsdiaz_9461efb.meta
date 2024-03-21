@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.SECURITY.USERS.AGUAKAN\jsdiaz
-NodeClass: Object
-BrowseName: 1:AGUAKAN\jsdiaz
-DisplayName: en|AGUAKAN\jsdiaz
-Description: en|AGUAKAN\jsdiaz
-EventNotifier: 0
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.User

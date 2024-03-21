@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Solidaridad.Captacion.Carcamos.AP_SOL_CAR_INTERMEDIO.L30.Caudalimetro.L_30.horario2
-NodeClass: Variable
-BrowseName: 1:horario2
-DisplayName: en|horario2
-Description: en|horario2
-DataType: String
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

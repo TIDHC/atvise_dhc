@@ -1,8 +1,0 @@
-NodeId: ns=1;s=AGENT.HISTORY.aggregates
-NodeClass: Object
-BrowseName: 1:aggregates
-DisplayName: en|aggregates
-Description: en|aggregates
-EventNotifier: 0
-Reference: forward HasModellingRule SharedExclusive
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.ArchiveGroup.Aggregate

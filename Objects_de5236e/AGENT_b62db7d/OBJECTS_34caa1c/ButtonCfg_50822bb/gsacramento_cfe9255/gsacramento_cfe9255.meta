@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.ButtonCfg.gsacramento
-NodeClass: Variable
-BrowseName: 1:gsacramento
-DisplayName: en|gsacramento
-Description: en|gsacramento
-DataType: String
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

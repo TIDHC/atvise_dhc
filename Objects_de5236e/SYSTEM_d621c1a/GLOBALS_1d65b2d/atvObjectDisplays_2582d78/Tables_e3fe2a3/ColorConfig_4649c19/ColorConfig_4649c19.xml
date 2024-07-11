@@ -8,7 +8,7 @@
 		<uax:String>&quot;footer_mode_color&quot;:{&quot;color&quot;:&quot;#000000&quot;}</uax:String>
 		<uax:String>&quot;header_border_color&quot;:{&quot;color&quot;:&quot;#d3d3d3&quot;}</uax:String>
 		<uax:String>&quot;header_cell_color&quot;:{&quot;color&quot;:&quot;&quot;}</uax:String>
-		<uax:String>&quot;header_text_color&quot;:{&quot;color&quot;:&quot;&quot;}</uax:String>
+		<uax:String>&quot;header_text_color&quot;:{&quot;color&quot;:&quot;#000000&quot;}</uax:String>
 		<uax:String>&quot;hover_cell_color&quot;:{&quot;color&quot;:&quot;#f0e68c&quot;}</uax:String>
 		<uax:String>&quot;hover_text_color&quot;:{&quot;color&quot;:&quot;#8b4513&quot;}</uax:String>
 		<uax:String>&quot;row_border_color&quot;:{&quot;color&quot;:&quot;#d3d3d3&quot;}</uax:String>

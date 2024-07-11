@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"twofactor_policy":{"active":true,"twoFactorAppAuth":true,"twoFactorAuthTotalTime":30,"smtpServer":"Google","senderEmailAddress":"monitoreo@aguakan.com","emailSubject":"Autenticación de dos pasos atvise","emailBody":"Tu código de seguridad es el siguiente: [2FACode]"}}
-=======
-{"twofactor_policy":{"active":false,"twoFactorAppAuth":false,"twoFactorAuthTotalTime":30,"smtpServer":"","senderEmailAddress":"","emailSubject":"atvise two-factor authentication","emailBody":"Your security code is as follows: [2FACode]"}}
->>>>>>> 79657d464afad8e5e73c5b5eab8d16d52ea4436c

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"email_policy":{"active":true,"emailWhiteList":["aguakan.com","aguakan.mx","desarrolloshidraulicos.com.mx"],"userCanDefineEmail":true,"hideWhiteList":true}}
-=======
-{"email_policy":{"active":false,"emailWhiteList":[],"userCanDefineEmail":false,"hideWhiteList":false}}
->>>>>>> 79657d464afad8e5e73c5b5eab8d16d52ea4436c

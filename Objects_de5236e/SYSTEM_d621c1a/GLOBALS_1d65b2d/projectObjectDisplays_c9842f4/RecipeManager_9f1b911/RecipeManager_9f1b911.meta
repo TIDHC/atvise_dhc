@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.GLOBALS.projectObjectDisplays.RecipeManager
-NodeClass: Object
-BrowseName: 1:RecipeManager
-DisplayName: en|RecipeManager
-Description: en|RecipeManager
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

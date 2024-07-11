@@ -1,6 +1,0 @@
-NodeId: ns=1;s=ObjectTypes.PROJECT.Engine
-NodeClass: ObjectType
-BrowseName: 1:Engine
-DisplayName: en|Engine
-Description: en|Engine
-IsAbstract: false

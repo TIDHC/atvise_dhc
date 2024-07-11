@@ -1,1 +1,0 @@
-AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NTE.Carcamo_4_Cancun_86_Colonia.Entrada

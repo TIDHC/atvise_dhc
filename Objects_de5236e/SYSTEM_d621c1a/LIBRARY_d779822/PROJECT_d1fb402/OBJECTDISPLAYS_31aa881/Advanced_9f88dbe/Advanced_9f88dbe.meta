@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced
-NodeClass: Object
-BrowseName: 1:Advanced
-DisplayName: en|Advanced
-Description: en|Advanced
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

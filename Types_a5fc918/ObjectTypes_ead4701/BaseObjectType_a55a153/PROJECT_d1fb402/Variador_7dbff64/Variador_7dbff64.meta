@@ -1,6 +1,0 @@
-NodeId: ns=1;s=ObjectTypes.PROJECT.Variador
-NodeClass: ObjectType
-BrowseName: 1:Variador
-DisplayName: en|Variador
-Description: en|Variador
-IsAbstract: false

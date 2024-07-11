@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.Advanced.dashboard.charts
-NodeClass: Object
-BrowseName: 1:charts
-DisplayName: en|charts
-Description: en|charts
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

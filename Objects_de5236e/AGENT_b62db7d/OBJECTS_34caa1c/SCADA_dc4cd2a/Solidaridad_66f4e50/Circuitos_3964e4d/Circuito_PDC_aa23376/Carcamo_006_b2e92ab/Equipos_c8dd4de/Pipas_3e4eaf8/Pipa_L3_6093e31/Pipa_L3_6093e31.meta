@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Solidaridad.Circuitos.Circuito_PDC.Carcamo_006.Equipos.Pipas.Pipa L3
+NodeClass: Object
+BrowseName: 1:Pipa L3
+DisplayName: en|Pipa L3
+Description: en|Pipa L3
+EventNotifier: 0
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition FolderType

@@ -1,0 +1,7 @@
+NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Benito_Juarez.006.Jardines_Sur
+NodeClass: Object
+BrowseName: 1:Jardines_Sur
+DisplayName: en|Jardines_Sur
+Description: en|Jardines_Sur
+EventNotifier: 0
+Reference: forward HasTypeDefinition FolderType

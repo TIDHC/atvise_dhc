@@ -1,0 +1,7 @@
+NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Benito_Juarez.006
+NodeClass: Object
+BrowseName: 1:006
+DisplayName: en|006
+Description: en|006
+EventNotifier: 0
+Reference: forward HasTypeDefinition FolderType

@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_Los_Heroes.Equipos.LHEROES
+NodeClass: Object
+BrowseName: 1:LHEROES
+DisplayName: en|LHEROES
+Description: en|LHEROES
+EventNotifier: 0
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition FolderType

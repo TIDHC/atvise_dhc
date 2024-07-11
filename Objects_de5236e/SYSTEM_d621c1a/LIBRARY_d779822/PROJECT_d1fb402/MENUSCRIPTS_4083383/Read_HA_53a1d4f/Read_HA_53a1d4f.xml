@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <owner>root</owner>
+    <runcontext>caller</runcontext>
+  </metadata>
+  <code><![CDATA[
+
+var nodeobj = Ua.findNode("AGENT.OBJECTS.0UCX8OEU_HDA.Presion");
+var startTime = new Date(2024, 5, 19, 13, 0, 0);
+var endTime = new Date(2024, 5, 20, 14, 0, 0);
+
+var resultRaw = nodeobj.result.dataHistory({
+    startTime: startTime,
+    endTime: endTime,
+    numValues: 100 // Número máximo de valores a retornar
+});
+console.log("Hola" + JSON.stringify(resultRaw, null, 2));
+
+var nodeobj_ = Ua.findNode("AGENT.OBJECTS.0UCX8OEU_HDA.Nivel");
+
+var resultRaw_ = nodeobj_.result.dataHistory({
+    startTime: startTime,
+    endTime: endTime,
+    numValues: 100 // Número máximo de valores a retornar
+});
+
+console.log("Hola" + JSON.stringify(resultRaw_, null, 2));
+]]></code>
+</script>

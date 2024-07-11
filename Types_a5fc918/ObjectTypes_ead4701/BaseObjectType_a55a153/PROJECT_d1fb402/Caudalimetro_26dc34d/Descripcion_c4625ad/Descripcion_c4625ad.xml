@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <owner>root</owner>
+    <runcontext>caller</runcontext>
+  </metadata>
+  <parameter name="t" type="interval" trigger="true" relative="false" value="" offset="00:00:00" interval="12:00:10"/>
+  <code><![CDATA[var volumen = Ua.findNode(base + ".current_total_volume");
+var pressure = Ua.findNode(base + ".current_pressure");
+
+volumen.result.description = "Acumulado total";]]></code>
+</script>

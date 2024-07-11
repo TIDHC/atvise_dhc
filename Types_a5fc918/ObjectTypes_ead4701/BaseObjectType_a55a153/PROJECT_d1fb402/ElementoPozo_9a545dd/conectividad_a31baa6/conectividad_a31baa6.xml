@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <metadata>
+    <priority>0</priority>
+    <owner>root</owner>
+    <runcontext>caller</runcontext>
+  </metadata>
+  <parameter name="connectivity" type="node" trigger="true" relative="true" starttime="00:00:02">
+    <RelativePath>
+      <Elements>
+        <RelativePathElement>
+          <TargetName>
+            <NamespaceIndex>1</NamespaceIndex>
+            <Name>connectivity</Name>
+          </TargetName>
+        </RelativePathElement>
+      </Elements>
+    </RelativePath>
+  </parameter>
+  <code><![CDATA[var estado = Ua.findNode(base + ".connectivity");
+var map = Ua.findNode(base + ".connect");
+
+//map.result.value = estado.result.status;
+
+
+if (estado.result.status==0){
+map.result.value = true;
+}
+else {
+map.result.value = false;
+}]]></code>
+</script>

@@ -1,0 +1,8 @@
+NodeId: ns=1;s=AGENT.HISTORY.Produccion_Hora
+NodeClass: Object
+BrowseName: 1:Produccion_Hora
+DisplayName: en|Produccion_Hora
+Description: en|Produccion_Hora
+EventNotifier: 0
+Reference: forward HasModellingRule SharedExclusive
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.ArchiveGroup.Aggregate

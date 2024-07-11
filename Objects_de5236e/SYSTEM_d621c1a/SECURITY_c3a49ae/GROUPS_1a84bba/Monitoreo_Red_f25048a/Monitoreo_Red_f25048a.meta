@@ -1,0 +1,28 @@
+NodeId: ns=1;s=SYSTEM.SECURITY.GROUPS.Monitoreo_Red
+NodeClass: Object
+BrowseName: 1:Monitoreo_Red
+DisplayName: en|Monitoreo_Red
+Description: en|Monitoreo_Red
+EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.USER.Monitoreo_Red
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aguzman
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.caruiz
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.cbroggi
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ccanto
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eloeza
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ereyes
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eromero
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gdelaguardia
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gjuarez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gsacramento
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gtorres
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jcastro
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jlozano
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jvillalobos
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.otrejo
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.pcruz
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.prangel
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.rsalvador
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.squintal
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.thernandez
+Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

@@ -20,12 +20,12 @@
  <svg atv:refpx="1758" atv:refpy="59" height="30" id="layout_date" width="203" x="1708" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.date" y="42"/>
  <text atv:refpx="725.657" atv:refpy="50" fill="#050a4b" font-family="Arial" font-size="18" id="id_2" transform="matrix(2.9999,0,0,3,-759.9556,0)" x="384.497" y="21.5">MONITOREO DE RED DHC</text>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <svg atv:refpx="1714" atv:refpy="1006.224" height="300" id="id_3" transform="matrix(2,0,0,0.1333,0,0)" width="200" x="757" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="7396.845">
+ <svg atv:refpx="1614" atv:refpy="1006.224" height="300" id="id_3" transform="matrix(3,0,0,0.1333,0,0)" width="200" x="438" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="7396.842">
   <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>
   <atv:argument name="navPanelAlign" value="bottom"/>
   <atv:overwrite id="navigation_1_description" transform="matrix(1.25,0,0,0.3371,0,0)"/>
   <atv:argument name="navContainerID" value="navigation_3"/>
-  <atv:argument name="navItemCount" value="2"/>
+  <atv:argument name="navItemCount" value="3"/>
   <atv:argument name="navAnimateFactor" value="2"/>
   <atv:argument name="navPanelBorderColor" value="SYSTEM.GLOBALS."/>
   <atv:argument name="navItemBorderColor" value="SYSTEM.GLOBALS.#20dbd8"/>
@@ -35,10 +35,10 @@
   <atv:argument name="navFontSize" value="18"/>
   <atv:overwrite id="navigation_2_description" transform="matrix(0.2022,0,0,2.727,0,0)"/>
   <atv:argument name="navCustomEntry" prefix="base" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Circuitos"/>
-  <atv:argument name="navCustomTitle01" value="Gráfica de presión"/>
-  <atv:argument name="navCustomTitle02" value="Tabla de totalizadores"/>
-  <atv:argument name="navCustomDisplay01" value="AGENT.DISPLAYS.USER.Sectorizacion.01_Grafica_Sectorizacion"/>
-  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.USER.Sectorizacion.02_Tabla_Totalizador"/>
+  <atv:argument name="navCustomTitle01" value="Gráfica BJ"/>
+  <atv:argument name="navCustomTitle02" value="Ubicaciones BJ"/>
+  <atv:argument name="navCustomDisplay01" value="AGENT.DISPLAYS.USER.Sectorizacion.01_Tendencias_Monitoreo_BJ"/>
+  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.USER.Sectorizacion.04_Mapa_Sectorizacion_BJ"/>
   <atv:argument name="navHomeText" value=""/>
   <atv:argument name="navIconHomeActive" value="false"/>
   <atv:argument name="navItemBackgroundActive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
@@ -53,14 +53,16 @@
   <atv:argument name="navHomeActive" value="false"/>
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemBorderWidth" value="2"/>
-  <atv:overwrite id="navigation_3_description" transform="matrix(0.5,0,0,7.5019,0,0)"/>
+  <atv:argument name="navCustomTitle03" value="Tabla de totalizadores"/>
+  <atv:argument name="navCustomDisplay03" value="AGENT.DISPLAYS.USER.Sectorizacion.02_Tabla_Totalizador"/>
+  <atv:overwrite id="navigation_3_description" transform="matrix(0.3333,0,0,7.5019,0,0)"/>
  </svg>
- <svg atv:refpx="1714.001" atv:refpy="1053.225" height="300" id="id_4" transform="matrix(2,0,0,0.1333,0,0)" width="200" x="757" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="7749.345">
+ <svg atv:refpx="1614.001" atv:refpy="1053.227" height="300" id="id_4" transform="matrix(3,0,0,0.1333,0,0)" width="200" x="438" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="7749.362">
   <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>
   <atv:argument name="navPanelAlign" value="bottom"/>
   <atv:overwrite id="navigation_1_description" transform="matrix(1.25,0,0,0.3371,0,0)"/>
   <atv:argument name="navContainerID" value="navigation_3"/>
-  <atv:argument name="navItemCount" value="2"/>
+  <atv:argument name="navItemCount" value="3"/>
   <atv:argument name="navAnimateFactor" value="2"/>
   <atv:argument name="navPanelBorderColor" value="SYSTEM.GLOBALS."/>
   <atv:argument name="navItemBorderColor" value="SYSTEM.GLOBALS.#20dbd8"/>
@@ -70,10 +72,9 @@
   <atv:argument name="navFontSize" value="18"/>
   <atv:overwrite id="navigation_2_description" transform="matrix(0.2022,0,0,2.727,0,0)"/>
   <atv:argument name="navCustomEntry" prefix="base" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Circuitos"/>
-  <atv:argument name="navCustomTitle01" value="Mapa de ubicaciones"/>
-  <atv:argument name="navCustomTitle02" value="Equipos móviles"/>
-  <atv:argument name="navCustomDisplay01" value="AGENT.DISPLAYS.USER.Sectorizacion.04_Mapa_Sectorizacion"/>
-  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.USER.Sectorizacion.05_Grafica_ANC"/>
+  <atv:argument name="navCustomTitle01" value="Gráfico SOL"/>
+  <atv:argument name="navCustomTitle02" value="Ubicaciones SOL"/>
+  <atv:argument name="navCustomDisplay01" value="AGENT.DISPLAYS.USER.Sectorizacion.01_Tendencias_Monitoreo_SOL"/>
   <atv:argument name="navHomeText" value=""/>
   <atv:argument name="navIconHomeActive" value="false"/>
   <atv:argument name="navItemBackgroundActive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
@@ -88,6 +89,9 @@
   <atv:argument name="navHomeActive" value="false"/>
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemBorderWidth" value="2"/>
-  <atv:overwrite id="navigation_3_description" transform="matrix(0.5,0,0,7.5019,0,0)"/>
+  <atv:argument name="navCustomTitle03" value="Equipos móviles"/>
+  <atv:argument name="navCustomDisplay03" value="AGENT.DISPLAYS.USER.Sectorizacion.05_Grafica_ANC"/>
+  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.USER.Sectorizacion.04_Mapa_Sectorizacion_SOL"/>
+  <atv:overwrite id="navigation_3_description" transform="matrix(0.3333,0,0,7.5019,0,0)"/>
  </svg>
 </svg>

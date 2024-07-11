@@ -28,9 +28,19 @@ var m,n;
 	var value = true;
 	
 					
-var infowindow;					
+var infowindow = new google.maps.InfoWindow();;					
 var circuito_centro;
 const path_circulo = "M 4 1.5 A 2.5 2.5 90 1 0 4 6.5 A 2.5 2.5 90 0 0 4 1.5 Z";
+const path_cuadrado ="M 1.2843 0.9 h 4.9311 A 0.3843 0.3843 90 0 1 6.6 1.2843 v 4.9311 A 0.3846 0.3846 90 0 1 6.2154 6.6 H 1.2846 A 0.3846 0.3846 90 0 1 0.9 6.2154 V 1.2843 A 0.3843 0.3843 90 0 1 1.2843 0.9 z";
+const hoverSymbol =   {
+    path: path_circulo,
+    fillColor: "white",
+    fillOpacity: 1,
+    strokeWeight: 0,
+    rotation: 0,
+    scale: 3,
+    anchor: new google.maps.Point(0, 0),
+  };
 const symbolOK =   {
     path: path_circulo,
     fillColor: "green",
@@ -94,6 +104,15 @@ const symbolBadDevice =  {
     scale: 3,
     anchor: new google.maps.Point(0, 0),
   };
+     const symbolBlackSquare =  {
+    path: path_cuadrado,
+    fillColor: "black",
+    fillOpacity: 0.6,
+    strokeWeight: 0,
+    rotation: 0,
+    scale: 3,
+    anchor: new google.maps.Point(0, 0),
+  };
 
 
 //----------------Ejecución -------------------//
@@ -115,7 +134,15 @@ webMI.addOnload(function() {
 	//Opciones del mapa
 	var myOptions = {
 		zoom: 3,
-		mapTypeId: google.maps.MapTypeId.roadmap
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		styles: [ 
+					{ 
+					  "featureType": "poi", 
+					  "stylers": [ 
+						{ "visibility": "off" } 
+					  ] 
+					} 
+				  ] 		
 	};
 	
 
@@ -131,14 +158,16 @@ webMI.addOnload(function() {
 	//-------Inicializo Marcadores
 	
 	circuito_s.forEach(([position,title,object,order,type],i) =>{
-	
-		const marker = new google.maps.Marker({
-			position, 
-			map,
-			icon: symbolBlack,
-			title: ` ${title}`,
-			optimized: false,
-		});
+
+		const marker = new google.maps.Marker(
+			{
+				position, 
+				map,
+				icon: symbolBlack,
+				title: ` ${title}`,
+				optimized: false,
+			}
+		);
 		
 		webMI.data.subscribe(object + ".connectivity", function(e) {
 			var valor = e.value;
@@ -187,7 +216,10 @@ webMI.addOnload(function() {
 			webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Reservorio",
 			{base: object}, "content");	
 					}
-				
+			if (type=="pozo") {
+			webMI.display.openDisplay("SYSTEM.DISPLAYS.Instalacion.Pozo",
+			{base: object}, "content");	
+			}	
 
 			Markeract=true;
 			Markeractdc=marker;
@@ -207,45 +239,179 @@ webMI.addOnload(function() {
 		google.maps.event.addListener(marker,'click',function(event) {	
 			            
             webMI.data.unsubscribe(susID);
-               			
+            if (infowindow) {
+            }   			
 			susID = null;
+			//Abro infowindow
 			
-			map.setZoom(15);
-			map.panTo(this.getPosition());
-			
-			
-			infowindow = new google.maps.InfoWindow();
 			//Abro marcador
 			infowindow.open(marker.getMap,marker);
 			
 			
-			if (type == 'carcamoAR' || type == 'ptar'){
-				//Defino que objeto va a ser el seleccionado para mostrar su información
-				
-			susID = webMI.data.subscribe( object +".level_percent",
+			var susID = webMI.data.subscribeBlock(
+			[object +".level_percent",
+			object +".pressure",
+			object +".pressure2",
+			object +".pressure3",
+			object +".pressure4",
+			object +".pressure5",
+			object +".pressure6",
+			object +".pressure7",
+			object +".flow",
+			object +".flow2",
+			object +".flow3",
+			object +".flow4",
+			object +".flow5",
+			object +".flow6",
+			object +".flow7",
+			object + ".short_name",
+			object + ".cummulative"],
+			[],
 				function(e){
+				
+					if (type == 'pozo'){
+					infowindow.setContent(
+								'<div id="content">' +
+										'<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+										'<h3>'+'Lectura caudalímetro: '+ e[16].value.toLocaleString() +' M3</h3>' +
+										'<table>'+
+											 '<thead align="center">'+
+											  '<tr> <th> ID <th> Presion <th> <th> Flujo <th>'+
+											  '<tbody align="left">'+
+											  '<tr> <td>L1<td><b>'+e[1].value.toFixed(2)+'</b> kg/cm2<td> <td> <b>'+e[8].value.toFixed(2)+'</b> l/s'+
+											'</table>'+		
+									 '</div>');
+					}
+					
+					if (type == 'carcamoAR' || type == 'ptar'){
+					
 					infowindow.setContent(
 						'<div id="content">' +
-                            '<h2 id="firstHeading" class="firstHeading">'+title+'</h2>' +
-                            '<h3>'+'Nivel actual: '+ e.value.toFixed(2) +' %</h>' +
+                            '<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+                            '<h3>'+'Nivel actual: '+ e[0].value.toFixed(2) +' %</h3>' +
                          '</div>');
+					} else {
+						if (!(e[1]==undefined)){
+							infowindow.setContent(
+								'<div id="content">' +
+										'<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+										'<h3>'+'Nivel: '+ e[0].value.toFixed(2) +' %</h3>' +
+										'<table>'+
+											 '<thead>'+
+											  '<tr> <th> ID <th> Presion <th> Flujo <th>'+
+											  '<tbody>'+
+											  '<tr> <td>L1<td>'+e[1].value.toFixed(2)+'<td>'+e[8].value.toFixed(2)+
+											'</table>'+		
+									 '</div>');
+						}
+						if (!(e[2]==undefined)){
+							infowindow.setContent(
+								'<div id="content">' +
+										'<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+										'<h3>'+'Nivel: '+ e[0].value.toFixed(2) +' %</h3>' +
+										'<table>'+
+											 '<thead>'+
+											  '<tr> <th> ID <th> Presion <th> Flujo <th>'+
+											  '<tbody>'+
+											  '<tr> <td>L1<td>'+e[1].value.toFixed(2)+'<td>'+e[8].value.toFixed(2)+
+											  '<tr> <td>L2<td>'+e[2].value.toFixed(2)+'<td>'+e[9].value.toFixed(2)+
+											'</table>'+		
+									 '</div>');
+						}
+						if (!(e[3]==undefined)){
+							infowindow.setContent(
+								'<div id="content">' +
+										'<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+										'<h3>'+'Nivel: '+ e[0].value.toFixed(2) +' %</h3>' +
+										'<table>'+
+											 '<thead>'+
+											  '<tr> <th> ID <th> Presion <th> Flujo <th>'+
+											  '<tbody>'+
+											  '<tr> <td>L1<td>'+e[1].value.toFixed(2)+'<td>'+e[8].value.toFixed(2)+
+											  '<tr> <td>L2<td>'+e[2].value.toFixed(2)+'<td>'+e[9].value.toFixed(2)+
+											  '<tr> <td>L3<td>'+e[3].value.toFixed(2)+'<td>'+e[10].value.toFixed(2)+
+											'</table>'+		
+									 '</div>');
+						}
+						if (!(e[4]==undefined)){
+							infowindow.setContent(
+								'<div id="content">' +
+										'<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+										'<h3>'+'Nivel: '+ e[0].value.toFixed(2) +' %</h3>' +
+										'<table>'+
+											 '<thead>'+
+											  '<tr> <th> ID <th> Presion <th> Flujo <th>'+
+											  '<tbody>'+
+											  '<tr> <td>L1<td>'+e[1].value.toFixed(2)+'<td>'+e[8].value.toFixed(2)+
+											  '<tr> <td>L2<td>'+e[2].value.toFixed(2)+'<td>'+e[9].value.toFixed(2)+
+											  '<tr> <td>L3<td>'+e[3].value.toFixed(2)+'<td>'+e[10].value.toFixed(2)+
+											  '<tr> <td>L4<td>'+e[4].value.toFixed(2)+'<td>'+e[11].value.toFixed(2)+
+											'</table>'+		
+									 '</div>');
+						}
+						if (!(e[5]==undefined)){
+							infowindow.setContent(
+								'<div id="content">' +
+										'<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+										'<h3>'+'Nivel: '+ e[0].value.toFixed(2) +' %</h3>' +
+										'<table>'+
+											 '<thead>'+
+											  '<tr> <th> ID <th> Presion <th> Flujo <th>'+
+											  '<tbody>'+
+											  '<tr> <td>L1<td>'+e[1].value.toFixed(2)+'<td>'+e[8].value.toFixed(2)+
+											  '<tr> <td>L2<td>'+e[2].value.toFixed(2)+'<td>'+e[9].value.toFixed(2)+
+											  '<tr> <td>L3<td>'+e[3].value.toFixed(2)+'<td>'+e[10].value.toFixed(2)+
+											  '<tr> <td>L4<td>'+e[4].value.toFixed(2)+'<td>'+e[11].value.toFixed(2)+
+											  '<tr> <td>L5<td>'+e[5].value.toFixed(2)+'<td>'+e[12].value.toFixed(2)+
+											'</table>'+		
+									 '</div>');
+						}
+						if (!(e[6]==undefined)){
+						infowindow.setContent(
+							'<div id="content">' +
+									'<h2 id="firstHeading" class="firstHeading">'+e[15].value+'</h2>' +
+									'<h3>'+'Nivel: '+ e[0].value.toFixed(2) +' %</h3>' +
+									'<table>'+
+										 '<thead>'+
+										  '<tr> <th> ID <th> Presion <th> Flujo <th>'+
+										  '<tbody>'+
+										  '<tr> <td>L1<td>'+e[1].value.toFixed(2)+'<td>'+e[8].value.toFixed(2)+
+										  '<tr> <td>L2<td>'+e[2].value.toFixed(2)+'<td>'+e[9].value.toFixed(2)+
+										  '<tr> <td>L3<td>'+e[3].value.toFixed(2)+'<td>'+e[10].value.toFixed(2)+
+										  '<tr> <td>L4<td>'+e[4].value.toFixed(2)+'<td>'+e[11].value.toFixed(2)+
+										  '<tr> <td>L5<td>'+e[5].value.toFixed(2)+'<td>'+e[12].value.toFixed(2)+
+										  '<tr> <td>L6<td>'+e[6].value.toFixed(2)+'<td>'+e[13].value.toFixed(2)+
+										'</table>'+		
+								 '</div>');
+						}
+						if (!(e[7]==undefined)){
+					
+							infowindow.setContent(
+								'<div id="content">' +
+										'<h1 id="firstHeading" class="firstHeading">'+e[15].value+'</h1>' +
+										'<h3>'+'Nivel: '+ e[0].value.toFixed(2) +' %</h3>' +
+										'<table>'+
+											 '<thead>'+
+											  '<tr> <th> ID <th> Presion <th> Flujo <th>'+
+											  '<tbody>'+
+											  '<tr> <td>L1<td>'+e[1].value.toFixed(2)+'<td>'+e[8].value.toFixed(2)+
+											  '<tr> <td>L2<td>'+e[2].value.toFixed(2)+'<td>'+e[9].value.toFixed(2)+
+											  '<tr> <td>L3<td>'+e[3].value.toFixed(2)+'<td>'+e[10].value.toFixed(2)+
+											  '<tr> <td>L4<td>'+e[4].value.toFixed(2)+'<td>'+e[11].value.toFixed(2)+
+											  '<tr> <td>L5<td>'+e[5].value.toFixed(2)+'<td>'+e[12].value.toFixed(2)+
+											  '<tr> <td>L6<td>'+e[6].value.toFixed(2)+'<td>'+e[13].value.toFixed(2)+
+											  '<tr> <td>L7<td>'+e[7].value.toFixed(2)+'<td>'+e[14].value.toFixed(2)+
+											'</table>'+									
+									 '</div>');
+						}							
+
 					}
-				);
-			} else {
-			//Defino que objeto va a ser el seleccionado para mostrar su información
-			susID = webMI.data.subscribe( object +".pressure",
-				function(e){
-					infowindow.setContent(
-					'<div id="content">' +
-                            '<h1 id="firstHeading" class="firstHeading">'+title+'</h1>' +
-                            '<h2>'+'Presión: '+ e.value.toFixed(2) +' kg/cm2</h2>' +
-                         '</div>');
-					}
-				);
-			}
+				}		
+				);			
+		
 			
 			setTimeout(function() {
-              infowindow.close();             
+                           
                 webMI.data.unsubscribe(susID);
             }, 3000);
 					console.log(susID);	
@@ -255,9 +421,12 @@ webMI.addOnload(function() {
 		//MOUSEOVER
 		google.maps.event.addListener(marker, "mouseover", function(event){
 					
-		
+		marker.setAnimation(google.maps.Animation.BOUNCE);
 		});	
 		
+		google.maps.event.addListener(marker, "mouseout", function(event){
+		marker.setAnimation(null);
+		});	
 		
 		
 		
@@ -280,42 +449,5 @@ function fitMarkers() {
            
             map.fitBounds(bounds);
         }
-
-
-function Dibuja_Ruta(Origen,Destination){
-	
-	if(Markeract && (Origen!=Destination)){
-			
-		//////////// Servicios Rutas en el mapa
-		var directionsService = new google.maps.DirectionsService();
-		var directionsRenderer = new google.maps.DirectionsRenderer({ map: map });		
-		
-		//Crea el request
-		var request = {
-			origin: Origen,
-			destination:Destination,
-			travelMode: google.maps.TravelMode.WALKING // Puedes ajustar el modo de transporte según tus necesidades
-		  };    
-		
-		
-		directionsService.route(request, function(response, status) {
-			if (status == google.maps.DirectionsStatus.OK) {
-			  directionsRenderer.setDirections(response);
-			  Rutas.push(directionsRenderer);
-			}
-		  });
-	 }
-    
- }
-
-
-function Elimina_Ruta(Rutas){
-	
-	Rutas.forEach(function(ruta) {
-		ruta.setMap(null);
-	});
-	
-	Rutas=new Array();
-    
- }]]></code>
+]]></code>
 </script>

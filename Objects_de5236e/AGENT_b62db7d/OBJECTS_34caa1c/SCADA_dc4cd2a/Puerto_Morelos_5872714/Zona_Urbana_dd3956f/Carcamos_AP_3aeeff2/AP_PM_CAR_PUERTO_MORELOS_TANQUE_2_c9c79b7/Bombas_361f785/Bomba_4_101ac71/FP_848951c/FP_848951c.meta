@@ -9,4 +9,4 @@ AccessLevel: 103
 Reference: forward HasTypeDefinition BaseVariableType
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Bomba.FP.SuppressFlicker
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Bomba.FP.convert_FP
-Reference: forward HasHistoricalConfiguration ns=1;s=AGENT.HISTORY.Carcamos_AP
+Reference: forward HasHistoricalConfiguration ns=1;s=AGENT.HISTORY.Equipos

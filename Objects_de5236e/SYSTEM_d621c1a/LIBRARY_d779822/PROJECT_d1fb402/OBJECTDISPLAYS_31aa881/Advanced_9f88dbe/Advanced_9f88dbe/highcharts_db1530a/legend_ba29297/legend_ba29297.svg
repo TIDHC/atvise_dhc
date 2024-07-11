@@ -71,19 +71,13 @@
  <svg atv:refpx="638" atv:refpy="79.713" height="580" id="id_2" transform="matrix(2,0,0,0.2759,0,0)" width="640" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.slickgrid.table_panel" y="0">
   <atv:argument name="tableID" prefix="_trendName" value="legende"/>
   <atv:argument name="multiselect" value="false"/>
+  <atv:argument name="header_height" value="20"/>
+  <atv:argument name="header_text_size" value="12"/>
   <atv:argument name="showMenuHeight" value="100"/>
   <atv:argument name="filterBar" value="false"/>
   <atv:argument name="showMenuFilter" value="false"/>
-  <atv:argument name="header_text_horizontal" value="center"/>
-  <atv:argument name="showMenu" value="false"/>
-  <atv:argument name="showMenuPicker" value="false"/>
   <atv:argument name="showMenuExport" value="false"/>
-  <atv:argument name="allowDirectInput" value="false"/>
-  <atv:argument name="detail_text_size" value="10"/>
-  <atv:argument name="footer_text_size" value="10"/>
-  <atv:argument name="row_height" value="25"/>
-  <atv:argument name="header_height" value="35"/>
-  <atv:argument name="row_text_size" value="14"/>
+  <atv:argument name="header_text_horizontal" value="center"/>
   <atv:overwrite height="160" id="id_1" transform="matrix(0.5,0,0,3.625,0,0)" width="1280"/>
  </svg>
  <text atv:bindbr="0.5,0.5" atv:bindtl="0.5,0.5" atv:refpx="638" atv:refpy="77.5" fill="#000000" font-family="Arial" font-size="28" id="preview" text-anchor="start" x="579.5" y="87.5">LEGEND</text>

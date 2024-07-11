@@ -7,4 +7,5 @@ DataType: Float
 ValueRank: -1
 AccessLevel: 103
 Reference: forward HasTypeDefinition ns=1;s=VariableTypes.PROJECT.Sofrel_HValue
+Reference: forward HasHistoricalConfiguration ns=1;s=AGENT.HISTORY.Configuration.RawSource.Synchronize
 Reference: forward HasHistoricalConfiguration ns=1;s=AGENT.HISTORY.Sofrel

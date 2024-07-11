@@ -12,6 +12,9 @@
   <atv:argument name="outputNode" prefix="base" value=".run_stop"/>
   <atv:argument name="fillOn" value="SYSTEM.GLOBALS.Colors.Verde"/>
   <atv:argument name="borderColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
+  <atv:argument name="valueOn" value="true"/>
+  <atv:argument name="outputValueOn" value="true"/>
+  <atv:argument name="outputValueOff" value="false"/>
   <atv:overwrite height="18" id="id_6" transform="matrix(1.2903,0,0,1.5,0,0)" width="60"/>
   <atv:overwrite id="button_label" transform="matrix(1.2903,0,0,1.5,0,0)" x="31" y="14.5"/>
   <atv:overwrite id="button_symbol_off" transform="matrix(1.2903,0,0,1.5,0,0)" x="21" y="0"/>
@@ -28,6 +31,9 @@
   <atv:argument name="borderColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="labelOn" value="T{Automático}"/>
   <atv:argument name="labelOff" value="T{Manual}"/>
+  <atv:argument name="valueOn" value="true"/>
+  <atv:argument name="outputValueOn" value="true"/>
+  <atv:argument name="outputValueOff" value="false"/>
   <atv:overwrite height="18.001" id="id_6" transform="matrix(1.2903,0,0,1.4999,0,0)" width="60"/>
   <atv:overwrite id="button_label" transform="matrix(1.2903,0,0,1.4999,0,0)" x="31" y="14.5"/>
   <atv:overwrite id="button_symbol_off" transform="matrix(1.2903,0,0,1.4999,0,0)" x="21" y="0"/>

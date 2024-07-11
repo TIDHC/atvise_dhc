@@ -5,9 +5,11 @@ DisplayName: en|L_VILLAS_DEL_MAR
 Description: en|L_VILLAS_DEL_MAR
 EventNotifier: 0
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.Caudalimetro
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.Descripcion
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.graph
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.graph_flow
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.graph_pressure
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.historizacion_00_05
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.line
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.line_AR
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.line_mini

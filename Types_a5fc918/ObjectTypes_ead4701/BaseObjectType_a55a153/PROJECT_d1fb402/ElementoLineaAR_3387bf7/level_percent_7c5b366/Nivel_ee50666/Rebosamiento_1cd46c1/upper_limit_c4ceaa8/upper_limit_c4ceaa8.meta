@@ -6,6 +6,6 @@ Description: en|upper_limit
 DataType: BaseDataType
 ValueRank: -1
 AccessLevel: 103
-ValueType: Double
+ValueType: i=0
 Reference: forward HasModellingRule New
 Reference: forward HasTypeDefinition BaseVariableType

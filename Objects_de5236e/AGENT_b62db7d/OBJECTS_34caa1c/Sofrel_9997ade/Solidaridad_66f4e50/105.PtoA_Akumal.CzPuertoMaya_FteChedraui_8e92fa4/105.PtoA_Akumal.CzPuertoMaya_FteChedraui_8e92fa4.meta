@@ -6,3 +6,4 @@ Description: en|105.PtoA_Akumal.CzPuertoMaya_FteChedraui
 EventNotifier: 0
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP.Grafico_Sectorizacion
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.DataLoggerLSP.presion_min_max

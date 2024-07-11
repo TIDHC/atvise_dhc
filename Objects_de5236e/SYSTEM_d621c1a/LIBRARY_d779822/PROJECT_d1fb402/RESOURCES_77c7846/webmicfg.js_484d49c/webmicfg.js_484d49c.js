@@ -17,9 +17,9 @@ var webMIConfig = {
                 "thresholdDesktop": 1080
             },
             "landscape": {
-                "active": true,
+                "active": false,
                 "thresholdMobile": 1,
-                "thresholdDesktop": 200
+                "thresholdDesktop": 1250
             }
         },
         "deviceScaling": {

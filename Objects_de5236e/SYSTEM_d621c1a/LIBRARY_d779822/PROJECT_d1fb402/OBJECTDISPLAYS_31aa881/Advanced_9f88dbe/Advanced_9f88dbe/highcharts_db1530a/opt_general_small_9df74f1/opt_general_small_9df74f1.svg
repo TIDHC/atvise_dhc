@@ -19,23 +19,6 @@
  <text atv:refpx="93" atv:refpy="102.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_7" text-anchor="end" x="160.5" y="107">T{Measurement marker}:</text>
  <text atv:refpx="131.336" atv:refpy="169.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_9" text-anchor="end" x="161.336" y="174">T{Tooltip}:</text>
  <text atv:refpx="117.5" atv:refpy="204.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_10" text-anchor="end" x="160.5" y="209">T{Export menu}:</text>
- <text atv:refpx="118" atv:refpy="274.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_11" text-anchor="end" visibility="hidden" x="160.5" y="279">T{Chart theme}:</text>
- <svg atv:refpx="286.544" atv:refpy="275" height="30" id="TODO" transform="matrix(1.2188,0,0,1,0,0)" visibility="hidden" width="160" x="141.944" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="260">
-  <atv:argument name="tabIndex" value="16"/>
-  <atv:overwrite id="id_3" transform="matrix(0.6531,0,0,1,0,0)" x="219.742"/>
-  <atv:overwrite id="id_5" transform="matrix(0.6531,0,0,1,0,0)" x="217.492"/>
-  <atv:overwrite id="id_2" transform="matrix(0.6531,0,0,1,0,0)" width="212.992"/>
-  <atv:overwrite id="combobox_stroke" transform="matrix(0.6531,0,0,1,0,0)" width="244.492"/>
-  <atv:overwrite id="focus_frame" transform="matrix(0.8205,0,0,1,0,0)" width="191"/>
-  <atv:overwrite id="button_stroke" transform="matrix(0.8205,0,0,1,0,0)" x="170"/>
-  <atv:overwrite id="id_7" transform="matrix(0.8205,0,0,1,0,0)" x="170"/>
-  <atv:overwrite id="button_bg" transform="matrix(0.8205,0,0,1,0,0)" x="170"/>
-  <atv:overwrite id="combobox_label" transform="matrix(0.8205,0,0,1,0,0)" x="160.5"/>
-  <atv:overwrite id="blinking_frame" transform="matrix(0.8205,0,0,1,0,0)" width="163"/>
-  <atv:overwrite id="combobox_bg" transform="matrix(0.8205,0,0,1,0,0)" width="163"/>
-  <atv:overwrite id="id_1" transform="matrix(0.8205,0,0,1,0,0)" width="193"/>
-  <atv:overwrite id="id_0" transform="matrix(0.8205,0,0,1,0,0)" width="195"/>
- </svg>
  <text atv:refpx="456.232" atv:refpy="23.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_32" text-anchor="start" x="413.5" y="28">T{Data source}:</text>
  <svg atv:refpx="672.521" atv:refpy="223" height="30" id="source" transform="matrix(1.5313,0,0,1,0,0)" width="160" x="352.642" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="190">
   <atv:argument name="tabIndex" value="40"/>
@@ -55,7 +38,7 @@
  </svg>
  <text atv:refpx="480.5" atv:refpy="204.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_34" text-anchor="end" x="522.5" y="209">T{Data source}:</text>
  <text atv:refpx="483.5" atv:refpy="62.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_35" text-anchor="end" x="522.5" y="67">T{Data mode}:</text>
- <text atv:refpx="21" atv:refpy="-42" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_39" text-anchor="end" x="522.5" y="139">T{Performance}:</text>
+ <text atv:refpx="21" atv:refpy="-42" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_39" text-anchor="end" x="522.5" y="139">T{Render mode}:</text>
  <text atv:refpx="481" atv:refpy="98.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_40" text-anchor="end" x="522.5" y="103">T{Time format}:</text>
  <svg atv:refpx="477" atv:refpy="115" height="30" id="global_useUTC-false" width="160" x="540" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.radiobutton" y="85">
   <atv:argument name="radiogroupId" value="global_useUTC"/>

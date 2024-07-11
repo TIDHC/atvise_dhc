@@ -2,7 +2,7 @@ NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Solidaridad.100.El_Eden.HValuePresion
 NodeClass: Variable
 BrowseName: 1:HValuePresion
 DisplayName: en|HValuePresion
-Description: en|Presión punto 101
+Description: en|HValuePresion
 DataType: Float
 ValueRank: -1
 AccessLevel: 103

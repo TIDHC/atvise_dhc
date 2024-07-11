@@ -1,1 +1,1 @@
-ns=1;s=AGENT.DISPLAYS.Admin
+ns=1;s=AGENT.DISPLAYS.User

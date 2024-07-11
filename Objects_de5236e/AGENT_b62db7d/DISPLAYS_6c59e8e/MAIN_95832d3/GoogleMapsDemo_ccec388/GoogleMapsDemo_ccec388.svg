@@ -27,7 +27,7 @@ webMI.addOnload(function() {
 	var position2 = new google.maps.LatLng(47.85206,16.54041);	
 	
 	var myOptions = {
-		zoom: 3,
+		zoom: 19,
 		center: position1,
 		mapTypeId: google.maps.MapTypeId.SATELLITE
 	};

@@ -37,6 +37,16 @@
   <atv:parameter behavior="optional" defaultvalue="true" desc="sort configurations by name" group="Options" name="sortConfigurations" valuetype="bool"/>
   <atv:parameter behavior="optional" defaultvalue="false" desc="load configurations by selection" group="Options" name="autoloadConfigurations" valuetype="bool"/>
   <atv:parameter behavior="optional" config="x axis;y axis;xy axis" defaultvalue="x axis" desc="zoom type" group="Options" name="zoomType" valuetype="enum"/>
+  <!-- navigation options -->
+  <atv:parameter desc="menu button line color" defaultvalue="#676767" name="gnavigation_buttonOptions_symbolStroke" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter desc="menu button background color" defaultvalue="#ffffff" name="gnavigation_buttonOptions_theme_fill" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter desc="menu button hover color" defaultvalue="#e6e6e6" name="gnavigation_buttonOptions_theme_states_hover_fill" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter desc="menu button selected color" defaultvalue="#e6e6e6" name="gnavigation_buttonOptions_theme_states_select_fill" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter desc="menu text color" defaultvalue="#000000" name="gnavigation_menuItemStyle_color" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter desc="menu background color" defaultvalue="#ffffff" name="gnavigation_menuStyle_background" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter desc="menu hover text color" defaultvalue="#eeeeee" name="gnavigation_menuItemHoverStyle_color" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter desc="menu hover background color" defaultvalue="#676767" name="gnavigation_menuItemHoverStyle_background" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <!-- further options -->
   <atv:gridconfig enabled="true" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="5" width="5"/>
  </metadata>
@@ -78,6 +88,7 @@
   <atv:argument name="trendGroup" prefix="chartgroup"/>
   <atv:argument name="gatviseOptions_configNode" prefix="configNode"/>
   <atv:argument name="gatviseOptions_configName" prefix="configName"/>
+  <atv:argument name="export_right" prefix="export_right"/>
   <atv:argument name="gatviseOptions_configFile" prefix="configFile"/>
   <atv:argument name="gatviseOptions_saveMethod" prefix="saveMethod"/>
   <atv:argument name="gatviseOptions_saveCompressed" prefix="saveCompressed"/>
@@ -86,12 +97,19 @@
   <atv:argument name="skipDefaultModules" prefix="skipDefaultModules"/>
   <atv:argument name="additionalModules" prefix="additionalModules"/>
   <atv:argument name="zoomType" prefix="zoomType"/>
+  <!-- navigation options -->
+  <atv:argument name="gnavigation_buttonOptions_symbolStroke" prefix="gnavigation_buttonOptions_symbolStroke"/>
+  <atv:argument name="gnavigation_buttonOptions_theme_fill" prefix="gnavigation_buttonOptions_theme_fill"/>
+  <atv:argument name="gnavigation_buttonOptions_theme_states_hover_fill" prefix="gnavigation_buttonOptions_theme_states_hover_fill"/>
+  <atv:argument name="gnavigation_buttonOptions_theme_states_select_fill" prefix="gnavigation_buttonOptions_theme_states_select_fill"/>
+  <atv:argument name="gnavigation_menuStyle_background" prefix="gnavigation_menuStyle_background"/>
+  <atv:argument name="gnavigation_menuItemStyle_color" prefix="gnavigation_menuItemStyle_color"/>
+  <atv:argument name="gnavigation_menuItemHoverStyle_background" prefix="gnavigation_menuItemHoverStyle_background"/>
+  <atv:argument name="gnavigation_menuItemHoverStyle_color" prefix="gnavigation_menuItemHoverStyle_color"/>
+  <!-- further options -->
   <atv:overwrite id="label" transform="matrix(0.315,0,0,0.8333,0,0)" x="481" y="251"/>
-  <atv:argument name="gatviseOptions_enableCursor1" value="true"/>
-  <atv:argument name="gatviseOptions_enableCursor2" value="true"/>
-  <atv:argument name="series1series_tooltip_valueSuffix" value="Kg/cm2"/>
-  <atv:argument name="series1series_tooltip_valueDecimals" value="2"/>
-  <atv:argument name="gshowTooltip" value="true"/>
+  <atv:argument name="export_activeNode" prefix="export_activeNode"/>
+  <atv:argument name="export_activeValue" prefix="export_activeValue"/>
   <atv:overwrite height="478" id="border" transform="matrix(0.315,0,0,0.8333,0,0)" width="1268"/>
   <atv:overwrite height="480" id="id_3" transform="matrix(0.315,0,0,0.8333,0,0)" width="1270"/>
  </svg>
@@ -100,14 +118,16 @@
   <atv:argument name="options_right" prefix="options_right"/>
   <atv:argument name="startAddress" prefix="startAddress" value=""/>
   <atv:argument name="showfullAddressNames" prefix="showfullAddressNames"/>
-  <atv:argument name="legendOptions_updateTimeout" prefix="legendOptions_updateTimeout"/>
   <atv:overwrite id="id_1" transform="matrix(1.0079,0,0,1,0,0)" x="574.508"/>
-  <atv:argument name="columnOptions_aggregate_visibility" value="false"/>
-  <atv:argument name="columnOptions_type_visibility" value="false"/>
-  <atv:argument name="columnOptions_seriesSettings_visibility" value="false"/>
-  <atv:argument name="legendHighlightSelected" value="#00aaff"/>
-  <atv:argument name="columnOptions_nodeAddress_visibility" value="false"/>
+  <atv:argument name="legendOptions_updateTimeout" prefix="legendOptions_updateTimeout"/>
  </svg>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.highcharts.main_display" atv:name="main_display" atv:type="text/ecmascript"/>
+ <svg atv:refpx="280" atv:refpy="20" height="30" id="configurationCombobox" width="260" x="150" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.button_config" y="5">
+  <atv:argument name="chartname" prefix="chartname"/>
+  <atv:argument name="export_right" prefix="export_right"/>
+  <atv:argument name="sortConfigurations" prefix="sortConfigurations"/>
+  <atv:argument name="autoloadConfigurations" prefix="autoloadConfigurations"/>
+  <atv:argument name="zoomType" prefix="zoomType"/>
+ </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
 </svg>

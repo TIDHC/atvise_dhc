@@ -21,7 +21,7 @@
  <text atv:refpx="83.548" atv:refpy="31.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_2" x="24.5" y="36">T{X-Axis to configure}:</text>
  <text atv:refpx="257.212" atv:refpy="31.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_1" x="200.5" y="36">T{Axis configuration}:</text>
  <text atv:refpx="570.84" atv:refpy="31.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_3" x="544.5" y="36">T{Styling}:</text>
- <text atv:refpx="277.5" atv:refpy="71.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_7" text-anchor="end" x="301.5" y="76">T{Label}:</text>
+ <text atv:refpx="289" atv:refpy="71.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_7" text-anchor="end" x="301.5" y="76">T{Title}:</text>
  <text atv:refpx="230.281" atv:refpy="120.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_8" text-anchor="end" x="300.281" y="125">T{Time span}:</text>
  <text atv:refpx="245.281" atv:refpy="154.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_9" text-anchor="end" x="301.281" y="159">T{Date/Time format}:</text>
  <text atv:refpx="245.39" atv:refpy="203.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_10" text-anchor="end" x="300.39" y="208">T{Major tick interval}:</text>
@@ -57,14 +57,6 @@
   <atv:overwrite id="blinking_frame" transform="matrix(2.7115,0,0,1,0,0)" width="27.008"/>
   <atv:overwrite id="input_bg" transform="matrix(2.7115,0,0,1,0,0)" width="27.008"/>
   <atv:overwrite id="id_0" transform="matrix(2.7115,0,0,1,0,0)" width="57.008"/>
- </svg>
- <svg atv:refpx="450.445" atv:refpy="258" height="30" id="xAxis_tickInterval" transform="matrix(1.1194,0,0,1,0,0)" width="160" x="291.118" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.rocker_switch_horizontal" y="188">
-  <atv:argument name="tabIndex" value="25"/>
-  <atv:argument name="min" value="0"/>
- </svg>
- <svg atv:refpx="450.445" atv:refpy="293" height="30" id="xAxis_minorTickInterval" transform="matrix(1.1194,0,0,1,0,0)" width="160" x="291.118" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.rocker_switch_horizontal" y="223">
-  <atv:argument name="tabIndex" value="26"/>
-  <atv:argument name="min" value="0"/>
  </svg>
  <text atv:refpx="607" atv:refpy="69.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_23" text-anchor="end" x="661.5" y="74">T{Position of x-axis}:</text>
  <svg atv:refpx="730" atv:refpy="70" height="30" id="xAxis_opposite-false" width="160" x="680" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.radiobutton" y="55">
@@ -231,6 +223,8 @@
  </svg>
  <text atv:refpx="635" atv:refpy="140.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_26" text-anchor="end" x="658" y="145">T{Label}</text>
  <text atv:refpx="625.5" atv:refpy="158.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_4" text-anchor="end" x="661.5" y="163">T{alignment}:</text>
+ <svg atv:refpx="415" atv:refpy="203" height="30" id="xAxis_tickInterval" width="180" x="325" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_interval" y="188"/>
+ <svg atv:refpx="415" atv:refpy="238" height="30" id="xAxis_minorTickInterval" width="180" x="325" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_interval" y="223"/>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.highcharts.opt_xaxis" atv:name="opt_xaxis" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
 </svg>

@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.LIBRARY.PROJECT.DISPLAYSCRIPTS.DISPLAYSCRIPTS.hmi
-NodeClass: Object
-BrowseName: 1:hmi
-DisplayName: en|hmi
-Description: en|hmi
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

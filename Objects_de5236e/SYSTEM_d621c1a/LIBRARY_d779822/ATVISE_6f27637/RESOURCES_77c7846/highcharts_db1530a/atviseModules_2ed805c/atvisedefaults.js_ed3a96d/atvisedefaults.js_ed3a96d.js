@@ -28,10 +28,10 @@ var atviseDefaults = {
 		source: 'opcUA',
 		sourceOptions: "{}",
 		downsamplingFactor: 1,
-		liveModeFrameRate: 20 // [1 ... 60]fps
+		liveModeFrameRate: 60 // [1 ... 60]fps
 	},
 	legend: {
-		enabled: false
+		enabled: true
 	},
 	credits: {
 		enabled: false
@@ -94,13 +94,13 @@ var atviseDefaults = {
 		useHTML: true,
 		followTouchMove: false,
 		formatter: function () {
-			var dateFormat = '%H:%M:%S.%L';
+			var dateFormat = '%A, %e %b, %H:%M:%S';
 			if (this.point.id && this.point.id.indexOf("rightNonStopPoint") > -1) {
-				dateFormat = '%H:%M:%S';
+				dateFormat = '%e %b %H:%M:%S';
 			}
 
 			var pointKey = this.point.key ? this.point.key : this.point.x;
-			var header = '<span style="font-size: 10px">' + Highcharts.dateFormat(dateFormat, pointKey) + '</span><br/>';
+			var header = '<span style="font-size: 20px"><b>' + Highcharts.dateFormat(dateFormat, pointKey) + '</b></span><br/>';
 
 			var prefix = "", suffix = "", value = this.point.y;
 			if (this.series.options.tooltip) {
@@ -108,7 +108,7 @@ var atviseDefaults = {
 				suffix = this.series.options.tooltip.valueSuffix ? this.series.options.tooltip.valueSuffix : "";
 				value = this.series.options.tooltip.valueDecimals && typeof this.point.y.toFixed == "function" ? this.point.y.toFixed(this.series.options.tooltip.valueDecimals) : this.point.y;
 			}
-			var text = '<span style="color:' + this.series.color + '">\u25CF</span>' + this.series.name + ': <b>' + prefix + value + suffix + '</b><br/>';
+			var text = '<span style="font-size: 20px";"color:' + this.series.color + '">\u25CF</span>' +'<span style="font-size: 20px">'+ this.series.name + ': <b>' + prefix + value + suffix + '</b></span><br/>';
 			return header + text;
 		}
 	},

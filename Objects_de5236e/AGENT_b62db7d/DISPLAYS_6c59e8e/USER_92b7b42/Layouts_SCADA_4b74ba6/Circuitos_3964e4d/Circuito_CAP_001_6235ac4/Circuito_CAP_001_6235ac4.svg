@@ -9,7 +9,6 @@
   <rect atv:refpx="640" atv:refpy="384" fill="#ffffff" height="768.00" id="id_12" width="1280.00" x="0" y="0"/>
  </g>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <rect atv:refpx="316.5" atv:refpy="204" fill="#000088" fill-opacity="0" height="406" id="id_8" stroke="#000072" stroke-width="1" width="631" x="1" y="1"/>
  <g atv:refpx="415" atv:refpy="178" id="id_64" transform="matrix(1,0,0,1,201,1)">
   <polyline atv:refpx="211.5" atv:refpy="172" fill="#000018" fill-opacity="0" id="id_65" points="236,195 187,195 187,149 187,149" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2"/>
   <polygon atv:refpx="497" atv:refpy="197.596" fill="#000018" id="id_66" points="227.809,185 227.809,205 241,195 241,195" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>

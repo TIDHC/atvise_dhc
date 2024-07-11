@@ -10,21 +10,18 @@
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="1" width="1"/>
  </metadata>
- <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_8">
+ <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_8" transform="matrix(1,0,0,1,0,0)">
   <rect atv:refpx="66.5" atv:refpy="31.555" fill="#ffffff" height="63.11" id="id_9" width="133.00" x="0" y="0"/>
  </g>
- <svg atv:refpx="66.5" atv:refpy="31.555" height="63.11" id="id_0" width="133" x="0" xlink:href="SYSTEM.DISPLAYS.Circuito.Monitoreo_IT" y="0">
-  <atv:argument name="base" prefix="base"/>
- </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
-
-
+]]><![CDATA[
 
 webMI.addEvent("id_0", "click", function(e) {
 var id = "id_0";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.Circuito.Reservorio", webMI.query, "content");
-});
-
-]]></script>
+webMI.display.openDisplay("SYSTEM.DISPLAYS.Instalacion.Redes", webMI.query, "content");
+});]]></script>
+ <svg atv:refpx="66.5" atv:refpy="31.555" height="63.11" id="id_0" width="133" x="0" xlink:href="SYSTEM.DISPLAYS.Circuito.Monitoreo_IT" y="0">
+  <atv:argument name="base" prefix="base"/>
+ </svg>
 </svg>

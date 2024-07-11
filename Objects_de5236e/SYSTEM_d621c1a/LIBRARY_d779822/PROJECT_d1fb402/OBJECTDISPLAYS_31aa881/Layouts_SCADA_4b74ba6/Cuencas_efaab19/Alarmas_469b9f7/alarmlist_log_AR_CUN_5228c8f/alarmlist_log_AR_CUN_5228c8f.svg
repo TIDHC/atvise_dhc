@@ -93,6 +93,7 @@
   <atv:argument name="alarm_condition" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas"/>
   <atv:argument name="globalFillColor" value="SYSTEM.GLOBALS.atvFillColor"/>
   <atv:argument name="globalFontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
+  <atv:argument name="eventtext" value="Nivel"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
 </svg>

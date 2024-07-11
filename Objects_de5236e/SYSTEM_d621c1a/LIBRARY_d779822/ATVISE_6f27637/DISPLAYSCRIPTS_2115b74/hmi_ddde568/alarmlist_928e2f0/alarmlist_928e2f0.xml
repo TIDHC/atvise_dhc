@@ -2,6 +2,7 @@
 <script>
   <metadata>
     <priority>0</priority>
+    <help/>
   </metadata>
   <code><![CDATA[/**
  * Code for the alarmlist and alarmlist_small object displays
@@ -2778,7 +2779,7 @@ function addAlarmItem(item) {
 		item.description = formatString(item, "description");
 		item.value = item.state > 0 ? item.value : "";
 		if (typeof item.value == "string") item.value = item.value.replace(/AGENT.ALARMING.Groups./g, "");
-		item.displayedAddress = item.address.replace(/AGENT.OBJECTS./g, "");
+		item.displayedAddress = item.address.replace(/AGENT.OBJECTS.SCADA./g, "");
 		item.displayedAddress = item.displayedAddress.replace(/AGENT.ALARMING.Groups./g, "");
 		item.eventtext = formatString(item, "eventtext");
 		item.ackn_state = getStateText(state, item.acknowledged, item.confirmed, item.latched);

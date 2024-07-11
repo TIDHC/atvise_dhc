@@ -2,7 +2,7 @@ NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Solidaridad.105.PtoA_Akumal.CzPuertoMaya_Fte
 NodeClass: Variable
 BrowseName: 1:HValuePresion
 DisplayName: en|HValuePresion
-Description: en|Presión punto 105
+Description: en|HValuePresion
 DataType: Double
 ValueRank: -1
 AccessLevel: 103

@@ -4,4 +4,31 @@ BrowseName: 1:CCO_PDC
 DisplayName: en|CCO_PDC
 Description: en|CCO_PDC
 EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.USER.Solidaridad
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aguzman
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aperez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aricardez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aroque
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.bramirez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.caruiz
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.cbroggi
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ccanto
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eloeza
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ereyes
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eromero
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.fvelazquez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gdelaguardia
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gjuarez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gsacramento
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gtorres
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jlozano
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jvillalobos
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.lhamilton
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.marias
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.pcruz
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.prangel
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.rsalvador
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.rvalencia
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.squintal
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.thernandez
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

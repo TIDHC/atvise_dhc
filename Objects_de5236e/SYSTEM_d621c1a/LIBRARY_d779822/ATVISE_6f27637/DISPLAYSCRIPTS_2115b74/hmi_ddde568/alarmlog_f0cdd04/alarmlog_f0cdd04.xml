@@ -2,6 +2,7 @@
 <script>
   <metadata>
     <priority>0</priority>
+    <help/>
   </metadata>
   <code><![CDATA[/**
  * Code for the alarmlog, alarmlog_1row and alarmlog_touch object displays
@@ -117,7 +118,7 @@ function showItem(itm) {
 	itm.timestamp = itm.timestamp ? itm.timestamp : "";
 	itm.address = itm.address ? itm.address : "";
 	itm.eventtext = itm.eventtext ? itm.eventtext : "";
-
+	console.log(itm);
 	if (itm.retain == false) return;
 
 	for (var i = 0; i < alarmlistItems.length; i++) {
@@ -140,6 +141,8 @@ function showItem(itm) {
 		}
 	}
 
+		
+
 	function setAlarm(row, item) {
 		if (item != undefined) {
 			var date = (new Date(item.timestamp)).to24String();
@@ -147,8 +150,17 @@ function showItem(itm) {
 			webMI.gfx.setText(row + "_date", date);
 			webMI.gfx.setText(row + "_msg", eventtext ? cutString(eventtext, strLenEventText, "..") : "");
 			var dataItemAdress = item.address;
-			var replacedAdress = dataItemAdress.replace(/AGENT.OBJECTS./g,"");
-			webMI.gfx.setText(row + "_adr", cutString(replacedAdress, strLenAddress, ".."));
+			var replacedAdress = dataItemAdress.replace(/AGENT.OBJECTS.SCADA./g,"");
+			
+			
+			
+			webMI.data.subscribe(item.base, function(e) {
+			console.log(e.description.es);
+			webMI.gfx.setText(row + "_adr", e.description.es/*cutString(replacedAdress, strLenAddress, "..")*/);
+			
+			});
+			
+			
 			var state = item.state < 3 ? item.state : 3;
 			toggleSymbol(row, state);
 		} else {

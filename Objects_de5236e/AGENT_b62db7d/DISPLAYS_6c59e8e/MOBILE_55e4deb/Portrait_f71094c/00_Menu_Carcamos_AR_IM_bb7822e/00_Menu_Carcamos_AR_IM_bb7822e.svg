@@ -14,7 +14,7 @@
  <text atv:refpx="315.268" atv:refpy="112.5" fill="#050a4b" font-family="Arial" font-size="12" id="id_2" transform="matrix(2.9999,0,0,3,0,-158)" x="4.5" y="95">SCADA Isla Mujeres DHC</text>
  <svg atv:refpx="540" atv:refpy="-39" height="30" id="id_4" transform="matrix(1.25,0,0,1,0,0)" width="160" x="352" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.user_display" y="101">
   <atv:argument name="fillColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
-  <atv:overwrite id="user_label" transform="matrix(0.8,0,0,1,0,0)"/>
+  <atv:overwrite id="user_label" transform="matrix(1.1234,0,0,1,-0.8085,0)" x="7"/>
   <atv:overwrite id="input_bg" transform="matrix(0.8,0,0,1,0,0)" width="193"/>
   <atv:overwrite id="id_5" transform="matrix(0.8,0,0,1,0,0)" width="195"/>
   <atv:overwrite id="id_4" transform="matrix(0.8,0,0,1,0,0)" width="199.5"/>

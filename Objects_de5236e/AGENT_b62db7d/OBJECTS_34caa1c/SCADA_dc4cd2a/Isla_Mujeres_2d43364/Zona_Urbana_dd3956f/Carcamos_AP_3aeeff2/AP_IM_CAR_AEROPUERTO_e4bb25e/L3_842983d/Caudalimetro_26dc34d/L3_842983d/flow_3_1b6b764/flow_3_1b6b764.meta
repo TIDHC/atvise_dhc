@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_AEROPUERTO.L3.Caudalimetro.L3.flow_3
-NodeClass: Variable
-BrowseName: 1:flow_3
-DisplayName: en|flow_3
-Description: en|flow_3
-DataType: Float
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

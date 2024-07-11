@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AP.AP_IM_CAR_TANQUE_ELEVADO.Caudalimetro.L1.pressure_2
-NodeClass: Variable
-BrowseName: 1:pressure_2
-DisplayName: en|pressure_2
-Description: en|pressure_2
-DataType: Float
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

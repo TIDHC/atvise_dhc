@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <svg height="90" version="1.2" width="235" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs/>
  <desc>Navigation element to switch between templates and recipes.</desc>
  <title>Switch Templates/Recipes</title>
- <defs/>
  <metadata>
   <atv:parameter behavior="mandatory" config="Templates;Recipes" defaultvalue="" desc="current display" name="buttonToHighlight" substitute="" valuetype="enum"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFillColor" desc="fill color" group="Appearance" name="globalFillColor" substitute="$FILLCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="font color" group="Font" name="globalFontColor" substitute="$FONTCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="#d7d7d7" desc="button background" group="Appearance" name="btn_button_bg" substitute="" valuetype="color"/>
+  <atv:parameter behavior="optional" desc="default navigation path" name="navEntryPoint" valuetype="address"/>
   <atv:gridconfig enabled="true" gridstyle="lines" height="10" width="10"/>
   <atv:snapconfig enabled="true" height="5" width="5"/>
  </metadata>

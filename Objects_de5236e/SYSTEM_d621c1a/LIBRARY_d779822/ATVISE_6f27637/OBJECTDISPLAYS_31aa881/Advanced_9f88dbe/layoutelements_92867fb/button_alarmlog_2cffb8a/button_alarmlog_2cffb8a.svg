@@ -38,6 +38,7 @@
   <atv:argument name="fontSize2" prefix="fontSize"/>
   <atv:argument name="focusStrokeColor" prefix="focusStrokeColor"/>
   <atv:argument name="fontColor" prefix="fontColor"/>
+  <atv:argument name="fillColorInactive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite height="63" id="id_6" transform="matrix(0.3478,0,0,0.4615,0,0)" width="228"/>
   <atv:overwrite id="button_label_2" transform="matrix(0.3478,0,0,0.4615,0,0)" x="115" y="44"/>
   <atv:overwrite id="button_label_1" transform="matrix(0.3478,0,0,0.4615,0,0)" x="115" y="29"/>
@@ -57,7 +58,8 @@
   <atv:argument name="fontSize" prefix="fontSize"/>
   <atv:argument name="fontSize2" prefix="fontSize"/>
   <atv:argument name="focusStrokeColor" prefix="focusStrokeColor"/>
-  <atv:argument name="fontColor" prefix="fontColor"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fillColorInactive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
   <atv:overwrite height="63" id="id_6" transform="matrix(0.7207,0,0,0.4615,0,0)" width="109"/>
   <atv:overwrite id="button_label_2" transform="matrix(0.7207,0,0,0.4615,0,0)" x="55.5" y="44"/>
   <atv:overwrite id="button_label_1" transform="matrix(0.7207,0,0,0.4615,0,0)" x="55.5" y="29"/>

@@ -6,4 +6,4 @@ Description: en|Falla general
 EventNotifier: 0
 Reference: forward HasModellingRule New
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConditionControl.Discrete
-Reference: forward HasComponent ns=1;s=AGENT.ALARMING.Categories.Error
+Reference: forward HasComponent ns=1;s=AGENT.ALARMING.Categories.Warning

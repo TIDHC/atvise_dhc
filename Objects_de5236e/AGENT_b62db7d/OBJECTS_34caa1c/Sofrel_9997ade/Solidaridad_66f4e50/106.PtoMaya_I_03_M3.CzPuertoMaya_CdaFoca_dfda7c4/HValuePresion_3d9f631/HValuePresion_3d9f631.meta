@@ -2,7 +2,7 @@ NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Solidaridad.106.PtoMaya_I_03_M3.CzPuertoMaya
 NodeClass: Variable
 BrowseName: 1:HValuePresion
 DisplayName: en|HValuePresion
-Description: en|Presión punto 106
+Description: en|HValuePresion
 DataType: Float
 ValueRank: -1
 AccessLevel: 103

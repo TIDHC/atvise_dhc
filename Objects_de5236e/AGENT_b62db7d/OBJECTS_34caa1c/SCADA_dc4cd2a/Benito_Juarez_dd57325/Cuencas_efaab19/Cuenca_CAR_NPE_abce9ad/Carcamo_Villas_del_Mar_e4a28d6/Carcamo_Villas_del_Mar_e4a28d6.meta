@@ -5,7 +5,9 @@ DisplayName: en|Carcamo_Villas_del_Mar
 Description: en|Carcamo_Villas_del_Mar
 EventNotifier: 0
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR.Descripcion
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR.Monitoreo IT
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR.Principal
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR.Tanque
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR.cliackarea
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR.conectividad

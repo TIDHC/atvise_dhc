@@ -5,6 +5,10 @@ DisplayName: en|TI-Tecnologías de la Información
 Description: en|TI-Tecnologías de la Información
 EventNotifier: 0
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aroque
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eloeza
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eromero
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.fgonzalez
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.fvelazquez
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.plopez
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

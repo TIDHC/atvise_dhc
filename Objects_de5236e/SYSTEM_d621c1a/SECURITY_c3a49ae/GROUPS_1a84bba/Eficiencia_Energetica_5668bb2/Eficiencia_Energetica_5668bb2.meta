@@ -4,5 +4,9 @@ BrowseName: 1:Eficiencia_Energetica
 DisplayName: en|Eficiencia_Energetica
 Description: en|Eficiencia_Energetica
 EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ereyes
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gjuarez
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jvillalobos
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.marias
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.thernandez
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

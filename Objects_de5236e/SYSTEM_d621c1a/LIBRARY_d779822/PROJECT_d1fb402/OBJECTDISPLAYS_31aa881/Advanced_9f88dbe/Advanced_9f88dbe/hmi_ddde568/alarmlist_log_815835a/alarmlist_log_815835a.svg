@@ -58,7 +58,7 @@
   <atv:parameter behavior="optional" defaultvalue="T{Export CSV}" desc="custom menu title" group="Menu options" name="showMenuCustomTitle" valuetype="string"/>
   <atv:parameter behavior="optional" defaultvalue="Show/Hide" desc="picker menu title" group="Menu options" name="showPickerMenuTitle" valuetype="string"/>
   <atv:parameter behavior="optional" defaultvalue="true" desc="show picker menu" group="Menu options" name="showPickerMenu" valuetype="bool"/>
-  <atv:parameter behavior="optional" defaultvalue="250" desc="menu width" group="Menu options" name="menuWidth" valuetype="number"/>
+  <atv:parameter behavior="optional" defaultvalue="300" desc="menu width" group="Menu options" name="menuWidth" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="300" desc="menu height" group="Menu options" name="menuHeight" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="0" desc="min. priority" group="Default filter" name="priority" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="" desc="display" group="Default filter" name="display" valuetype="address"/>
@@ -88,9 +88,12 @@
   <atv:argument name="theme" value="atviseTheme"/>
   <atv:argument name="title" value="Alarmlog"/>
   <atv:argument name="alarmlog" value="true"/>
-  <atv:argument name="header_height" value="25"/>
-  <atv:argument name="header_font_size" value="16"/>
-  <atv:argument name="alarm_condition" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas"/>
+  <atv:argument name="header_height" value="67"/>
+  <atv:argument name="row_height" value="56"/>
+  <atv:argument name="header_font_size" value="27"/>
+  <atv:argument name="row_font_size" value="26"/>
+  <atv:argument name="detail_font_size" value="26"/>
+  <atv:argument name="footer_font_size" value="26"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
 </svg>

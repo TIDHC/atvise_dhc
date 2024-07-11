@@ -12,23 +12,66 @@
  <rect atv:refpx="1670.521" atv:refpy="170.203" fill="#ffffff" height="338.407" id="id_29" stroke="#000000" stroke-width="2" width="495" x="1423" y="1"/>
  <text atv:refpx="650.488" atv:refpy="157.572" fill="#000000" font-family="Arial" font-size="14" font-weight="bold" id="id_6" text-anchor="start" transform="matrix(1.377,0,0,1.2857,-215.644,-41.7122)" x="576" y="163">Información de referencia</text>
  <text atv:refpx="574.058" atv:refpy="217.788" fill="#000000" font-family="Arial" font-size="14" id="id_8" text-anchor="start" transform="matrix(1.377,0,0,1.2857,-215.644,-57.6297)" x="577" y="218.714">Responsable: </text>
- <text atv:refpx="579.523" atv:refpy="239.788" fill="#000000" font-family="Arial" font-size="14" id="id_5" text-anchor="start" transform="matrix(1.377,0,0,1.2857,-215.644,-63.9151)" x="576.5" y="240.714">Daniel Hernández Villarreal</text>
+ <text atv:refpx="575.825" atv:refpy="239.788" fill="#000000" font-family="Arial" font-size="14" id="id_5" text-anchor="start" transform="matrix(1.377,0,0,1.2857,-215.644,-63.9151)" x="576.5" y="240.714">Responsable</text>
  <text atv:refpx="574.872" atv:refpy="265.788" fill="#000000" font-family="Arial" font-size="14" id="id_11" text-anchor="start" transform="matrix(1.377,0,0,1.2857,-215.644,-71.3433)" x="576" y="266.714">Tel: 998 429 0151</text>
- <svg atv:refpx="1669.759" atv:refpy="167.479" height="600" id="id_12" transform="matrix(0.6125,0,0,0.5417,0,0)" width="800" x="2326.53" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="9.23">
+ <svg atv:refpx="1669.759" atv:refpy="167.469" height="600" id="id_12" transform="matrix(0.6125,0,0,0.5417,0,0)" width="800" x="2326.53" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="9.231">
   <atv:argument name="frameName" value="topo"/>
  </svg>
  <svg atv:refpx="1189.013" atv:refpy="197.501" height="228.36" id="id_13" transform="matrix(1.1338,0,0,1.2042,0,0)" width="405.71" x="845.828" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Tabla_Energia" y="49.826">
   <atv:argument name="base" prefix="base"/>
  </svg>
- <svg atv:refpx="162.327" atv:refpy="177.469" height="600" id="id_18" transform="matrix(0.4063,0,0,0.5417,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="27.693">
+ <svg atv:refpx="162.327" atv:refpy="177.458" height="600" id="id_18" transform="matrix(0.4063,0,0,0.5417,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="20.288">
   <atv:argument name="frameName" value="entrada"/>
- </svg>
- <svg atv:refpx="958.858" atv:refpy="787.48" height="600" id="trendgroup" transform="matrix(2.4,0,0,0.3417,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="2004.878">
-  <atv:argument name="frameName" value="tendencias"/>
-  <atv:argument name="isNavigationFrame" value="true"/>
  </svg>
  <text atv:refpx="686.81" atv:refpy="71.146" fill="#000000" font-family="Arial" font-size="22" id="id_1" transform="matrix(1.377,0,0,1.2857,-248.066,-12.979)" x="662.5" y="69.929">Clave</text>
  <text atv:refpx="773.658" atv:refpy="100.716" fill="#000000" font-family="Arial" font-size="22" id="id_15" transform="matrix(1.377,0,0,1.2857,-290.29,-21.4275)" x="775" y="99.5"/>
+ <svg atv:refpx="440.962" atv:refpy="177.426" height="600" id="id_16" transform="matrix(0.2775,0,0,0.5367,0,0)" width="800" x="1189.19" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="23.272">
+  <atv:argument name="frameName" value="tanque"/>
+  <atv:argument name="base" prefix="base"/>
+  <atv:argument name="display" value="ObjectTypes.PROJECT.ElementoLineaAR.Tanque"/>
+ </svg>
+ <svg atv:refpx="442.5" atv:refpy="191.322" height="400" id="id_2" transform="matrix(0.5625,0,0,0.975,0,0)" width="400" x="586.667" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.Advanced.highcharts.highcharts_mod" y="5.128">
+  <atv:argument name="base" prefix="base"/>
+  <atv:argument name="trendName" prefix="base" value=".level_percent"/>
+  <atv:argument name="series1series_address" prefix="base" value=".level_percent"/>
+  <atv:argument name="series1series_name" value="T{Nivel}"/>
+  <atv:argument name="series1series_marker_enabled" value="false"/>
+  <atv:argument name="series1series_color" value="#000000"/>
+  <atv:argument name="yAxis1yAxis_id" value="level"/>
+  <atv:argument name="yAxis1yAxis_title_text" value="Nivel"/>
+  <atv:argument name="yAxis1yAxis_min" value="0"/>
+  <atv:argument name="xAxisxAxis_timeSpan" value="12"/>
+  <atv:argument name="xAxisxAxis_timeSpanUnit" value="hour(s)"/>
+  <atv:argument name="xAxisxAxis_labels_enabled" value="false"/>
+  <atv:argument name="xAxisxAxis_tickInterval" value="10000000"/>
+  <atv:argument name="series1series_lineWidth" value="3"/>
+  <atv:argument name="series1series_tooltip_valueSuffix" value="%"/>
+  <atv:argument name="series1series_tooltip_valueDecimals" value="0"/>
+  <atv:argument name="zoomType" value="xy axis"/>
+  <atv:argument name="gshowExportMenu" value="false"/>
+  <atv:argument name="yAxis1yAxis_max" value="100"/>
+  <atv:argument name="yAxis1yAxis_visible" value="false"/>
+  <atv:argument name="yAxis1yAxis_labels_enabled" value="false"/>
+  <atv:argument name="xAxisxAxis_lineWidth" value="2"/>
+  <atv:argument name="gatviseOptions_disableDownSampling" value="false"/>
+  <atv:argument name="gatviseOptions_enableDownSampling" value="false"/>
+  <atv:overwrite id="highchart_label" transform="matrix(1.7778,0,0,1.0256,0,0)" x="-58" y="206"/>
+  <atv:overwrite height="388" id="border" transform="matrix(1.7778,0,0,1.0256,0,0)" width="223"/>
+  <atv:overwrite height="390" id="id_3" transform="matrix(1.7778,0,0,1.0256,0,0)" width="225"/>
+ </svg>
+ <svg atv:refpx="958.857" atv:refpy="600.476" height="600" id="graphicsgroup" transform="matrix(2.4,0,0,0.925,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="362.162">
+  <atv:argument name="frameName" value="graficos"/>
+  <atv:argument name="isNavigationFrame" value="true"/>
+  <atv:argument name="base" prefix="base"/>
+ </svg>
+ <svg atv:refpx="958.859" atv:refpy="509.975" height="600" id="flowmetergroup" transform="matrix(2.4,0,0,0.5833,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="574.319">
+  <atv:argument name="frameName" value="caudalimetros"/>
+  <atv:argument name="isNavigationFrame" value="true"/>
+ </svg>
+ <svg atv:refpx="442.442" atv:refpy="177.435" height="600" id="id_14" transform="matrix(0.2813,0,0,0.55,0,0)" width="800" x="1173.333" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="15.454">
+  <atv:argument name="frameName" value="clickarea"/>
+  <atv:argument name="base" prefix="base"/>
+ </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 webMI.data.subscribe(webMI.query["base"] + ".name", function(e) {
 var id = "id_0";
@@ -56,20 +99,20 @@ webMI.data.subscribe(webMI.query["base"] + ".in_L1", function(e) {
 
 
 
-webMI.data.subscribe(webMI.query["base"] + ".graficas_Display", function(e) {
-var id = "trendgroup";
-var value = e.value;
-webMI.display.openDisplay(value, webMI.query, "tendencias");
-});
-
-
-
 webMI.data.subscribe(webMI.query["base"] + ".sap_name", function(e) {
 var id = "id_1";
 var value = e.value;
 webMI.gfx.setText(id, value);
 
 });
+
+webMI.data.subscribe(webMI.query["base"] + ".Responsable", function(e) {
+var id = "id_5";
+var value = e.value;
+webMI.gfx.setText(id, value);
+
+});
+
 webMI.data.subscribe(webMI.query["base"] + ".cap_util", function(e) {
 var id = "id_15";
 var value = e.value;
@@ -77,54 +120,99 @@ webMI.gfx.setText(id, value);
 
 });
 
-webMI.data.subscribe(webMI.query["base"] + ".caudalimetros_Display", function(e) {
-var id = "flowmetergroup";
-var value = e.value;
-webMI.display.openDisplay(value, webMI.query, "caudalimetros");
-});]]><![CDATA[
+
+
 webMI.addOnload(function(e) {
 var id = "id_14";
 var value = true;
-webMI.display.openDisplay("ObjectTypes.PROJECT.ElementoLinea.cliackarea", webMI.query, "clickarea");
+webMI.display.openDisplay("ObjectTypes.PROJECT.ElementoLineaAR.cliackarea", webMI.query, "clickarea");
+});]]><![CDATA[
+webMI.data.subscribe(webMI.query["base"] + ".caudalimetros_Display", function(e) {
+var id = "flowmetergroup";
+var value = e.value;
+webMI.display.openDisplay("value", webMI.query, "caudalimetros");
+});]]><![CDATA[
+webMI.keys.addCombinationListener(0, 81, function(e) {
+var id = "flowmetergroup";
+var value = true;
+if (value == true)
+	webMI.gfx.setVisible(id, false);
+
+});]]><![CDATA[webMI.data.subscribe(webMI.query["base"] + ".caudalimetros_Display", function(e) {
+var id = "flowmetergroup";
+var value = e.value;
+webMI.display.openDisplay(value, webMI.query, "caudalimetros");
 });]]></script>
- <svg atv:refpx="440.962" atv:refpy="170.936" height="600" id="id_16" transform="matrix(0.2775,0,0,0.5367,0,0)" width="800" x="1189.19" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="18.633">
-  <atv:argument name="frameName" value="tanque"/>
+ <svg atv:refpx="682.5" atv:refpy="320.075" height="300" id="id_7" transform="matrix(1.225,0,0,0.1333,0,0)" width="200" x="457.143" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="2250.563">
+  <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>
+  <atv:argument name="navPanelAlign" value="left"/>
+  <atv:overwrite id="navigation_1_description" transform="matrix(1.25,0,0,0.3371,0,0)"/>
+  <atv:argument name="navContainerID" value="nav_grafico"/>
+  <atv:argument name="navItemCount" value="2"/>
+  <atv:argument name="navAnimateFactor" value="2"/>
+  <atv:argument name="navPanelBorderColor" value="SYSTEM.GLOBALS."/>
+  <atv:argument name="navItemBorderColor" value="SYSTEM.GLOBALS.#20dbd8"/>
+  <atv:argument name="navItemBorderRadius" value="10"/>
+  <atv:argument name="navItemWidthSteady" value="150"/>
+  <atv:argument name="navItemIndentationActive" value="80"/>
+  <atv:argument name="navFontSize" value="18"/>
+  <atv:overwrite id="navigation_2_description" transform="matrix(0.2022,0,0,2.727,0,0)"/>
+  <atv:argument name="navCustomTitle01" value="Mostrar gráfico"/>
+  <atv:argument name="navHomeText" value=""/>
+  <atv:argument name="navIconHomeActive" value="false"/>
+  <atv:argument name="navItemBackgroundActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color2"/>
+  <atv:argument name="navArrowBackground" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
+  <atv:argument name="navHomeBackground" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
+  <atv:argument name="navItemBackgroundInactive" value="SYSTEM.GLOBALS.Colors.Negro"/>
+  <atv:argument name="navItemBackgroundHover" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color3"/>
+  <atv:argument name="navFontColorHover" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="navFontColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="navFontColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color5"/>
+  <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="navArrowActive" value="false"/>
+  <atv:argument name="navHomeActive" value="false"/>
+  <atv:argument name="navItemPadding" value="15"/>
+  <atv:argument name="navItemBorderWidth" value="0"/>
+  <atv:overwrite id="navigation_3_description" transform="matrix(0.6536,0,0,3.7495,0,0)"/>
   <atv:argument name="base" prefix="base"/>
-  <atv:argument name="display" value="ObjectTypes.PROJECT.ElementoLineaAR.Tanque"/>
+  <atv:argument name="navCustomDisplay01" value="SYSTEM.DISPLAYS.Instalacion.Tendencia_AR"/>
+  <atv:argument name="navContent" value="graficos"/>
+  <atv:overwrite id="nav_grafico_description" transform="matrix(0.8163,0,0,7.5019,0,0)"/>
  </svg>
- <svg atv:refpx="442.5" atv:refpy="165.823" height="400" id="id_2" transform="matrix(0.5625,0,0,0.8625,0,0)" width="400" x="586.667" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.Advanced.highcharts.highcharts_mod" y="5.797">
+ <svg atv:refpx="884.5" atv:refpy="320.075" height="300" id="id_9" transform="matrix(1.225,0,0,0.1333,0,0)" width="200" x="622.041" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="2250.563">
+  <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>
+  <atv:argument name="navPanelAlign" value="left"/>
+  <atv:overwrite id="navigation_1_description" transform="matrix(1.25,0,0,0.3371,0,0)"/>
+  <atv:argument name="navContainerID" value="nav_main"/>
+  <atv:argument name="navItemCount" value="2"/>
+  <atv:argument name="navAnimateFactor" value="2"/>
+  <atv:argument name="navPanelBorderColor" value="SYSTEM.GLOBALS."/>
+  <atv:argument name="navItemBorderColor" value="SYSTEM.GLOBALS.#20dbd8"/>
+  <atv:argument name="navItemBorderRadius" value="10"/>
+  <atv:argument name="navItemWidthSteady" value="150"/>
+  <atv:argument name="navItemIndentationActive" value="80"/>
+  <atv:argument name="navFontSize" value="18"/>
+  <atv:overwrite id="navigation_2_description" transform="matrix(0.2022,0,0,2.727,0,0)"/>
+  <atv:argument name="navCustomTitle01" value="Recargar pantalla"/>
+  <atv:argument name="navHomeText" value=""/>
+  <atv:argument name="navIconHomeActive" value="false"/>
+  <atv:argument name="navItemBackgroundActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color2"/>
+  <atv:argument name="navArrowBackground" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
+  <atv:argument name="navHomeBackground" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
+  <atv:argument name="navItemBackgroundInactive" value="SYSTEM.GLOBALS.Colors.Negro"/>
+  <atv:argument name="navItemBackgroundHover" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color3"/>
+  <atv:argument name="navFontColorHover" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="navFontColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="navFontColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color5"/>
+  <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="navArrowActive" value="false"/>
+  <atv:argument name="navHomeActive" value="false"/>
+  <atv:argument name="navItemPadding" value="15"/>
+  <atv:argument name="navItemBorderWidth" value="0"/>
+  <atv:overwrite id="navigation_3_description" transform="matrix(0.6536,0,0,3.7495,0,0)"/>
   <atv:argument name="base" prefix="base"/>
-  <atv:argument name="trendName" prefix="base" value=".level_percent"/>
-  <atv:argument name="series1series_address" prefix="base" value=".level_percent"/>
-  <atv:argument name="series1series_name" value="T{Nivel}"/>
-  <atv:argument name="series1series_marker_enabled" value="false"/>
-  <atv:argument name="series1series_color" value="#000000"/>
-  <atv:argument name="yAxis1yAxis_id" value="level"/>
-  <atv:argument name="yAxis1yAxis_title_text" value="Nivel"/>
-  <atv:argument name="yAxis1yAxis_min" value="0"/>
-  <atv:argument name="xAxisxAxis_timeSpan" value="12"/>
-  <atv:argument name="xAxisxAxis_timeSpanUnit" value="hour(s)"/>
-  <atv:argument name="xAxisxAxis_labels_enabled" value="false"/>
-  <atv:argument name="xAxisxAxis_tickInterval" value="10000000"/>
-  <atv:argument name="series1series_lineWidth" value="3"/>
-  <atv:argument name="series1series_tooltip_valueSuffix" value="%"/>
-  <atv:argument name="series1series_tooltip_valueDecimals" value="0"/>
-  <atv:argument name="zoomType" value="xy axis"/>
-  <atv:argument name="gshowExportMenu" value="false"/>
-  <atv:argument name="yAxis1yAxis_max" value="100"/>
-  <atv:argument name="yAxis1yAxis_visible" value="false"/>
-  <atv:argument name="yAxis1yAxis_labels_enabled" value="false"/>
-  <atv:argument name="xAxisxAxis_lineWidth" value="2"/>
-  <atv:overwrite id="highchart_label" transform="matrix(1.7778,0,0,1.1594,0,0)" x="-58" y="183.5"/>
-  <atv:overwrite height="343" id="border" transform="matrix(1.7778,0,0,1.1594,0,0)" width="223"/>
-  <atv:overwrite height="345" id="id_3" transform="matrix(1.7778,0,0,1.1594,0,0)" width="225"/>
- </svg>
- <svg atv:refpx="958.859" atv:refpy="509.975" height="600" id="flowmetergroup" transform="matrix(2.4,0,0,0.5833,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="574.319">
-  <atv:argument name="frameName" value="caudalimetros"/>
-  <atv:argument name="isNavigationFrame" value="true"/>
- </svg>
- <svg atv:refpx="442.442" atv:refpy="169.935" height="600" id="id_14" transform="matrix(0.2813,0,0,0.55,0,0)" width="800" x="1173.333" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="9.091">
-  <atv:argument name="frameName" value="clickarea"/>
-  <atv:argument name="base" prefix="base"/>
+  <atv:argument name="navCustomDisplay01" value="SYSTEM.DISPLAYS.Circuito.Reservorio_AR"/>
+  <atv:overwrite id="nav_grafico_description" transform="matrix(0.8163,0,0,7.5019,0,0)"/>
+  <atv:overwrite id="nav_main_description" transform="matrix(0.8163,0,0,7.5019,0,0)"/>
  </svg>
 </svg>

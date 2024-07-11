@@ -7,7 +7,7 @@
  </metadata>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
  <svg atv:refpx="959.991" atv:refpy="450" height="680" id="id_0" transform="matrix(1.5,0,0,1.2941,0,0)" width="1280" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.Advanced.hmi.historylist" y="3.091">
-  <atv:argument name="source" prefix="base" value=".HValueAcumulado"/>
+  <atv:argument name="source" value=".HValueAcumulado"/>
   <atv:argument name="starttime" value="86400"/>
   <atv:argument name="globalFontColor" value="SYSTEM.GLOBALS.Colors.Negro"/>
   <atv:argument name="type" value="1"/>

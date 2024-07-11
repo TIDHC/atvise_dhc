@@ -7,6 +7,7 @@
  <title>Recipe Manager</title>
  <metadata>
   <atv:parameter behavior="mandatory" defaultvalue="AGENT.OBJECTS.recipes" desc="config node" name="configNode" valuetype="address"/>
+  <atv:parameter behavior="mandatory" defaultvalue="AGENT.OBJECTS" desc="default navigation path" name="navEntryPoint" valuetype="address"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvObjectDisplays.RecipeManager.recipe_manager.RecipeColumns" desc="configuration for recipe" group="Columns" name="columnsRecipes" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvObjectDisplays.RecipeManager.recipe_manager.ParameterColumns" desc="configuration for parameter" group="Columns" name="columnsParameters" valuetype="global"/>
   <atv:parameter behavior="mandatory" defaultvalue="atvise_recipe" desc="table ID recipes" group="Table" name="tableID" valuetype="string"/>
@@ -98,9 +99,6 @@
  <text atv:refpx="294.563" atv:refpy="69" fill="#575757" font-family="Arial" font-size="20" id="id_4" x="255" y="73.5">T{Description}:</text>
  <rect atv:refpx="317.5" atv:refpy="412.5" fill="none" height="535" id="id_11" stroke="$FILLCOLOR$" stroke-width="1" width="635" x="0" y="145"/>
  <rect atv:refpx="962.5" atv:refpy="412.5" fill="none" height="535" id="id_8" stroke="$FILLCOLOR$" stroke-width="1" width="635" x="645" y="145"/>
- <svg atv:refpx="117.5" atv:refpy="-65" height="90" id="id_9" width="235" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.recipemanager.recipe_navigation" y="0">
-  <atv:argument name="buttonToHighlight" value="Recipes"/>
- </svg>
  <svg atv:refpx="1212.5" atv:refpy="67.499" height="30" id="btn_export" transform="matrix(1.5625,0,0,1.1667,0,0)" width="80" x="736" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="42.856">
   <atv:argument name="label" value="T{Export}"/>
   <atv:argument name="extraBorderColor" value="#ffffff"/>
@@ -151,4 +149,8 @@
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.recipemanager.update_structure" atv:name="" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.recipemanager.recipe_manager" atv:name="" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
+ <svg atv:refpx="117.5" atv:refpy="45" height="90" id="id_2" width="235" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.recipemanager.recipe_navigation" y="0">
+  <atv:argument name="buttonToHighlight" value="Recipes"/>
+  <atv:argument name="navEntryPoint" prefix="navEntryPoint"/>
+ </svg>
 </svg>

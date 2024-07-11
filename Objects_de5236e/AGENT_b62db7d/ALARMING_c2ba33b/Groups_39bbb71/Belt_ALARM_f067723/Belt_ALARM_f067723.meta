@@ -1,7 +1,0 @@
-NodeId: ns=1;s=AGENT.ALARMING.Groups.Belt ALARM
-NodeClass: Object
-BrowseName: 1:Belt ALARM
-DisplayName: en|Belt ALARM
-Description: en|Belt ALARM
-EventNotifier: 1
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConditionGroup

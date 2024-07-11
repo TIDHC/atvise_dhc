@@ -13,7 +13,6 @@ var Web_Segment="168.248"
 
 var Nodes=findNodesByName(StartAddress, "ip");
 
-console.log(Nodes)
 
 
 //Function

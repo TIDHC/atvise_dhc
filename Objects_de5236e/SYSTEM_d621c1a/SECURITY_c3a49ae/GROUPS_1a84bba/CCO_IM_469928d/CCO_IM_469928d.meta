@@ -4,4 +4,25 @@ BrowseName: 1:CCO_IM
 DisplayName: en|CCO_IM
 Description: en|CCO_IM
 EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.USER.Isla_Mujeres
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aguzman
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.aroque
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.cbroggi
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ccanto
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eloeza
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ereyes
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.eromero
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.fvelazquez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gdelaguardia
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gjuarez
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.gsacramento
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jbcelis
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jpat
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.jvillalobos
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.marias
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.prangel
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.rsalvador
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.rvalencia
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.squintal
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.thernandez
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

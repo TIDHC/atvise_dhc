@@ -18,11 +18,18 @@
  <desc>Is used as the top frame by default.</desc>
  <title>Topframe Large (1280x120)</title>
  <metadata>
-  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.redundancy.warning_dialog" desc="redundancy warning dialog" name="redundancy_warning_dialog" valuetype="address"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.message_dialog" desc="message dialog" name="message_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.message_dialog_small" desc="small message dialog" name="message_dialog_small" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.user_editor" desc="user editor dialog" name="user_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.pw_editor" desc="password editor dialog" name="password_dialog" valuetype="display"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="font color" group="Appearance" name="fontColor" substitute="$FONTCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFillColor" desc="background color" group="Appearance" name="fillColor" substitute="$FILLCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="0" desc="min alarm priority" group="Alarm" name="minAlarmPriority" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="0" desc="max alarm priority" group="Alarm" name="maxAlarmPriority" valuetype="number"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.redundancy.warning_dialog" group="Notifications" desc="redundancy warning dialog" name="redundancy_warning_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.message_dialog" group="Notifications" desc="redundancy connection dialog" name="redundancy_connection_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="true" group="Notifications" desc="show SOP notification" name="show_sop_change" valuetype="bool"/>
+  <atv:parameter behavior="optional" defaultvalue="true" group="Notifications" desc="show connection notification" name="show_con_change" valuetype="bool"/>
   <atv:gridconfig enabled="false" gridstyle="lines" height="10" width="10"/>
   <atv:snapconfig enabled="true" height="2" width="2"/>
  </metadata>
@@ -82,9 +89,9 @@
  <rect atv:refpx="1136.713" atv:refpy="126.5" fill="#ffffff" height="65" id="id_1" rx="6" ry="6" stroke="none" stroke-width="1.542" width="160" x="42" y="4"/>
  <rect atv:refpx="768.334" atv:refpy="136.635" fill="url(#linear_38)" height="20.408" id="id_5" rx="6.009" ry="6.123" stroke="none" stroke-width="1.542" width="158.436" x="42.747" y="4.911"/>
  <g atv:refpx="123.31" atv:refpy="35.969" id="atvise_logo" transform="matrix(0.6198,0,0,0.6198,77.6812,-2.4818)">
-  <svg atv:dynamic="true" atv:refpx="159.452" atv:refpy="49.236" height="80" id="id_17" transform="matrix(0.6904,0,0,0.6904,0,0)" width="80" x="63.696" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Symbols.atvise_logo" y="31.504"/>
-  <rect atv:refpx="212.5" atv:refpy="75" fill="#000000" fill-opacity="0.0001" height="55.2" id="logo_click" stroke="none" stroke-width="0" width="55.2" x="44" y="21.794"/>
-  <text atv:dynamic="true" atv:refpx="154.639" atv:refpy="57.732" fill="$FONTCOLOR$" font-family="Verdana, Arial" font-size="22" id="title" x="39.5" y="96.75">atvise</text>
+  <svg atv:dynamic="true" atv:refpx="159.452" atv:refpy="49.236" height="80" id="id_17" transform="matrix(0.6904,0,0,0.6904,0,0)" width="80" x="-20.434" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Symbols.atvise_logo" y="52.536"/>
+  <rect atv:refpx="438.506" atv:refpy="54.003" fill="#000000" fill-opacity="0.0001" height="55.2" id="logo_click" stroke="none" stroke-width="0" width="196.914" x="-23.764" y="36.315"/>
+  <svg atv:refpx="144.672" atv:refpy="19.737" height="12.99" id="title" transform="matrix(2.3352,0,0,2.3352,0,0)" width="48.94" x="15.283" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Symbols.atvise_R" y="19.158"/>
  </g>
  <g atv:refpx="1168.293" atv:refpy="93.664" id="redu_info" visibility="hidden">
   <g atv:refpx="1141.471" atv:refpy="97.989" id="id_36" transform="matrix(1,0,0,1,-0.9122,-0.4065)">

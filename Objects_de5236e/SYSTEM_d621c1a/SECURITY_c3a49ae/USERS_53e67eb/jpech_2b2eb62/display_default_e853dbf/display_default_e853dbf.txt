@@ -1,1 +1,1 @@
-ns=1;s=AGENT.DISPLAYS.00_Menu_Carcamos_AP
+ns=1;s=AGENT.DISPLAYS.User

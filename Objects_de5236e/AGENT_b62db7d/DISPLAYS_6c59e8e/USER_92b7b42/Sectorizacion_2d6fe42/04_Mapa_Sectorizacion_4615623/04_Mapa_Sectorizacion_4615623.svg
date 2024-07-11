@@ -10,5 +10,14 @@
  </foreignObject>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.PROJECT.DISPLAYSCRIPTS.script_circuitos.circuitArray_Sofrel" atv:name="circuitArray_Sofrel" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.PROJECT.DISPLAYSCRIPTS.mapHandler_Sofrel" atv:name="mapHandler_Sofrel" atv:type="text/ecmascript"/>
- <script atv:desc="" atv:name="" type="text/ecmascript"/>
+ <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[function fitMarkers() {
+            const bounds = new google.maps.LatLngBounds();
+            console.log(Markers.length);
+            
+            Markers.forEach(marker => {
+                bounds.extend(marker.getPosition());
+            });
+         console.log(bounds);
+            map.fitBounds(bounds);
+        }]]></script>
 </svg>

@@ -5,11 +5,11 @@
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="1" width="1"/>
  </metadata>
- <svg atv:refpx="960" atv:refpy="27.363" height="50" id="id_0" width="1920" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line" y="0.362">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_CORALES.Caudalimetro.L1"/>
- </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NTE.Carcamo_Corales.Caudalimetros]]></script>
+ <svg atv:refpx="968" atv:refpy="36" height="50" id="id_0" width="1920" x="1" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_AR" y="0">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_CORALES.Caudalimetro.L1"/>
+ </svg>
  <svg atv:refpx="396" atv:refpy="25.363" height="49" id="id_1" width="120" x="336" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.863">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_CORALES.Bombas.Bomba_1"/>
  </svg>

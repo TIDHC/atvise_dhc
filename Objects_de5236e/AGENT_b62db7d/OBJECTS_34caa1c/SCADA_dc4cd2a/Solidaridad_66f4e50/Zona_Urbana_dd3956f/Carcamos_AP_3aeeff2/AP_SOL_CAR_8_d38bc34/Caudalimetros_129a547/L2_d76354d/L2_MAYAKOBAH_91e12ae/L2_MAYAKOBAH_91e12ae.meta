@@ -5,6 +5,7 @@ DisplayName: en|L2_MAYAKOBAH
 Description: en|L2_MAYAKOBAH
 EventNotifier: 0
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.Caudalimetro
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.Descripcion
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.graph
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.graph_flow
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Caudalimetro.graph_pressure

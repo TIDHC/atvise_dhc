@@ -2,8 +2,9 @@ NodeId: ns=1;s=AGENT.OBJECTS.Sofrel.Solidaridad.104.PtoMaya_I_01_M1.CzdelSol_Cda
 NodeClass: Variable
 BrowseName: 1:HValueAcumulado
 DisplayName: en|HValueAcumulado
-Description: en|104. Puerto Maya I-01-M1, Calzada del Sol con Cerrada Pez Loro
+Description: en|104. Marsella III
 DataType: Double
 ValueRank: -1
 AccessLevel: 103
 Reference: forward HasTypeDefinition BaseVariableType
+Reference: forward HasHistoricalConfiguration ns=1;s=AGENT.HISTORY.Sofrel

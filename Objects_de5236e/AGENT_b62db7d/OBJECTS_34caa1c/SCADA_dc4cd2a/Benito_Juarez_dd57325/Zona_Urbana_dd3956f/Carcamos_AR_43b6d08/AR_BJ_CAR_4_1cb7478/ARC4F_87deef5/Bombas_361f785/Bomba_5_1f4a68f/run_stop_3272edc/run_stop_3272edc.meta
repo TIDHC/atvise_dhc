@@ -6,4 +6,5 @@ Description: en|run_stop
 DataType: Boolean
 ValueRank: -1
 AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType
+Reference: forward HasModellingRule New
+Reference: forward HasTypeDefinition ns=1;s=VariableTypes.PROJECT.1085

@@ -2,7 +2,7 @@ NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AP.AP_BJ_C
 NodeClass: Variable
 BrowseName: 1:current_total_volume
 DisplayName: en|current_total_volume
-Description: en|current_total_volume
+Description: en|Acumulado total
 DataType: Float
 ValueRank: -1
 AccessLevel: 103

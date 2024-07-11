@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.ALARMING.Groups.Conectividad.sum_config.sum_cond.suppress_members
-NodeClass: Variable
-BrowseName: 1:suppress_members
-DisplayName: en|suppress_members
-Description: en|suppress_members
-DataType: Boolean
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

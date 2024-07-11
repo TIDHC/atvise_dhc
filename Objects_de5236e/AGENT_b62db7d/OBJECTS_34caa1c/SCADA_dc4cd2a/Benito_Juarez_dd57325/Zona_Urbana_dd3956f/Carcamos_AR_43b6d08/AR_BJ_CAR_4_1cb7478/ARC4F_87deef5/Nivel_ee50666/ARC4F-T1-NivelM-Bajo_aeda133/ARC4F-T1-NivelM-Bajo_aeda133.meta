@@ -7,4 +7,4 @@ DataType: Boolean
 ValueRank: -1
 AccessLevel: 103
 Reference: forward HasModellingRule New
-Reference: forward HasTypeDefinition BaseVariableType
+Reference: forward HasTypeDefinition ns=1;s=VariableTypes.PROJECT.1085

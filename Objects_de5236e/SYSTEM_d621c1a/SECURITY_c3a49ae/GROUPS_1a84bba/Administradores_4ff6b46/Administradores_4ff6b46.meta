@@ -10,4 +10,7 @@ Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.Advanced
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.Configure
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.Operate
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ccanto
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.rvalencia
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.squintal
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

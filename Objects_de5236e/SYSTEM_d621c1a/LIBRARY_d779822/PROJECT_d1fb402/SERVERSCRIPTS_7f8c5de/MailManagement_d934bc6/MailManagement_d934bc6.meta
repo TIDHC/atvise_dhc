@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.LIBRARY.PROJECT.SERVERSCRIPTS.MailManagement
-NodeClass: Object
-BrowseName: 1:MailManagement
-DisplayName: en|MailManagement
-Description: en|MailManagement
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

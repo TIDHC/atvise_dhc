@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_EL_TABLE.L1.pressure_1
-NodeClass: Variable
-BrowseName: 1:pressure_1
-DisplayName: en|pressure_1
-Description: en|pressure_1
-DataType: Float
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

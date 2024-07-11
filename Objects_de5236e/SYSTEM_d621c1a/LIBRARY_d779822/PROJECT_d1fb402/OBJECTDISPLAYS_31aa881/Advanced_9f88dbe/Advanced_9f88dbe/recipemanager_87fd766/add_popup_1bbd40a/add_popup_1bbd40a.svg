@@ -44,7 +44,7 @@
   <atv:overwrite height="35.001" id="outer_frame" transform="matrix(0.64,0,0,0.8571,0,0)" width="125"/>
  </svg>
  <text atv:refpx="92.691" atv:refpy="110" fill="#575757" font-family="Arial" font-size="20" id="id_3" text-anchor="start" x="54" y="117.5">$LABEL1$</text>
- <text atv:refpx="93" atv:refpy="150" fill="#575757" font-family="Arial" font-size="20" id="id_0" text-anchor="start" x="54" y="157.5">$LABEL2$</text>
+ <text atv:refpx="93.5" atv:refpy="151" fill="#575757" font-family="Arial" font-size="20" id="id_0" text-anchor="start" x="54.5" y="158.5">$LABEL2$</text>
  <svg atv:refpx="374.999" atv:refpy="110" height="30" id="txtValue1" transform="matrix(2.1875,0,0,1,0,0)" width="160" x="91.429" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="95">
   <atv:argument name="validation" value="String"/>
   <atv:overwrite id="input_label" transform="matrix(0.4571,0,0,1,0,0)" x="342.055"/>
@@ -66,4 +66,15 @@
  <text atv:refpx="300" atv:refpy="191" fill="#575757" font-family="Arial" font-size="20" id="lblMessages" text-anchor="middle" x="301" y="198.5"/>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.recipemanager.add_popup" atv:name="" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
+ <svg atv:refpx="375" atv:refpy="150" height="30" id="ChkBox" transform="matrix(2.1875,0,0,1,0,0)" width="160" x="91.429" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.checkbox" y="135">
+  <atv:argument name="label" value="T{include recipes}"/>
+  <atv:argument name="fontSize" value="20"/>
+  <atv:overwrite id="checkbox_item" transform="matrix(0.4571,0,0,1,0,0)"/>
+  <atv:overwrite id="checkbox_symbol" transform="matrix(0.4571,0,0,1,0,0)"/>
+  <atv:overwrite id="blinking_frame" transform="matrix(0.4571,0,0,1,0,0)"/>
+  <atv:overwrite id="focus_frame" transform="matrix(0.4571,0,0,1,0,0)"/>
+  <atv:overwrite id="checkbox_bg" transform="matrix(0.4571,0,0,1,0,0)"/>
+  <atv:overwrite id="checkbox_frame" transform="matrix(0.4571,0,0,1,0,0)"/>
+  <atv:overwrite id="checkbox_stroke" transform="matrix(0.4571,0,0,1,0,0)"/>
+ </svg>
 </svg>

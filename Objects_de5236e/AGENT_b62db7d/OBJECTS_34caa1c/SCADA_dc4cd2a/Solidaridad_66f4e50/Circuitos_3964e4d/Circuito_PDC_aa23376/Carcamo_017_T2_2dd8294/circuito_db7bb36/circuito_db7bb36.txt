@@ -1,1 +1,1 @@
-SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PLAYA.Circuitos.Circuito_CAP_Carcamo_Intermedio
+AGENT.DISPLAYS.USER.Layouts_SCADA_PLAYA.Circuitos.Circuito_CAP_Carcamo_Intermedio

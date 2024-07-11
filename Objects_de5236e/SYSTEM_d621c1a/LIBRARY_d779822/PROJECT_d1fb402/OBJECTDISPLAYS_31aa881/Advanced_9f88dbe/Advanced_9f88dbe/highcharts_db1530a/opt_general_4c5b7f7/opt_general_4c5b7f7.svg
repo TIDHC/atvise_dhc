@@ -20,22 +20,6 @@
  <text atv:refpx="278" atv:refpy="104.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_7" text-anchor="end" x="345.5" y="109">T{Measurement marker}:</text>
  <text atv:refpx="315.336" atv:refpy="139.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_9" text-anchor="end" x="345.336" y="144">T{Tooltip}:</text>
  <text atv:refpx="300.5" atv:refpy="174.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_10" text-anchor="end" x="343.5" y="179">T{Export menu}:</text>
- <text atv:refpx="301" atv:refpy="244.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_11" text-anchor="end" visibility="hidden" x="343.5" y="249">T{Chart theme}:</text>
- <svg atv:refpx="492.545" atv:refpy="245" height="30" id="TODO" transform="matrix(1.5312,0,0,1,0,0)" visibility="hidden" width="160" x="241.641" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="230">
-  <atv:argument name="tabIndex" value="16"/>
-  <atv:overwrite id="id_3" transform="matrix(0.6531,0,0,1,0,0)" x="219.742"/>
-  <atv:overwrite id="id_5" transform="matrix(0.6531,0,0,1,0,0)" x="217.492"/>
-  <atv:overwrite id="id_2" transform="matrix(0.6531,0,0,1,0,0)" width="212.992"/>
-  <atv:overwrite id="combobox_stroke" transform="matrix(0.6531,0,0,1,0,0)" width="244.492"/>
-  <atv:overwrite id="focus_frame" transform="matrix(0.6531,0,0,1,0,0)" width="240.992"/>
-  <atv:overwrite id="button_stroke" transform="matrix(0.6531,0,0,1,0,0)" x="219.992"/>
-  <atv:overwrite id="id_7" transform="matrix(0.6531,0,0,1,0,0)" x="219.992"/>
-  <atv:overwrite id="button_bg" transform="matrix(0.6531,0,0,1,0,0)" x="219.992"/>
-  <atv:overwrite id="combobox_label" transform="matrix(0.6531,0,0,1,0,0)" x="210.492"/>
-  <atv:overwrite id="blinking_frame" transform="matrix(0.6531,0,0,1,0,0)" width="212.992"/>
-  <atv:overwrite id="combobox_bg" transform="matrix(0.6531,0,0,1,0,0)" width="212.992"/>
-  <atv:overwrite id="id_0" transform="matrix(0.6531,0,0,1,0,0)" width="244.992"/>
- </svg>
  <text atv:refpx="247.232" atv:refpy="298.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_32" text-anchor="start" x="204.5" y="303">T{Data source}:</text>
  <svg atv:refpx="492.504" atv:refpy="415" height="30" id="source" transform="matrix(1.5313,0,0,1,0,0)" width="160" x="241.625" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="400">
   <atv:argument name="tabIndex" value="37"/>
@@ -130,7 +114,8 @@
   <atv:overwrite id="blinking_frame" transform="matrix(0.6531,0,0,1,0,0)" width="236.992"/>
   <atv:overwrite id="focus_frame" transform="matrix(0.6531,0,0,1,0,0)" width="240.992"/>
   <atv:overwrite id="input_bg" transform="matrix(0.6531,0,0,1,0,0)" width="236.992"/>
-  <atv:overwrite id="id_0" transform="matrix(0.6531,0,0,1,0,0)" width="244.5"/>
+  <atv:overwrite id="id_1" transform="matrix(0.6531,0,0,1,0,0)" width="242.992"/>
+  <atv:overwrite id="id_0" transform="matrix(0.6531,0,0,1,0,0)" width="244.992"/>
  </svg>
  <text atv:refpx="310" atv:refpy="69.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_6" text-anchor="end" x="344.5" y="74">T{Chart title}:</text>
  <text atv:refpx="814" atv:refpy="69.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_1" text-anchor="end" x="863.5" y="74">T{Update interval}:</text>
@@ -163,7 +148,7 @@
  <text atv:refpx="1081" atv:refpy="449.5" fill="#575757" font-family="Arial" font-size="12" id="sourceOptionsValid" text-anchor="start" x="1065" y="454">T{OK}</text>
  <line atv:refpx="695" atv:refpy="140" id="id_12" stroke="#d7d7d7" stroke-width="0.5" x1="699" x2="699" y1="20" y2="260"/>
  <text atv:refpx="308.036" atv:refpy="211.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="label_alignTicks" text-anchor="end" x="358.5" y="216">T{Tick auto alignment}:</text>
- <svg atv:refpx="446.125" atv:refpy="210" height="30" id="chart_alignTicks" transform="matrix(1.2688,0,0,1,0,0)" width="160" x="293.221" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.checkbox" y="195">
+ <svg atv:refpx="444.086" atv:refpy="210" height="30" id="chart_alignTicks" transform="matrix(1.2688,0,0,1,0,0)" width="160" x="291.614" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.checkbox" y="195">
   <atv:argument name="valueOn" value="true"/>
   <atv:argument name="outputValueOn" value="true"/>
   <atv:argument name="outputValueOff" value="false"/>
@@ -183,7 +168,7 @@
  </svg>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.highcharts.opt_general" atv:name="opt_general" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <text atv:refpx="362" atv:refpy="-72" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_14" text-anchor="end" x="863.5" y="109">T{Performance}:</text>
+ <text atv:refpx="362" atv:refpy="-72" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_14" text-anchor="end" x="863.5" y="109">T{Render mode}:</text>
  <svg atv:refpx="990.039" atv:refpy="123" height="30" id="performance" transform="matrix(1.1563,0,0,1,0,0)" width="160" x="769.696" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="90">
   <atv:argument name="tabIndex" value="21"/>
   <atv:overwrite id="id_3" transform="matrix(0.653,0,0,1,0,0)" x="219.758"/>
@@ -267,4 +252,16 @@
    <text atv:refpx="362" atv:refpy="-2" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="boostSeriesThresholdLabel" text-anchor="end" x="863.5" y="214">T{Series Threshold}:</text>
   </g>
  </g>
+ <svg atv:refpx="492.511" atv:refpy="245" height="30" id="exporting_csv_dateFormat" transform="matrix(1.5312,0,0,1,0,0)" width="160" x="241.641" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="230">
+  <atv:argument name="validation" value="String"/>
+  <atv:overwrite id="id_2" transform="matrix(0.6531,0,0,1,0,0)" width="239.5"/>
+  <atv:argument name="tabIndex" value="10"/>
+  <atv:overwrite id="input_label" transform="matrix(0.6531,0,0,1,0,0)" x="237.047"/>
+  <atv:overwrite id="blinking_frame" transform="matrix(0.6531,0,0,1,0,0)" width="236.992"/>
+  <atv:overwrite id="focus_frame" transform="matrix(0.6531,0,0,1,0,0)" width="240.992"/>
+  <atv:overwrite id="input_bg" transform="matrix(0.6531,0,0,1,0,0)" width="236.992"/>
+  <atv:overwrite id="id_1" transform="matrix(0.6531,0,0,1,0,0)" width="242.992"/>
+  <atv:overwrite id="id_0" transform="matrix(0.6531,0,0,1,0,0)" width="244.992"/>
+ </svg>
+ <text atv:refpx="300.5" atv:refpy="244.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_16" text-anchor="end" x="358.5" y="249">T{Export date format}:</text>
 </svg>

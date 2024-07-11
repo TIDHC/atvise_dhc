@@ -5,6 +5,6 @@ DisplayName: en|Bomba_3
 Description: en|Bomba_3
 EventNotifier: 0
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.Bomba
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Bomba.Descripcion
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Bomba.bomba
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Bomba.button
-Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Bomba.status_bomba

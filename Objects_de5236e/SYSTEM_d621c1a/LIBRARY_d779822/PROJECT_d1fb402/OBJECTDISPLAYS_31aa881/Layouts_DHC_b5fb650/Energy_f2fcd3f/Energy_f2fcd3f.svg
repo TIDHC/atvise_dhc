@@ -116,6 +116,9 @@ webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
 	case 2150760448:
 		webMI.gfx.setFill(id, "#7c1536");
 		break;
+	case 1083179008:
+		webMI.gfx.setFill(id, "#3a3a3a");
+		break;
 	default:
 		console.log(value);
 		webMI.gfx.setFill(id, "#ffffff");
@@ -146,6 +149,9 @@ webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
 		break;
 	case 2150760448:
 		webMI.gfx.setFill(id, "#7c1536");
+		break;
+	case 1083179008:
+		webMI.gfx.setFill(id, "#3a3a3a");
 		break;
 	default:
 		console.log(value);
@@ -249,10 +255,5 @@ var value = true;
 webMI.display.openDisplay("SYSTEM.DISPLAYS.FPMain", webMI.query, "tendencias");
 });
 
-
-webMI.addEvent("id_43", "click", function(e) {
-var id = "id_43";
-var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.ConectividadMain", webMI.query, "tendencias");
-});]]></script>
+]]></script>
 </svg>

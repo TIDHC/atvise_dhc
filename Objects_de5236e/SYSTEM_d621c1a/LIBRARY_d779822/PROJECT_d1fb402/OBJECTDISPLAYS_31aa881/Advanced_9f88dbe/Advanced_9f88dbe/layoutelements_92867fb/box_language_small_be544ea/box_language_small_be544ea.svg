@@ -17,7 +17,6 @@
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="symbol color hover" group="Context menu" name="context_menu_font_color_hover" substitute="$CFONTCOLORHOVER$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFillColor2" desc="background color" group="Context menu" name="context_menu_fill_color" substitute="$CFILLCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFillColor" desc="hover color" group="Context menu" name="context_menu_hover_color" substitute="$CHOVERCOLOR$" valuetype="global"/>
-  <atv:parameter behavior="optional" config="left;center;right" defaultvalue="center" desc="text alignment" group="Context menu" name="contextMenuTextAlignment" substitute="$CTEXTALIGN$" valuetype="enum"/>
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="false" height="10" width="10"/>
  </metadata>

@@ -8,7 +8,6 @@
  <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_11" transform="matrix(0.4945,0,0,0.5313,0,0)">
   <rect atv:refpx="640" atv:refpy="384" fill="#ffffff" height="768.00" id="id_12" width="1280.00" x="0" y="0"/>
  </g>
- <rect atv:refpx="316" atv:refpy="204.5" fill="#000088" fill-opacity="0" height="406" id="id_0" stroke="#000072" stroke-width="1" width="631" x="0.5" y="1.5"/>
  <g atv:refpx="148.5" atv:refpy="93.096" id="id_62">
   <polyline atv:refpx="198" atv:refpy="81.5" fill="#000018" fill-opacity="0" id="id_5" points="154,72 154,91 242,91 242,91" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2"/>
   <polygon atv:refpx="151.404" atv:refpy="-188" fill="#000018" id="id_35" points="164,81.191 144,81.191 154,68 154,68" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
@@ -122,21 +121,7 @@
   <polygon atv:refpx="62" atv:refpy="237.596" fill="#000018" id="id_51" points="73,244.191 53,244.191 63,231 63,231" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
   <polyline atv:refpx="126.25" atv:refpy="292" fill="#000018" fill-opacity="0" id="id_61" points="189.5,344 63,344 63,240 63,240" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.956863" stroke-width="2"/>
  </g>
- <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[var google = webMI.rootWindow.google; //Clase Principal
-var map; //Variable donde va a vivir el mapa
-webMI.addOnload(function(e) {
-var position1 = new google.maps.LatLng(21.105658619661092, -86.75755193180046);
-//Opciones del mapa
-	var myOptions = {
-						zoom: 10.7,
-						center: position1,
-						mapTypeId: google.maps.MapTypeId.roadmap,
-						disableDefaultUI: true
-					};
-	
-	map = new google.maps.Map(document.getElementById("mapa"), myOptions);
-});]]></script>
- <foreignObject height="118" id="mapa" width="116" x="514" y="5">
-  <div style="width:100%;height:100%" xmlns="http://www.w3.org/1999/xhtml"/>
- </foreignObject>
+ <script atv:desc="" atv:name="" type="text/ecmascript"/>
+ <circle atv:refpx="574" atv:refpy="86" cx="574" cy="86" fill="#000088" fill-opacity="0" id="id_0" r="30" stroke="#000000" stroke-width="4"/>
+ <text atv:refpx="566.75" atv:refpy="90" fill="#000000" font-family="Arial" font-size="36" font-weight="bold" id="id_46" transform="matrix(0.5,0,0,0.5,280,36.75)" x="565.5" y="111">ZH</text>
 </svg>

@@ -5,4 +5,7 @@ DisplayName: en|Sectorizacion
 Description: en|Sectorizacion
 EventNotifier: 0
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ereyes
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.rvalencia
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.thernandez
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

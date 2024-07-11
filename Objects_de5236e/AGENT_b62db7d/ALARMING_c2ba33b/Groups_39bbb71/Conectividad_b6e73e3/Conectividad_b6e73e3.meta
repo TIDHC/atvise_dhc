@@ -1,8 +1,0 @@
-NodeId: ns=1;s=AGENT.ALARMING.Groups.Conectividad
-NodeClass: Object
-BrowseName: 1:Conectividad
-DisplayName: en|Conectividad
-Description: en|Conectividad
-EventNotifier: 1
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.AlarmConditionGroup
-Reference: forward HasCondition AlarmConditionStateType

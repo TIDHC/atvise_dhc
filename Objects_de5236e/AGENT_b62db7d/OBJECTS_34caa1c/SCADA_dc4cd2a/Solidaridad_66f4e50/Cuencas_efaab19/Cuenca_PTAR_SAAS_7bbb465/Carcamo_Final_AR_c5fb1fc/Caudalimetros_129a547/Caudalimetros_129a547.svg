@@ -5,16 +5,16 @@
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="1" width="1"/>
  </metadata>
- <svg atv:refpx="964" atv:refpy="34.094" height="50" id="id_0" width="1920" x="4" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line" y="3.094">
+ <svg atv:refpx="958" atv:refpy="29.797" height="50" id="id_0" width="1920" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_AR" y="-0.203">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_FINAL.L1"/>
  </svg>
- <svg atv:refpx="401" atv:refpy="28.094" height="49" id="id_4" width="120" x="341" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="3.594">
+ <svg atv:refpx="401" atv:refpy="29.797" height="49" id="id_4" width="120" x="337" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.297">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_FINAL.Bombas.Bomba_1"/>
  </svg>
- <svg atv:refpx="521.5" atv:refpy="28.094" height="49" id="id_5" width="120" x="461.5" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="3.594">
+ <svg atv:refpx="521.5" atv:refpy="29.797" height="49" id="id_5" width="120" x="457.5" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.297">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_FINAL.Bombas.Bomba_2"/>
  </svg>
- <svg atv:refpx="642" atv:refpy="28.094" height="49" id="id_6" width="120" x="582" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="3.594">
+ <svg atv:refpx="642" atv:refpy="29.797" height="49" id="id_6" width="120" x="578" xlink:href="ObjectTypes.PROJECT.Bomba.bomba" y="0.297">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_FINAL.Bombas.Bomba_3"/>
  </svg>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_Final_AR.Caudalimetros]]></script>

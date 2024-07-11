@@ -1,7 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.highcharts
-NodeClass: Object
-BrowseName: 1:highcharts
-DisplayName: en|highcharts
-Description: en|highcharts
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

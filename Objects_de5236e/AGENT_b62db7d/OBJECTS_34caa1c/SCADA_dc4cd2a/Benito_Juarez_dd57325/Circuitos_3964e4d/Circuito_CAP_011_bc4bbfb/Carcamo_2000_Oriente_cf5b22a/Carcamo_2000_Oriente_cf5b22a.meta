@@ -5,6 +5,7 @@ DisplayName: en|Carcamo_2000_Oriente
 Description: en|Carcamo_2000_Oriente
 EventNotifier: 0
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.ElementoLinea
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Descripcion
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Monitoreo IT
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Principal
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Principal_trend
@@ -12,3 +13,4 @@ Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Tabla_E
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Tanque
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.Watt_to_KW
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.cliackarea
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoLinea.conectividad

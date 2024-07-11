@@ -47,7 +47,8 @@
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="font color hovered" group="Context menu" name="context_menu_font_color_hover" substitute="$CFONTCOLORHOVER$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="#ffffff" desc="background color" group="Context menu" name="contextFill" valuetype="color"/>
   <atv:parameter behavior="optional" defaultvalue="#efefef" desc="hover color" group="Context menu" name="contextHoverColor" valuetype="color"/>
-  <atv:parameter behavior="optional" config="left;center;right" defaultvalue="right" desc="text alignment" group="Context menu" name="contextMenuTextAlignment" valuetype="enum"/>
+  <atv:parameter behavior="optional" config="right;alternate" defaultvalue="right" desc="submenu positioning" group="Context menu" name="context_menu_show_type" valuetype="enum"/>
+  <atv:parameter behavior="optional" config="left;center;right" defaultvalue="left" desc="text alignment" group="Context menu" name="context_menu_text_alignment" valuetype="enum"/>
   <atv:parameter behavior="optional" defaultvalue="#d7d7d7" desc="stroke color" group="Context menu" name="contextStroke" valuetype="color"/>
   <atv:parameter behavior="optional" defaultvalue="1" desc="stroke width" group="Context menu" name="contextStrokeWidth" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="0" desc="maximum displayed items (0 = all)" group="Context menu" name="itemsCount" valuetype="number"/>

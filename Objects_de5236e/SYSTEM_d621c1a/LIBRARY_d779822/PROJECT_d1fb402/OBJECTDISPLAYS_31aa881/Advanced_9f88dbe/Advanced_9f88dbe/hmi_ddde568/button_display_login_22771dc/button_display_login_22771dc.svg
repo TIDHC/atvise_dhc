@@ -9,6 +9,10 @@
    <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
    <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
   </linearGradient>
+  <linearGradient gradientUnits="objectBoundingBox" id="linear_0" x1="1" x2="1" y1="0" y2="1">
+   <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
  </defs>
  <title>Button/Display Login</title>
  <desc>Opens the login dialog and displays the logged in user.</desc>
@@ -16,8 +20,9 @@
   <atv:parameter behavior="hidden" desc="base" name="base" valuetype="address"/>
   <atv:parameter behavior="optional" defaultvalue="T{Login}" desc="login text" name="loginText" substitute="$LOGINTEXT$" valuetype="trstring"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.login_dialog" desc="login dialog display" name="login_dialog" valuetype="address"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.user_editor" desc="user display" name="user_dialog" valuetype="display"/>
   <atv:parameter behavior="optional" config="Arial;Courier;Verdana" defaultvalue="Arial" desc="family" group="Font" name="fontFamily" substitute="$FONTFAMILY$" valuetype="enum"/>
-  <atv:parameter behavior="optional" config="6;7;8;9;10;11;12;14;16;18;20;22;24;26;28;36;48;72" defaultvalue="22" desc="size" group="Font" name="fontSize" substitute="$FONTSIZE$" valuetype="enum"/>
+  <atv:parameter behavior="optional" config="6;7;8;9;10;11;12;14;16;18;20;22;24;26;28;36;48;72" defaultvalue="12" desc="size" group="Font" name="fontSize" substitute="$FONTSIZE$" valuetype="enum"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="color" group="Font" name="fontColor" substitute="$FONTCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Symbols.20x20.login" desc="symbol login" group="Appearance" name="symbolLogin" substitute="$SYMBOLLOGIN$" valuetype="display"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvSymbolColor" desc="symbol color login" group="Appearance" name="symbolColor" valuetype="global"/>
@@ -47,4 +52,5 @@
  </g>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.hmi.button_display_login" atv:name="button_display_login" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
+ <rect atv:refpx="167.554" atv:refpy="15.335" cursor="pointer" fill="#3ccc2c" fill-opacity="0" height="29.118" id="user_clickarea" stroke="" stroke-width="0" width="130.694" x="0.161" y="0.593"/>
 </svg>

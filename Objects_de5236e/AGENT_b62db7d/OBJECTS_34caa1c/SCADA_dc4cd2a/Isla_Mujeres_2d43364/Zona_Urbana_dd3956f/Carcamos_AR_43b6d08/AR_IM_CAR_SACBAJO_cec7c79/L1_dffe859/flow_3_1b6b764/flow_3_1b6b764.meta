@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Isla_Mujeres.Zona_Urbana.Carcamos_AR.AR_IM_CAR_SACBAJO.L1.flow_3
-NodeClass: Variable
-BrowseName: 1:flow_3
-DisplayName: en|flow_3
-Description: en|flow_3
-DataType: Float
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

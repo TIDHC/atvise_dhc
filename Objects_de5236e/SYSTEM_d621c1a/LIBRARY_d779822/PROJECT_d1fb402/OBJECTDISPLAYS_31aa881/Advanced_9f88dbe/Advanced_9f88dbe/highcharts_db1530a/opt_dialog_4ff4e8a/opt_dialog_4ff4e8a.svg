@@ -21,7 +21,7 @@
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="font color" group="Appearance" name="fontColor" substitute="$FONTCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="#c9d9b8" desc="preview button background" group="Appearance" name="btn_preview_bg" substitute="" valuetype="color"/>
   <atv:parameter behavior="optional" defaultvalue="#d7d7d7" desc="button background" group="Appearance" name="btn_button_bg" substitute="" valuetype="color"/>
-  <atv:parameter group="Appearance" behavior="optional" desc="show &quot;Preview&quot; button (popup mode only)" defaultvalue="true" valuetype="bool" name="showPreviewBtn"/>
+  <atv:parameter defaultvalue="true" group="Appearance" desc="show &quot;Preview&quot; button (popup mode only)" valuetype="bool" name="showPreviewBtn" behavior="optional"/>
   <atv:parameter behavior="optional" config="SYSTEM.SECURITY.RIGHTS" defaultvalue="" desc="necessary right" group="Security: load configuration" name="load_right" valuetype="address"/>
   <atv:parameter behavior="optional" desc="activation address" group="Security: load configuration" name="load_activeNode" valuetype="address"/>
   <atv:parameter behavior="optional" desc="activation value" group="Security: load configuration" name="load_activeValue" valuetype="string"/>

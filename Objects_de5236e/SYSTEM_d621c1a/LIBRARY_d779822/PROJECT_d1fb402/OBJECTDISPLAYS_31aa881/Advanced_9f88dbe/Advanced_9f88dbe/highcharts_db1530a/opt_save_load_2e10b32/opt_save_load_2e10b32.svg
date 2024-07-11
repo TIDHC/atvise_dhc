@@ -168,32 +168,39 @@
   <atv:argument name="valueOn" value="true"/>
   <atv:argument name="tabIndex" value="1"/>
  </svg>
- <svg atv:refpx="480" atv:refpy="150" height="30" id="picker_config_file" transform="matrix(2,0,0,1,0,0)" width="160" x="160" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="116">
+ <svg atv:refpx="437.5" atv:refpy="150" height="30" id="picker_config_file" transform="matrix(1.4688,0,0,1,0,0)" width="160" x="217.872" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="116">
   <atv:argument name="tabIndex" value="12"/>
   <atv:argument name="validation" value="String"/>
-  <atv:overwrite id="input_label" transform="matrix(0.5,0,0,1,0,0)" x="312.055"/>
-  <atv:overwrite id="blinking_frame" transform="matrix(0.5,0,0,1,0,0)" width="312"/>
-  <atv:overwrite id="focus_frame" transform="matrix(0.5,0,0,1,0,0)" width="316"/>
-  <atv:overwrite id="input_bg" transform="matrix(0.5,0,0,1,0,0)" width="312"/>
-  <atv:overwrite id="id_1" transform="matrix(0.5,0,0,1,0,0)" width="318"/>
-  <atv:overwrite id="id_0" transform="matrix(0.5,0,0,1,0,0)" width="320"/>
+  <atv:overwrite id="input_label" transform="matrix(0.6809,0,0,1,0,0)" x="227.055"/>
+  <atv:overwrite id="blinking_frame" transform="matrix(0.6809,0,0,1,0,0)" width="227"/>
+  <atv:overwrite id="focus_frame" transform="matrix(0.6809,0,0,1,0,0)" width="231"/>
+  <atv:overwrite id="input_bg" transform="matrix(0.6809,0,0,1,0,0)" width="227"/>
+  <atv:overwrite id="id_1" transform="matrix(0.6809,0,0,1,0,0)" width="233"/>
+  <atv:overwrite id="id_0" transform="matrix(0.6809,0,0,1,0,0)" width="235"/>
  </svg>
- <svg atv:refpx="479.975" atv:refpy="135" height="30" id="picker_config_address" transform="matrix(1.9999,0,0,1,0,0)" width="160" x="160.005" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_address" y="115">
+ <svg atv:refpx="437.489" atv:refpy="135" height="30" id="picker_config_address" transform="matrix(1.4688,0,0,1,0,0)" width="160" x="217.863" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_address" y="115">
   <atv:overwrite id="id_5" transform="matrix(0.5,0,0,1,0,0)" x="292.49"/>
   <atv:argument name="tabIndex" value="10"/>
   <atv:overwrite id="id_2" transform="matrix(0.5,0,0,1,0,0)" width="319.984"/>
   <atv:overwrite id="id_1" transform="matrix(0.5,0,0,1,0,0)" x="294.734"/>
   <atv:argument name="itemsCount" value="15"/>
-  <atv:overwrite id="addresspicker_clickarea" transform="matrix(0.5,0,0,1,0,0)" x="291.984"/>
-  <atv:overwrite id="focus_frame" transform="matrix(0.5,0,0,1,0,0)" width="315.984"/>
-  <atv:overwrite id="button_stroke" transform="matrix(0.5,0,0,1,0,0)" x="294.984"/>
-  <atv:overwrite id="button_symbol" transform="matrix(0.5,0,0,1,0,0)" x="294.734"/>
-  <atv:overwrite id="button_bg" transform="matrix(0.5,0,0,1,0,0)" x="294.984"/>
-  <atv:overwrite id="input_label" transform="matrix(0.5,0,0,1,0,0)" x="285.984"/>
-  <atv:overwrite id="blinking_frame" transform="matrix(0.5,0,0,1,0,0)" width="287.984"/>
-  <atv:overwrite id="addresspicker_bg" transform="matrix(0.5,0,0,1,0,0)" width="287.984"/>
-  <atv:overwrite id="id_0" transform="matrix(0.5,0,0,1,0,0)" width="317.984"/>
-  <atv:overwrite id="addresspicker_stroke" transform="matrix(0.5,0,0,1,0,0)" width="319.984"/>
+  <atv:overwrite id="addresspicker_clickarea" transform="matrix(0.6808,0,0,1,0,0)" x="207.006"/>
+  <atv:overwrite id="focus_frame" transform="matrix(0.6808,0,0,1,0,0)" width="231.006"/>
+  <atv:overwrite id="button_stroke" transform="matrix(0.6808,0,0,1,0,0)" x="210.006"/>
+  <atv:overwrite id="button_symbol" transform="matrix(0.6808,0,0,1,0,0)" x="209.756"/>
+  <atv:overwrite id="button_bg" transform="matrix(0.6808,0,0,1,0,0)" x="210.006"/>
+  <atv:overwrite id="input_label" transform="matrix(0.6808,0,0,1,0,0)" x="201.006"/>
+  <atv:overwrite id="blinking_frame" transform="matrix(0.6808,0,0,1,0,0)" width="203.006"/>
+  <atv:overwrite id="addresspicker_bg" transform="matrix(0.6808,0,0,1,0,0)" width="203.006"/>
+  <atv:overwrite id="id_0" transform="matrix(0.6808,0,0,1,0,0)" width="233.006"/>
+  <atv:overwrite id="addresspicker_stroke" transform="matrix(0.6808,0,0,1,0,0)" width="235.006"/>
+ </svg>
+ <svg atv:refpx="600" atv:refpy="130" height="30" id="btn_apply" width="80" x="560" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="115">
+  <atv:argument name="label" value="T{Apply}"/>
+  <atv:argument name="tabIndex" value="22"/>
+  <atv:argument name="right" prefix="save_right"/>
+  <atv:argument name="activeNode" prefix="save_activeNode"/>
+  <atv:argument name="activeValue" prefix="save_activeValue"/>
  </svg>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.highcharts.opt_save_load" atv:name="opt_save_load" atv:type="text/ecmascript"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>

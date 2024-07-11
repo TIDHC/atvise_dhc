@@ -15,15 +15,15 @@
     </message>
     <message>
       <source>(IN)ACTIVE!</source>
-      <translation>(IN)ACTIVO!</translation>
+      <translation>(IN)ACTIVA!</translation>
     </message>
     <message>
       <source>(IN)ACTIVE! latched</source>
-      <translation>(IN)ACTIVE! latched</translation>
+      <translation>¡(IN)ACTIVA! Cerrada</translation>
     </message>
     <message>
       <source>(IN)ACTIVE! unconf.</source>
-      <translation>(IN)ACTIVE! unconf.</translation>
+      <translation>¡(IN)ACTIVA! sin conf.</translation>
     </message>
     <message>
       <source>.</source>
@@ -35,19 +35,19 @@
     </message>
     <message>
       <source>ACKNOWLEDGE</source>
-      <translation>ACKNOWLEDGE</translation>
+      <translation>RECONOCER</translation>
     </message>
     <message>
       <source>ACTIVE!</source>
-      <translation>ACTIVE!</translation>
+      <translation>¡ACTIVA!</translation>
     </message>
     <message>
       <source>ACTIVE! latched</source>
-      <translation>ACTIVE! latched</translation>
+      <translation>¡ACTIVA! cerrada</translation>
     </message>
     <message>
       <source>ACTIVE! unconf.</source>
-      <translation>ACTIVE! unconf.</translation>
+      <translation>¡ACTIVA! sin confirmar</translation>
     </message>
     <message>
       <source>Abbr.</source>
@@ -55,7 +55,7 @@
     </message>
     <message>
       <source>Abort</source>
-      <translation>Abort</translation>
+      <translation>Abortar</translation>
     </message>
     <message>
       <source>About</source>
@@ -63,39 +63,39 @@
     </message>
     <message>
       <source>Access Control</source>
-      <translation>Access Control</translation>
+      <translation>Control de acceso</translation>
     </message>
     <message>
       <source>Access Control Log</source>
-      <translation>Access Control Log</translation>
+      <translation>Registro de control de acceso</translation>
     </message>
     <message>
       <source>Access Denied</source>
-      <translation>Access Denied</translation>
+      <translation>Acceso Denegado</translation>
     </message>
     <message>
       <source>Access Log</source>
-      <translation>Access Log</translation>
+      <translation>Registro de acceso</translation>
     </message>
     <message>
       <source>Access denied</source>
-      <translation>Access denied</translation>
+      <translation>Acceso denegado</translation>
     </message>
     <message>
       <source>AccessLog</source>
-      <translation>AccessLog</translation>
+      <translation>Registro de acceso</translation>
     </message>
     <message>
       <source>Ackn. / Conf.</source>
-      <translation>Ackn. / Conf.</translation>
+      <translation>Recon. / Conf.</translation>
     </message>
     <message>
       <source>Acknowledge</source>
-      <translation>Acknowledge</translation>
+      <translation>Reconocer</translation>
     </message>
     <message>
       <source>Acknowledge alarms</source>
-      <translation>Acknowledge alarms</translation>
+      <translation>Alarmas reconocidas</translation>
     </message>
     <message>
       <source>Acknowledge with comment</source>
@@ -107,7 +107,7 @@
     </message>
     <message>
       <source>Action</source>
-      <translation>Action</translation>
+      <translation>Acción</translation>
     </message>
     <message>
       <source>Action buttons disabled; space is critical</source>
@@ -215,7 +215,7 @@
     </message>
     <message>
       <source>Alarmlog</source>
-      <translation>Log Alarmas</translation>
+      <translation>Reg. Alarmas</translation>
     </message>
     <message>
       <source>Alarms</source>
@@ -1091,15 +1091,15 @@
     </message>
     <message>
       <source>INACTIVE!</source>
-      <translation>INACTIVE!</translation>
+      <translation>¡INACTIVA!</translation>
     </message>
     <message>
       <source>INACTIVE! latched</source>
-      <translation>INACTIVE! latched</translation>
+      <translation>¡INACTIVA! cerrada</translation>
     </message>
     <message>
       <source>INACTIVE! unconf.</source>
-      <translation>INACTIVE! unconf.</translation>
+      <translation>¡INACTIVA! sin confirmar</translation>
     </message>
     <message>
       <source>INVALID JSON</source>
@@ -1291,7 +1291,7 @@
     </message>
     <message>
       <source>Login</source>
-      <translation>Login</translation>
+      <translation>Iniciar sesión</translation>
     </message>
     <message>
       <source>Login Information</source>
@@ -2991,7 +2991,7 @@
     </message>
     <message>
       <source>acknowledge</source>
-      <translation>acknowledge</translation>
+      <translation>reconocer</translation>
     </message>
     <message>
       <source>activ ack.</source>
@@ -2999,11 +2999,11 @@
     </message>
     <message>
       <source>active ack.</source>
-      <translation>active ack.</translation>
+      <translation>activa recon.</translation>
     </message>
     <message>
       <source>active conf.</source>
-      <translation>active conf.</translation>
+      <translation>activa conf.</translation>
     </message>
     <message>
       <source>alignment</source>
@@ -3107,7 +3107,7 @@
     </message>
     <message>
       <source>digit(s)</source>
-      <translation>digit(s)</translation>
+      <translation>dígito(s)</translation>
     </message>
     <message>
       <source>does not have sub-objects!</source>
@@ -3127,7 +3127,7 @@
     </message>
     <message>
       <source>false</source>
-      <translation>false</translation>
+      <translation>falso</translation>
     </message>
     <message>
       <source>for node</source>
@@ -3351,7 +3351,7 @@
     </message>
     <message>
       <source>true</source>
-      <translation>true</translation>
+      <translation>verdadero</translation>
     </message>
     <message>
       <source>update</source>
@@ -3359,7 +3359,7 @@
     </message>
     <message>
       <source>upper case</source>
-      <translation>upper case</translation>
+      <translation>mayúsculas</translation>
     </message>
     <message>
       <source>value exceeds max number of decimals</source>
@@ -3408,6 +3408,2706 @@
     <message>
       <source>z-index</source>
       <translation>Índice Z</translation>
+    </message>
+    <message>
+      <source></source>
+      <translation type="unfinished"></translation>
+    </message>
+    <message>
+      <source>&quot;+e.error+&quot;</source>
+      <translation type="unfinished">&quot;+e.error+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series0Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series0Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series1Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series1Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series2Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series2Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series3Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series3Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series4Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series4Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series5Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series5Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series6Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series6Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series7Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series7Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series8Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series8Title+&quot;</translation>
+    </message>
+    <message>
+      <source>&quot;+webMI.query.series9Title+&quot;</source>
+      <translation type="unfinished">&quot;+webMI.query.series9Title+&quot;</translation>
+    </message>
+    <message>
+      <source>%</source>
+      <translation type="unfinished">%</translation>
+    </message>
+    <message>
+      <source>%.2f</source>
+      <translation type="unfinished">%.2f</translation>
+    </message>
+    <message>
+      <source>%2f</source>
+      <translation type="unfinished">%2f</translation>
+    </message>
+    <message>
+      <source>*CAR_CCH</source>
+      <translation type="unfinished">*CAR_CCH</translation>
+    </message>
+    <message>
+      <source>1</source>
+      <translation type="unfinished">1</translation>
+    </message>
+    <message>
+      <source>10</source>
+      <translation type="unfinished">10</translation>
+    </message>
+    <message>
+      <source>11</source>
+      <translation type="unfinished">11</translation>
+    </message>
+    <message>
+      <source>12</source>
+      <translation type="unfinished">12</translation>
+    </message>
+    <message>
+      <source>13</source>
+      <translation type="unfinished">13</translation>
+    </message>
+    <message>
+      <source>14</source>
+      <translation type="unfinished">14</translation>
+    </message>
+    <message>
+      <source>15</source>
+      <translation type="unfinished">15</translation>
+    </message>
+    <message>
+      <source>16</source>
+      <translation type="unfinished">16</translation>
+    </message>
+    <message>
+      <source>17</source>
+      <translation type="unfinished">17</translation>
+    </message>
+    <message>
+      <source>18</source>
+      <translation type="unfinished">18</translation>
+    </message>
+    <message>
+      <source>19</source>
+      <translation type="unfinished">19</translation>
+    </message>
+    <message>
+      <source>2</source>
+      <translation type="unfinished">2</translation>
+    </message>
+    <message>
+      <source>20</source>
+      <translation type="unfinished">20</translation>
+    </message>
+    <message>
+      <source>21</source>
+      <translation type="unfinished">21</translation>
+    </message>
+    <message>
+      <source>22</source>
+      <translation type="unfinished">22</translation>
+    </message>
+    <message>
+      <source>23</source>
+      <translation type="unfinished">23</translation>
+    </message>
+    <message>
+      <source>24</source>
+      <translation type="unfinished">24</translation>
+    </message>
+    <message>
+      <source>25</source>
+      <translation type="unfinished">25</translation>
+    </message>
+    <message>
+      <source>26</source>
+      <translation type="unfinished">26</translation>
+    </message>
+    <message>
+      <source>27</source>
+      <translation type="unfinished">27</translation>
+    </message>
+    <message>
+      <source>28</source>
+      <translation type="unfinished">28</translation>
+    </message>
+    <message>
+      <source>29</source>
+      <translation type="unfinished">29</translation>
+    </message>
+    <message>
+      <source>3</source>
+      <translation type="unfinished">3</translation>
+    </message>
+    <message>
+      <source>30</source>
+      <translation type="unfinished">30</translation>
+    </message>
+    <message>
+      <source>31</source>
+      <translation type="unfinished">31</translation>
+    </message>
+    <message>
+      <source>3D Effect</source>
+      <translation type="unfinished">3D Effect</translation>
+    </message>
+    <message>
+      <source>4</source>
+      <translation type="unfinished">4</translation>
+    </message>
+    <message>
+      <source>5</source>
+      <translation type="unfinished">5</translation>
+    </message>
+    <message>
+      <source>6</source>
+      <translation type="unfinished">6</translation>
+    </message>
+    <message>
+      <source>7</source>
+      <translation type="unfinished">7</translation>
+    </message>
+    <message>
+      <source>8</source>
+      <translation type="unfinished">8</translation>
+    </message>
+    <message>
+      <source>88</source>
+      <translation type="unfinished">88</translation>
+    </message>
+    <message>
+      <source>9</source>
+      <translation type="unfinished">9</translation>
+    </message>
+    <message>
+      <source>&lt;</source>
+      <translation type="unfinished">&lt;</translation>
+    </message>
+    <message>
+      <source>&lt;=</source>
+      <translation type="unfinished">&lt;=</translation>
+    </message>
+    <message>
+      <source>&lt;&gt;</source>
+      <translation type="unfinished">&lt;&gt;</translation>
+    </message>
+    <message>
+      <source>==</source>
+      <translation type="unfinished">==</translation>
+    </message>
+    <message>
+      <source>&gt;</source>
+      <translation type="unfinished">&gt;</translation>
+    </message>
+    <message>
+      <source>&gt;=</source>
+      <translation type="unfinished">&gt;=</translation>
+    </message>
+    <message>
+      <source>A L1</source>
+      <translation type="unfinished">A L1</translation>
+    </message>
+    <message>
+      <source>A L2</source>
+      <translation type="unfinished">A L2</translation>
+    </message>
+    <message>
+      <source>A L3</source>
+      <translation type="unfinished">A L3</translation>
+    </message>
+    <message>
+      <source>ADL</source>
+      <translation type="unfinished">ADL</translation>
+    </message>
+    <message>
+      <source>AMPLIACIÓN</source>
+      <translation type="unfinished">AMPLIACIÓN</translation>
+    </message>
+    <message>
+      <source>ARA</source>
+      <translation type="unfinished">ARA</translation>
+    </message>
+    <message>
+      <source>ARA‎ </source>
+      <translation type="unfinished">ARA‎ </translation>
+    </message>
+    <message>
+      <source>AUTO</source>
+      <translation type="unfinished">AUTO</translation>
+    </message>
+    <message>
+      <source>AVAILABLE DATAPOINTS</source>
+      <translation type="unfinished">AVAILABLE DATAPOINTS</translation>
+    </message>
+    <message>
+      <source>Aborted</source>
+      <translation>Abortado</translation>
+    </message>
+    <message>
+      <source>Acknowledge!</source>
+      <translation type="unfinished">Acknowledge!</translation>
+    </message>
+    <message>
+      <source>Activa</source>
+      <translation type="unfinished">Activa</translation>
+    </message>
+    <message>
+      <source>Activate</source>
+      <translation type="unfinished">Activate</translation>
+    </message>
+    <message>
+      <source>Add user</source>
+      <translation type="unfinished">Add user</translation>
+    </message>
+    <message>
+      <source>Advertencia de alto nivel</source>
+      <translation type="unfinished">Advertencia de alto nivel</translation>
+    </message>
+    <message>
+      <source>Alarm State</source>
+      <translation type="unfinished">Alarm State</translation>
+    </message>
+    <message>
+      <source>Alarm address</source>
+      <translation type="unfinished">Alarm address</translation>
+    </message>
+    <message>
+      <source>Alarm off</source>
+      <translation type="unfinished">Alarm off</translation>
+    </message>
+    <message>
+      <source>Alarm on</source>
+      <translation type="unfinished">Alarm on</translation>
+    </message>
+    <message>
+      <source>Alarmas</source>
+      <translation type="unfinished">Alarmas</translation>
+    </message>
+    <message>
+      <source>Alerta de bajo nivel</source>
+      <translation type="unfinished">Alerta de bajo nivel</translation>
+    </message>
+    <message>
+      <source>Annotation</source>
+      <translation type="unfinished">Annotation</translation>
+    </message>
+    <message>
+      <source>Anual</source>
+      <translation type="unfinished">Anual</translation>
+    </message>
+    <message>
+      <source>Apagado</source>
+      <translation type="unfinished">Apagado</translation>
+    </message>
+    <message>
+      <source>Aparente</source>
+      <translation type="unfinished">Aparente</translation>
+    </message>
+    <message>
+      <source>App authentication not configured.</source>
+      <translation>Autenticación de aplicación no configurada.</translation>
+    </message>
+    <message>
+      <source>App login disabled.</source>
+      <translation type="unfinished">App login disabled.</translation>
+    </message>
+    <message>
+      <source>April</source>
+      <translation type="unfinished">April</translation>
+    </message>
+    <message>
+      <source>August</source>
+      <translation type="unfinished">August</translation>
+    </message>
+    <message>
+      <source>Authentication code</source>
+      <translation>Código de autenticación</translation>
+    </message>
+    <message>
+      <source>Authentication code invalid</source>
+      <translation>Código de autenticación inválido</translation>
+    </message>
+    <message>
+      <source>Authentication e-mail address</source>
+      <translation>Correo de autenticación</translation>
+    </message>
+    <message>
+      <source>Authentication e-mail sent</source>
+      <translation>Correo de autenticación enviado</translation>
+    </message>
+    <message>
+      <source>Auto</source>
+      <translation type="unfinished">Auto</translation>
+    </message>
+    <message>
+      <source>Automatico</source>
+      <translation type="unfinished">Automatico</translation>
+    </message>
+    <message>
+      <source>Automático</source>
+      <translation type="unfinished">Automático</translation>
+    </message>
+    <message>
+      <source>BALAMTUN</source>
+      <translation type="unfinished">BALAMTUN</translation>
+    </message>
+    <message>
+      <source>Balamtun</source>
+      <translation type="unfinished">Balamtun</translation>
+    </message>
+    <message>
+      <source>C CORAL</source>
+      <translation type="unfinished">C CORAL</translation>
+    </message>
+    <message>
+      <source>C SURESTE</source>
+      <translation type="unfinished">C SURESTE</translation>
+    </message>
+    <message>
+      <source>CADU II</source>
+      <translation type="unfinished">CADU II</translation>
+    </message>
+    <message>
+      <source>CAME</source>
+      <translation type="unfinished">CAME</translation>
+    </message>
+    <message>
+      <source>CAP_010</source>
+      <translation type="unfinished">CAP_010</translation>
+    </message>
+    <message>
+      <source>CAP_011_L1</source>
+      <translation type="unfinished">CAP_011_L1</translation>
+    </message>
+    <message>
+      <source>CAP_011_L2</source>
+      <translation type="unfinished">CAP_011_L2</translation>
+    </message>
+    <message>
+      <source>CAP_2OE_L1</source>
+      <translation type="unfinished">CAP_2OE_L1</translation>
+    </message>
+    <message>
+      <source>CAP_2OE_L2</source>
+      <translation type="unfinished">CAP_2OE_L2</translation>
+    </message>
+    <message>
+      <source>CAP_2PO_L1</source>
+      <translation type="unfinished">CAP_2PO_L1</translation>
+    </message>
+    <message>
+      <source>CAP_2PO_L2</source>
+      <translation type="unfinished">CAP_2PO_L2</translation>
+    </message>
+    <message>
+      <source>CAP_2PO_L3</source>
+      <translation type="unfinished">CAP_2PO_L3</translation>
+    </message>
+    <message>
+      <source>CAP_2PO_L4</source>
+      <translation type="unfinished">CAP_2PO_L4</translation>
+    </message>
+    <message>
+      <source>CAP_8</source>
+      <translation type="unfinished">CAP_8</translation>
+    </message>
+    <message>
+      <source>CAP_ADA_L1</source>
+      <translation type="unfinished">CAP_ADA_L1</translation>
+    </message>
+    <message>
+      <source>CAP_ADA_L2</source>
+      <translation type="unfinished">CAP_ADA_L2</translation>
+    </message>
+    <message>
+      <source>CAP_AER_L1</source>
+      <translation type="unfinished">CAP_AER_L1</translation>
+    </message>
+    <message>
+      <source>CAP_AER_L2</source>
+      <translation type="unfinished">CAP_AER_L2</translation>
+    </message>
+    <message>
+      <source>CAP_AER_L3</source>
+      <translation type="unfinished">CAP_AER_L3</translation>
+    </message>
+    <message>
+      <source>CAP_AER_L4</source>
+      <translation type="unfinished">CAP_AER_L4</translation>
+    </message>
+    <message>
+      <source>CAP_AER_L5</source>
+      <translation type="unfinished">CAP_AER_L5</translation>
+    </message>
+    <message>
+      <source>CAP_ALM</source>
+      <translation type="unfinished">CAP_ALM</translation>
+    </message>
+    <message>
+      <source>CAP_AME</source>
+      <translation type="unfinished">CAP_AME</translation>
+    </message>
+    <message>
+      <source>CAP_ARA</source>
+      <translation type="unfinished">CAP_ARA</translation>
+    </message>
+    <message>
+      <source>CAP_AZT</source>
+      <translation type="unfinished">CAP_AZT</translation>
+    </message>
+    <message>
+      <source>CAP_BPK</source>
+      <translation type="unfinished">CAP_BPK</translation>
+    </message>
+    <message>
+      <source>CAP_C01</source>
+      <translation type="unfinished">CAP_C01</translation>
+    </message>
+    <message>
+      <source>CAP_C02</source>
+      <translation type="unfinished">CAP_C02</translation>
+    </message>
+    <message>
+      <source>CAP_C03</source>
+      <translation type="unfinished">CAP_C03</translation>
+    </message>
+    <message>
+      <source>CAP_C04</source>
+      <translation type="unfinished">CAP_C04</translation>
+    </message>
+    <message>
+      <source>CAP_C05</source>
+      <translation type="unfinished">CAP_C05</translation>
+    </message>
+    <message>
+      <source>CAP_C06</source>
+      <translation type="unfinished">CAP_C06</translation>
+    </message>
+    <message>
+      <source>CAP_C07</source>
+      <translation type="unfinished">CAP_C07</translation>
+    </message>
+    <message>
+      <source>CAP_C08_L1</source>
+      <translation type="unfinished">CAP_C08_L1</translation>
+    </message>
+    <message>
+      <source>CAP_C08_L2</source>
+      <translation type="unfinished">CAP_C08_L2</translation>
+    </message>
+    <message>
+      <source>CAP_C09</source>
+      <translation type="unfinished">CAP_C09</translation>
+    </message>
+    <message>
+      <source>CAP_C10</source>
+      <translation type="unfinished">CAP_C10</translation>
+    </message>
+    <message>
+      <source>CAP_C12</source>
+      <translation type="unfinished">CAP_C12</translation>
+    </message>
+    <message>
+      <source>CAP_C13</source>
+      <translation type="unfinished">CAP_C13</translation>
+    </message>
+    <message>
+      <source>CAP_C14</source>
+      <translation type="unfinished">CAP_C14</translation>
+    </message>
+    <message>
+      <source>CAP_C15</source>
+      <translation type="unfinished">CAP_C15</translation>
+    </message>
+    <message>
+      <source>CAP_C17</source>
+      <translation type="unfinished">CAP_C17</translation>
+    </message>
+    <message>
+      <source>CAP_C3M</source>
+      <translation type="unfinished">CAP_C3M</translation>
+    </message>
+    <message>
+      <source>CAP_CBS</source>
+      <translation type="unfinished">CAP_CBS</translation>
+    </message>
+    <message>
+      <source>CAP_CLV</source>
+      <translation type="unfinished">CAP_CLV</translation>
+    </message>
+    <message>
+      <source>CAP_CTM</source>
+      <translation type="unfinished">CAP_CTM</translation>
+    </message>
+    <message>
+      <source>CAP_D28</source>
+      <translation type="unfinished">CAP_D28</translation>
+    </message>
+    <message>
+      <source>CAP_FST</source>
+      <translation type="unfinished">CAP_FST</translation>
+    </message>
+    <message>
+      <source>CAP_H23_L1</source>
+      <translation type="unfinished">CAP_H23_L1</translation>
+    </message>
+    <message>
+      <source>CAP_H23_L2</source>
+      <translation type="unfinished">CAP_H23_L2</translation>
+    </message>
+    <message>
+      <source>CAP_H23_L3</source>
+      <translation type="unfinished">CAP_H23_L3</translation>
+    </message>
+    <message>
+      <source>CAP_HER_L1</source>
+      <translation type="unfinished">CAP_HER_L1</translation>
+    </message>
+    <message>
+      <source>CAP_HER_L2</source>
+      <translation type="unfinished">CAP_HER_L2</translation>
+    </message>
+    <message>
+      <source>CAP_I14</source>
+      <translation type="unfinished">CAP_I14</translation>
+    </message>
+    <message>
+      <source>CAP_IFR</source>
+      <translation type="unfinished">CAP_IFR</translation>
+    </message>
+    <message>
+      <source>CAP_INF</source>
+      <translation type="unfinished">CAP_INF</translation>
+    </message>
+    <message>
+      <source>CAP_JOY</source>
+      <translation type="unfinished">CAP_JOY</translation>
+    </message>
+    <message>
+      <source>CAP_KUSA</source>
+      <translation type="unfinished">CAP_KUSA</translation>
+    </message>
+    <message>
+      <source>CAP_LBT</source>
+      <translation type="unfinished">CAP_LBT</translation>
+    </message>
+    <message>
+      <source>CAP_LCG</source>
+      <translation type="unfinished">CAP_LCG</translation>
+    </message>
+    <message>
+      <source>CAP_LCG2</source>
+      <translation type="unfinished">CAP_LCG2</translation>
+    </message>
+    <message>
+      <source>CAP_P30_L1</source>
+      <translation type="unfinished">CAP_P30_L1</translation>
+    </message>
+    <message>
+      <source>CAP_P30_L2</source>
+      <translation type="unfinished">CAP_P30_L2</translation>
+    </message>
+    <message>
+      <source>CAP_P30_L3</source>
+      <translation type="unfinished">CAP_P30_L3</translation>
+    </message>
+    <message>
+      <source>CAP_PDM</source>
+      <translation type="unfinished">CAP_PDM</translation>
+    </message>
+    <message>
+      <source>CAP_PDM2</source>
+      <translation type="unfinished">CAP_PDM2</translation>
+    </message>
+    <message>
+      <source>CAP_PJZ_L1</source>
+      <translation type="unfinished">CAP_PJZ_L1</translation>
+    </message>
+    <message>
+      <source>CAP_PJZ_L2</source>
+      <translation type="unfinished">CAP_PJZ_L2</translation>
+    </message>
+    <message>
+      <source>CAP_PJZ_L3</source>
+      <translation type="unfinished">CAP_PJZ_L3</translation>
+    </message>
+    <message>
+      <source>CAP_PJZ_L4</source>
+      <translation type="unfinished">CAP_PJZ_L4</translation>
+    </message>
+    <message>
+      <source>CAP_PJZ_L5</source>
+      <translation type="unfinished">CAP_PJZ_L5</translation>
+    </message>
+    <message>
+      <source>CAP_PJZ_L6</source>
+      <translation type="unfinished">CAP_PJZ_L6</translation>
+    </message>
+    <message>
+      <source>CAP_PJZ_L7</source>
+      <translation type="unfinished">CAP_PJZ_L7</translation>
+    </message>
+    <message>
+      <source>CAP_PMY</source>
+      <translation type="unfinished">CAP_PMY</translation>
+    </message>
+    <message>
+      <source>CAP_PMY2</source>
+      <translation type="unfinished">CAP_PMY2</translation>
+    </message>
+    <message>
+      <source>CAP_PN1</source>
+      <translation type="unfinished">CAP_PN1</translation>
+    </message>
+    <message>
+      <source>CAP_PN2</source>
+      <translation type="unfinished">CAP_PN2</translation>
+    </message>
+    <message>
+      <source>CAP_PSM</source>
+      <translation type="unfinished">CAP_PSM</translation>
+    </message>
+    <message>
+      <source>CAP_PTC</source>
+      <translation type="unfinished">CAP_PTC</translation>
+    </message>
+    <message>
+      <source>CAP_PUX_L1</source>
+      <translation type="unfinished">CAP_PUX_L1</translation>
+    </message>
+    <message>
+      <source>CAP_PUX_L2</source>
+      <translation type="unfinished">CAP_PUX_L2</translation>
+    </message>
+    <message>
+      <source>CAP_PUX_L3</source>
+      <translation type="unfinished">CAP_PUX_L3</translation>
+    </message>
+    <message>
+      <source>CAP_PZU</source>
+      <translation type="unfinished">CAP_PZU</translation>
+    </message>
+    <message>
+      <source>CAP_QTZ</source>
+      <translation type="unfinished">CAP_QTZ</translation>
+    </message>
+    <message>
+      <source>CAP_RN1</source>
+      <translation type="unfinished">CAP_RN1</translation>
+    </message>
+    <message>
+      <source>CAP_RN2</source>
+      <translation type="unfinished">CAP_RN2</translation>
+    </message>
+    <message>
+      <source>CAP_RN3</source>
+      <translation type="unfinished">CAP_RN3</translation>
+    </message>
+    <message>
+      <source>CAP_SM10</source>
+      <translation type="unfinished">CAP_SM10</translation>
+    </message>
+    <message>
+      <source>CAP_TBL</source>
+      <translation type="unfinished">CAP_TBL</translation>
+    </message>
+    <message>
+      <source>CAP_TM2</source>
+      <translation type="unfinished">CAP_TM2</translation>
+    </message>
+    <message>
+      <source>CAP_TMY</source>
+      <translation type="unfinished">CAP_TMY</translation>
+    </message>
+    <message>
+      <source>CAP_URBI</source>
+      <translation type="unfinished">CAP_URBI</translation>
+    </message>
+    <message>
+      <source>CAP_VIR</source>
+      <translation type="unfinished">CAP_VIR</translation>
+    </message>
+    <message>
+      <source>CAP_VMI_L1</source>
+      <translation type="unfinished">CAP_VMI_L1</translation>
+    </message>
+    <message>
+      <source>CAP_VMI_L2</source>
+      <translation type="unfinished">CAP_VMI_L2</translation>
+    </message>
+    <message>
+      <source>CAP_VMR2</source>
+      <translation type="unfinished">CAP_VMR2</translation>
+    </message>
+    <message>
+      <source>CAP_VMR_L1</source>
+      <translation type="unfinished">CAP_VMR_L1</translation>
+    </message>
+    <message>
+      <source>CAP_VMR_L2</source>
+      <translation type="unfinished">CAP_VMR_L2</translation>
+    </message>
+    <message>
+      <source>CAP_VOP</source>
+      <translation type="unfinished">CAP_VOP</translation>
+    </message>
+    <message>
+      <source>CAP_VOR</source>
+      <translation type="unfinished">CAP_VOR</translation>
+    </message>
+    <message>
+      <source>CAR 1</source>
+      <translation type="unfinished">CAR 1</translation>
+    </message>
+    <message>
+      <source>CAR 1 ZH CREA</source>
+      <translation type="unfinished">CAR 1 ZH CREA</translation>
+    </message>
+    <message>
+      <source>CAR 10 ZH POK TA POK</source>
+      <translation type="unfinished">CAR 10 ZH POK TA POK</translation>
+    </message>
+    <message>
+      <source>CAR 11 ZH POK TA POK</source>
+      <translation type="unfinished">CAR 11 ZH POK TA POK</translation>
+    </message>
+    <message>
+      <source>CAR 2</source>
+      <translation type="unfinished">CAR 2</translation>
+    </message>
+    <message>
+      <source>CAR 2 ZH CALINDA</source>
+      <translation type="unfinished">CAR 2 ZH CALINDA</translation>
+    </message>
+    <message>
+      <source>CAR 2000 ORIENTE</source>
+      <translation type="unfinished">CAR 2000 ORIENTE</translation>
+    </message>
+    <message>
+      <source>CAR 3</source>
+      <translation type="unfinished">CAR 3</translation>
+    </message>
+    <message>
+      <source>CAR 3 ZH TORTUGAS</source>
+      <translation type="unfinished">CAR 3 ZH TORTUGAS</translation>
+    </message>
+    <message>
+      <source>CAR 4  PRESIDENTE</source>
+      <translation type="unfinished">CAR 4  PRESIDENTE</translation>
+    </message>
+    <message>
+      <source>CAR 4 FINAL</source>
+      <translation type="unfinished">CAR 4 FINAL</translation>
+    </message>
+    <message>
+      <source>CAR 5</source>
+      <translation type="unfinished">CAR 5</translation>
+    </message>
+    <message>
+      <source>CAR 5 CONVENCIONES</source>
+      <translation type="unfinished">CAR 5 CONVENCIONES</translation>
+    </message>
+    <message>
+      <source>CAR 514</source>
+      <translation type="unfinished">CAR 514</translation>
+    </message>
+    <message>
+      <source>CAR 6</source>
+      <translation type="unfinished">CAR 6</translation>
+    </message>
+    <message>
+      <source>CAR 6 ZH CARIBE CANCÚN</source>
+      <translation type="unfinished">CAR 6 ZH CARIBE CANCÚN</translation>
+    </message>
+    <message>
+      <source>CAR 6, SM18</source>
+      <translation type="unfinished">CAR 6, SM18</translation>
+    </message>
+    <message>
+      <source>CAR 7</source>
+      <translation type="unfinished">CAR 7</translation>
+    </message>
+    <message>
+      <source>CAR 7 PIRÁMIDES</source>
+      <translation type="unfinished">CAR 7 PIRÁMIDES</translation>
+    </message>
+    <message>
+      <source>CAR 9 ZH POK TA POK</source>
+      <translation type="unfinished">CAR 9 ZH POK TA POK</translation>
+    </message>
+    <message>
+      <source>CAR ALMENDROS</source>
+      <translation type="unfinished">CAR ALMENDROS</translation>
+    </message>
+    <message>
+      <source>CAR ANDALUCÍA</source>
+      <translation type="unfinished">CAR ANDALUCÍA</translation>
+    </message>
+    <message>
+      <source>CAR AZUL B</source>
+      <translation type="unfinished">CAR AZUL B</translation>
+    </message>
+    <message>
+      <source>CAR B HEROES</source>
+      <translation type="unfinished">CAR B HEROES</translation>
+    </message>
+    <message>
+      <source>CAR BALAM</source>
+      <translation type="unfinished">CAR BALAM</translation>
+    </message>
+    <message>
+      <source>CAR BENITO JUÁREZ</source>
+      <translation type="unfinished">CAR BENITO JUÁREZ</translation>
+    </message>
+    <message>
+      <source>CAR CASAS</source>
+      <translation type="unfinished">CAR CASAS</translation>
+    </message>
+    <message>
+      <source>CAR CENT</source>
+      <translation type="unfinished">CAR CENT</translation>
+    </message>
+    <message>
+      <source>CAR COLARES</source>
+      <translation type="unfinished">CAR COLARES</translation>
+    </message>
+    <message>
+      <source>CAR CUCHILLA</source>
+      <translation type="unfinished">CAR CUCHILLA</translation>
+    </message>
+    <message>
+      <source>CAR FINAL 95</source>
+      <translation type="unfinished">CAR FINAL 95</translation>
+    </message>
+    <message>
+      <source>CAR FINAL NTE 1</source>
+      <translation type="unfinished">CAR FINAL NTE 1</translation>
+    </message>
+    <message>
+      <source>CAR FINAL PTAR SUR</source>
+      <translation type="unfinished">CAR FINAL PTAR SUR</translation>
+    </message>
+    <message>
+      <source>CAR INF 227</source>
+      <translation type="unfinished">CAR INF 227</translation>
+    </message>
+    <message>
+      <source>CAR LA COSTA</source>
+      <translation type="unfinished">CAR LA COSTA</translation>
+    </message>
+    <message>
+      <source>CAR LINDA VISTA</source>
+      <translation type="unfinished">CAR LINDA VISTA</translation>
+    </message>
+    <message>
+      <source>CAR MORELOS I</source>
+      <translation type="unfinished">CAR MORELOS I</translation>
+    </message>
+    <message>
+      <source>CAR MORELOS II</source>
+      <translation type="unfinished">CAR MORELOS II</translation>
+    </message>
+    <message>
+      <source>CAR P CANCUN</source>
+      <translation type="unfinished">CAR P CANCUN</translation>
+    </message>
+    <message>
+      <source>CAR PARAISO MAYA</source>
+      <translation type="unfinished">CAR PARAISO MAYA</translation>
+    </message>
+    <message>
+      <source>CAR PASEOS</source>
+      <translation type="unfinished">CAR PASEOS</translation>
+    </message>
+    <message>
+      <source>CAR PLAZA BONITA</source>
+      <translation type="unfinished">CAR PLAZA BONITA</translation>
+    </message>
+    <message>
+      <source>CAR PODER JUDICIAL</source>
+      <translation type="unfinished">CAR PODER JUDICIAL</translation>
+    </message>
+    <message>
+      <source>CAR POL 7/VILLAS MARINO</source>
+      <translation type="unfinished">CAR POL 7/VILLAS MARINO</translation>
+    </message>
+    <message>
+      <source>CAR POL PARAISO</source>
+      <translation type="unfinished">CAR POL PARAISO</translation>
+    </message>
+    <message>
+      <source>CAR PONIENTE 18</source>
+      <translation type="unfinished">CAR PONIENTE 18</translation>
+    </message>
+    <message>
+      <source>CAR R102</source>
+      <translation type="unfinished">CAR R102</translation>
+    </message>
+    <message>
+      <source>CAR R236</source>
+      <translation type="unfinished">CAR R236</translation>
+    </message>
+    <message>
+      <source>CAR SANTA FE+</source>
+      <translation type="unfinished">CAR SANTA FE+</translation>
+    </message>
+    <message>
+      <source>CAR ST JOHNS</source>
+      <translation type="unfinished">CAR ST JOHNS</translation>
+    </message>
+    <message>
+      <source>CAR SUR/PTAR CARIBE</source>
+      <translation type="unfinished">CAR SUR/PTAR CARIBE</translation>
+    </message>
+    <message>
+      <source>CAR TAJAMAR</source>
+      <translation type="unfinished">CAR TAJAMAR</translation>
+    </message>
+    <message>
+      <source>CAR TIERRA MAYA</source>
+      <translation type="unfinished">CAR TIERRA MAYA</translation>
+    </message>
+    <message>
+      <source>CAR V OTOCH</source>
+      <translation type="unfinished">CAR V OTOCH</translation>
+    </message>
+    <message>
+      <source>CAR VILLA MAGNA</source>
+      <translation type="unfinished">CAR VILLA MAGNA</translation>
+    </message>
+    <message>
+      <source>CARIDAD</source>
+      <translation type="unfinished">CARIDAD</translation>
+    </message>
+    <message>
+      <source>CAR_005</source>
+      <translation type="unfinished">CAR_005</translation>
+    </message>
+    <message>
+      <source>CAR_006</source>
+      <translation type="unfinished">CAR_006</translation>
+    </message>
+    <message>
+      <source>CAR_007</source>
+      <translation type="unfinished">CAR_007</translation>
+    </message>
+    <message>
+      <source>CAR_102</source>
+      <translation type="unfinished">CAR_102</translation>
+    </message>
+    <message>
+      <source>CAR_236</source>
+      <translation type="unfinished">CAR_236</translation>
+    </message>
+    <message>
+      <source>CAR_2OE</source>
+      <translation type="unfinished">CAR_2OE</translation>
+    </message>
+    <message>
+      <source>CAR_513</source>
+      <translation type="unfinished">CAR_513</translation>
+    </message>
+    <message>
+      <source>CAR_514</source>
+      <translation type="unfinished">CAR_514</translation>
+    </message>
+    <message>
+      <source>CAR_ABK</source>
+      <translation type="unfinished">CAR_ABK</translation>
+    </message>
+    <message>
+      <source>CAR_AMD</source>
+      <translation type="unfinished">CAR_AMD</translation>
+    </message>
+    <message>
+      <source>CAR_AMP</source>
+      <translation type="unfinished">CAR_AMP</translation>
+    </message>
+    <message>
+      <source>CAR_ARA</source>
+      <translation type="unfinished">CAR_ARA</translation>
+    </message>
+    <message>
+      <source>CAR_BLM</source>
+      <translation type="unfinished">CAR_BLM</translation>
+    </message>
+    <message>
+      <source>CAR_BNJ</source>
+      <translation type="unfinished">CAR_BNJ</translation>
+    </message>
+    <message>
+      <source>CAR_BPK</source>
+      <translation type="unfinished">CAR_BPK</translation>
+    </message>
+    <message>
+      <source>CAR_C01</source>
+      <translation type="unfinished">CAR_C01</translation>
+    </message>
+    <message>
+      <source>CAR_C02</source>
+      <translation type="unfinished">CAR_C02</translation>
+    </message>
+    <message>
+      <source>CAR_C03</source>
+      <translation type="unfinished">CAR_C03</translation>
+    </message>
+    <message>
+      <source>CAR_C04</source>
+      <translation type="unfinished">CAR_C04</translation>
+    </message>
+    <message>
+      <source>CAR_C05</source>
+      <translation type="unfinished">CAR_C05</translation>
+    </message>
+    <message>
+      <source>CAR_C06</source>
+      <translation type="unfinished">CAR_C06</translation>
+    </message>
+    <message>
+      <source>CAR_C07</source>
+      <translation type="unfinished">CAR_C07</translation>
+    </message>
+    <message>
+      <source>CAR_C09</source>
+      <translation type="unfinished">CAR_C09</translation>
+    </message>
+    <message>
+      <source>CAR_C10</source>
+      <translation type="unfinished">CAR_C10</translation>
+    </message>
+    <message>
+      <source>CAR_C11</source>
+      <translation type="unfinished">CAR_C11</translation>
+    </message>
+    <message>
+      <source>CAR_C86C</source>
+      <translation type="unfinished">CAR_C86C</translation>
+    </message>
+    <message>
+      <source>CAR_C86F</source>
+      <translation type="unfinished">CAR_C86F</translation>
+    </message>
+    <message>
+      <source>CAR_CCU</source>
+      <translation type="unfinished">CAR_CCU</translation>
+    </message>
+    <message>
+      <source>CAR_CMR</source>
+      <translation type="unfinished">CAR_CMR</translation>
+    </message>
+    <message>
+      <source>CAR_CNT</source>
+      <translation type="unfinished">CAR_CNT</translation>
+    </message>
+    <message>
+      <source>CAR_CR1</source>
+      <translation type="unfinished">CAR_CR1</translation>
+    </message>
+    <message>
+      <source>CAR_CR2</source>
+      <translation type="unfinished">CAR_CR2</translation>
+    </message>
+    <message>
+      <source>CAR_CRL</source>
+      <translation type="unfinished">CAR_CRL</translation>
+    </message>
+    <message>
+      <source>CAR_CRS</source>
+      <translation type="unfinished">CAR_CRS</translation>
+    </message>
+    <message>
+      <source>CAR_DCL</source>
+      <translation type="unfinished">CAR_DCL</translation>
+    </message>
+    <message>
+      <source>CAR_ELC</source>
+      <translation type="unfinished">CAR_ELC</translation>
+    </message>
+    <message>
+      <source>CAR_F64</source>
+      <translation type="unfinished">CAR_F64</translation>
+    </message>
+    <message>
+      <source>CAR_FLR</source>
+      <translation type="unfinished">CAR_FLR</translation>
+    </message>
+    <message>
+      <source>CAR_FNP</source>
+      <translation type="unfinished">CAR_FNP</translation>
+    </message>
+    <message>
+      <source>CAR_FOV</source>
+      <translation type="unfinished">CAR_FOV</translation>
+    </message>
+    <message>
+      <source>CAR_FR4</source>
+      <translation type="unfinished">CAR_FR4</translation>
+    </message>
+    <message>
+      <source>CAR_GDP</source>
+      <translation type="unfinished">CAR_GDP</translation>
+    </message>
+    <message>
+      <source>CAR_I227</source>
+      <translation type="unfinished">CAR_I227</translation>
+    </message>
+    <message>
+      <source>CAR_LCT</source>
+      <translation type="unfinished">CAR_LCT</translation>
+    </message>
+    <message>
+      <source>CAR_LDV</source>
+      <translation type="unfinished">CAR_LDV</translation>
+    </message>
+    <message>
+      <source>CAR_LMB</source>
+      <translation type="unfinished">CAR_LMB</translation>
+    </message>
+    <message>
+      <source>CAR_MOR1</source>
+      <translation type="unfinished">CAR_MOR1</translation>
+    </message>
+    <message>
+      <source>CAR_MOR2</source>
+      <translation type="unfinished">CAR_MOR2</translation>
+    </message>
+    <message>
+      <source>CAR_MRF</source>
+      <translation type="unfinished">CAR_MRF</translation>
+    </message>
+    <message>
+      <source>CAR_ORT</source>
+      <translation type="unfinished">CAR_ORT</translation>
+    </message>
+    <message>
+      <source>CAR_PBC</source>
+      <translation type="unfinished">CAR_PBC</translation>
+    </message>
+    <message>
+      <source>CAR_PDM</source>
+      <translation type="unfinished">CAR_PDM</translation>
+    </message>
+    <message>
+      <source>CAR_PJ</source>
+      <translation type="unfinished">CAR_PJ</translation>
+    </message>
+    <message>
+      <source>CAR_PLA</source>
+      <translation type="unfinished">CAR_PLA</translation>
+    </message>
+    <message>
+      <source>CAR_PLB</source>
+      <translation type="unfinished">CAR_PLB</translation>
+    </message>
+    <message>
+      <source>CAR_PLB_TZU</source>
+      <translation type="unfinished">CAR_PLB_TZU</translation>
+    </message>
+    <message>
+      <source>CAR_PLP</source>
+      <translation type="unfinished">CAR_PLP</translation>
+    </message>
+    <message>
+      <source>CAR_PMY</source>
+      <translation type="unfinished">CAR_PMY</translation>
+    </message>
+    <message>
+      <source>CAR_PNT</source>
+      <translation type="unfinished">CAR_PNT</translation>
+    </message>
+    <message>
+      <source>CAR_PTC</source>
+      <translation type="unfinished">CAR_PTC</translation>
+    </message>
+    <message>
+      <source>CAR_PTS</source>
+      <translation type="unfinished">CAR_PTS</translation>
+    </message>
+    <message>
+      <source>CAR_PUM</source>
+      <translation type="unfinished">CAR_PUM</translation>
+    </message>
+    <message>
+      <source>CAR_R92</source>
+      <translation type="unfinished">CAR_R92</translation>
+    </message>
+    <message>
+      <source>CAR_R93</source>
+      <translation type="unfinished">CAR_R93</translation>
+    </message>
+    <message>
+      <source>CAR_R94</source>
+      <translation type="unfinished">CAR_R94</translation>
+    </message>
+    <message>
+      <source>CAR_R95</source>
+      <translation type="unfinished">CAR_R95</translation>
+    </message>
+    <message>
+      <source>CAR_RNR</source>
+      <translation type="unfinished">CAR_RNR</translation>
+    </message>
+    <message>
+      <source>CAR_SAL</source>
+      <translation type="unfinished">CAR_SAL</translation>
+    </message>
+    <message>
+      <source>CAR_SCB</source>
+      <translation type="unfinished">CAR_SCB</translation>
+    </message>
+    <message>
+      <source>CAR_SFE</source>
+      <translation type="unfinished">CAR_SFE</translation>
+    </message>
+    <message>
+      <source>CAR_SM18</source>
+      <translation type="unfinished">CAR_SM18</translation>
+    </message>
+    <message>
+      <source>CAR_STE</source>
+      <translation type="unfinished">CAR_STE</translation>
+    </message>
+    <message>
+      <source>CAR_STJ</source>
+      <translation type="unfinished">CAR_STJ</translation>
+    </message>
+    <message>
+      <source>CAR_TBL</source>
+      <translation type="unfinished">CAR_TBL</translation>
+    </message>
+    <message>
+      <source>CAR_TKL</source>
+      <translation type="unfinished">CAR_TKL</translation>
+    </message>
+    <message>
+      <source>CAR_TMY</source>
+      <translation type="unfinished">CAR_TMY</translation>
+    </message>
+    <message>
+      <source>CAR_VMN</source>
+      <translation type="unfinished">CAR_VMN</translation>
+    </message>
+    <message>
+      <source>CAR_VMR</source>
+      <translation type="unfinished">CAR_VMR</translation>
+    </message>
+    <message>
+      <source>CAR_VOR</source>
+      <translation type="unfinished">CAR_VOR</translation>
+    </message>
+    <message>
+      <source>CAÑOTAL</source>
+      <translation type="unfinished">CAÑOTAL</translation>
+    </message>
+    <message>
+      <source>CC_C01</source>
+      <translation type="unfinished">CC_C01</translation>
+    </message>
+    <message>
+      <source>CC_C02</source>
+      <translation type="unfinished">CC_C02</translation>
+    </message>
+    <message>
+      <source>COLOSIO</source>
+      <translation type="unfinished">COLOSIO</translation>
+    </message>
+    <message>
+      <source>CRB_CSR</source>
+      <translation type="unfinished">CRB_CSR</translation>
+    </message>
+    <message>
+      <source>CSV Import</source>
+      <translation type="unfinished">CSV Import</translation>
+    </message>
+    <message>
+      <source>CTM</source>
+      <translation type="unfinished">CTM</translation>
+    </message>
+    <message>
+      <source>Can't write user information and/or password.</source>
+      <translation type="unfinished">Can't write user information and/or password.</translation>
+    </message>
+    <message>
+      <source>Caudal</source>
+      <translation type="unfinished">Caudal</translation>
+    </message>
+    <message>
+      <source>Caudal L1</source>
+      <translation type="unfinished">Caudal L1</translation>
+    </message>
+    <message>
+      <source>Caudal L2</source>
+      <translation type="unfinished">Caudal L2</translation>
+    </message>
+    <message>
+      <source>Caudal L3</source>
+      <translation type="unfinished">Caudal L3</translation>
+    </message>
+    <message>
+      <source>Caudal L4</source>
+      <translation type="unfinished">Caudal L4</translation>
+    </message>
+    <message>
+      <source>Caudal L5</source>
+      <translation type="unfinished">Caudal L5</translation>
+    </message>
+    <message>
+      <source>Caudal L6</source>
+      <translation type="unfinished">Caudal L6</translation>
+    </message>
+    <message>
+      <source>Caudal L7</source>
+      <translation type="unfinished">Caudal L7</translation>
+    </message>
+    <message>
+      <source>Cloro residual</source>
+      <translation type="unfinished">Cloro residual</translation>
+    </message>
+    <message>
+      <source>Colosio</source>
+      <translation type="unfinished">Colosio</translation>
+    </message>
+    <message>
+      <source>Conectividad</source>
+      <translation type="unfinished">Conectividad</translation>
+    </message>
+    <message>
+      <source>Configuracion General </source>
+      <translation type="unfinished">Configuracion General </translation>
+    </message>
+    <message>
+      <source>Content display</source>
+      <translation>Pantalla por defecto</translation>
+    </message>
+    <message>
+      <source>Conveyor Belt alarm is active</source>
+      <translation type="unfinished">Conveyor Belt alarm is active</translation>
+    </message>
+    <message>
+      <source>Corriente</source>
+      <translation type="unfinished">Corriente</translation>
+    </message>
+    <message>
+      <source>Corriente L1</source>
+      <translation type="unfinished">Corriente L1</translation>
+    </message>
+    <message>
+      <source>Corriente L2</source>
+      <translation type="unfinished">Corriente L2</translation>
+    </message>
+    <message>
+      <source>Corriente L3</source>
+      <translation type="unfinished">Corriente L3</translation>
+    </message>
+    <message>
+      <source>DIAM</source>
+      <translation type="unfinished">DIAM</translation>
+    </message>
+    <message>
+      <source>D_PTMAY</source>
+      <translation type="unfinished">D_PTMAY</translation>
+    </message>
+    <message>
+      <source>Datetime</source>
+      <translation type="unfinished">Datetime</translation>
+    </message>
+    <message>
+      <source>December</source>
+      <translation type="unfinished">December</translation>
+    </message>
+    <message>
+      <source>Default display</source>
+      <translation>Pantalla por defecto</translation>
+    </message>
+    <message>
+      <source>Delete User</source>
+      <translation type="unfinished">Delete User</translation>
+    </message>
+    <message>
+      <source>Deleting an axis will also delete assigned series!</source>
+      <translation type="unfinished">Deleting an axis will also delete assigned series!</translation>
+    </message>
+    <message>
+      <source>Dialog</source>
+      <translation type="unfinished">Dialog</translation>
+    </message>
+    <message>
+      <source>Diamante</source>
+      <translation type="unfinished">Diamante</translation>
+    </message>
+    <message>
+      <source>Diario</source>
+      <translation type="unfinished">Diario</translation>
+    </message>
+    <message>
+      <source>Dias</source>
+      <translation type="unfinished">Dias</translation>
+    </message>
+    <message>
+      <source>Difference</source>
+      <translation type="unfinished">Difference</translation>
+    </message>
+    <message>
+      <source>Dirty element(s) detected</source>
+      <translation type="unfinished">Dirty element(s) detected</translation>
+    </message>
+    <message>
+      <source>Do you really want to delete this axis?</source>
+      <translation type="unfinished">Do you really want to delete this axis?</translation>
+    </message>
+    <message>
+      <source>Download PDF</source>
+      <translation type="unfinished">Download PDF</translation>
+    </message>
+    <message>
+      <source>E NORTE</source>
+      <translation type="unfinished">E NORTE</translation>
+    </message>
+    <message>
+      <source>E SUR</source>
+      <translation type="unfinished">E SUR</translation>
+    </message>
+    <message>
+      <source>E-Mail</source>
+      <translation type="unfinished">E-Mail</translation>
+    </message>
+    <message>
+      <source>E-Mail Manager</source>
+      <translation type="unfinished">E-Mail Manager</translation>
+    </message>
+    <message>
+      <source>E-Mail could not be saved</source>
+      <translation type="unfinished">E-Mail could not be saved</translation>
+    </message>
+    <message>
+      <source>E-mail address has invalid domain</source>
+      <translation type="unfinished">E-mail address has invalid domain</translation>
+    </message>
+    <message>
+      <source>E-mail address has no domain specified</source>
+      <translation type="unfinished">E-mail address has no domain specified</translation>
+    </message>
+    <message>
+      <source>E-mail address not configured. Please enter e-mail address</source>
+      <translation type="unfinished">E-mail address not configured. Please enter e-mail address</translation>
+    </message>
+    <message>
+      <source>E-mail address not defined or invalid</source>
+      <translation type="unfinished">E-mail address not defined or invalid</translation>
+    </message>
+    <message>
+      <source>E-mail transmission failed</source>
+      <translation type="unfinished">E-mail transmission failed</translation>
+    </message>
+    <message>
+      <source>EFLUENTE PRETRATAMIENTO</source>
+      <translation type="unfinished">EFLUENTE PRETRATAMIENTO</translation>
+    </message>
+    <message>
+      <source>ELECTRICISTAS</source>
+      <translation type="unfinished">ELECTRICISTAS</translation>
+    </message>
+    <message>
+      <source>Edit sms scheduler</source>
+      <translation type="unfinished">Edit sms scheduler</translation>
+    </message>
+    <message>
+      <source>Eficiencia energética</source>
+      <translation type="unfinished">Eficiencia energética</translation>
+    </message>
+    <message>
+      <source>Ejido Norte</source>
+      <translation type="unfinished">Ejido Norte</translation>
+    </message>
+    <message>
+      <source>Ejido Sur</source>
+      <translation type="unfinished">Ejido Sur</translation>
+    </message>
+    <message>
+      <source>Encendido</source>
+      <translation type="unfinished">Encendido</translation>
+    </message>
+    <message>
+      <source>End time</source>
+      <translation type="unfinished">End time</translation>
+    </message>
+    <message>
+      <source>Equipo restablecido</source>
+      <translation type="unfinished">Equipo restablecido</translation>
+    </message>
+    <message>
+      <source>Estado de conectividad</source>
+      <translation type="unfinished">Estado de conectividad</translation>
+    </message>
+    <message>
+      <source>Estatus</source>
+      <translation type="unfinished">Estatus</translation>
+    </message>
+    <message>
+      <source>Excecute</source>
+      <translation type="unfinished">Excecute</translation>
+    </message>
+    <message>
+      <source>Export date format</source>
+      <translation type="unfinished">Export date format</translation>
+    </message>
+    <message>
+      <source>FINAL</source>
+      <translation type="unfinished">FINAL</translation>
+    </message>
+    <message>
+      <source>FINAL AR</source>
+      <translation type="unfinished">FINAL AR</translation>
+    </message>
+    <message>
+      <source>FINAL C ANTIGUO</source>
+      <translation type="unfinished">FINAL C ANTIGUO</translation>
+    </message>
+    <message>
+      <source>FINAL VM1</source>
+      <translation type="unfinished">FINAL VM1</translation>
+    </message>
+    <message>
+      <source>FINAL VM2</source>
+      <translation type="unfinished">FINAL VM2</translation>
+    </message>
+    <message>
+      <source>FINAL VM4</source>
+      <translation type="unfinished">FINAL VM4</translation>
+    </message>
+    <message>
+      <source>FOVISSSTE</source>
+      <translation type="unfinished">FOVISSSTE</translation>
+    </message>
+    <message>
+      <source>FP</source>
+      <translation type="unfinished">FP</translation>
+    </message>
+    <message>
+      <source>Factor de potencia</source>
+      <translation type="unfinished">Factor de potencia</translation>
+    </message>
+    <message>
+      <source>Falla</source>
+      <translation type="unfinished">Falla</translation>
+    </message>
+    <message>
+      <source>Falla en equipo de bombeo</source>
+      <translation type="unfinished">Falla en equipo de bombeo</translation>
+    </message>
+    <message>
+      <source>February</source>
+      <translation type="unfinished">February</translation>
+    </message>
+    <message>
+      <source>Final</source>
+      <translation type="unfinished">Final</translation>
+    </message>
+    <message>
+      <source>Finish</source>
+      <translation type="unfinished">Finish</translation>
+    </message>
+    <message>
+      <source>Flujo</source>
+      <translation type="unfinished">Flujo</translation>
+    </message>
+    <message>
+      <source>Flujo del cárcamo</source>
+      <translation type="unfinished">Flujo del cárcamo</translation>
+    </message>
+    <message>
+      <source>Frecuencia</source>
+      <translation type="unfinished">Frecuencia</translation>
+    </message>
+    <message>
+      <source>GAVIOTAS</source>
+      <translation type="unfinished">GAVIOTAS</translation>
+    </message>
+    <message>
+      <source>GUAD</source>
+      <translation type="unfinished">GUAD</translation>
+    </message>
+    <message>
+      <source>Gaviotas</source>
+      <translation type="unfinished">Gaviotas</translation>
+    </message>
+    <message>
+      <source>Generar Reporte</source>
+      <translation type="unfinished">Generar Reporte</translation>
+    </message>
+    <message>
+      <source>Grafico Nivel</source>
+      <translation type="unfinished">Grafico Nivel</translation>
+    </message>
+    <message>
+      <source>High Active Alarms: </source>
+      <translation type="unfinished">High Active Alarms: </translation>
+    </message>
+    <message>
+      <source>High Active Decreasing Alerts: </source>
+      <translation type="unfinished">High Active Decreasing Alerts: </translation>
+    </message>
+    <message>
+      <source>High Active Increasing Alerts: </source>
+      <translation type="unfinished">High Active Increasing Alerts: </translation>
+    </message>
+    <message>
+      <source>High Load reached</source>
+      <translation type="unfinished">High Load reached</translation>
+    </message>
+    <message>
+      <source>High agitation speed reached</source>
+      <translation type="unfinished">High agitation speed reached</translation>
+    </message>
+    <message>
+      <source>High concentration reached</source>
+      <translation type="unfinished">High concentration reached</translation>
+    </message>
+    <message>
+      <source>High contaminant level reached</source>
+      <translation type="unfinished">High contaminant level reached</translation>
+    </message>
+    <message>
+      <source>High crystalization rate reached</source>
+      <translation type="unfinished">High crystalization rate reached</translation>
+    </message>
+    <message>
+      <source>High current reached</source>
+      <translation type="unfinished">High current reached</translation>
+    </message>
+    <message>
+      <source>High flow rate reached</source>
+      <translation type="unfinished">High flow rate reached</translation>
+    </message>
+    <message>
+      <source>High level reached</source>
+      <translation type="unfinished">High level reached</translation>
+    </message>
+    <message>
+      <source>High material flow rate reached</source>
+      <translation type="unfinished">High material flow rate reached</translation>
+    </message>
+    <message>
+      <source>High mixer speed reached</source>
+      <translation type="unfinished">High mixer speed reached</translation>
+    </message>
+    <message>
+      <source>High pressure drop</source>
+      <translation type="unfinished">High pressure drop</translation>
+    </message>
+    <message>
+      <source>HighLimit has been reached</source>
+      <translation type="unfinished">HighLimit has been reached</translation>
+    </message>
+    <message>
+      <source>History comparison</source>
+      <translation type="unfinished">History comparison</translation>
+    </message>
+    <message>
+      <source>Horas</source>
+      <translation type="unfinished">Horas</translation>
+    </message>
+    <message>
+      <source>I11</source>
+      <translation type="unfinished">I11</translation>
+    </message>
+    <message>
+      <source>I13</source>
+      <translation type="unfinished">I13</translation>
+    </message>
+    <message>
+      <source>I3</source>
+      <translation type="unfinished">I3</translation>
+    </message>
+    <message>
+      <source>I5</source>
+      <translation type="unfinished">I5</translation>
+    </message>
+    <message>
+      <source>I7</source>
+      <translation type="unfinished">I7</translation>
+    </message>
+    <message>
+      <source>I9</source>
+      <translation type="unfinished">I9</translation>
+    </message>
+    <message>
+      <source>IM_TEO</source>
+      <translation type="unfinished">IM_TEO</translation>
+    </message>
+    <message>
+      <source>Index</source>
+      <translation type="unfinished">Index</translation>
+    </message>
+    <message>
+      <source>Input value:</source>
+      <translation type="unfinished">Input value:</translation>
+    </message>
+    <message>
+      <source>Interlock fault detected</source>
+      <translation type="unfinished">Interlock fault detected</translation>
+    </message>
+    <message>
+      <source>January</source>
+      <translation type="unfinished">January</translation>
+    </message>
+    <message>
+      <source>July</source>
+      <translation type="unfinished">July</translation>
+    </message>
+    <message>
+      <source>June</source>
+      <translation type="unfinished">June</translation>
+    </message>
+    <message>
+      <source>KW</source>
+      <translation type="unfinished">KW</translation>
+    </message>
+    <message>
+      <source>KWh</source>
+      <translation type="unfinished">KWh</translation>
+    </message>
+    <message>
+      <source>L/s</source>
+      <translation type="unfinished">L/s</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation type="unfinished">L1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation type="unfinished">L2</translation>
+    </message>
+    <message>
+      <source>L3</source>
+      <translation type="unfinished">L3</translation>
+    </message>
+    <message>
+      <source>L4</source>
+      <translation type="unfinished">L4</translation>
+    </message>
+    <message>
+      <source>L5</source>
+      <translation type="unfinished">L5</translation>
+    </message>
+    <message>
+      <source>L6</source>
+      <translation type="unfinished">L6</translation>
+    </message>
+    <message>
+      <source>L7</source>
+      <translation type="unfinished">L7</translation>
+    </message>
+    <message>
+      <source>LOC</source>
+      <translation type="unfinished">LOC</translation>
+    </message>
+    <message>
+      <source>LOCAL</source>
+      <translation type="unfinished">LOCAL</translation>
+    </message>
+    <message>
+      <source>Label color</source>
+      <translation type="unfinished">Label color</translation>
+    </message>
+    <message>
+      <source>Llena con Ceros</source>
+      <translation type="unfinished">Llena con Ceros</translation>
+    </message>
+    <message>
+      <source>Loading...</source>
+      <translation type="unfinished">Loading...</translation>
+    </message>
+    <message>
+      <source>Local</source>
+      <translation type="unfinished">Local</translation>
+    </message>
+    <message>
+      <source>Low Active Alarms: </source>
+      <translation type="unfinished">Low Active Alarms: </translation>
+    </message>
+    <message>
+      <source>Low Active Decreasing Alerts: </source>
+      <translation type="unfinished">Low Active Decreasing Alerts: </translation>
+    </message>
+    <message>
+      <source>Low Active Increasing Alerts: </source>
+      <translation type="unfinished">Low Active Increasing Alerts: </translation>
+    </message>
+    <message>
+      <source>Low Limit has been reached</source>
+      <translation type="unfinished">Low Limit has been reached</translation>
+    </message>
+    <message>
+      <source>Low Load reached</source>
+      <translation type="unfinished">Low Load reached</translation>
+    </message>
+    <message>
+      <source>Low agitation speed reached</source>
+      <translation type="unfinished">Low agitation speed reached</translation>
+    </message>
+    <message>
+      <source>Low concentration reached</source>
+      <translation type="unfinished">Low concentration reached</translation>
+    </message>
+    <message>
+      <source>Low contaminant level reached</source>
+      <translation type="unfinished">Low contaminant level reached</translation>
+    </message>
+    <message>
+      <source>Low crystalization rate reached</source>
+      <translation type="unfinished">Low crystalization rate reached</translation>
+    </message>
+    <message>
+      <source>Low current reached</source>
+      <translation type="unfinished">Low current reached</translation>
+    </message>
+    <message>
+      <source>Low efficiency</source>
+      <translation type="unfinished">Low efficiency</translation>
+    </message>
+    <message>
+      <source>Low flow rate reached</source>
+      <translation type="unfinished">Low flow rate reached</translation>
+    </message>
+    <message>
+      <source>Low level reached</source>
+      <translation type="unfinished">Low level reached</translation>
+    </message>
+    <message>
+      <source>Low material flow rate reached</source>
+      <translation type="unfinished">Low material flow rate reached</translation>
+    </message>
+    <message>
+      <source>Low mixer speed reached</source>
+      <translation type="unfinished">Low mixer speed reached</translation>
+    </message>
+    <message>
+      <source>Low pressure drop</source>
+      <translation type="unfinished">Low pressure drop</translation>
+    </message>
+    <message>
+      <source>M3</source>
+      <translation type="unfinished">M3</translation>
+    </message>
+    <message>
+      <source>MAN</source>
+      <translation type="unfinished">MAN</translation>
+    </message>
+    <message>
+      <source>MANUAL</source>
+      <translation type="unfinished">MANUAL</translation>
+    </message>
+    <message>
+      <source>MAYAKOBÁ</source>
+      <translation type="unfinished">MAYAKOBÁ</translation>
+    </message>
+    <message>
+      <source>MIRAFLORES</source>
+      <translation type="unfinished">MIRAFLORES</translation>
+    </message>
+    <message>
+      <source>MISION</source>
+      <translation type="unfinished">MISION</translation>
+    </message>
+    <message>
+      <source>Manual</source>
+      <translation type="unfinished">Manual</translation>
+    </message>
+    <message>
+      <source>March</source>
+      <translation type="unfinished">March</translation>
+    </message>
+    <message>
+      <source>Max Level has been reached</source>
+      <translation type="unfinished">Max Level has been reached</translation>
+    </message>
+    <message>
+      <source>Max pH level reached</source>
+      <translation type="unfinished">Max pH level reached</translation>
+    </message>
+    <message>
+      <source>Max pressure reached</source>
+      <translation type="unfinished">Max pressure reached</translation>
+    </message>
+    <message>
+      <source>Max temperature reached</source>
+      <translation type="unfinished">Max temperature reached</translation>
+    </message>
+    <message>
+      <source>May</source>
+      <translation type="unfinished">May</translation>
+    </message>
+    <message>
+      <source>MayaKoba</source>
+      <translation type="unfinished">MayaKoba</translation>
+    </message>
+    <message>
+      <source>Mejor Ajuste</source>
+      <translation type="unfinished">Mejor Ajuste</translation>
+    </message>
+    <message>
+      <source>Mensual</source>
+      <translation type="unfinished">Mensual</translation>
+    </message>
+    <message>
+      <source>Min Level has been reached</source>
+      <translation type="unfinished">Min Level has been reached</translation>
+    </message>
+    <message>
+      <source>Min pH level reached</source>
+      <translation type="unfinished">Min pH level reached</translation>
+    </message>
+    <message>
+      <source>Min pressure reached</source>
+      <translation type="unfinished">Min pressure reached</translation>
+    </message>
+    <message>
+      <source>Min temperature reached</source>
+      <translation type="unfinished">Min temperature reached</translation>
+    </message>
+    <message>
+      <source>Min temprerature reached</source>
+      <translation type="unfinished">Min temprerature reached</translation>
+    </message>
+    <message>
+      <source>Minutos</source>
+      <translation type="unfinished">Minutos</translation>
+    </message>
+    <message>
+      <source>Mirror</source>
+      <translation type="unfinished">Mirror</translation>
+    </message>
+    <message>
+      <source>Mision las Flores</source>
+      <translation type="unfinished">Mision las Flores</translation>
+    </message>
+    <message>
+      <source>Modify</source>
+      <translation type="unfinished">Modify</translation>
+    </message>
+    <message>
+      <source>Nivel</source>
+      <translation type="unfinished">Nivel</translation>
+    </message>
+    <message>
+      <source>Nivel de diesel</source>
+      <translation type="unfinished">Nivel de diesel</translation>
+    </message>
+    <message>
+      <source>Nivel de tanque</source>
+      <translation type="unfinished">Nivel de tanque</translation>
+    </message>
+    <message>
+      <source>Niveles Normales</source>
+      <translation type="unfinished">Niveles Normales</translation>
+    </message>
+    <message>
+      <source>Niveles normales</source>
+      <translation type="unfinished">Niveles normales</translation>
+    </message>
+    <message>
+      <source>No</source>
+      <translation type="unfinished">No</translation>
+    </message>
+    <message>
+      <source>Node address</source>
+      <translation type="unfinished">Node address</translation>
+    </message>
+    <message>
+      <source>November</source>
+      <translation type="unfinished">November</translation>
+    </message>
+    <message>
+      <source>OFF</source>
+      <translation type="unfinished">OFF</translation>
+    </message>
+    <message>
+      <source>ON</source>
+      <translation type="unfinished">ON</translation>
+    </message>
+    <message>
+      <source>OPC UA Server (Engineering)</source>
+      <translation type="unfinished">OPC UA Server (Engineering)</translation>
+    </message>
+    <message>
+      <source>ORIENTE</source>
+      <translation type="unfinished">ORIENTE</translation>
+    </message>
+    <message>
+      <source>October</source>
+      <translation type="unfinished">October</translation>
+    </message>
+    <message>
+      <source>Off</source>
+      <translation type="unfinished">Off</translation>
+    </message>
+    <message>
+      <source>Okay</source>
+      <translation type="unfinished">Okay</translation>
+    </message>
+    <message>
+      <source>On</source>
+      <translation type="unfinished">On</translation>
+    </message>
+    <message>
+      <source>On/Off</source>
+      <translation type="unfinished">On/Off</translation>
+    </message>
+    <message>
+      <source>PALMAS II</source>
+      <translation type="unfinished">PALMAS II</translation>
+    </message>
+    <message>
+      <source>PDF autosave</source>
+      <translation type="unfinished">PDF autosave</translation>
+    </message>
+    <message>
+      <source>PIM_CFN</source>
+      <translation type="unfinished">PIM_CFN</translation>
+    </message>
+    <message>
+      <source>PLAYERO</source>
+      <translation type="unfinished">PLAYERO</translation>
+    </message>
+    <message>
+      <source>PONIENTE</source>
+      <translation type="unfinished">PONIENTE</translation>
+    </message>
+    <message>
+      <source>POZO 1 PM</source>
+      <translation type="unfinished">POZO 1 PM</translation>
+    </message>
+    <message>
+      <source>POZO 2 PM</source>
+      <translation type="unfinished">POZO 2 PM</translation>
+    </message>
+    <message>
+      <source>POZO 3 PM</source>
+      <translation type="unfinished">POZO 3 PM</translation>
+    </message>
+    <message>
+      <source>POZO 4 PM</source>
+      <translation type="unfinished">POZO 4 PM</translation>
+    </message>
+    <message>
+      <source>POZO NUEVO LV</source>
+      <translation type="unfinished">POZO NUEVO LV</translation>
+    </message>
+    <message>
+      <source>POZO VIEJO LV</source>
+      <translation type="unfinished">POZO VIEJO LV</translation>
+    </message>
+    <message>
+      <source>PTAR_CAN</source>
+      <translation type="unfinished">PTAR_CAN</translation>
+    </message>
+    <message>
+      <source>PTAR_VMI</source>
+      <translation type="unfinished">PTAR_VMI</translation>
+    </message>
+    <message>
+      <source>PTAR_VMII</source>
+      <translation type="unfinished">PTAR_VMII</translation>
+    </message>
+    <message>
+      <source>PTAR_VMIV</source>
+      <translation type="unfinished">PTAR_VMIV</translation>
+    </message>
+    <message>
+      <source>PTO MAYA 3</source>
+      <translation type="unfinished">PTO MAYA 3</translation>
+    </message>
+    <message>
+      <source>PTR_SUR</source>
+      <translation type="unfinished">PTR_SUR</translation>
+    </message>
+    <message>
+      <source>PUERTO A</source>
+      <translation type="unfinished">PUERTO A</translation>
+    </message>
+    <message>
+      <source>PUERTO AVENTURAS</source>
+      <translation type="unfinished">PUERTO AVENTURAS</translation>
+    </message>
+    <message>
+      <source>PUERTO MAYA 3</source>
+      <translation type="unfinished">PUERTO MAYA 3</translation>
+    </message>
+    <message>
+      <source>Palmas II</source>
+      <translation type="unfinished">Palmas II</translation>
+    </message>
+    <message>
+      <source>Peligro de protección de equipos</source>
+      <translation type="unfinished">Peligro de protección de equipos</translation>
+    </message>
+    <message>
+      <source>Pending Maintenance: </source>
+      <translation type="unfinished">Pending Maintenance: </translation>
+    </message>
+    <message>
+      <source>Permission(s) missing for user management</source>
+      <translation type="unfinished">Permission(s) missing for user management</translation>
+    </message>
+    <message>
+      <source>Playero</source>
+      <translation type="unfinished">Playero</translation>
+    </message>
+    <message>
+      <source>Please define node Address.</source>
+      <translation type="unfinished">Please define node Address.</translation>
+    </message>
+    <message>
+      <source>Please enter data in all fields.</source>
+      <translation type="unfinished">Please enter data in all fields.</translation>
+    </message>
+    <message>
+      <source>Please enter the correct time format HH:mm</source>
+      <translation type="unfinished">Please enter the correct time format HH:mm</translation>
+    </message>
+    <message>
+      <source>Please enter the correct time format with a maximum time of 23:59</source>
+      <translation type="unfinished">Please enter the correct time format with a maximum time of 23:59</translation>
+    </message>
+    <message>
+      <source>Please enter the right serial node...</source>
+      <translation type="unfinished">Please enter the right serial node...</translation>
+    </message>
+    <message>
+      <source>Please enter username!</source>
+      <translation type="unfinished">Please enter username!</translation>
+    </message>
+    <message>
+      <source>Potencia</source>
+      <translation type="unfinished">Potencia</translation>
+    </message>
+    <message>
+      <source>Potencia Activa</source>
+      <translation type="unfinished">Potencia Activa</translation>
+    </message>
+    <message>
+      <source>Potencia activa</source>
+      <translation type="unfinished">Potencia activa</translation>
+    </message>
+    <message>
+      <source>Potencia‎ ‎ </source>
+      <translation type="unfinished">Potencia‎ ‎ </translation>
+    </message>
+    <message>
+      <source>Presion</source>
+      <translation type="unfinished">Presion</translation>
+    </message>
+    <message>
+      <source>Presion L1</source>
+      <translation type="unfinished">Presion L1</translation>
+    </message>
+    <message>
+      <source>Presión</source>
+      <translation type="unfinished">Presión</translation>
+    </message>
+    <message>
+      <source>Presión L1</source>
+      <translation type="unfinished">Presión L1</translation>
+    </message>
+    <message>
+      <source>Presión L2</source>
+      <translation type="unfinished">Presión L2</translation>
+    </message>
+    <message>
+      <source>Presión L3</source>
+      <translation type="unfinished">Presión L3</translation>
+    </message>
+    <message>
+      <source>Presión L4</source>
+      <translation type="unfinished">Presión L4</translation>
+    </message>
+    <message>
+      <source>Presión L5</source>
+      <translation type="unfinished">Presión L5</translation>
+    </message>
+    <message>
+      <source>Presión L6</source>
+      <translation type="unfinished">Presión L6</translation>
+    </message>
+    <message>
+      <source>Presión L7</source>
+      <translation type="unfinished">Presión L7</translation>
+    </message>
+    <message>
+      <source>Presión del cárcamo</source>
+      <translation type="unfinished">Presión del cárcamo</translation>
+    </message>
+    <message>
+      <source>Preview</source>
+      <translation type="unfinished">Preview</translation>
+    </message>
+    <message>
+      <source>Priority</source>
+      <translation type="unfinished">Priority</translation>
+    </message>
+    <message>
+      <source>Private</source>
+      <translation type="unfinished">Private</translation>
+    </message>
+    <message>
+      <source>Producción</source>
+      <translation type="unfinished">Producción</translation>
+    </message>
+    <message>
+      <source>Pérdida de comunicación</source>
+      <translation type="unfinished">Pérdida de comunicación</translation>
+    </message>
+    <message>
+      <source>REM</source>
+      <translation type="unfinished">REM</translation>
+    </message>
+    <message>
+      <source>REMOTO</source>
+      <translation type="unfinished">REMOTO</translation>
+    </message>
+    <message>
+      <source>RPM</source>
+      <translation type="unfinished">RPM</translation>
+    </message>
+    <message>
+      <source>Reactiva</source>
+      <translation type="unfinished">Reactiva</translation>
+    </message>
+    <message>
+      <source>Rebosamiento de cárcamo AR</source>
+      <translation type="unfinished">Rebosamiento de cárcamo AR</translation>
+    </message>
+    <message>
+      <source>Remoto</source>
+      <translation type="unfinished">Remoto</translation>
+    </message>
+    <message>
+      <source>Render mode</source>
+      <translation type="unfinished">Render mode</translation>
+    </message>
+    <message>
+      <source>Reporte_1</source>
+      <translation type="unfinished">Reporte_1</translation>
+    </message>
+    <message>
+      <source>Reporte_2</source>
+      <translation type="unfinished">Reporte_2</translation>
+    </message>
+    <message>
+      <source>Reporte_3</source>
+      <translation type="unfinished">Reporte_3</translation>
+    </message>
+    <message>
+      <source>Reset seed</source>
+      <translation type="unfinished">Reset seed</translation>
+    </message>
+    <message>
+      <source>SACBAJO</source>
+      <translation type="unfinished">SACBAJO</translation>
+    </message>
+    <message>
+      <source>SALINAS</source>
+      <translation type="unfinished">SALINAS</translation>
+    </message>
+    <message>
+      <source>Save Change</source>
+      <translation type="unfinished">Save Change</translation>
+    </message>
+    <message>
+      <source>Scan QR code in authenticator app to use app authentication.</source>
+      <translation>Escanea el código QR en tu app de autenticación para usar la autenticación por aplicación.</translation>
+    </message>
+    <message>
+      <source>Schedule Maintenance</source>
+      <translation type="unfinished">Schedule Maintenance</translation>
+    </message>
+    <message>
+      <source>Seed reset failed!</source>
+      <translation type="unfinished">Seed reset failed!</translation>
+    </message>
+    <message>
+      <source>Segundos</source>
+      <translation type="unfinished">Segundos</translation>
+    </message>
+    <message>
+      <source>Seleccione el equipo a controlar</source>
+      <translation type="unfinished">Seleccione el equipo a controlar</translation>
+    </message>
+    <message>
+      <source>Semanal</source>
+      <translation type="unfinished">Semanal</translation>
+    </message>
+    <message>
+      <source>Send code via e-mail</source>
+      <translation>Enviar código vía e-mail</translation>
+    </message>
+    <message>
+      <source>September</source>
+      <translation type="unfinished">September</translation>
+    </message>
+    <message>
+      <source>Series Address</source>
+      <translation type="unfinished">Series Address</translation>
+    </message>
+    <message>
+      <source>Setting custom e-mail is disabled</source>
+      <translation type="unfinished">Setting custom e-mail is disabled</translation>
+    </message>
+    <message>
+      <source>Show QR code</source>
+      <translation type="unfinished">Show QR code</translation>
+    </message>
+    <message>
+      <source>Sourcetime</source>
+      <translation type="unfinished">Sourcetime</translation>
+    </message>
+    <message>
+      <source>Speed setting</source>
+      <translation type="unfinished">Speed setting</translation>
+    </message>
+    <message>
+      <source>Structural damage detected</source>
+      <translation type="unfinished">Structural damage detected</translation>
+    </message>
+    <message>
+      <source>Sum Alarm</source>
+      <translation type="unfinished">Sum Alarm</translation>
+    </message>
+    <message>
+      <source>Super User</source>
+      <translation type="unfinished">Super User</translation>
+    </message>
+    <message>
+      <source>SuperUser</source>
+      <translation type="unfinished">SuperUser</translation>
+    </message>
+    <message>
+      <source>TOSCANA</source>
+      <translation type="unfinished">TOSCANA</translation>
+    </message>
+    <message>
+      <source>Temperatura</source>
+      <translation type="unfinished">Temperatura</translation>
+    </message>
+    <message>
+      <source>Temperature</source>
+      <translation type="unfinished">Temperature</translation>
+    </message>
+    <message>
+      <source>Template with name 'templates' cannot be created</source>
+      <translation type="unfinished">Template with name 'templates' cannot be created</translation>
+    </message>
+    <message>
+      <source>The address you entered can't be read by you or doesn't exist.</source>
+      <translation type="unfinished">The address you entered can't be read by you or doesn't exist.</translation>
+    </message>
+    <message>
+      <source>The axis has been assigned to series!</source>
+      <translation type="unfinished">The axis has been assigned to series!</translation>
+    </message>
+    <message>
+      <source>Tiempo Real</source>
+      <translation type="unfinished">Tiempo Real</translation>
+    </message>
+    <message>
+      <source>Title color</source>
+      <translation type="unfinished">Title color</translation>
+    </message>
+    <message>
+      <source>Today</source>
+      <translation type="unfinished">Today</translation>
+    </message>
+    <message>
+      <source>Toscana</source>
+      <translation type="unfinished">Toscana</translation>
+    </message>
+    <message>
+      <source>Trend Type</source>
+      <translation type="unfinished">Trend Type</translation>
+    </message>
+    <message>
+      <source>Two-factor authentication</source>
+      <translation>Autenticación de 2 pasos</translation>
+    </message>
+    <message>
+      <source>Two-factor authentication code</source>
+      <translation>Código de autenticación de 2 pasos</translation>
+    </message>
+    <message>
+      <source>User account locked. Please contact your administrator.</source>
+      <translation type="unfinished">User account locked. Please contact your administrator.</translation>
+    </message>
+    <message>
+      <source>User management</source>
+      <translation type="unfinished">User management</translation>
+    </message>
+    <message>
+      <source>Users</source>
+      <translation type="unfinished">Users</translation>
+    </message>
+    <message>
+      <source>V CARMEN</source>
+      <translation type="unfinished">V CARMEN</translation>
+    </message>
+    <message>
+      <source>V L1_L2</source>
+      <translation type="unfinished">V L1_L2</translation>
+    </message>
+    <message>
+      <source>V L2_L1</source>
+      <translation type="unfinished">V L2_L1</translation>
+    </message>
+    <message>
+      <source>V L2_L3</source>
+      <translation type="unfinished">V L2_L3</translation>
+    </message>
+    <message>
+      <source>V SOL</source>
+      <translation type="unfinished">V SOL</translation>
+    </message>
+    <message>
+      <source>V#Value</source>
+      <translation type="unfinished">V#Value</translation>
+    </message>
+    <message>
+      <source>VMAR</source>
+      <translation type="unfinished">VMAR</translation>
+    </message>
+    <message>
+      <source>Valor Previo</source>
+      <translation type="unfinished">Valor Previo</translation>
+    </message>
+    <message>
+      <source>Value too high</source>
+      <translation type="unfinished">Value too high</translation>
+    </message>
+    <message>
+      <source>Value too low</source>
+      <translation type="unfinished">Value too low</translation>
+    </message>
+    <message>
+      <source>Verify</source>
+      <translation>Verificar</translation>
+    </message>
+    <message>
+      <source>Villas del Carmen</source>
+      <translation type="unfinished">Villas del Carmen</translation>
+    </message>
+    <message>
+      <source>Villas del Sol</source>
+      <translation type="unfinished">Villas del Sol</translation>
+    </message>
+    <message>
+      <source>Visualization</source>
+      <translation type="unfinished">Visualization</translation>
+    </message>
+    <message>
+      <source>Voltaje</source>
+      <translation type="unfinished">Voltaje</translation>
+    </message>
+    <message>
+      <source>Voltaje L1-L2</source>
+      <translation type="unfinished">Voltaje L1-L2</translation>
+    </message>
+    <message>
+      <source>Voltaje L2-L3</source>
+      <translation type="unfinished">Voltaje L2-L3</translation>
+    </message>
+    <message>
+      <source>Voltaje L3-L1</source>
+      <translation type="unfinished">Voltaje L3-L1</translation>
+    </message>
+    <message>
+      <source>Voltaje‎ ‎ ‎ ‎ ‎ ‎ </source>
+      <translation type="unfinished">Voltaje‎ ‎ ‎ ‎ ‎ ‎ </translation>
+    </message>
+    <message>
+      <source>W</source>
+      <translation type="unfinished">W</translation>
+    </message>
+    <message>
+      <source>X Axis Address</source>
+      <translation type="unfinished">X Axis Address</translation>
+    </message>
+    <message>
+      <source>ZCC_C04</source>
+      <translation type="unfinished">ZCC_C04</translation>
+    </message>
+    <message>
+      <source>ZCC_C09</source>
+      <translation type="unfinished">ZCC_C09</translation>
+    </message>
+    <message>
+      <source>ZCC_C11</source>
+      <translation type="unfinished">ZCC_C11</translation>
+    </message>
+    <message>
+      <source>ZCC_C1A</source>
+      <translation type="unfinished">ZCC_C1A</translation>
+    </message>
+    <message>
+      <source>ZCC_C6A</source>
+      <translation type="unfinished">ZCC_C6A</translation>
+    </message>
+    <message>
+      <source>ZCC_CCV</source>
+      <translation type="unfinished">ZCC_CCV</translation>
+    </message>
+    <message>
+      <source>ZCC_INT_L20</source>
+      <translation type="unfinished">ZCC_INT_L20</translation>
+    </message>
+    <message>
+      <source>ZCC_INT_L3</source>
+      <translation type="unfinished">ZCC_INT_L3</translation>
+    </message>
+    <message>
+      <source>ZCC_INT_L30</source>
+      <translation type="unfinished">ZCC_INT_L30</translation>
+    </message>
+    <message>
+      <source>axis</source>
+      <translation type="unfinished">axis</translation>
+    </message>
+    <message>
+      <source>can only appear once in a template</source>
+      <translation type="unfinished">can only appear once in a template</translation>
+    </message>
+    <message>
+      <source>data 1</source>
+      <translation type="unfinished">data 1</translation>
+    </message>
+    <message>
+      <source>data 2</source>
+      <translation type="unfinished">data 2</translation>
+    </message>
+    <message>
+      <source>data 3</source>
+      <translation type="unfinished">data 3</translation>
+    </message>
+    <message>
+      <source>does not exist</source>
+      <translation type="unfinished">does not exist</translation>
+    </message>
+    <message>
+      <source>ft</source>
+      <translation type="unfinished">ft</translation>
+    </message>
+    <message>
+      <source>h</source>
+      <translation type="unfinished">h</translation>
+    </message>
+    <message>
+      <source>in</source>
+      <translation type="unfinished">in</translation>
+    </message>
+    <message>
+      <source>include recipes</source>
+      <translation type="unfinished">include recipes</translation>
+    </message>
+    <message>
+      <source>ip</source>
+      <translation type="unfinished">ip</translation>
+    </message>
+    <message>
+      <source>kg/cm2</source>
+      <translation type="unfinished">kg/cm2</translation>
+    </message>
+    <message>
+      <source>l/s</source>
+      <translation type="unfinished">l/s</translation>
+    </message>
+    <message>
+      <source>m3</source>
+      <translation type="unfinished">m3</translation>
+    </message>
+    <message>
+      <source>mA</source>
+      <translation type="unfinished">mA</translation>
+    </message>
+    <message>
+      <source>maximum value is not in stepsize</source>
+      <translation type="unfinished">maximum value is not in stepsize</translation>
+    </message>
+    <message>
+      <source>millisec.(s)</source>
+      <translation type="unfinished">millisec.(s)</translation>
+    </message>
+    <message>
+      <source>minimum value is greater than defined maximum</source>
+      <translation type="unfinished">minimum value is greater than defined maximum</translation>
+    </message>
+    <message>
+      <source>minimum value is not in stepsize</source>
+      <translation type="unfinished">minimum value is not in stepsize</translation>
+    </message>
+    <message>
+      <source>name</source>
+      <translation type="unfinished">name</translation>
+    </message>
+    <message>
+      <source>pH</source>
+      <translation type="unfinished">pH</translation>
+    </message>
+    <message>
+      <source>ppm</source>
+      <translation type="unfinished">ppm</translation>
+    </message>
+    <message>
+      <source>s</source>
+      <translation type="unfinished">s</translation>
+    </message>
+    <message>
+      <source>save</source>
+      <translation type="unfinished">save</translation>
+    </message>
+    <message>
+      <source>user</source>
+      <translation type="unfinished">user</translation>
+    </message>
+    <message>
+      <source>value</source>
+      <translation type="unfinished">value</translation>
+    </message>
+    <message>
+      <source>year(s)</source>
+      <translation type="unfinished">year(s)</translation>
+    </message>
+    <message>
+      <source>µS/cm</source>
+      <translation type="unfinished">µS/cm</translation>
+    </message>
+    <message>
+      <source>ºC</source>
+      <translation type="unfinished">ºC</translation>
     </message>
   </context>
 </TS>

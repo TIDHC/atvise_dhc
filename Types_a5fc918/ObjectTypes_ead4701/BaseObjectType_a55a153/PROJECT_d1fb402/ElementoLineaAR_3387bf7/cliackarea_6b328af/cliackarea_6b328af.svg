@@ -96,10 +96,11 @@ else{
 
 ]]><![CDATA[
 
+
 webMI.addEvent("id_0", "click", function(e) {
 var id = "id_0";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.NivelMain", webMI.query, "tendencias");
+webMI.display.openDisplay("SYSTEM.DISPLAYS.Instalacion.Tendencia_AR", webMI.query, "tendencias");
 });]]></script>
  <rect atv:refpx="103" atv:refpy="163" fill="#000000" fill-opacity="0" height="325" id="id_0" stroke="#373737" stroke-opacity="0" stroke-width="1" width="205" x="0.5" y="0.5"/>
 </svg>

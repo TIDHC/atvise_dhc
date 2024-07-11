@@ -1,1 +1,1 @@
-opc.tcp://localhost:3005
+opc.tcp://127.0.0.1:3005

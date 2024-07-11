@@ -5,9 +5,16 @@
  <desc>A minimal version of the default "top" display (e.g. for panel screens).</desc>
  <title>Topframe One Row</title>
  <metadata>
-  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.redundancy.warning_dialog" desc="redundancy warning dialog" name="redundancy_warning_dialog" valuetype="address"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.message_dialog" desc="message dialog" name="message_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.message_dialog_small" desc="small message dialog" name="message_dialog_small" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.user_editor" desc="user editor dialog" name="user_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.pw_editor" desc="password editor dialog" name="password_dialog" valuetype="display"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="font color" name="fontColor" substitute="$FONTCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFillColor" desc="background color" name="fillColor" substitute="$FILLCOLOR$" valuetype="global"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.redundancy.warning_dialog" group="Notifications" desc="redundancy warning dialog" name="redundancy_warning_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.dialogs.message_dialog" group="Notifications" desc="redundancy connection dialog" name="redundancy_connection_dialog" valuetype="display"/>
+  <atv:parameter behavior="optional" defaultvalue="true" group="Notifications" desc="show SOP notification" name="show_sop_change" valuetype="bool"/>
+  <atv:parameter behavior="optional" defaultvalue="true" group="Notifications" desc="show connection notification" name="show_con_change" valuetype="bool"/>
   <atv:gridconfig enabled="true" gridstyle="lines" height="10" width="10"/>
   <atv:snapconfig enabled="true" height="5" width="5"/>
  </metadata>

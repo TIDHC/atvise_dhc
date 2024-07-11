@@ -73,7 +73,7 @@
  <svg atv:refpx="1061.5" atv:refpy="1911.5" height="65" id="box_language" width="357" x="883.5" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.box_language" y="1879.001">
   <atv:argument name="font_size" value="18"/>
   <atv:argument name="fillColor" value="SYSTEM.GLOBALS.atvFillColor"/>
-  <atv:argument value="{&quot;itemHeight&quot;:43,&quot;itemFill&quot;: &quot;#eeeeee&quot;,&quot;itemPadding&quot;:10,&quot;itemMargin&quot;:5,&quot;itemBorderRadius&quot;:3,&quot;itemBorder&quot;:&quot;1px #d7d7d7 solid&quot;, &quot;fill&quot;:0, &quot;strokeWidth&quot;:0,&quot;width&quot;:232,&quot;x&quot;:-1,&quot;y&quot;:78,&quot;textAlign&quot;: &quot;center&quot;}" name="contextMenuStyle"/>
+  <atv:argument name="contextMenuStyle" value="{&quot;itemHeight&quot;:43,&quot;itemFill&quot;: &quot;#eeeeee&quot;,&quot;itemPadding&quot;:10,&quot;itemMargin&quot;:5,&quot;itemBorderRadius&quot;:3,&quot;itemBorder&quot;:&quot;1px #d7d7d7 solid&quot;, &quot;fill&quot;:0, &quot;strokeWidth&quot;:0,&quot;width&quot;:232,&quot;x&quot;:-1,&quot;y&quot;:78,&quot;textAlign&quot;: &quot;center&quot;}"/>
  </svg>
  <svg atv:refpx="1427" atv:refpy="1911.501" height="65" id="box_user" width="358" x="1248.5" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.box_user" y="1879.001">
   <atv:argument name="font_size" value="18"/>

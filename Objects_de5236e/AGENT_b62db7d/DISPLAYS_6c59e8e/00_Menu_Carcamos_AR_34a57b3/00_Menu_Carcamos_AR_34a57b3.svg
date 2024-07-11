@@ -139,4 +139,24 @@
   <atv:argument name="navItemBorderWidth" value="2"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(0.3039,0,0,7.5019,0,0)"/>
  </svg>
+ <rect atv:refpx="78" atv:refpy="1059" fill="#0000ff" fill-opacity="0" height="42" id="id_10" stroke="#000000" stroke-width="2" width="154" x="1" y="1038"/>
+ <svg atv:refpx="77" atv:refpy="1015.5" height="43" id="id_8" width="154" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.button_alarmlog_small" y="994">
+  <atv:argument name="alarmDisplay" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Alarmas.alarmlist_log_AR_CUN_Niveles"/>
+  <atv:argument name="width" value="1792"/>
+  <atv:argument name="height" value="954"/>
+  <atv:argument name="buttonSize" value="large"/>
+  <atv:argument name="x" value="1672"/>
+  <atv:argument name="y" value="984"/>
+ </svg>
+ <svg atv:refpx="233" atv:refpy="1015.5" height="43" id="id_9" width="154" x="156" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.button_alarmlog_small" y="994">
+  <atv:argument name="alarmDisplay" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Alarmas.alarmlist_log_AR_CUN_Equipos"/>
+  <atv:argument name="width" value="1792"/>
+  <atv:argument name="height" value="954"/>
+  <atv:argument name="buttonSize" value="large"/>
+  <atv:argument name="x" value="1672"/>
+  <atv:argument name="y" value="984"/>
+ </svg>
+ <rect atv:refpx="232" atv:refpy="1059" fill="#0000ff" fill-opacity="0" height="42" id="id_11" stroke="#000000" stroke-width="2" width="154" x="155" y="1038"/>
+ <text atv:refpx="70.954" atv:refpy="1059.5" fill="#000003" font-family="Arial" font-size="16" font-weight="bold" id="id_12" x="50.5" y="1064">Niveles</text>
+ <text atv:refpx="222.991" atv:refpy="1059" fill="#000003" font-family="Arial" font-size="16" font-weight="bold" id="id_13" x="200.5" y="1063.5">Equipos</text>
 </svg>

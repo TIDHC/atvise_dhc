@@ -74,13 +74,13 @@
   <atv:parameter behavior="optional" defaultvalue="100" desc="percent height / width active" group="Appearance: menu items" name="navItemIndentationActive" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="80" desc="percent height / width inactive" group="Appearance: menu items" name="navItemIndentationInactive" valuetype="number"/>
   <!-- icon -->
-  <atv:parameter valuetype="string" group="Appearance: icons" behavior="optional" desc="home" defaultvalue="&lt;i class=&quot;fas fa-home&quot;>&lt;/i>" name="navIconHomeIcon"/>
-  <atv:parameter valuetype="string" group="Appearance: icons" behavior="optional" desc="arrow down" defaultvalue="&lt;i class=&quot;fas fa-chevron-down&quot;>&lt;/i>" name="navIconArrowDown"/>
-  <atv:parameter valuetype="string" group="Appearance: icons" behavior="optional" desc="arrow left" defaultvalue="&lt;i class=&quot;fas fa-chevron-left&quot;>&lt;/i>" name="navIconArrowLeft"/>
-  <atv:parameter valuetype="string" group="Appearance: icons" behavior="optional" desc="arrow right" defaultvalue="&lt;i class=&quot;fas fa-chevron-right&quot;>&lt;/i>" name="navIconArrowRight"/>
-  <atv:parameter valuetype="string" group="Appearance: icons" behavior="optional" desc="arrow up" defaultvalue="&lt;i class=&quot;fas fa-chevron-up&quot;>&lt;/i>" name="navIconArrowUp"/>
-  <atv:parameter valuetype="string" group="Appearance: icons" behavior="optional" desc="open menu" defaultvalue="&lt;i class=&quot;fas fa-caret-right&quot;>&lt;/i>" name="navIconFolderOpen"/>
-  <atv:parameter valuetype="string" group="Appearance: icons" behavior="optional" desc="close menu" defaultvalue="&lt;i class=&quot;fas fa-caret-left&quot;>&lt;/i>" name="navIconFolderClose"/>
+  <atv:parameter defaultvalue="&lt;i class=&quot;fas fa-home&quot;>&lt;/i>" valuetype="string" name="navIconHomeIcon" desc="home" group="Appearance: icons" behavior="optional"/>
+  <atv:parameter defaultvalue="&lt;i class=&quot;fas fa-chevron-down&quot;>&lt;/i>" valuetype="string" name="navIconArrowDown" desc="arrow down" group="Appearance: icons" behavior="optional"/>
+  <atv:parameter defaultvalue="&lt;i class=&quot;fas fa-chevron-left&quot;>&lt;/i>" valuetype="string" name="navIconArrowLeft" desc="arrow left" group="Appearance: icons" behavior="optional"/>
+  <atv:parameter defaultvalue="&lt;i class=&quot;fas fa-chevron-right&quot;>&lt;/i>" valuetype="string" name="navIconArrowRight" desc="arrow right" group="Appearance: icons" behavior="optional"/>
+  <atv:parameter defaultvalue="&lt;i class=&quot;fas fa-chevron-up&quot;>&lt;/i>" valuetype="string" name="navIconArrowUp" desc="arrow up" group="Appearance: icons" behavior="optional"/>
+  <atv:parameter defaultvalue="&lt;i class=&quot;fas fa-caret-right&quot;>&lt;/i>" valuetype="string" name="navIconFolderOpen" desc="open menu" group="Appearance: icons" behavior="optional"/>
+  <atv:parameter defaultvalue="&lt;i class=&quot;fas fa-caret-left&quot;>&lt;/i>" valuetype="string" name="navIconFolderClose" desc="close menu" group="Appearance: icons" behavior="optional"/>
   <!-- font -->
   <atv:parameter behavior="optional" config="Arial;Courier;Tahoma;Verdana" defaultvalue="Arial" desc="font family" group="Font" name="navFontType" valuetype="enum"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="font color active" group="Font" name="navFontColorActive" valuetype="global"/>

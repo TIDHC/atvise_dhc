@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Solidaridad.Captacion.Carcamos.AP_SOL_CAR_INTERMEDIO.L20.Caudalimetro.L_20.flow_1
-NodeClass: Variable
-BrowseName: 1:flow_1
-DisplayName: en|flow_1
-Description: en|flow_1
-DataType: Float
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

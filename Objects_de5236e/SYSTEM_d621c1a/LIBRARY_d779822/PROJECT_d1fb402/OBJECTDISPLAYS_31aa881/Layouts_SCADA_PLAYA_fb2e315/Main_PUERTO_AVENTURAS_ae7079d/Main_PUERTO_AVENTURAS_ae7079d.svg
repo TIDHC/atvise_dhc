@@ -7,6 +7,5 @@
  </metadata>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 ]]></script>
- <svg atv:refpx="480" atv:refpy="442.5" height="885" id="id_2" width="960" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PLAYA.Circuitos.Circuito_CAP_Puerto_Aventuras" y="0"/>
- <svg atv:refpx="1440" atv:refpy="445" height="890" id="id_4" width="960" x="960" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PLAYA.Main_Cuenca_PTAR_Puerto_Aventuras" y="0"/>
+ <svg atv:refpx="480" atv:refpy="442.5" height="890" id="id_2" width="1920" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PLAYA.Circuitos.Circuito_CAP_Puerto_Aventuras" y="0"/>
 </svg>

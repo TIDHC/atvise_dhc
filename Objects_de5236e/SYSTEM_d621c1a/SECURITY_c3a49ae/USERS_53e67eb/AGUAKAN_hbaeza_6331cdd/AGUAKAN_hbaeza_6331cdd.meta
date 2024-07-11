@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.SECURITY.USERS.AGUAKAN\hbaeza
-NodeClass: Object
-BrowseName: 1:AGUAKAN\hbaeza
-DisplayName: en|AGUAKAN\hbaeza
-Description: en|AGUAKAN\hbaeza
-EventNotifier: 0
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.User

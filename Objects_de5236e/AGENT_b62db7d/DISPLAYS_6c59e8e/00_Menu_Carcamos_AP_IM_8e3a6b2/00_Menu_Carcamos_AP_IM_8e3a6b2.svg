@@ -8,7 +8,7 @@
  <svg atv:refpx="959.956" atv:refpy="530.025" height="600" id="content" transform="matrix(2.4,0,0,1.4833,0,0)" width="800" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.hmi.iframe" y="57.303">
   <atv:argument name="frameName" value="content"/>
   <atv:argument name="isNavigationFrame" value="true"/>
-  <atv:argument name="display" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_ISLA.Main_Circuito_IM"/>
+  <atv:argument name="display" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_ISLA.Main_IM"/>
  </svg>
  <svg atv:refpx="179" atv:refpy="42.5" height="65" id="box_user" width="358" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.box_user" y="10">
   <atv:argument name="font_size" value="20"/>
@@ -18,40 +18,36 @@
  </svg>
  <svg atv:refpx="1775.146" atv:refpy="49.973" height="52" id="layout_time" width="203" x="1709" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.time" y="0"/>
  <svg atv:refpx="1758" atv:refpy="59" height="30" id="layout_date" width="203" x="1708" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.date" y="42"/>
- <text atv:refpx="730.051" atv:refpy="50" fill="#050a4b" font-family="Arial" font-size="18" id="id_2" transform="matrix(2.9999,0,0,3,-759.9556,0)" x="384.497" y="21.5">SCADA AP Isla Mujeres DHC</text>
+ <text atv:refpx="690.505" atv:refpy="50" fill="#050a4b" font-family="Arial" font-size="18" id="id_2" transform="matrix(2.9999,0,0,3,-759.9556,0)" x="384.497" y="21.5">SCADA Isla Mujeres DHC</text>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <svg atv:refpx="1784.97" atv:refpy="1026.955" height="300" id="id_1" transform="matrix(1.25,0,0,0.28,0,0)" width="200" x="1336" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="3517.857">
-  <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>
-  <atv:overwrite id="navigation_1_description" transform="matrix(1.25,0,0,0.3371,0,0)"/>
-  <atv:argument name="navContainerID" value="navigation_3"/>
-  <atv:argument name="navItemCount" value="2"/>
-  <atv:argument name="navAnimateFactor" value="2"/>
-  <atv:argument name="navPanelBorderColor" value="SYSTEM.GLOBALS."/>
-  <atv:argument name="navItemBorderColor" value="SYSTEM.GLOBALS.#20dbd8"/>
-  <atv:argument name="navItemBorderRadius" value="10"/>
-  <atv:argument name="navItemWidthSteady" value="150"/>
-  <atv:argument name="navItemIndentationActive" value="80"/>
-  <atv:argument name="navFontSize" value="18"/>
-  <atv:overwrite id="navigation_2_description" transform="matrix(0.2022,0,0,2.727,0,0)"/>
-  <atv:argument name="navCustomTitle01" value="Agua Potable"/>
-  <atv:argument name="navCustomDisplay01" value="AGENT.DISPLAYS.00_Menu_Carcamos_AP_IM"/>
-  <atv:argument name="navHomeText" value=""/>
-  <atv:argument name="navIconHomeActive" value="false"/>
-  <atv:argument name="navItemBackgroundActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color2"/>
-  <atv:argument name="navArrowBackground" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
-  <atv:argument name="navHomeBackground" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
-  <atv:argument name="navItemBackgroundInactive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
-  <atv:argument name="navItemBackgroundHover" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color3"/>
-  <atv:argument name="navFontColorHover" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="navFontColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="navFontColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color5"/>
-  <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="navArrowActive" value="false"/>
-  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.00_Menu_Carcamos_AR_IM"/>
-  <atv:argument name="navCustomTitle02" value="Agua Residual"/>
-  <atv:argument name="navHomeActive" value="false"/>
-  <atv:argument name="navContent" value="admin_content"/>
-  <atv:argument name="navItemPadding" value="10"/>
-  <atv:overwrite id="navigation_3_description" transform="matrix(0.8,0,0,3.5714,0,0)"/>
+ <svg atv:refpx="115" atv:refpy="1062.5" height="65" id="id_1" width="230" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Circuitos.Alarmas.button_alarmlog" y="996">
+  <atv:argument name="alarmDisplay" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Cuencas.Alarmas.alarmlist_log_AR_CUN"/>
+  <atv:argument name="buttonSize" value="large"/>
+  <atv:argument name="fontColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fontColorActive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
+  <atv:argument name="fillColor" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color1"/>
+  <atv:argument name="fillColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color2"/>
+  <atv:argument name="width" value="1792"/>
+  <atv:argument name="height" value="954"/>
  </svg>
+ <rect atv:refpx="78" atv:refpy="1059" fill="#0000ff" fill-opacity="0" height="42" id="id_10" stroke="#000000" stroke-width="2" width="154" x="1" y="1038"/>
+ <svg atv:refpx="77" atv:refpy="1015.5" height="43" id="id_8" width="154" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.button_alarmlog_small" y="994">
+  <atv:argument name="alarmDisplay" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Alarmas.alarmlist_log_IM_Niveles"/>
+  <atv:argument name="width" value="1792"/>
+  <atv:argument name="height" value="954"/>
+  <atv:argument name="buttonSize" value="large"/>
+  <atv:argument name="x" value="1672"/>
+  <atv:argument name="y" value="984"/>
+ </svg>
+ <svg atv:refpx="233" atv:refpy="1015.5" height="43" id="id_9" width="154" x="156" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.button_alarmlog_small" y="994">
+  <atv:argument name="alarmDisplay" value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA.Alarmas.alarmlist_log_IM_Equipos"/>
+  <atv:argument name="width" value="1792"/>
+  <atv:argument name="height" value="954"/>
+  <atv:argument name="buttonSize" value="large"/>
+  <atv:argument name="x" value="1672"/>
+  <atv:argument name="y" value="984"/>
+ </svg>
+ <rect atv:refpx="232" atv:refpy="1059" fill="#0000ff" fill-opacity="0" height="42" id="id_11" stroke="#000000" stroke-width="2" width="154" x="155" y="1038"/>
+ <text atv:refpx="70.954" atv:refpy="1059.5" fill="#000003" font-family="Arial" font-size="16" font-weight="bold" id="id_12" x="50.5" y="1064">Niveles</text>
+ <text atv:refpx="222.991" atv:refpy="1059" fill="#000003" font-family="Arial" font-size="16" font-weight="bold" id="id_13" x="200.5" y="1063.5">Equipos</text>
 </svg>

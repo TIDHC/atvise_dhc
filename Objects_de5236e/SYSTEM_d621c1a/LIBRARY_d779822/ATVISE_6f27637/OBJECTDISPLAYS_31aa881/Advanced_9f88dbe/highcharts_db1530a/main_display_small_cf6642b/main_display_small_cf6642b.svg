@@ -38,14 +38,14 @@
   <atv:parameter behavior="optional" defaultvalue="false" desc="load configurations by selection" group="Options" name="autoloadConfigurations" valuetype="bool"/>
   <atv:parameter behavior="optional" config="x axis;y axis;xy axis" defaultvalue="x axis" desc="zoom type" group="Options" name="zoomType" valuetype="enum"/>
   <!-- navigation options -->
-  <atv:parameter desc="menu button line color" defaultvalue="#676767" name="gnavigation_buttonOptions_symbolStroke" group="Export-Menu" valuetype="color" behavior="optional"/>
-  <atv:parameter desc="menu button background color" defaultvalue="#ffffff" name="gnavigation_buttonOptions_theme_fill" group="Export-Menu" valuetype="color" behavior="optional"/>
-  <atv:parameter desc="menu button hover color" defaultvalue="#e6e6e6" name="gnavigation_buttonOptions_theme_states_hover_fill" group="Export-Menu" valuetype="color" behavior="optional"/>
-  <atv:parameter desc="menu button selected color" defaultvalue="#e6e6e6" name="gnavigation_buttonOptions_theme_states_select_fill" group="Export-Menu" valuetype="color" behavior="optional"/>
-  <atv:parameter desc="menu text color" defaultvalue="#000000" name="gnavigation_menuItemStyle_color" group="Export-Menu" valuetype="color" behavior="optional"/>
-  <atv:parameter desc="menu background color" defaultvalue="#ffffff" name="gnavigation_menuStyle_background" group="Export-Menu" valuetype="color" behavior="optional"/>
-  <atv:parameter desc="menu hover text color" defaultvalue="#eeeeee" name="gnavigation_menuItemHoverStyle_color" group="Export-Menu" valuetype="color" behavior="optional"/>
-  <atv:parameter desc="menu hover background color" defaultvalue="#676767" name="gnavigation_menuItemHoverStyle_background" group="Export-Menu" valuetype="color" behavior="optional"/>
+  <atv:parameter behavior="optional" defaultvalue="#676767" desc="menu button line color" group="Export-Menu" name="gnavigation_buttonOptions_symbolStroke" valuetype="color"/>
+  <atv:parameter behavior="optional" defaultvalue="#ffffff" desc="menu button background color" group="Export-Menu" name="gnavigation_buttonOptions_theme_fill" valuetype="color"/>
+  <atv:parameter behavior="optional" defaultvalue="#e6e6e6" desc="menu button hover color" group="Export-Menu" name="gnavigation_buttonOptions_theme_states_hover_fill" valuetype="color"/>
+  <atv:parameter behavior="optional" defaultvalue="#e6e6e6" desc="menu button selected color" group="Export-Menu" name="gnavigation_buttonOptions_theme_states_select_fill" valuetype="color"/>
+  <atv:parameter behavior="optional" defaultvalue="#000000" desc="menu text color" group="Export-Menu" name="gnavigation_menuItemStyle_color" valuetype="color"/>
+  <atv:parameter behavior="optional" defaultvalue="#ffffff" desc="menu background color" group="Export-Menu" name="gnavigation_menuStyle_background" valuetype="color"/>
+  <atv:parameter behavior="optional" defaultvalue="#eeeeee" desc="menu hover text color" group="Export-Menu" name="gnavigation_menuItemHoverStyle_color" valuetype="color"/>
+  <atv:parameter behavior="optional" defaultvalue="#676767" desc="menu hover background color" group="Export-Menu" name="gnavigation_menuItemHoverStyle_background" valuetype="color"/>
   <!-- further options -->
   <atv:gridconfig enabled="true" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="5" width="5"/>
@@ -79,7 +79,7 @@
   <atv:argument name="chartname" prefix="chartname"/>
   <atv:argument name="stepPercent" prefix="stepPercent"/>
  </svg>
- <svg atv:refpx="559.5" atv:refpy="20" height="30" id="id_2" width="459" x="330" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.buttons_start_end_time" y="5">
+ <svg atv:refpx="560" atv:refpy="20" height="30" id="id_2" width="460" x="330" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.highcharts.buttons_start_end_time" y="5">
   <atv:argument name="chartname" prefix="chartname"/>
   <atv:argument name="fontColor" value="SYSTEM.GLOBALS.atvFontColor"/>
  </svg>
@@ -110,6 +110,7 @@
   <atv:overwrite id="label" transform="matrix(0.5,0,0,1.4035,0,0)" x="229.5" y="153.5"/>
   <atv:argument name="export_activeNode" prefix="export_activeNode"/>
   <atv:argument name="export_activeValue" prefix="export_activeValue"/>
+  <atv:overwrite id="highchart_label" transform="matrix(0.5,0,0,1.4035,0,0)" x="229.5" y="153.5"/>
   <atv:overwrite height="283" id="border" transform="matrix(0.5,0,0,1.4035,0,0)" width="798"/>
   <atv:overwrite height="285" id="id_3" transform="matrix(0.5,0,0,1.4035,0,0)" width="800"/>
  </svg>

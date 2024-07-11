@@ -34,7 +34,7 @@
  <text atv:refpx="409" atv:refpy="504.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_10" text-anchor="end" x="428.5" y="509">T{Unit}:</text>
  <text atv:refpx="407.328" atv:refpy="464.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_12" text-anchor="end" x="428.328" y="469">T{Type}:</text>
  <text atv:refpx="315.5" atv:refpy="56.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_16" text-anchor="end" x="336.672" y="61">T{Type}:</text>
- <text atv:refpx="768.5" atv:refpy="73.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_35" text-anchor="end" x="792.5" y="78">T{Label}:</text>
+ <text atv:refpx="780" atv:refpy="73.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_35" text-anchor="end" x="792.5" y="78">T{Title}:</text>
  <text atv:refpx="304.898" atv:refpy="91.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_37" text-anchor="end" x="335.398" y="96">T{Visibility}:</text>
  <svg atv:refpx="487.514" atv:refpy="55" height="30" id="series_type" transform="matrix(1.2812,0,0,1,0,0)" width="160" x="300.5" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="40">
   <atv:argument name="tabIndex" value="50"/>

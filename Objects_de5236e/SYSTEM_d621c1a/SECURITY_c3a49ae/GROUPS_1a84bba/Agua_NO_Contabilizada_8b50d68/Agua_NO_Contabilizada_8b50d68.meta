@@ -4,5 +4,8 @@ BrowseName: 1:Agua_NO_Contabilizada
 DisplayName: en|Agua_NO_Contabilizada
 Description: en|Agua_NO_Contabilizada
 EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.USER.Monitoreo_Red
 Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.RIGHTS.VISU.View
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.ereyes
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.thernandez
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

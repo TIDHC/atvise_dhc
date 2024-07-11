@@ -28,8 +28,8 @@
   <atv:snapconfig enabled="false" height="10" width="10"/>
  </metadata>
  <rect atv:refpx="229.264" atv:refpy="32.909" fill="$FILLCOLOR$" height="65" id="bg" stroke="" stroke-linecap="butt" stroke-width="0" width="246" x="0" y="0"/>
- <text atv:refpx="742.618" atv:refpy="-205.824" fill="$FONTCOLOR$" font-family="Arial" font-size="$FONTSIZE$" id="user" transform="matrix(1.0056,0,0,0.9877,-0.4198,0.2267)" x="78.961" y="39.934">T{Login}</text>
- <text atv:refpx="742.618" atv:refpy="-205.824" fill="$FONTCOLOR$" font-family="Arial" font-size="$FONTSIZE$" id="user_no_access_control" transform="matrix(1.0056,0,0,0.9877,-0.0481,0.2267)" visibility="hidden" x="12.591" y="39.934">T{Login}</text>
+ <text atv:refpx="742.618" atv:refpy="-205.824" fill="$FONTCOLOR$" font-family="Arial" font-size="$FONTSIZE$" id="user" transform="matrix(1.0056,0,0,0.9877,-0.4592,0.2267)" x="79" y="39.934">T{Login}</text>
+ <text atv:refpx="742.618" atv:refpy="-205.824" fill="$FONTCOLOR$" font-family="Arial" font-size="$FONTSIZE$" id="user_no_access_control" transform="matrix(1.0056,0,0,0.9877,-0.4592,0.2267)" visibility="hidden" x="13" y="39.934">T{Login}</text>
  <g atv:refpx="211" atv:refpy="33.25" id="id_0" transform="matrix(1,0,0,1,-101,0.8116)">
   <svg atv:refpx="322.487" atv:refpy="33.803" height="20" id="button_symbol_pressed" transform="matrix(2.4,0,0,2.4,0,0)" visibility="hidden" width="20" x="120" xlink:href="$SYMBOLLOGOUT$" y="3.516">
    <atv:argument name="symbolColor" prefix="symbolColorLogout"/>

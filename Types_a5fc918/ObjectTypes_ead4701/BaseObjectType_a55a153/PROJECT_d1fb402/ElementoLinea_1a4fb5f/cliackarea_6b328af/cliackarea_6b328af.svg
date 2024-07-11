@@ -13,6 +13,7 @@
  <g atv:insensitive="true" atv:refpx="0" atv:refpy="0" id="id_1" transform="matrix(1.5373,0,0,5.0938,0,0)">
   <rect atv:refpx="67" atv:refpy="32" fill="#ffffff" fill-opacity="0" height="64.00" id="id_2" width="134.00" x="0" y="0"/>
  </g>
+ <rect atv:refpx="103" atv:refpy="163" fill="#000000" fill-opacity="0" height="325" id="id_0" stroke="#373737" stroke-opacity="0" stroke-width="1" width="205" x="0.5" y="0.5"/>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 
 webMI.data.subscribe(webMI.query["base"] + ".connectivity", function(e) {
@@ -92,14 +93,16 @@ else{
 
 
 
-
-
-]]><![CDATA[
-
 webMI.addEvent("id_0", "click", function(e) {
 var id = "id_0";
 var value = true;
-webMI.display.openDisplay("SYSTEM.DISPLAYS.NivelMain", webMI.query, "tendencias");
-});]]></script>
- <rect atv:refpx="103" atv:refpy="163" fill="#000000" fill-opacity="0" height="325" id="id_0" stroke="#373737" stroke-opacity="0" stroke-width="1" width="205" x="0.5" y="0.5"/>
+webMI.display.openDisplay("SYSTEM.DISPLAYS.Instalacion.Tendencia", webMI.query, "graficos");
+});
+
+
+
+
+
+
+]]></script>
 </svg>

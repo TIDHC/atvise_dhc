@@ -4,4 +4,5 @@ BrowseName: 1:GERENTES
 DisplayName: en|GERENTES
 Description: en|GERENTES
 EventNotifier: 0
+Reference: forward Organizes ns=1;s=SYSTEM.SECURITY.USERS.marias
 Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.ATVISE.Group

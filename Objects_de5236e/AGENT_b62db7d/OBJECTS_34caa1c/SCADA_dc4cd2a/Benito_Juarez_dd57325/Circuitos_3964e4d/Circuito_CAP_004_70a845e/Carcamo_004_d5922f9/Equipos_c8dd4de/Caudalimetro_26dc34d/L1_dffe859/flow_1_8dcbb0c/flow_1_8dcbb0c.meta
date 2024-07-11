@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_004.Carcamo_004.Equipos.Caudalimetro.L1.flow_1
-NodeClass: Variable
-BrowseName: 1:flow_1
-DisplayName: en|flow_1
-Description: en|flow_1
-DataType: Float
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

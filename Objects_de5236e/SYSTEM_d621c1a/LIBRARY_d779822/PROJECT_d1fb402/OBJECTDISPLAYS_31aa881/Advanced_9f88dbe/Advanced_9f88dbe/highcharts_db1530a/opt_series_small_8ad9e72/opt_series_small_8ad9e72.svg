@@ -28,7 +28,7 @@
  <text atv:refpx="88.221" atv:refpy="21.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" font-weight="bold" id="id_2" x="24.5" y="26">T{Data set to configure}:</text>
  <rect atv:refpx="350" atv:refpy="205" fill="none" height="170" id="id_5" stroke="#575757" stroke-width="0.5" width="260.001" x="209" y="120"/>
  <text atv:refpx="234.328" atv:refpy="30.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_16" text-anchor="end" x="255.5" y="35">T{Type}:</text>
- <text atv:refpx="549.5" atv:refpy="86.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_35" text-anchor="end" x="573.5" y="91">T{Label}:</text>
+ <text atv:refpx="561" atv:refpy="86.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="id_35" text-anchor="end" x="573.5" y="91">T{Title}:</text>
  <svg atv:refpx="378.342" atv:refpy="30" height="30" id="series_type" transform="matrix(1.2812,0,0,1,0,0)" width="160" x="206.704" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="15">
   <atv:argument name="tabIndex" value="50"/>
   <atv:overwrite id="id_3" transform="matrix(0.7805,0,0,1,0,0)" x="179.742"/>

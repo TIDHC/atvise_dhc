@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.highcharts.xAxis
-NodeClass: Variable
-BrowseName: 1:xAxis
-DisplayName: en|xAxis
-Description: en|xAxis
-DataType: String
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

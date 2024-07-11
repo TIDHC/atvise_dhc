@@ -19,7 +19,7 @@
   <atv:argument name="base" prefix="base" value=".level_percent"/>
  </svg>
  <rect atv:refpx="66.5" atv:refpy="46.6" fill="none" height="32.019" id="id_2" stroke="#000000" stroke-width="1" width="132" x="0.5" y="30.59"/>
- <text atv:refpx="39.732" atv:refpy="46.968" fill="#000000" font-family="Arial" font-size="12" font-weight="bold" id="id_13" transform="matrix(1.4528,0,0,1.3885,-0.2264,-12.0439)" x="5" y="47.001">$name$</text>
+ <text atv:refpx="67.233" atv:refpy="46.968" fill="#000000" font-family="Arial" font-size="12" font-weight="bold" id="id_13" text-anchor="middle" transform="matrix(1.4528,0,0,1.3885,-12.6788,-12.0439)" x="54.501" y="47.001">$name$</text>
  <svg atv:refpx="0" atv:refpy="0.001" height="30" id="id_0" transform="matrix(1.6625,0,0,2.1,0,0)" width="80" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.clickarea" y="0"/>
  <g atv:refpx="151.5" atv:refpy="42" id="id_6" transform="matrix(1,0,0,1,31,-5)">
   <rect atv:refpx="120.5" atv:refpy="47.001" fill="#d7e5f3" height="30" id="id_4" stroke="#c5d1de" stroke-width="0" width="23" x="109" y="32"/>
@@ -46,7 +46,8 @@ if (value == true)
 
 });
 
-webMI.data.subscribe(webMI.query["base"] + ".sap_name", function(e) {
+
+webMI.data.subscribe(webMI.query["base"] + ".short_name", function(e) {
 var id = "id_13";
 var value = e.value;
 webMI.gfx.setText(id, value);

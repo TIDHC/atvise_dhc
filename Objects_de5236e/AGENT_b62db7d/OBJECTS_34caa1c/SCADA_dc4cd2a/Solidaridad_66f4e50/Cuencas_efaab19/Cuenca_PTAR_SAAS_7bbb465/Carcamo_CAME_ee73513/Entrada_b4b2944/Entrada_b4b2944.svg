@@ -5,11 +5,11 @@
   <atv:gridconfig enabled="false" gridstyle="lines" height="20" width="20"/>
   <atv:snapconfig enabled="true" height="10" width="10"/>
  </metadata>
- <svg atv:refpx="162.5" atv:refpy="25" height="50" id="id_1" width="325" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_reduced" y="0">
+ <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_CAME.Entrada]]></script>
+ <svg atv:refpx="162.5" atv:refpy="25" height="50" id="id_2" width="325" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_reduced_AR" y="0">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_MAYAKOBA.L1"/>
  </svg>
- <svg atv:refpx="162.5" atv:refpy="75" height="50" id="id_0" width="325" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_reduced" y="49">
+ <svg atv:refpx="162.5" atv:refpy="75" height="50" id="id_3" width="325" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_reduced_AR" y="49">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Solidaridad.Zona_Urbana.Carcamos_AR.AR_SOL_CAR_BALAMTUN.L1"/>
  </svg>
- <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[AGENT.OBJECTS.SCADA.Solidaridad.Cuencas.Cuenca_PTAR_SAAS.Carcamo_CAME.Entrada]]></script>
 </svg>

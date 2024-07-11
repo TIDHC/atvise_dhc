@@ -2,7 +2,7 @@
 <svg height="425" version="1.2" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs/>
  <desc>Table for advanced alarm management.</desc>
- <title>Alarmlist (Small)</title>
+ <title>Alarmlist (small)</title>
  <metadata>
   <atv:parameter behavior="hidden" defaultvalue="true" desc="device scaling" name="deviceScaling" valuetype="bool"/>
   <atv:parameter behavior="optional" defaultvalue="base" desc="base for displays" group="" name="displays_base" valuetype="string"/>
@@ -60,7 +60,7 @@
   <atv:parameter behavior="optional" defaultvalue="T{Export CSV}" desc="custom menu title" group="Menu options" name="showMenuCustomTitle" valuetype="string"/>
   <atv:parameter behavior="optional" defaultvalue="Show/Hide" desc="picker menu title" group="Menu options" name="showPickerMenuTitle" valuetype="string"/>
   <atv:parameter behavior="optional" defaultvalue="true" desc="show picker menu" group="Menu options" name="showPickerMenu" valuetype="bool"/>
-  <atv:parameter behavior="optional" defaultvalue="250" desc="menu width" group="Menu options" name="menuWidth" valuetype="number"/>
+  <atv:parameter behavior="optional" defaultvalue="300" desc="menu width" group="Menu options" name="menuWidth" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="300" desc="menu height" group="Menu options" name="menuHeight" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="0" desc="min. priority" group="Default filter" name="priority" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="" desc="display" group="Default filter" name="display" valuetype="address"/>
@@ -116,9 +116,9 @@
    <atv:argument name="text5value" value="5"/>
   </svg>
  </g>
- <g atv:refpx="624" atv:refpy="130" id="adv_1" transform="matrix(1,0,0,1,-15,67.5)">
-  <text atv:refpx="1264.5" atv:refpy="195.47" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_4" text-anchor="end" x="265" y="28.5">T{Alarm source}:</text>
-  <svg atv:refpx="400.015" atv:refpy="130" height="30" id="combo_alarm_source" width="160" x="271" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="8.5">
+ <g atv:refpx="434.711" atv:refpy="143" id="adv_1">
+  <text atv:refpx="1249.5" atv:refpy="262.97" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_4" text-anchor="end" x="250" y="96">T{Alarm source}:</text>
+  <svg atv:refpx="400.015" atv:refpy="130" height="30" id="combo_alarm_source" width="160" x="256" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="76">
    <atv:overwrite id="id_17" transform="matrix(0.7273,0,0,1,0,0)" x="193.5"/>
    <atv:argument name="showDisplays" value="No"/>
    <atv:argument name="showArchives" value="No"/>
@@ -127,8 +127,8 @@
    <atv:overwrite id="id_5" transform="matrix(0.724,0,0,1,0,0)" x="193.492"/>
    <atv:overwrite id="addresspicker_stroke" transform="matrix(0.724,0,0,1,0,0)" width="220.492"/>
   </svg>
-  <text atv:refpx="1543.5" atv:refpy="196.47" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_26" text-anchor="end" x="544" y="29.5">T{Alarm condition}:</text>
-  <svg atv:refpx="682.085" atv:refpy="130" height="30" id="alarm_condition" transform="matrix(1.3812,0,0,1,0,0)" width="160" x="398.928" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_address" y="8.5">
+  <text atv:refpx="1528.5" atv:refpy="263.97" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_26" text-anchor="end" x="529" y="97">T{Alarm condition}:</text>
+  <svg atv:refpx="682.085" atv:refpy="130" height="30" id="alarm_condition" transform="matrix(1.3812,0,0,1,0,0)" width="160" x="388.068" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_address" y="76">
    <atv:overwrite id="id_17" transform="matrix(0.7273,0,0,1,0,0)" x="193.5"/>
    <atv:argument name="showDisplays" value="No"/>
    <atv:argument name="showArchives" value="No"/>
@@ -136,28 +136,31 @@
    <atv:argument name="itemsCount" value="25"/>
    <atv:overwrite id="id_5" transform="matrix(0.724,0,0,1,0,0)" x="193.492"/>
    <atv:overwrite id="id_2" transform="matrix(0.724,0,0,1,0,0)" width="220.992"/>
+   <atv:overwrite id="id_1" transform="matrix(0.724,0,0,1,0,0)" x="195.742"/>
+   <atv:overwrite id="addresspicker_clickarea" transform="matrix(0.724,0,0,1,0,0)" x="192.992"/>
    <atv:overwrite id="focus_frame" transform="matrix(0.724,0,0,1,0,0)" width="216.992"/>
    <atv:overwrite id="button_stroke" transform="matrix(0.724,0,0,1,0,0)" x="195.992"/>
-   <atv:overwrite id="id_1" transform="matrix(0.724,0,0,1,0,0)" x="195.742"/>
+   <atv:overwrite id="button_symbol" transform="matrix(0.724,0,0,1,0,0)" x="195.742"/>
    <atv:overwrite id="button_bg" transform="matrix(0.724,0,0,1,0,0)" x="195.992"/>
    <atv:overwrite id="input_label" transform="matrix(0.724,0,0,1,0,0)" x="186.992"/>
    <atv:overwrite id="blinking_frame" transform="matrix(0.724,0,0,1,0,0)" width="188.992"/>
    <atv:overwrite id="addresspicker_bg" transform="matrix(0.724,0,0,1,0,0)" width="188.992"/>
-   <atv:overwrite id="addresspicker_stroke" transform="matrix(0.724,0,0,1,0,0)" width="220.492"/>
+   <atv:overwrite id="id_0" transform="matrix(0.724,0,0,1,0,0)" width="218.992"/>
+   <atv:overwrite id="addresspicker_stroke" transform="matrix(0.724,0,0,1,0,0)" width="220.992"/>
   </svg>
-  <text atv:refpx="-370.76" atv:refpy="233" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_20" text-anchor="end" x="264" y="62.5">T{Groups}:</text>
-  <svg atv:refpx="346" atv:refpy="130" height="30" id="group" width="160" x="270.253" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="42.5">
+  <text atv:refpx="-385.76" atv:refpy="300.5" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_20" text-anchor="end" x="249" y="130">T{Groups}:</text>
+  <svg atv:refpx="346" atv:refpy="130" height="30" id="group" width="160" x="255.253" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="110">
    <atv:argument name="tabIndex" value="6"/>
    <atv:argument name="text1" value="T{Room 1}"/>
    <atv:argument name="validation" value="String"/>
   </svg>
-  <text atv:refpx="-604" atv:refpy="102.5" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_114" text-anchor="end" x="265" y="98.5">T{User}:</text>
-  <svg atv:dynamic="true" atv:refpx="2124" atv:refpy="227.5" height="30" id="inout_user" width="160" x="271" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="77.5">
+  <text atv:refpx="-619" atv:refpy="170" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_114" text-anchor="end" x="250" y="166">T{User}:</text>
+  <svg atv:dynamic="true" atv:refpx="2124" atv:refpy="227.5" height="30" id="inout_user" width="160" x="256" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="145">
    <atv:argument name="validation" value="String"/>
    <atv:argument name="tabIndex" value="7"/>
   </svg>
-  <text atv:refpx="1002" atv:refpy="162.5" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="label_address_display" text-anchor="end" x="543" y="97.5">T{Display}:</text>
-  <svg atv:refpx="669.017" atv:refpy="90" height="30" id="address_display" transform="matrix(1.3812,0,0,1,0,0)" width="160" x="398.928" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_address" y="77.5">
+  <text atv:refpx="987" atv:refpy="230" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="label_address_display" text-anchor="end" x="528" y="165">T{Display}:</text>
+  <svg atv:refpx="669.017" atv:refpy="90" height="30" id="address_display" transform="matrix(1.3812,0,0,1,0,0)" width="160" x="388.068" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.picker_address" y="145">
    <atv:argument name="base" value="AGENT.DISPLAYS"/>
    <atv:argument name="tabIndex" value="8"/>
    <atv:overwrite id="id_17" transform="matrix(0.7273,0,0,1,0,0)" x="193.5"/>
@@ -169,26 +172,31 @@
    <atv:argument name="itemsCount" value="25"/>
    <atv:overwrite id="id_5" transform="matrix(0.724,0,0,1,0,0)" x="193.492"/>
    <atv:overwrite id="id_2" transform="matrix(0.724,0,0,1,0,0)" width="220.992"/>
+   <atv:overwrite id="id_1" transform="matrix(0.724,0,0,1,0,0)" x="195.742"/>
+   <atv:overwrite id="addresspicker_clickarea" transform="matrix(0.724,0,0,1,0,0)" x="192.992"/>
    <atv:overwrite id="focus_frame" transform="matrix(0.724,0,0,1,0,0)" width="216.992"/>
    <atv:overwrite id="button_stroke" transform="matrix(0.724,0,0,1,0,0)" x="195.992"/>
-   <atv:overwrite id="id_1" transform="matrix(0.724,0,0,1,0,0)" x="195.742"/>
+   <atv:overwrite id="button_symbol" transform="matrix(0.724,0,0,1,0,0)" x="195.742"/>
    <atv:overwrite id="button_bg" transform="matrix(0.724,0,0,1,0,0)" x="195.992"/>
    <atv:overwrite id="input_label" transform="matrix(0.724,0,0,1,0,0)" x="186.992"/>
    <atv:overwrite id="blinking_frame" transform="matrix(0.724,0,0,1,0,0)" width="188.992"/>
    <atv:overwrite id="addresspicker_bg" transform="matrix(0.724,0,0,1,0,0)" width="188.992"/>
-   <atv:overwrite id="addresspicker_stroke" transform="matrix(0.724,0,0,1,0,0)" width="220.492"/>
+   <atv:overwrite id="id_0" transform="matrix(0.724,0,0,1,0,0)" width="218.992"/>
+   <atv:overwrite id="addresspicker_stroke" transform="matrix(0.724,0,0,1,0,0)" width="220.992"/>
   </svg>
-  <text atv:refpx="1519" atv:refpy="233.5" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_10" text-anchor="end" x="544" y="63.5">T{Comment}:</text>
-  <svg atv:dynamic="true" atv:refpx="1853" atv:refpy="232" height="30" id="inout_comment" transform="matrix(1.375,0,0,1,0,0)" width="160" x="401.182" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="42.5">
+  <text atv:refpx="1504" atv:refpy="301" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="id_10" text-anchor="end" x="529" y="131">T{Comment}:</text>
+  <svg atv:dynamic="true" atv:refpx="1853" atv:refpy="232" height="30" id="inout_comment" transform="matrix(1.375,0,0,1,0,0)" width="160" x="390.273" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.in_out_value" y="110">
    <atv:argument name="validation" value="String"/>
    <atv:argument name="tabIndex" value="9"/>
    <atv:overwrite id="input_label" transform="matrix(0.7273,0,0,1,0,0)" x="212.055"/>
    <atv:overwrite id="blinking_frame" transform="matrix(0.7273,0,0,1,0,0)" width="212"/>
    <atv:overwrite id="focus_frame" transform="matrix(0.7273,0,0,1,0,0)" width="216"/>
    <atv:overwrite id="input_bg" transform="matrix(0.7273,0,0,1,0,0)" width="212"/>
+   <atv:overwrite id="id_1" transform="matrix(0.7273,0,0,1,0,0)" width="218"/>
+   <atv:overwrite id="id_0" transform="matrix(0.7273,0,0,1,0,0)" width="220"/>
   </svg>
-  <text atv:refpx="3252.962" atv:refpy="128.94" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="label_alarm_or_condition" text-anchor="end" x="265" y="133.5">T{Alarm or condition}:</text>
-  <svg atv:refpx="1252" atv:refpy="90" height="30" id="combo_alarm_or_condition" width="160" x="271" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="112.5">
+  <text atv:refpx="3237.962" atv:refpy="196.44" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="label_alarm_or_condition" text-anchor="end" x="250" y="201">T{Alarm or condition}:</text>
+  <svg atv:refpx="1252" atv:refpy="90" height="30" id="combo_alarm_or_condition" width="160" x="256" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="180">
    <atv:argument name="contextWidth" value="190"/>
    <atv:argument name="tabIndex" value="10"/>
    <atv:argument name="text1" value="T{All}"/>
@@ -198,8 +206,8 @@
    <atv:argument name="text2value" value="alarm"/>
    <atv:argument name="text3value" value="condition"/>
   </svg>
-  <text atv:refpx="3256.962" atv:refpy="196.44" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="label_state" text-anchor="end" x="544" y="133.5">T{State}:</text>
-  <svg atv:refpx="1512.681" atv:refpy="157.5" height="30" id="combo_state" transform="matrix(1.3813,0,0,1,0,0)" width="160" x="399.013" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="112.5">
+  <text atv:refpx="3241.962" atv:refpy="263.94" fill="$FONTCOLOR$" font-family="Arial" font-size="14" id="label_state" text-anchor="end" x="529" y="201">T{State}:</text>
+  <svg atv:refpx="1512.681" atv:refpy="157.5" height="30" id="combo_state" transform="matrix(1.3813,0,0,1,0,0)" width="160" x="388.154" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.combobox" y="180">
    <atv:argument name="contextWidth" value="190"/>
    <atv:argument name="tabIndex" value="11"/>
    <atv:argument name="text1" value="T{All}"/>
@@ -212,15 +220,15 @@
    <atv:argument name="text5" value="T{Disabled}"/>
    <atv:argument name="text5value" value="disabled"/>
    <atv:argument name="text4value" value="suppressed"/>
-   <atv:overwrite id="focus_frame" transform="matrix(0.724,0,0,1,0,0)" width="217"/>
-   <atv:overwrite id="button_stroke" transform="matrix(0.724,0,0,1,0,0)" x="196"/>
-   <atv:overwrite id="id_7" transform="matrix(0.724,0,0,1,0,0)" x="196"/>
-   <atv:overwrite id="button_bg" transform="matrix(0.724,0,0,1,0,0)" x="196"/>
-   <atv:overwrite id="combobox_label" transform="matrix(0.724,0,0,1,0,0)" x="186.5"/>
-   <atv:overwrite id="blinking_frame" transform="matrix(0.724,0,0,1,0,0)" width="189"/>
-   <atv:overwrite id="combobox_bg" transform="matrix(0.724,0,0,1,0,0)" width="189"/>
-   <atv:overwrite id="id_1" transform="matrix(0.724,0,0,1,0,0)" width="219"/>
-   <atv:overwrite id="id_0" transform="matrix(0.724,0,0,1,0,0)" width="221"/>
+   <atv:overwrite id="focus_frame" transform="matrix(0.724,0,0,1,0,0)" width="217.008"/>
+   <atv:overwrite id="button_stroke" transform="matrix(0.724,0,0,1,0,0)" x="196.008"/>
+   <atv:overwrite id="id_7" transform="matrix(0.724,0,0,1,0,0)" x="196.008"/>
+   <atv:overwrite id="button_bg" transform="matrix(0.724,0,0,1,0,0)" x="196.008"/>
+   <atv:overwrite id="combobox_label" transform="matrix(0.724,0,0,1,0,0)" x="186.508"/>
+   <atv:overwrite id="blinking_frame" transform="matrix(0.724,0,0,1,0,0)" width="189.008"/>
+   <atv:overwrite id="combobox_bg" transform="matrix(0.724,0,0,1,0,0)" width="189.008"/>
+   <atv:overwrite id="id_1" transform="matrix(0.724,0,0,1,0,0)" width="219.008"/>
+   <atv:overwrite id="id_0" transform="matrix(0.724,0,0,1,0,0)" width="221.008"/>
   </svg>
  </g>
  <text atv:refpx="112" atv:refpy="15" fill="$FONTCOLOR$" font-family="Arial" font-size="22" id="title" text-anchor="start" x="54" y="22.5">T{Alarming}</text>

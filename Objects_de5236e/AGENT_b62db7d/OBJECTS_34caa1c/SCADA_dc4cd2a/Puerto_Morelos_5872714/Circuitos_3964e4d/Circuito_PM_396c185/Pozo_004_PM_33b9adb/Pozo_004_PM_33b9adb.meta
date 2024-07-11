@@ -8,3 +8,4 @@ Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.ElementoPozo
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoPozo.Control
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoPozo.Monitoreo IT
 Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoPozo.Pozo
+Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.ElementoPozo.conectividad

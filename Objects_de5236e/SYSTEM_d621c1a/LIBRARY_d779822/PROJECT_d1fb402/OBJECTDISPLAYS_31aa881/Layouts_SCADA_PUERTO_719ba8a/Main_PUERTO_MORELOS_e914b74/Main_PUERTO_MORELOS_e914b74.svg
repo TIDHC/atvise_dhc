@@ -7,10 +7,5 @@
  </metadata>
  <script atv:desc="" atv:name="" type="text/ecmascript"><![CDATA[
 ]]></script>
- <svg atv:refpx="480" atv:refpy="445" height="890" id="id_0" width="960" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PUERTO.Main_Circuitos_PM" y="0">
-  <atv:argument name="base" prefix="base"/>
- </svg>
- <svg atv:refpx="1440" atv:refpy="445" height="890" id="id_1" width="960" x="960" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PUERTO.Main_Cuencas_PM" y="0">
-  <atv:argument name="base" prefix="base"/>
- </svg>
+ <svg atv:refpx="960" atv:refpy="445" height="890" id="id_0" width="1920" x="0" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Layouts_SCADA_PUERTO.Main_Circuitos_PM" y="0"/>
 </svg>

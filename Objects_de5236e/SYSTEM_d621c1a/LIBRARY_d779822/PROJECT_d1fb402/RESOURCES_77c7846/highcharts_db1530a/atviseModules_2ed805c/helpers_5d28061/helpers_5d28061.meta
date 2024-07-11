@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.LIBRARY.PROJECT.RESOURCES/highcharts/atviseModules/helpers
-NodeClass: Object
-BrowseName: 1:helpers
-DisplayName: en|helpers
-Description: en|helpers
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

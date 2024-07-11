@@ -8,6 +8,7 @@
  <title>Recipe Template Manager</title>
  <metadata>
   <atv:parameter behavior="optional" defaultvalue="AGENT.OBJECTS.recipes" desc="config node" name="configNode" substitute="" valuetype="address"/>
+  <atv:parameter behavior="mandatory" defaultvalue="AGENT.OBJECTS" name="navEntryPoint" valuetype="address" desc="default navigation path"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvObjectDisplays.RecipeManager.recipe_template_manager.TemplateColumns" desc="configuration for template" group="Columns" name="columnsTemplates" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvObjectDisplays.RecipeManager.recipe_template_manager.ParameterColumns" desc="configuration for parameter" group="Columns" name="columnsParameters" valuetype="global"/>
   <atv:parameter behavior="mandatory" defaultvalue="atvise_template" desc="table ID templates" group="Table" name="tableID" valuetype="string"/>
@@ -88,9 +89,10 @@
  <rect atv:refpx="962.476" atv:refpy="412.739" fill="none" height="534.523" id="id_1" stroke="$FILLCOLOR$" stroke-width="1" width="634.984" x="644.984" y="145.477"/>
  <svg atv:refpx="117.5" atv:refpy="45" height="90" id="id_4" width="235" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.recipemanager.recipe_navigation" y="0">
   <atv:argument name="recipe_template_manager" prefix="recipe_template_manager" value=""/>
-  <atv:argument name="recipe_manager" prefix="recipe_manager" value=""/>
+  <atv:argument name="recipe_manager" prefix="recipe_manager"/>
   <atv:argument name="globalFillColor" prefix="globalFillColor" value="SYSTEM.GLOBALS."/>
   <atv:argument name="buttonToHighlight" value="Templates"/>
+  <atv:argument name="navEntryPoint" prefix="navEntryPoint"/>
  </svg>
  <svg atv:refpx="1212.5" atv:refpy="67.5" height="30" id="btn_export" transform="matrix(1.5625,0,0,1.1667,0,0)" width="80" x="736" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.button" y="42.856">
   <atv:argument name="label" value="T{Export}"/>

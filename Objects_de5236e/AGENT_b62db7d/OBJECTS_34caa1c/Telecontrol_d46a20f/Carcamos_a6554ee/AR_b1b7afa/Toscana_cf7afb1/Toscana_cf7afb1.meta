@@ -1,7 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.Telecontrol.Carcamos.AR.Toscana
-NodeClass: Object
-BrowseName: 1:Toscana
-DisplayName: en|Toscana
-Description: en|Toscana
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.int.Alarm.condition.prevention_script
-NodeClass: Variable
-BrowseName: 1:prevention_script
-DisplayName: en|prevention_script
-Description: en|prevention_script
-DataType: NodeId
-ValueRank: -1
-AccessLevel: 103
-Reference: forward HasTypeDefinition BaseVariableType

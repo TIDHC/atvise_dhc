@@ -50,7 +50,7 @@
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor" desc="symbol color hover" group="Context menu" name="context_menu_font_color_hover" substitute="$CFONTCOLORHOVER$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFontColor2" desc="background color" group="Context menu" name="context_menu_fill_color" substitute="$CFILLCOLOR$" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvFillColor" desc="hover color" group="Context menu" name="context_menu_hover_color" substitute="$CHOVERCOLOR$" valuetype="global"/>
-  <atv:parameter behavior="optional" config="left;center;right" defaultvalue="right" desc="text alignment" group="Context menu" name="contextMenuTextAlignment" valuetype="enum"/>
+  <atv:parameter behavior="optional" config="left;center;right" defaultvalue="left" desc="text alignment" group="Context menu" name="context_menu_text_alignment" valuetype="enum"/>
   <atv:parameter behavior="optional" defaultvalue="SYSTEM.GLOBALS.atvBorderColor" desc="stroke color" group="Context menu" name="contextStroke" valuetype="global"/>
   <atv:parameter behavior="optional" defaultvalue="1" desc="stroke width" group="Context menu" name="contextStrokeWidth" valuetype="number"/>
   <atv:parameter behavior="optional" defaultvalue="0" desc="maximum displayed items (0 = all)" group="Context menu" name="itemsCount" valuetype="number"/>

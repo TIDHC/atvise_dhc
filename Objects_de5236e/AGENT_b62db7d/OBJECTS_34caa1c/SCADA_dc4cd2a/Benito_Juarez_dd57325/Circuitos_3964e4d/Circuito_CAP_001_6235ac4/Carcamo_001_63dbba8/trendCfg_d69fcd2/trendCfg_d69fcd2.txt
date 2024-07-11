@@ -1,1 +1,1 @@
-{"highchartsConfigIndex":["autosave","personalizado1"]}
+{"highchartsConfigIndex":["conectividad","con_level"]}

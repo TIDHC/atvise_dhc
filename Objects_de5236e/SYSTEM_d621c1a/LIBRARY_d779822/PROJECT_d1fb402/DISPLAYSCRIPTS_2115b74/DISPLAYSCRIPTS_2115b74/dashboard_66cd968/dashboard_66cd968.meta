@@ -1,7 +1,0 @@
-NodeId: ns=1;s=SYSTEM.LIBRARY.PROJECT.DISPLAYSCRIPTS.DISPLAYSCRIPTS.dashboard
-NodeClass: Object
-BrowseName: 1:dashboard
-DisplayName: en|dashboard
-Description: en|dashboard
-EventNotifier: 0
-Reference: forward HasTypeDefinition FolderType

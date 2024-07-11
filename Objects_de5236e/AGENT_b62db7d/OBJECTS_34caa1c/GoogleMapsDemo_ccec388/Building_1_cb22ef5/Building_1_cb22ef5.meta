@@ -1,9 +1,0 @@
-NodeId: ns=1;s=AGENT.OBJECTS.GoogleMapsDemo.Building_1
-NodeClass: Object
-BrowseName: 1:Building_1
-DisplayName: en|Building_1
-Description: en|Building_1
-EventNotifier: 0
-Reference: forward HasTypeDefinition ns=1;s=ObjectTypes.PROJECT.Building
-Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Building.BuldingDetails
-Reference: forward HasComponent ns=1;s=ObjectTypes.PROJECT.Building.TEMP_SIM

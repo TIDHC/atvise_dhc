@@ -9,7 +9,6 @@
   <rect atv:refpx="640" atv:refpy="384" fill="#ffffff" height="768.00" id="id_12" width="1280.00" x="0" y="0"/>
  </g>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <rect atv:refpx="316" atv:refpy="204.5" fill="#000088" fill-opacity="0" height="406" id="id_8" stroke="#000072" stroke-width="1" width="631" x="0.5" y="1.5"/>
  <svg atv:refpx="52" atv:refpy="385" height="63.11" id="id_0" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="2.66" xlink:href="ObjectTypes.PROJECT.ElementoLinea.Principal" y="495.276">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Circuitos.Circuito_CAP_001A.Carcamo_001A"/>
  </svg>

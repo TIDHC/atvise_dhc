@@ -2,7 +2,7 @@ NodeId: ns=1;s=ObjectTypes.PROJECT.ElementoLineaAR.connectivity
 NodeClass: Variable
 BrowseName: 1:connectivity
 DisplayName: en|connectivity
-Description: en|connectivity
+Description: en|Conectividad de 
 DataType: Boolean
 ValueRank: -1
 AccessLevel: 103

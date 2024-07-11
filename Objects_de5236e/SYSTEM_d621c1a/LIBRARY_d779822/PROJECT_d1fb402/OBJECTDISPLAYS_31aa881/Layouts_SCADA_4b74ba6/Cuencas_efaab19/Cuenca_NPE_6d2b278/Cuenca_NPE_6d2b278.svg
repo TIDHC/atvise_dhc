@@ -15,23 +15,23 @@
  <rect atv:refpx="470" atv:refpy="134.5" fill="#000018" fill-opacity="0" height="35" id="id_37" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" width="139" x="404.5" y="117"/>
  <line atv:refpx="172.502" atv:refpy="187.5" id="id_35" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="172.002" x2="172.002" y1="179.5" y2="195.5"/>
  <line atv:refpx="172.502" atv:refpy="73.5" id="id_34" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="172.002" x2="172.002" y1="87.5" y2="59.5"/>
- <polygon atv:refpx="169.002" atv:refpy="76.5" fill="#000018" id="id_29" points="182.001,86.31 162.001,86.31 172.001,99.5 172.001,99.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
- <svg atv:refpx="116.994" atv:refpy="122.495" height="63.11" id="id_0" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="162.256" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="136.506">
+ <polygon atv:refpx="170.001" atv:refpy="76.5" fill="#000018" id="id_29" points="182,86.31 162,86.31 172,99.5 172,99.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
+ <svg atv:refpx="117.993" atv:refpy="122.495" height="63.11" id="id_0" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="162.254" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="136.506">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_ARA"/>
  </svg>
- <svg atv:refpx="-5.013" atv:refpy="413.497" height="63.11" id="id_1" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="432.844">
+ <svg atv:refpx="50.0014" atv:refpy="338.5" height="63.11" id="id_1" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="432.844">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Casas_del_Mar"/>
  </svg>
- <svg atv:refpx="247.238" atv:refpy="217.495" height="63.11" id="id_3" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.484" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="266.84">
+ <svg atv:refpx="247.113" atv:refpy="217.495" height="63.11" id="id_3" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.317" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="266.84">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Guadalupana"/>
  </svg>
  <svg atv:refpx="49.993" atv:refpy="35.243" height="63.11" id="id_4" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="16.806">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Linda_Vista"/>
  </svg>
- <svg atv:refpx="302.247" atv:refpy="382.495" height="63.11" id="id_6" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.484" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="432.844">
+ <svg atv:refpx="302.625" atv:refpy="338.5" height="63.11" id="id_6" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.981" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="432.844">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Paseos_del_Mar"/>
  </svg>
- <svg atv:refpx="172.001" atv:refpy="403.495" height="63.11" id="id_7" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="162.256" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="432.844">
+ <svg atv:refpx="172.5" atv:refpy="403.495" height="63.11" id="id_7" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="162.919" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="432.844">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Poligono_Paraiso"/>
  </svg>
  <svg atv:refpx="116.988" atv:refpy="37.243" height="63.11" id="id_9" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="162.256" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="16.806">
@@ -40,10 +40,10 @@
  <svg atv:refpx="-5.004" atv:refpy="217.493" height="63.11" id="id_10" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="0" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="266.84">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Tierra_Maya"/>
  </svg>
- <svg atv:refpx="247.238" atv:refpy="37.249" height="63.11" id="id_13" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.484" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="16.806">
+ <svg atv:refpx="247.113" atv:refpy="37.249" height="63.11" id="id_13" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="335.317" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="16.806">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Villas_del_Mar"/>
  </svg>
- <svg atv:refpx="590.491" atv:refpy="335.498" height="63.11" id="id_2" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="791.992" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="428.728">
+ <svg atv:refpx="590.74" atv:refpy="335.498" height="63.11" id="id_2" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="790.994" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="428.728">
   <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Carcamo_Final_Norponiente"/>
  </svg>
  <svg atv:refpx="117" atv:refpy="217.493" height="63.11" id="id_5" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="162.256" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="266.84">
@@ -52,27 +52,6 @@
  <text atv:refpx="474" atv:refpy="134.5" fill="#000018" font-family="Arial" font-size="18" font-weight="bold" id="id_106" x="409.5" y="141">Pretratamiento</text>
  <text atv:refpx="473.5" atv:refpy="337.496" fill="#000018" font-family="Arial" font-size="18" font-weight="bold" id="id_107" x="404.5" y="343.996">Caja rompedora</text>
  <text atv:refpx="555.5" atv:refpy="27.25" fill="#000018" font-family="Arial" font-size="24" font-weight="bold" id="id_25" x="475.5" y="33.75">PTAR Norponiente</text>
- <svg atv:refpx="302.252" atv:refpy="253" height="23" id="id_8" width="100" x="252.252" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="240.5">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_GUADALUPANA.Caudalimetro.L1"/>
- </svg>
- <svg atv:refpx="172.002" atv:refpy="157" height="23" id="id_14" width="100" x="122.002" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="145.5">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_ARA.Caudalimetro.L1"/>
- </svg>
- <svg atv:refpx="302.252" atv:refpy="72.5" height="23" id="id_15" width="100" x="252.252" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="58">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_VILLAS_DEL_MAR.Caudalimetro.L1"/>
- </svg>
- <svg atv:refpx="50.001" atv:refpy="374" height="23" id="id_16" width="100" x="0.001" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="362.5">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_CASAS_DEL_MAR.Caudalimetro.L1"/>
- </svg>
- <svg atv:refpx="172.002" atv:refpy="384" height="23" id="id_17" width="100" x="122.002" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="362.5">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_POLIGONO_PARAISO.Caudalimetro.L1"/>
- </svg>
- <svg atv:refpx="302.252" atv:refpy="373" height="23" id="id_18" width="100" x="252.252" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="362.5">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_PASEOS_DEL_MAR.Caudalimetro.L1"/>
- </svg>
- <svg atv:refpx="645.5" atv:refpy="371" height="23" id="id_19" width="100" x="595.5" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini" y="358.5">
-  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_FINAL_NORPONIENTE.Caudalimetro.L1"/>
- </svg>
  <polygon atv:refpx="118.191" atv:refpy="113.5" fill="#000018" id="id_26" points="109,102.5 109,122.5 122.191,112.5 122.191,112.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
  <polygon atv:refpx="118.441" atv:refpy="159.5" fill="#000018" id="id_27" points="109.25,148.5 109.25,168.5 122.441,158.5 122.441,158.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
  <polygon atv:refpx="173.002" atv:refpy="172.5" fill="#000018" id="id_28" points="162.001,181.691 182.001,181.691 172.001,168.5 172.001,168.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
@@ -90,7 +69,7 @@
  <line atv:refpx="407" atv:refpy="35.75" id="id_44" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="353" x2="461" y1="35.25" y2="35.25"/>
  <line atv:refpx="50.501" atv:refpy="307" id="id_50" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="50.001" x2="50.001" y1="316.5" y2="297.5"/>
  <line atv:refpx="262.5" atv:refpy="298" id="id_51" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="50" x2="475" y1="297.5" y2="297.5"/>
- <line atv:refpx="172.502" atv:refpy="395.007" id="id_54" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="172.002" x2="172.002" y1="404.507" y2="385.507"/>
+ <line atv:refpx="173" atv:refpy="395.007" id="id_54" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="172.5" x2="172.5" y1="404.507" y2="385.507"/>
  <line atv:refpx="323.5" atv:refpy="404" id="id_55" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="172" x2="475" y1="403.5" y2="403.5"/>
  <line atv:refpx="474.5" atv:refpy="308" id="id_56" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="474" x2="474" y1="297.5" y2="318.5"/>
  <line atv:refpx="474.5" atv:refpy="380.5" id="id_57" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="474" x2="474" y1="404.5" y2="356.5"/>
@@ -99,4 +78,28 @@
  <polygon atv:refpx="397.191" atv:refpy="339.5" fill="#000018" id="id_61" points="388,328.5 388,348.5 401.191,338.5 401.191,338.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
  <line atv:refpx="570.5" atv:refpy="339.496" id="id_62" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.015" x1="549" x2="592" y1="338.996" y2="338.996"/>
  <polygon atv:refpx="648.096" atv:refpy="339.996" fill="#000018" id="id_63" points="582.904,328.996 582.904,348.996 596.095,338.996 596.095,338.996" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="2.015"/>
+ <svg atv:refpx="173" atv:refpy="156.5" height="23" id="id_14" width="100" x="122" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="145">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_ARA.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="302.127" atv:refpy="70.5" height="23" id="id_15" width="100" x="252.127" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="59">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_VILLAS_DEL_MAR.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="302.127" atv:refpy="253.5" height="23" id="id_20" width="100" x="252.127" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="241">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_GUADALUPANA.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="50" atv:refpy="373" height="23" id="id_21" width="100" x="0" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="361.5">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_CASAS_DEL_MAR.L1"/>
+ </svg>
+ <svg atv:refpx="172.5" atv:refpy="373" height="23" id="id_22" width="100" x="122.5" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="361.5">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_POLIGONO_PARAISO.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="302.625" atv:refpy="373" height="23" id="id_23" width="100" x="252.625" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="361.5">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_PASEOS_DEL_MAR.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="645.749" atv:refpy="373.5" height="23" id="id_24" width="100" x="594.749" xlink:href="ObjectTypes.PROJECT.Caudalimetro.line_mini_AR" y="358">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Zona_Urbana.Carcamos_AR.AR_BJ_CAR_FINAL_NORPONIENTE.Caudalimetro.L1"/>
+ </svg>
+ <svg atv:refpx="643" atv:refpy="248" height="63.11" id="id_8" transform="matrix(0.7519,0,0,0.7289,0,0)" width="133" x="788.69" xlink:href="ObjectTypes.PROJECT.ElementoLineaAR.Principal" y="308.69">
+  <atv:argument name="base" value="AGENT.OBJECTS.SCADA.Benito_Juarez.Cuencas.Cuenca_CAR_NPE.Recirculacion_Lodos_NPE"/>
+ </svg>
 </svg>

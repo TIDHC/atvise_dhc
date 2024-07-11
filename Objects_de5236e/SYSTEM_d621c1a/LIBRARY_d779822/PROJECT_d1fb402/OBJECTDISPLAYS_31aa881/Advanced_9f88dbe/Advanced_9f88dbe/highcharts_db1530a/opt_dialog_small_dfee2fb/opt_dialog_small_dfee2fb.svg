@@ -162,13 +162,13 @@
  </svg>
  <text atv:refpx="143.5" atv:refpy="57.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="label_config" text-anchor="middle" x="143.5" y="62">T{Actual configuration}:</text>
  <text atv:refpx="139.5" atv:refpy="73.5" fill="$FONTCOLOR$" font-family="Arial" font-size="12" id="label_configname" text-anchor="middle" x="139.5" y="78">-</text>
- <foreignObject height="580" id="options_overlay" width="1200" x="0" y="0">
+ <foreignObject height="387" id="options_overlay" width="800" x="0" y="0">
   <div style="width:100%;height: 100%;background: #CCC;opacity: 0.75;line-height: 100px;text-align: center;font-family: Arial;font-size: 30px;padding-top: 160px;border: 0px solid #000000;" xmlns="http://www.w3.org/1999/xhtml">T{Loading history in progress}!</div>
  </foreignObject>
- <foreignObject height="580" id="options_overlay_import" width="1200" x="0" y="0">
+ <foreignObject height="387" id="options_overlay_import" width="800" x="0" y="0">
   <div style="width:100%;height: 100%;background: #CCC;opacity: 0.75;line-height: 100px;text-align: center;font-family: Arial;font-size: 30px;padding-top: 160px;border: 0px solid #000000;" xmlns="http://www.w3.org/1999/xhtml">T{Importing configuration(s) in progress}!</div>
  </foreignObject>
- <foreignObject height="580" id="options_overlay_save" width="1200" x="0" y="0">
+ <foreignObject height="387" id="options_overlay_save" width="800" x="0" y="0">
   <div style="width:100%;height: 100%;background: #CCC;opacity: 0.75;line-height: 100px;text-align: center;font-family: Arial;font-size: 30px;padding-top: 160px;border: 0px solid #000000;" xmlns="http://www.w3.org/1999/xhtml">T{Saving configuration in progress}!</div>
  </foreignObject>
  <script atv:desc="" atv:href="SYSTEM.LIBRARY.ATVISE.DISPLAYSCRIPTS.highcharts.opt_dialog" atv:name="opt_dialog" atv:type="text/ecmascript"/>

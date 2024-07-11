@@ -20,7 +20,7 @@
  <svg atv:refpx="1758" atv:refpy="59" height="30" id="layout_date" width="203" x="1708" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.date" y="42"/>
  <text atv:refpx="604.09" atv:refpy="50" fill="#050a4b" font-family="Arial" font-size="18" id="id_2" transform="matrix(2.9999,0,0,3,-760.0012,0)" x="384.512" y="21.5">Monitoreo IT DHC</text>
  <script atv:desc="" atv:name="" type="text/ecmascript"/>
- <svg atv:refpx="1802.696" atv:refpy="1035.878" height="300" id="id_0" transform="matrix(0.68,0,0,0.2667,0,0)" width="200" x="2614.706" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="3734.533">
+ <svg atv:refpx="1802.696" atv:refpy="1035.878" height="300" id="id_0" transform="matrix(0.68,0,0,0.2667,0,0)" width="200" x="2620.588" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="3734.533">
   <atv:overwrite id="navigation_description" transform="matrix(1.2903,0,0,0.3429,0,0)"/>
   <atv:argument name="navPanelAlign" value="bottom"/>
   <atv:overwrite id="navigation_1_description" transform="matrix(1.25,0,0,0.3371,0,0)"/>
@@ -50,5 +50,18 @@
   <atv:argument name="navHomeDisplay" value="AGENT.DISPLAYS.USER.Layouts_DHC.IT_Main"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(1.4706,0,0,3.7495,0,0)"/>
  </svg>
- <svg atv:refpx="2777.5" atv:refpy="553" height="890" id="id_1" width="1675" x="1940" xlink:href="AGENT.DISPLAYS.test" y="108"/>
+ <circle atv:refpx="1790" atv:refpy="260.209" cx="1791" cy="260.209" fill="#b98f2d" id="id_3" r="10" stroke="#b98f2d" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="299.945" cx="1791" cy="299.945" fill="#7c1536" id="id_4" r="10" stroke="#7c1536" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="339.681" cx="1791" cy="339.681" fill="#8b3db8" id="id_5" r="10" stroke="#8b3db8" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="379.417" cx="1791" cy="379.417" fill="#6b6b6b" id="id_6" r="10" stroke="#6b6b6b" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="180.736" cx="1791" cy="180.736" fill="#1a8b22" id="id_7" r="10" stroke="#1a8b22" stroke-width="2"/>
+ <circle atv:refpx="1790" atv:refpy="220.472" cx="1791" cy="220.472" fill="#ff0000" id="id_8" r="10" stroke="#ff0000" stroke-width="2"/>
+ <text atv:refpx="1819.14" atv:refpy="180.236" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_9" x="1811.14" y="184.736">OK</text>
+ <text atv:refpx="1851.239" atv:refpy="219.972" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_10" x="1811.64" y="224.472">Desconectado</text>
+ <text atv:refpx="1846.64" atv:refpy="259.709" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_11" x="1811.64" y="264.209">Falla en PLC</text>
+ <text atv:refpx="1865.14" atv:refpy="299.445" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_12" x="1811.64" y="303.945">En espera de datos</text>
+ <text atv:refpx="1858.64" atv:refpy="339.181" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_13" x="1811.64" y="343.681">Error en escritura</text>
+ <text atv:refpx="1849.64" atv:refpy="379.323" fill="#000087" font-family="Arial" font-size="12" font-weight="bold" id="id_14" x="1811.64" y="383.823">No disponible</text>
+ <text atv:refpx="1835.989" atv:refpy="139" fill="#000000" font-family="Arial" font-size="16" font-weight="bold" id="id_15" x="1815.5" y="143.5">Estatus</text>
+ <svg atv:refpx="969" atv:refpy="44.5" height="65" id="id_16" width="230" x="854" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.button_view_log" y="12"/>
 </svg>

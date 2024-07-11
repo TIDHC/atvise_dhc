@@ -19,8 +19,8 @@
   <polyline atv:refpx="965" atv:refpy="460" fill="none" id="primary_source" points="1071,530 1031,530 1031,411 1001,411" stroke="#6a6a6a" stroke-width="2"/>
  </g>
  <g atv:refpx="130.653" atv:refpy="331.432" id="id_0" transform="matrix(1.4597,0,0,1.4597,-708.1034,-71.2916)">
-  <rect atv:refpx="352.941" atv:refpy="324.641" fill="#000000" height="2.347" id="id_9" stroke="none" stroke-width="0" width="37.683" x="508.653" y="423.48"/>
-  <rect atv:refpx="496.431" atv:refpy="324.641" fill="#000000" height="2.347" id="id_17" stroke="none" stroke-width="0" width="37.683" x="602.861" y="423.48"/>
+  <rect atv:refpx="352.941" atv:refpy="324.641" fill="#575757" height="2.347" id="id_9" stroke="none" stroke-width="0" width="37.683" x="508.653" y="423.48"/>
+  <rect atv:refpx="496.431" atv:refpy="324.641" fill="#575757" height="2.347" id="id_17" stroke="none" stroke-width="0" width="37.683" x="602.861" y="423.48"/>
   <rect atv:refpx="227.353" atv:refpy="-300.442" fill="#575757" height="292.046" id="id_19" rx="4.346" ry="4.889" stroke="none" stroke-width="0" width="150.734" x="499.232" y="131.433"/>
   <rect atv:refpx="-150.428" atv:refpy="97.463" fill="$FILLCOLOR$" height="279.084" id="id_23" rx="5.218" ry="5.218" stroke="$BORDERCOLOR$" stroke-width="1" width="137.92" x="505.638" y="137.915"/>
   <g atv:refpx="574.598" atv:refpy="369.685" id="id_24" transform="matrix(1.3045,0,0,1.3045,65.116,-36.4754)">
@@ -181,8 +181,8 @@
  <rect atv:refpx="-1223.356" atv:refpy="-279.555" fill="$BORDERCOLOR$" height="3.104" id="id_480" stroke="none" stroke-width="2" width="423.613" x="427.654" y="43.574"/>
  <g atv:refpx="1148.279" atv:refpy="331.403" id="secondary" transform="matrix(1.4599,0,0,1.4599,-418.3717,-225.2106)">
   <g atv:refpx="712.291" atv:refpy="454.332" id="id_101" transform="matrix(1,0,0,1,498.5014,105.37)">
-   <rect atv:refpx="352.941" atv:refpy="324.641" fill="#ffffff" height="2.347" id="id_102" stroke="none" stroke-width="0" width="37.683" x="508.653" y="423.48"/>
-   <rect atv:refpx="496.431" atv:refpy="324.641" fill="#ffffff" height="2.347" id="id_103" stroke="none" stroke-width="0" width="37.683" x="602.861" y="423.48"/>
+   <rect atv:refpx="352.941" atv:refpy="324.641" fill="#575757" height="2.347" id="id_102" stroke="none" stroke-width="0" width="37.683" x="508.653" y="423.48"/>
+   <rect atv:refpx="496.431" atv:refpy="324.641" fill="#575757" height="2.347" id="id_103" stroke="none" stroke-width="0" width="37.683" x="602.861" y="423.48"/>
    <rect atv:refpx="916.66" atv:refpy="-77.405" fill="#575757" height="292.046" id="id_104" rx="4.346" ry="4.889" stroke="none" stroke-width="0" width="150.734" x="499.232" y="131.433"/>
    <rect atv:refpx="0" atv:refpy="0" fill="$FILLCOLOR$" height="279.084" id="id_105" rx="5.218" ry="5.218" stroke="$BORDERCOLOR$" stroke-width="1" width="137.92" x="505.638" y="137.915"/>
    <g atv:refpx="574.598" atv:refpy="369.685" id="id_106" transform="matrix(1.3045,0,0,1.3045,65.116,-36.4754)">

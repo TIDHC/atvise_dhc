@@ -41,6 +41,7 @@
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.AP_CANCUN"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="1260.828" atv:refpy="59.888" height="300" id="id_0" transform="matrix(0.75,0,0,0.1333,0,0)" width="200" x="1590.456" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="381.838">
@@ -68,14 +69,13 @@
   <atv:argument name="navFontColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
   <atv:argument name="navFontColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color5"/>
   <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.00_Menu_Carcamos_AR_PDC"/>
-  <atv:argument name="navCustomTitle02" value="AR Playa"/>
   <atv:argument name="navHomeActive" value="false"/>
   <atv:argument name="navContent" value="content_admin"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(0.3872,0,0,3.488,0,0)"/>
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.AR_CANCUN"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="1559.847" atv:refpy="19.974" height="300" id="id_3" transform="matrix(0.75,0,0,0.1333,0,0)" width="200" x="1987.816" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="52.5">
@@ -103,14 +103,13 @@
   <atv:argument name="navFontColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
   <atv:argument name="navFontColorActive" value="SYSTEM.GLOBALS.Colors.blue_vivid_palette.color5"/>
   <atv:argument name="navHomeColor" value="SYSTEM.GLOBALS.Colors.Blanco"/>
-  <atv:argument name="navCustomDisplay02" value="AGENT.DISPLAYS.00_Menu_Carcamos_PM"/>
-  <atv:argument name="navCustomTitle02" value="Puerto Morelos"/>
   <atv:argument name="navHomeActive" value="false"/>
   <atv:argument name="navContent" value="content_admin"/>
   <atv:overwrite id="navigation_3_description" transform="matrix(0.3872,0,0,3.488,0,0)"/>
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.Isla_Mujeres"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="1709.848" atv:refpy="70.981" height="300" id="id_4" transform="matrix(0.75,0,0,0.1333,0,0)" width="200" x="2187.816" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="382.558">
@@ -145,6 +144,7 @@
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
   <atv:argument name="navItemBorderWidth" value="2"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.Monitoreo_Red"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="1559.847" atv:refpy="70.981" height="300" id="id_5" transform="matrix(0.75,0,0,0.1333,0,0)" width="200" x="1987.816" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="382.558">
@@ -179,6 +179,7 @@
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
   <atv:argument name="navItemBorderWidth" value="2"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.Solidaridad"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="1408.828" atv:refpy="59.888" height="300" id="id_6" transform="matrix(0.75,0,0,0.1333,0,0)" width="200" x="1787.79" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="381.838">
@@ -212,6 +213,7 @@
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.Solidaridad"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="745.422" atv:refpy="0.001" height="300" id="id_7" transform="matrix(0.75,0,0,0.1333,0,0)" width="200" x="1787.79" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="52.5">
@@ -245,6 +247,7 @@
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.Solidaridad"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="1709.847" atv:refpy="19.973" height="300" id="id_8" transform="matrix(0.75,0,0,0.1333,0,0)" width="200" x="2187.816" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.navigation" y="52.5">
@@ -278,6 +281,7 @@
   <atv:argument name="navArrowActive" value="false"/>
   <atv:argument name="navItemCount" value="1"/>
   <atv:argument name="navItemPadding" value="10"/>
+  <atv:argument name="navSecurityRight" value="SYSTEM.SECURITY.RIGHTS.USER.Puerto_Morelos"/>
   <atv:overwrite id="nav_menu_admin_description" transform="matrix(1.3333,0,0,7.5019,0,0)"/>
  </svg>
  <svg atv:refpx="179" atv:refpy="42.5" height="65" id="box_user" width="358" x="0" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Advanced.layoutelements.box_user" y="10">
@@ -286,7 +290,7 @@
   <atv:argument name="fillColorActive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
   <atv:argument name="buttonFillColorInactive" value="SYSTEM.GLOBALS.Colors.Blanco"/>
  </svg>
- <svg atv:refpx="745.084" atv:refpy="1030.519" height="90" id="id_10" width="530" x="252.084" xlink:href="AGENT.DISPLAYS.USER.Layouts_DHC.color_code" y="985.519">
+ <svg atv:refpx="766.999" atv:refpy="1049.69" height="62.13" id="id_10" transform="matrix(0.9633,0,0,1.0462,0,0)" width="519.04" x="303.207" xlink:href="AGENT.DISPLAYS.USER.Layouts_DHC.color_code" y="952.519">
   <atv:argument name="base" prefix="base"/>
  </svg>
 </svg>
